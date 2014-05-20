@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Tue May 20 08:58:54 2014
+| Date         : Tue May 20 15:39:43 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file testDMA_wrapper_utilization_synth.rpt -pb testDMA_wrapper_utilization_synth.pb
 | Design       : testDMA_wrapper
@@ -29,8 +29,8 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 12422 |     0 |     53200 | 23.34 |
-|   LUT as Logic             | 11882 |     0 |     53200 | 22.33 |
+| Slice LUTs*                | 12421 |     0 |     53200 | 23.34 |
+|   LUT as Logic             | 11881 |     0 |     53200 | 22.33 |
 |   LUT as Memory            |   540 |     0 |     17400 |  3.10 |
 |     LUT as Distributed RAM |   162 |     0 |           |       |
 |     LUT as Shift Register  |   378 |     0 |           |       |
@@ -131,20 +131,20 @@ Table of Contents
 +----------+-------+
 | Ref Name |  Used |
 +----------+-------+
-| FDRE     | 11391 |
-| LUT6     |  5745 |
+| FDRE     | 11358 |
+| LUT6     |  5715 |
 | LUT3     |  2823 |
-| LUT4     |  2591 |
-| LUT5     |  1382 |
-| LUT2     |   891 |
+| LUT4     |  2587 |
+| LUT5     |  1415 |
+| LUT2     |   890 |
 | LUT1     |   639 |
 | MUXF7    |   562 |
-| FDCE     |   342 |
+| FDCE     |   374 |
 | SRLC32E  |   269 |
 | CARRY4   |   261 |
 | RAMD32   |   242 |
 | FDSE     |   225 |
-| FDPE     |   147 |
+| FDPE     |   148 |
 | BIBUF    |   130 |
 | MUXF8    |   128 |
 | SRL16E   |   109 |

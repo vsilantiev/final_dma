@@ -30,6 +30,9 @@
         input wire [31:0] M_PL_DDR_ADDR_BUF,
         input wire M_PL_IRQ_DMA,
         
+        
+        input wire [31:0] M_PL_R,
+        
         output reg M_PL_START_CDMA,
         output  reg [31:0] addrbram,
 		// User ports ends
@@ -240,6 +243,47 @@
 	      end                                                                      
 	  end   
 	  
+	  reg pulse;
+	  reg [31:0] count;
+	  
+	  reg  	p_ff;
+      reg	 p_ff2;
+      wire  	p_pulse;
+	  
+	  always @(posedge M_AXI_ACLK)										      
+      begin                                                                        
+       // Initiates AXI transaction delay    
+       if (M_AXI_ARESETN == 0 )                                                   
+         begin                                                                    
+           pulse <= 0;                                                   
+         end                                                                               
+       else if (init_irqdma_pulse == 1'b1)                                                                      
+         begin  
+            pulse <= 1;                                                                 
+         end 
+      else if (pulse == 1'b1 && count == M_PL_R)                                                                      
+         begin 
+                         pulse <= 0; 
+                         p_ff <= 1;
+                         p_ff2 <= p_ff;                                                                
+         end                                                                                   
+      end   
+      
+      always @(posedge M_AXI_ACLK)										      
+      begin                                                                        
+       // Initiates AXI transaction delay    
+       if (M_AXI_ARESETN == 0 )                                                   
+         begin                                                                    
+           count <= 0;                                                   
+         end                                                                               
+       else if (M_PL_VALID2STR == 1'b1 && count < M_PL_R)                                                                      
+         begin  
+            count <= count + 1;                                                                 
+         end                                                                      
+      end  
+      
+
+	  
        /* always @(posedge M_AXI_ACLK)										      
       	  begin                                                                          
       	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1)      	 //зануление bram после нуля в 0ч43с00000       
@@ -295,7 +339,7 @@
 	  begin                                                                        
 	    //Only VALID signals must be deasserted during reset per AXI spec          
 	    //Consider inverting then registering active-low reset for higher fmax     
-	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                   
+	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                   
 	      begin                                                                    
 	        axi_awvalid <= 1'b0;                                                   
 	      end                                                                      
@@ -321,7 +365,7 @@
 	  // issued/initiated                                                          
 	  always @(posedge M_AXI_ACLK)                                                 
 	  begin                                                                        
-	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                   
+	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                   
 	      begin                                                                    
 	        write_index <= 0;                                                      
 	      end                                                                      
@@ -344,7 +388,7 @@
 
 	   always @(posedge M_AXI_ACLK)                                        
 	   begin                                                                         
-	     if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                    
+	     if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                    
 	       begin                                                                     
 	         axi_wvalid <= 1'b0;                                                     
 	       end                                                                       
@@ -378,7 +422,7 @@
 
 	  always @(posedge M_AXI_ACLK)                                    
 	  begin                                                                
-	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                           
+	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                           
 	      begin                                                            
 	        axi_bready <= 1'b0;                                            
 	      end                                                              
@@ -414,7 +458,7 @@
 	  //Write Addresses                                        
 	  always @(posedge M_AXI_ACLK)                                  
 	      begin                                                     
-	        if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                
+	        if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                
 	          begin                                                 
 	            axi_awaddr <= 0;                                    
 	          end                                                   
@@ -442,7 +486,7 @@
 	  // Write data generation                                      
 	  always @(posedge M_AXI_ACLK)                                  
 	      begin                                                     
-	        if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                
+	        if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                
 	          begin                                                 
 	            axi_wdata <= C_M_START_DATA_VALUE;                
 	          end                                              
@@ -493,7 +537,7 @@
 	          IDLE:                                                             
 	          // This state is responsible to initiate 
 	          // AXI transaction when init_txn_pulse is asserted 
-	            if ((init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1) && M_PL_START_CAPTURES == 1'b1)                                                                                                   
+	            if ((init_txn_pulse == 1'b1 || p_pulse == 1'b1) && M_PL_START_CAPTURES == 1'b1)                                                                                                   
 	              begin                                                                  	                
 	                mst_exec_state  <= INIT_WRITE;                                      
 	                ERROR <= 1'b0;
@@ -554,7 +598,7 @@
 	                                                                                    
 	  always @(posedge M_AXI_ACLK)                                                      
 	  begin                                                                             
-	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                         
+	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                         
 	      begin
 	      last_write <= 1'b0;                                                                              
 	       end
@@ -575,7 +619,7 @@
 	                                                                                    
 	  always @(posedge M_AXI_ACLK)                                                      
 	  begin                                                                             
-	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                         
+	    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                         
 	      writes_done <= 1'b0;                                                                                                                                      
 	      //The writes_done should be associated with a bready response                 
 	    else if (last_write && M_AXI_BVALID && axi_bready)                              
@@ -587,7 +631,7 @@
 	// Register and hold any data mismatches, or read/write interface errors            
 	  always @(posedge M_AXI_ACLK)                                                      
 	  begin                                                                             
-	    if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                                                                                   
+	    if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                                                                                   
 	      error_reg <= 1'b0;                                                                            
 	    //Capture any error types                                                       
 	    else if (write_resp_error)               
@@ -598,7 +642,7 @@
 	// Add user logic here
 		always @(posedge M_AXI_ACLK)                                                      
     begin                                                                             
-    if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                                                                                   
+    if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || p_pulse == 1'b1)                                                                                                                   
         M_PL_VALID2STR <= 1'b0;                                                                                                                               
     else if (writes_done)   
         M_PL_VALID2STR <= 1'b1;     

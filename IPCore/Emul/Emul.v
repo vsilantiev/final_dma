@@ -1,5 +1,6 @@
 module ADC_emul(input clk,input reset,input valid,/*output lvds,output clk_out*/ output link, input ready);
 parameter WIDTH=16;//������ LVDS ������
+
 parameter accPP=1;//����������
 wire clk;
 wire reset;

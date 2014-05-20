@@ -2013,8 +2013,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>init_dma_v4_0</xilinx:displayName>
-      <xilinx:coreRevision>61</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-05-19T12:31:02Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>63</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-05-20T11:15:58Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.3</xilinx:xilinxVersion>

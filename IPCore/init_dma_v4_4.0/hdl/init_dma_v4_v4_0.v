@@ -33,6 +33,9 @@
         output wire /*PL_VALID2STR*/ m00_valid2stream,
         input wire /*PL_IRQ_DMA*/ m00_irq_dma,
         
+        output wire [31:0] PS_R,
+        input wire [31:0] PL_R,
+        
         output wire [31:0] PS_DDR_ADDR_BUF,
         input wire [31:0] PL_DDR_ADDR_BUF,
         
@@ -126,6 +129,8 @@
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) init_dma_v4_v4_0_S00_AXI_inst (
+	     
+	     .S_PS_R(PS_R),
 		.S_PS_LEN_REF(m00_len_ref),
         .S_PS_START_CAPTURES(PS_START_CAPTURES),
         .S_PS_DDR_ADDR_BUF(PS_DDR_ADDR_BUF),
@@ -160,6 +165,7 @@
 		.C_M_AXI_DATA_WIDTH(C_M00_AXI_DATA_WIDTH),
 		.C_M_TRANSACTIONS_NUM(C_M00_AXI_TRANSACTIONS_NUM)
 	) init_dma_v4_v4_0_M00_AXI_inst (
+	     .M_PL_R(PL_R),
 		 .M_PL_DDR_ADDR_BUF(PL_DDR_ADDR_BUF),
 		.M_PL_LEN_REF(PL_LEN_REF),
         .M_PL_START_CAPTURES(PL_START_CAPTURES),
@@ -240,6 +246,8 @@
     assign PL_ADDRM1_BRAM = PL_ADDRM0_BRAM;
 	
 	assign PL_STARTM1_CDMA = PL_STARTM0_CDMA;
+	
+	assign PL_R = PS_R;
 	// User logic ends
     
 

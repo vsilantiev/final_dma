@@ -16,6 +16,8 @@
         output wire [31:0] S_PS_LEN_REF,
         
         output wire [31:0] S_PS_DDR_ADDR_BUF,
+        output wire [31:0] S_PS_R,
+        
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -146,6 +148,7 @@
     assign S_PS_START_CAPTURES = slv_reg0[0];
     assign S_PS_LEN_REF[31:0] = slv_reg1[31:0];
     assign S_PS_DDR_ADDR_BUF[31:0] = slv_reg2[31:0];
+    assign S_PS_R[31:0] = slv_reg3[31:0];
     
     
 	assign S_AXI_AWREADY	= axi_awready;
