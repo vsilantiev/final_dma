@@ -36,25 +36,7 @@
       </spirit:views>
       <spirit:ports>
         <spirit:port>
-          <spirit:name>LD0</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>LD1</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>LD3</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>LD4</spirit:name>
+          <spirit:name>LD5</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
@@ -66,7 +48,25 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>LD5</spirit:name>
+          <spirit:name>LD4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LD3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LD1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LD0</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
@@ -290,12 +290,12 @@
       <spirit:adHocConnection>
         <spirit:name>axi_dma_0_s2mm_introut</spirit:name>
         <spirit:internalPortReference spirit:componentRef="axi_dma_0" spirit:portRef="s2mm_introut"/>
-        <spirit:externalPortReference spirit:portRef="LD5"/>
-        <spirit:externalPortReference spirit:portRef="LD7"/>
-        <spirit:externalPortReference spirit:portRef="LD4"/>
-        <spirit:externalPortReference spirit:portRef="LD3"/>
-        <spirit:externalPortReference spirit:portRef="LD1"/>
         <spirit:externalPortReference spirit:portRef="LD0"/>
+        <spirit:externalPortReference spirit:portRef="LD1"/>
+        <spirit:externalPortReference spirit:portRef="LD3"/>
+        <spirit:externalPortReference spirit:portRef="LD4"/>
+        <spirit:externalPortReference spirit:portRef="LD7"/>
+        <spirit:externalPortReference spirit:portRef="LD5"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="IRQ_F2P"/>
         <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_irq_dma"/>
       </spirit:adHocConnection>
