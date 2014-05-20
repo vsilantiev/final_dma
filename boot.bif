@@ -1,0 +1,7 @@
+image: {
+	[bootloader]/home/vladimir/Z/zedboard/Final_DMA/fsbl/Release/fsbl.elf
+	/home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit
+	u-boot.elf
+	[load=0x2a00000]devicetree.dtb
+	[load=0x3000000]uImage.bin
+}

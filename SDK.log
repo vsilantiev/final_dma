@@ -1,0 +1,783 @@
+11:52:06.353 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml. 
+11:52:17.885 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+11:56:02.816 INFO  - Specified output file already exists 
+11:56:04.069 INFO  - Invoking Bootgen:  
+11:56:04.587 INFO  - Bootgen command execution is done. 
+12:52:10.561 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:52:16.525 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+12:52:16.540 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+12:52:16.543 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+12:52:16.544 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+12:52:16.548 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+12:52:16.548 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+12:52:16.549 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+12:52:16.651 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:52:18.358 INFO  - Updating hardware inferred compiler options for fsbl. 
+12:52:18.363 INFO  - Clearing existing target manager status. 
+12:52:19.535 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+12:52:19.536 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+12:52:19.549 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+12:52:19.550 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+12:52:19.550 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+12:52:19.553 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+12:52:21.187 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+12:52:44.278 INFO  - Specified output file already exists 
+12:52:45.335 INFO  - Invoking Bootgen:  
+12:52:45.861 INFO  - Bootgen command execution is done. 
+14:14:49.586 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:14:51.437 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+14:14:51.445 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+14:14:51.449 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+14:14:51.450 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+14:14:51.455 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+14:14:51.456 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+14:14:51.456 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+14:14:51.573 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:14:53.229 INFO  - Updating hardware inferred compiler options for fsbl. 
+14:14:53.234 INFO  - Clearing existing target manager status. 
+14:14:53.243 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+14:14:53.245 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+14:14:53.257 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+14:14:53.259 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+14:14:53.260 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+14:14:53.265 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+14:14:54.746 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:15:25.149 INFO  - Specified output file already exists 
+14:15:26.286 INFO  - Invoking Bootgen:  
+14:15:26.802 INFO  - Bootgen command execution is done. 
+14:42:37.662 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:42:44.276 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+14:42:44.284 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+14:42:44.289 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+14:42:44.290 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+14:42:44.294 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+14:42:44.294 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+14:42:44.295 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+14:42:44.412 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:42:46.064 INFO  - Updating hardware inferred compiler options for fsbl. 
+14:42:46.068 INFO  - Clearing existing target manager status. 
+14:42:46.076 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+14:42:46.078 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+14:42:46.084 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+14:42:46.086 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+14:42:46.087 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+14:42:46.091 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+14:42:47.477 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:46:04.021 INFO  - Specified output file already exists 
+14:46:05.010 INFO  - Invoking Bootgen:  
+14:46:05.534 INFO  - Bootgen command execution is done. 
+15:05:37.004 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:05:38.684 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+15:05:38.690 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+15:05:38.692 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+15:05:38.693 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+15:05:38.696 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+15:05:38.697 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+15:05:38.698 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+15:05:38.810 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:05:40.459 INFO  - Updating hardware inferred compiler options for fsbl. 
+15:05:40.463 INFO  - Clearing existing target manager status. 
+15:05:40.472 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+15:05:40.474 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+15:05:40.481 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+15:05:40.482 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+15:05:40.483 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+15:05:40.485 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+15:05:41.871 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:06:15.257 INFO  - Specified output file already exists 
+15:06:16.282 INFO  - Invoking Bootgen:  
+15:06:16.798 INFO  - Bootgen command execution is done. 
+15:46:07.676 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:46:09.453 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+15:46:09.458 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+15:46:09.461 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+15:46:09.461 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+15:46:09.465 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+15:46:09.465 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+15:46:09.466 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+15:46:09.576 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:46:11.243 INFO  - Updating hardware inferred compiler options for fsbl. 
+15:46:11.247 INFO  - Clearing existing target manager status. 
+15:46:11.253 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+15:46:11.257 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+15:46:11.273 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+15:46:11.275 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+15:46:11.276 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+15:46:11.279 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+15:46:12.688 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:46:35.044 INFO  - Specified output file already exists 
+15:46:36.121 INFO  - Invoking Bootgen:  
+15:46:36.644 INFO  - Bootgen command execution is done. 
+15:47:26.873 INFO  - Specified output file already exists 
+15:47:27.738 INFO  - Invoking Bootgen:  
+15:47:28.259 INFO  - Bootgen command execution is done. 
+15:57:24.260 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:06:21.997 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml. 
+16:06:22.170 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml. 
+16:06:22.468 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:06:22.475 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:06:22.478 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+16:06:22.478 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+16:06:22.483 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+16:06:22.483 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+16:06:22.484 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+16:06:22.587 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:06:37.569 INFO  - Updating hardware inferred compiler options for fsbl. 
+16:06:37.583 INFO  - Clearing existing target manager status. 
+16:06:39.147 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+16:06:39.148 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+16:06:39.156 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+16:06:39.157 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+16:06:39.159 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+16:06:39.163 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+16:06:40.677 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:07:07.324 INFO  - Specified output file already exists 
+16:07:08.461 INFO  - Invoking Bootgen:  
+16:07:08.983 INFO  - Bootgen command execution is done. 
+16:07:21.277 INFO  - Specified output file already exists 
+16:07:22.410 INFO  - Invoking Bootgen:  
+16:07:22.940 INFO  - Bootgen command execution is done. 
+17:07:35.878 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:07:43.960 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+17:07:43.966 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+17:07:43.968 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+17:07:43.969 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+17:07:43.972 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+17:07:43.973 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+17:07:43.973 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+17:07:44.103 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:07:45.750 INFO  - Updating hardware inferred compiler options for fsbl. 
+17:07:45.755 INFO  - Clearing existing target manager status. 
+17:07:45.766 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+17:07:45.768 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+17:07:45.777 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+17:07:45.778 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+17:07:45.779 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+17:07:45.781 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+17:07:47.173 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:08:11.568 INFO  - Specified output file already exists 
+17:08:12.490 INFO  - Invoking Bootgen:  
+17:08:13.014 INFO  - Bootgen command execution is done. 
+17:36:55.703 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:36:59.037 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+17:36:59.042 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+17:36:59.045 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+17:36:59.045 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+17:36:59.049 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+17:36:59.050 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+17:36:59.050 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+17:36:59.181 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:37:00.825 INFO  - Updating hardware inferred compiler options for fsbl. 
+17:37:00.830 INFO  - Clearing existing target manager status. 
+17:37:00.836 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+17:37:00.838 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+17:37:00.844 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+17:37:00.845 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+17:37:00.846 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+17:37:00.848 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+17:37:02.259 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:37:26.686 INFO  - Specified output file already exists 
+17:37:27.751 INFO  - Invoking Bootgen:  
+17:37:28.272 INFO  - Bootgen command execution is done. 
+21:41:11.848 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+21:42:16.085 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+21:42:16.097 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+21:42:16.099 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:42:16.100 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:42:16.104 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:42:16.105 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:42:16.105 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:42:16.244 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:42:17.882 INFO  - Updating hardware inferred compiler options for fsbl. 
+21:42:17.886 INFO  - Clearing existing target manager status. 
+21:42:17.895 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+21:42:17.896 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+21:42:17.903 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+21:42:17.904 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+21:42:17.905 INFO  - Copied contents of /home/vladimir/Z/zedboard/testDMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+21:42:17.908 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+21:42:19.591 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:43:17.739 INFO  - Specified output file already exists 
+21:43:19.292 INFO  - Invoking Bootgen:  
+21:43:19.814 INFO  - Bootgen command execution is done. 
+21:43:40.496 INFO  - Specified output file already exists 
+21:43:41.865 INFO  - Invoking Bootgen:  
+21:43:42.378 INFO  - Bootgen command execution is done. 
+11:26:44.309 INFO  - Processing command line option -hwspec /home/chupa/WORK!!!!!/testDMA3work/hw/testDMA.xml. 
+11:26:44.902 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK!!!!!/testDMA3work/hw/testDMA.xml. 
+11:26:45.291 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+11:26:45.298 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+11:26:45.302 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+11:26:45.303 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+11:26:45.307 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+11:26:45.308 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+11:26:45.309 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+11:26:45.625 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:26:50.178 INFO  - Updating hardware inferred compiler options for fsbl. 
+11:26:50.193 INFO  - Clearing existing target manager status. 
+11:26:52.941 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+11:26:52.945 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+11:26:52.955 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+11:26:52.957 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+11:26:52.959 INFO  - Copied contents of /home/chupa/WORK!!!!!/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+11:26:52.966 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+11:26:54.628 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:36:55.381 INFO  - Specified output file already exists 
+11:36:58.136 INFO  - Invoking Bootgen:  
+11:36:58.656 INFO  - Bootgen command execution is done. 
+11:37:32.406 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:44:11.902 INFO  - Specified output file already exists 
+11:44:13.471 INFO  - Invoking Bootgen:  
+11:44:14.023 INFO  - Bootgen command execution is done. 
+13:06:19.776 INFO  - Processing command line option -hwspec /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+13:06:21.600 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+13:06:22.047 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+13:06:22.053 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+13:06:22.092 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+13:06:22.093 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+13:06:22.098 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+13:06:22.099 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+13:06:22.101 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+13:06:22.281 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:06:24.458 INFO  - Restoring global repository preferences: 
+		 /home/chupa/zedboard 
+13:06:25.551 INFO  - Updating hardware inferred compiler options for fsbl. 
+13:06:25.572 INFO  - Clearing existing target manager status. 
+13:06:27.749 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+13:06:27.751 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+13:06:27.761 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+13:06:27.762 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+13:06:27.764 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+13:08:38.371 INFO  - Specified output file already exists 
+13:08:39.875 INFO  - Invoking Bootgen:  
+13:08:40.387 INFO  - Bootgen command execution is done. 
+13:15:04.506 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:38:49.169 INFO  - Processing command line option -hwspec /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+13:38:51.153 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+13:38:51.597 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+13:38:51.604 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+13:38:51.609 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+13:38:51.610 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+13:38:51.614 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+13:38:51.615 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+13:38:51.616 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+13:38:51.795 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:38:54.086 INFO  - Restoring global repository preferences: 
+		 /home/chupa/zedboard 
+13:38:55.412 INFO  - Updating hardware inferred compiler options for fsbl. 
+13:38:55.428 INFO  - Clearing existing target manager status. 
+13:38:57.606 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+13:38:57.608 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+13:38:57.616 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+13:38:57.617 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+13:38:57.619 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+13:41:23.463 INFO  - Specified output file already exists 
+13:41:24.889 INFO  - Invoking Bootgen:  
+13:41:25.411 INFO  - Bootgen command execution is done. 
+13:56:05.321 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:14:52.146 INFO  - Processing command line option -hwspec /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+14:14:54.201 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+14:14:54.612 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+14:14:54.618 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+14:14:54.622 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+14:14:54.623 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+14:14:54.628 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+14:14:54.629 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+14:14:54.630 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+14:14:54.841 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:14:57.134 INFO  - Restoring global repository preferences: 
+		 /home/chupa/zedboard 
+14:14:58.448 INFO  - Updating hardware inferred compiler options for fsbl. 
+14:14:58.467 INFO  - Clearing existing target manager status. 
+14:15:00.652 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+14:15:00.659 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+14:15:00.668 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+14:15:00.669 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+14:15:00.671 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+14:15:25.431 INFO  - Specified output file already exists 
+14:15:26.955 INFO  - Invoking Bootgen:  
+14:15:27.473 INFO  - Bootgen command execution is done. 
+14:19:51.127 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:52:05.973 INFO  - Processing command line option -hwspec /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+14:52:07.610 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+14:52:08.010 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+14:52:08.017 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+14:52:08.022 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+14:52:08.023 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+14:52:08.028 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+14:52:08.029 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+14:52:08.030 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+14:52:08.449 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:52:10.611 INFO  - Restoring global repository preferences: 
+		 /home/chupa/zedboard 
+14:52:11.842 INFO  - Updating hardware inferred compiler options for fsbl. 
+14:52:11.864 INFO  - Clearing existing target manager status. 
+14:52:14.044 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+14:52:14.046 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+14:52:14.055 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+14:52:14.056 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+14:52:14.058 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+14:52:25.075 INFO  - Specified output file already exists 
+14:52:27.210 INFO  - Invoking Bootgen:  
+14:52:27.725 INFO  - Bootgen command execution is done. 
+16:02:33.567 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:02:42.336 INFO  - Processing command line option -hwspec /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+16:02:44.046 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/chupa/WORK/testDMA3work/hw/testDMA.xml. 
+16:02:44.220 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:02:44.226 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:02:44.230 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+16:02:44.231 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+16:02:44.236 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+16:02:44.236 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+16:02:44.237 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+16:02:44.732 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:02:46.889 INFO  - Restoring global repository preferences: 
+		 /home/chupa/zedboard 
+16:02:48.087 INFO  - Updating hardware inferred compiler options for fsbl. 
+16:02:48.106 INFO  - Clearing existing target manager status. 
+16:02:50.461 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+16:02:50.464 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+16:02:50.471 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+16:02:50.473 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+16:02:50.475 INFO  - Copied contents of /home/chupa/WORK/testDMA3work/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+16:03:21.226 INFO  - Specified output file already exists 
+16:03:22.567 INFO  - Invoking Bootgen:  
+16:03:23.077 INFO  - Bootgen command execution is done. 
+16:47:20.069 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:17:49.919 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:17:51.440 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:17:51.891 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+21:17:51.902 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+21:17:51.940 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:17:51.942 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:17:51.948 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:17:51.949 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:17:51.950 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:17:52.190 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:17:54.077 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+21:17:54.871 INFO  - Updating hardware inferred compiler options for fsbl. 
+21:17:54.876 INFO  - Clearing existing target manager status. 
+21:17:57.099 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+21:17:57.101 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+21:17:57.114 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+21:17:57.115 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+21:17:57.116 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+21:19:09.630 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:23:15.584 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:23:17.192 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:23:17.649 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+21:23:17.655 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+21:23:17.659 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:23:17.660 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:23:17.665 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:23:17.667 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:23:17.669 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:23:17.845 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:23:19.671 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+21:23:20.926 INFO  - Updating hardware inferred compiler options for fsbl. 
+21:23:20.943 INFO  - Clearing existing target manager status. 
+21:23:22.124 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+21:23:22.127 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+21:23:22.137 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+21:23:22.138 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+21:23:22.139 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+21:23:37.461 INFO  - Project fsbl_bsp was a BSP project. Please update references. 
+21:23:37.462 ERROR - SDK has detected that project fsbl_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+21:25:21.222 INFO  - Specified output file already exists 
+21:25:22.818 INFO  - Invoking Bootgen:  
+21:25:23.336 INFO  - Bootgen command execution is done. 
+22:19:57.191 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+22:20:11.085 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+22:20:11.090 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+22:20:11.093 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+22:20:11.094 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+22:20:11.098 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+22:20:11.099 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+22:20:11.101 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+22:20:11.249 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:20:12.902 INFO  - Updating hardware inferred compiler options for fsbl. 
+22:20:12.905 INFO  - Clearing existing target manager status. 
+22:20:12.915 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+22:20:12.917 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+22:20:12.930 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+22:20:12.932 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+22:20:12.933 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+22:20:12.936 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+22:20:14.499 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+22:20:50.079 INFO  - Specified output file already exists 
+22:20:52.200 INFO  - Invoking Bootgen:  
+22:20:52.718 INFO  - Bootgen command execution is done. 
+22:22:05.420 INFO  - Specified output file already exists 
+22:22:07.338 INFO  - Invoking Bootgen:  
+22:22:07.858 INFO  - Bootgen command execution is done. 
+09:21:25.993 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+09:21:27.176 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+09:21:27.188 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+09:21:27.191 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+09:21:27.192 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+09:21:27.196 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+09:21:27.197 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+09:21:27.197 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+09:21:27.347 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:21:28.933 INFO  - Updating hardware inferred compiler options for fsbl. 
+09:21:28.936 INFO  - Clearing existing target manager status. 
+09:21:28.946 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+09:21:28.949 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+09:21:28.956 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+09:21:28.958 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+09:21:28.959 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+09:21:28.961 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+09:21:30.403 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+09:22:09.977 INFO  - Specified output file already exists 
+09:22:11.322 INFO  - Invoking Bootgen:  
+09:22:11.849 INFO  - Bootgen command execution is done. 
+09:50:49.802 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+09:50:53.654 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+09:50:53.660 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+09:50:53.663 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+09:50:53.663 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+09:50:53.667 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+09:50:53.668 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+09:50:53.668 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+09:50:53.811 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:50:55.445 INFO  - Updating hardware inferred compiler options for fsbl. 
+09:50:55.449 INFO  - Clearing existing target manager status. 
+09:50:55.455 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+09:50:55.457 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+09:50:55.464 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+09:50:55.465 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+09:50:55.466 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+09:50:55.468 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+09:50:56.867 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+09:51:19.898 INFO  - Specified output file already exists 
+09:51:20.799 INFO  - Invoking Bootgen:  
+09:51:21.322 INFO  - Bootgen command execution is done. 
+10:21:12.029 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+10:21:15.632 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+10:21:15.637 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+10:21:15.640 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+10:21:15.640 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+10:21:15.644 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+10:21:15.644 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+10:21:15.645 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+10:21:15.786 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:21:17.414 INFO  - Updating hardware inferred compiler options for fsbl. 
+10:21:17.418 INFO  - Clearing existing target manager status. 
+10:21:17.437 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+10:21:17.445 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+10:21:17.450 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+10:21:17.473 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+10:21:17.475 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+10:21:17.477 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+10:21:18.921 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+10:21:56.543 INFO  - Specified output file already exists 
+10:21:57.530 INFO  - Invoking Bootgen:  
+10:21:58.052 INFO  - Bootgen command execution is done. 
+10:50:43.317 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+10:50:47.070 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+10:50:47.076 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+10:50:47.079 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+10:50:47.080 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+10:50:47.084 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+10:50:47.084 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+10:50:47.084 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+10:50:47.234 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:50:48.856 INFO  - Updating hardware inferred compiler options for fsbl. 
+10:50:48.859 INFO  - Clearing existing target manager status. 
+10:50:48.870 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+10:50:48.871 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+10:50:48.878 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+10:50:48.878 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+10:50:48.879 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+10:50:48.881 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+10:50:50.271 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+10:51:31.815 INFO  - Specified output file already exists 
+10:51:32.712 INFO  - Invoking Bootgen:  
+10:51:33.230 INFO  - Bootgen command execution is done. 
+10:53:26.411 INFO  - Specified output file already exists 
+10:53:27.543 INFO  - Invoking Bootgen:  
+10:53:28.067 INFO  - Bootgen command execution is done. 
+11:40:18.059 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+11:40:19.782 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+11:40:19.788 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+11:40:19.790 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+11:40:19.791 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+11:40:19.795 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+11:40:19.795 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+11:40:19.795 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+11:40:19.937 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:40:21.568 INFO  - Updating hardware inferred compiler options for fsbl. 
+11:40:21.572 INFO  - Clearing existing target manager status. 
+11:40:21.575 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+11:40:21.577 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+11:40:21.584 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+11:40:21.586 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+11:40:21.587 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+11:40:21.590 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+11:40:22.986 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:41:54.383 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+11:41:59.628 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+11:41:59.634 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+11:41:59.637 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+11:41:59.637 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+11:41:59.641 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+11:41:59.642 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+11:41:59.642 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+11:41:59.782 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:42:01.406 INFO  - Updating hardware inferred compiler options for fsbl. 
+11:42:01.410 INFO  - Clearing existing target manager status. 
+11:42:01.415 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+11:42:01.417 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+11:42:01.426 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+11:42:01.428 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+11:42:01.429 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+11:42:01.432 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+11:42:02.845 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:43:20.571 INFO  - Specified output file already exists 
+11:43:21.780 INFO  - Invoking Bootgen:  
+11:43:22.295 INFO  - Bootgen command execution is done. 
+12:47:37.960 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:47:39.942 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+12:47:39.957 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+12:47:39.960 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+12:47:39.960 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+12:47:39.964 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+12:47:39.965 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+12:47:39.965 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+12:47:40.126 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:47:42.095 INFO  - Updating hardware inferred compiler options for fsbl. 
+12:47:42.225 INFO  - Clearing existing target manager status. 
+12:47:42.251 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+12:47:42.252 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+12:47:42.272 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+12:47:42.273 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+12:47:42.275 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+12:47:42.319 INFO  - Closing and re-opening the MSS file of ther project fsbl_bsp 
+12:47:44.364 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+12:48:11.231 INFO  - Specified output file already exists 
+12:48:12.649 INFO  - Invoking Bootgen:  
+12:48:13.164 INFO  - Bootgen command execution is done. 
+15:14:38.404 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+15:14:40.110 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+15:14:40.528 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+15:14:40.537 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+15:14:40.541 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+15:14:40.542 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+15:14:40.546 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+15:14:40.547 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+15:14:40.547 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+15:14:40.705 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:14:41.705 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+15:14:44.027 INFO  - Updating hardware inferred compiler options for fsbl. 
+15:14:44.041 INFO  - Clearing existing target manager status. 
+15:14:45.445 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+15:14:45.451 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+15:14:45.457 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+15:14:45.458 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+15:14:45.459 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+15:14:52.367 INFO  - Specified output file already exists 
+15:14:53.367 INFO  - Invoking Bootgen:  
+15:14:53.885 INFO  - Bootgen command execution is done. 
+16:53:09.671 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:53:18.927 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:53:18.932 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:53:18.935 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+16:53:18.936 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+16:53:18.939 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+16:53:18.940 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+16:53:18.940 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+16:53:19.090 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:53:33.490 INFO  - Updating hardware inferred compiler options for fsbl. 
+16:53:33.502 INFO  - Clearing existing target manager status. 
+16:53:33.506 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+16:53:33.511 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+16:53:33.520 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+16:53:33.522 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+16:53:33.523 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+16:53:50.999 INFO  - Specified output file already exists 
+16:53:52.000 INFO  - Invoking Bootgen:  
+16:53:52.513 INFO  - Bootgen command execution is done. 
+16:58:52.182 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:58:53.754 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:58:53.759 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:58:53.762 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+16:58:53.763 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+16:58:53.767 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+16:58:53.767 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+16:58:53.768 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+16:58:53.917 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:59:08.150 INFO  - Updating hardware inferred compiler options for fsbl. 
+16:59:08.161 INFO  - Clearing existing target manager status. 
+16:59:08.168 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+16:59:08.177 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+16:59:08.184 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+16:59:08.186 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+16:59:08.188 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+16:59:18.336 INFO  - Specified output file already exists 
+16:59:19.356 INFO  - Invoking Bootgen:  
+16:59:19.868 INFO  - Bootgen command execution is done. 
+19:37:15.019 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:50:29.405 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:50:31.010 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+21:50:31.173 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+21:50:31.180 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+21:50:31.186 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:50:31.188 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:50:31.193 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:50:31.194 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:50:31.194 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:50:31.368 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:50:45.479 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+21:50:46.836 INFO  - Updating hardware inferred compiler options for fsbl. 
+21:50:46.844 INFO  - Clearing existing target manager status. 
+21:50:48.036 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+21:50:48.038 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+21:50:48.048 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+21:50:48.050 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+21:50:48.053 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+21:51:11.541 INFO  - Specified output file already exists 
+21:51:12.977 INFO  - Invoking Bootgen:  
+21:51:13.517 INFO  - Bootgen command execution is done. 
+10:17:46.124 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+10:17:47.384 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+10:17:51.363 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+10:17:52.769 ERROR - Unable to save current hardware specification file in a temporary location. 
+10:17:55.936 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+10:17:55.943 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+10:17:55.946 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+10:17:55.947 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+10:17:55.951 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+10:17:55.952 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+10:17:55.952 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+10:17:56.616 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+10:17:56.623 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+10:18:15.137 INFO  - Specified output file already exists 
+10:18:15.928 INFO  - Invoking Bootgen:  
+10:18:16.449 INFO  - Bootgen command execution is done. 
+12:49:01.110 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+12:49:03.589 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+12:49:03.595 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+12:49:03.597 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+12:49:03.598 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+12:49:03.601 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+12:49:03.602 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+12:49:03.602 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+12:49:03.731 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:49:06.366 INFO  - Updating hardware inferred compiler options for fsbl. 
+12:49:06.374 INFO  - Clearing existing target manager status. 
+12:49:08.012 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+12:49:08.013 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+12:49:08.028 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+12:49:08.029 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+12:49:08.031 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+12:49:19.441 INFO  - Specified output file already exists 
+12:49:20.497 INFO  - Invoking Bootgen:  
+12:49:21.005 INFO  - Bootgen command execution is done. 
+12:49:36.723 INFO  - Specified output file already exists 
+12:49:37.608 INFO  - Invoking Bootgen:  
+12:49:38.116 INFO  - Bootgen command execution is done. 
+16:53:17.900 INFO  - Processing command line option -hwspec /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+16:53:20.800 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml. 
+16:53:23.116 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:53:26.014 ERROR - Unable to save current hardware specification file in a temporary location. 
+16:53:33.070 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:53:33.076 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:53:33.080 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+16:53:33.081 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+16:53:33.091 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+16:53:33.092 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+16:53:33.095 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+16:53:33.332 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+16:53:33.339 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+16:53:45.681 INFO  - Specified output file already exists 
+16:53:46.598 INFO  - Invoking Bootgen:  
+16:53:47.129 INFO  - Bootgen command execution is done. 
+17:29:22.214 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:29:25.906 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+17:29:25.912 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+17:29:25.915 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+17:29:25.915 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+17:29:25.919 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+17:29:25.920 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+17:29:25.920 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+17:29:26.071 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:29:26.963 INFO  - Restoring global repository preferences: 
+		 /home/vladimir/Z/zedboard 
+17:29:30.063 INFO  - Updating hardware inferred compiler options for fsbl. 
+17:29:30.080 INFO  - Clearing existing target manager status. 
+17:29:31.588 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+17:29:31.595 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+17:29:31.609 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+17:29:31.610 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+17:29:31.612 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+17:29:41.430 INFO  - Specified output file already exists 
+17:29:42.675 INFO  - Invoking Bootgen:  
+17:29:43.192 INFO  - Bootgen command execution is done. 
+17:50:19.943 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:50:45.836 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+17:50:45.842 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+17:50:45.845 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+17:50:45.845 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+17:50:45.849 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+17:50:45.849 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+17:50:45.850 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+17:50:45.992 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:51:00.464 INFO  - Updating hardware inferred compiler options for fsbl. 
+17:51:00.478 INFO  - Clearing existing target manager status. 
+17:51:01.912 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+17:51:01.913 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+17:51:01.919 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+17:51:01.921 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+17:51:01.923 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+17:51:17.766 INFO  - Specified output file already exists 
+17:51:18.922 INFO  - Invoking Bootgen:  
+17:51:19.444 INFO  - Bootgen command execution is done. 
+09:40:10.105 INFO  - Project hw_platform_0's source hardware specification located at /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+09:40:54.803 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA.xml into /hw_platform_0/system.xml. 
+09:40:54.809 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/testDMA_wrapper.bit into /hw_platform_0/testDMA_wrapper.bit. 
+09:40:54.812 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+09:40:54.812 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+09:40:54.816 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+09:40:54.817 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+09:40:54.817 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+09:40:54.975 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:41:10.006 INFO  - Updating hardware inferred compiler options for fsbl. 
+09:41:10.015 INFO  - Clearing existing target manager status. 
+09:41:11.654 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.c into /fsbl/src/ps7_init.c. 
+09:41:11.656 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.h into /fsbl/src/ps7_init.h. 
+09:41:11.666 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.html into /fsbl/src/ps7_init.html. 
+09:41:11.667 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_summary.html into /fsbl/src/ps7_summary.html. 
+09:41:11.668 INFO  - Copied contents of /home/vladimir/Z/zedboard/Final_DMA/hw_platform_0/ps7_init.tcl into /fsbl/src/ps7_init.tcl. 
+09:41:53.302 INFO  - Specified output file already exists 
+09:41:54.389 INFO  - Invoking Bootgen:  
+09:41:54.908 INFO  - Bootgen command execution is done. 
