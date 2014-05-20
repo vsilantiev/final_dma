@@ -30,7 +30,8 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../def_stream_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../vladimir/Z/zedboard/Final_DMA/IPCore/Emul"/>
-      <Option Name="IPRepoPath" Val="/home/chupa/Pravka2/Final_DMA/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../Pravka2/Final_DMA/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="/home/chupa/final_dma/IPCore/Emul"/>
     </Config>
   </FileSet>
 </DARoots>
