@@ -31,10 +31,12 @@ always @ (posedge clk or negedge reset)
 	 case (acc)
 	   1:redirect_flag<=1;
 	   2**15-2 :redirect_flag<=0;
+	   default:redirect_flag<=0;
 	 endcase
 	 case (redirect_flag)
 	   0:acc<=acc-accPP;
 	   1:acc<=acc+accPP;
+	   default:acc<=0;
 	 endcase
      end
 	end
