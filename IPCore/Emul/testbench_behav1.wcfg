@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="14" />
    <wvobject fp_name="/testbench/tb/clk" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -23,13 +23,21 @@
       <obj_property name="ElementShortName">valid</obj_property>
       <obj_property name="ObjectShortName">valid</obj_property>
    </wvobject>
+   <wvobject fp_name="/testbench/tb/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/tb/r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r</obj_property>
+      <obj_property name="ObjectShortName">r</obj_property>
+   </wvobject>
    <wvobject fp_name="/testbench/tb/link" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">link[15:0]</obj_property>
       <obj_property name="ObjectShortName">link[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/tb/ready" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">ready</obj_property>
-      <obj_property name="ObjectShortName">ready</obj_property>
+   <wvobject fp_name="/testbench/tb/nul" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nul</obj_property>
+      <obj_property name="ObjectShortName">nul</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/tb/acc" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">acc[15:0]</obj_property>
@@ -39,6 +47,14 @@
       <obj_property name="ElementShortName">redirect_flag</obj_property>
       <obj_property name="ObjectShortName">redirect_flag</obj_property>
    </wvobject>
+   <wvobject fp_name="/testbench/tb/r_acc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_acc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_acc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/tb/r_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_out</obj_property>
+      <obj_property name="ObjectShortName">r_out</obj_property>
+   </wvobject>
    <wvobject fp_name="/testbench/tb/WIDTH" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
       <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
@@ -47,8 +63,8 @@
       <obj_property name="ElementShortName">accPP[31:0]</obj_property>
       <obj_property name="ObjectShortName">accPP[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/tb/nul" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">nul</obj_property>
-      <obj_property name="ObjectShortName">nul</obj_property>
+   <wvobject fp_name="/testbench/tb/strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe</obj_property>
+      <obj_property name="ObjectShortName">strobe</obj_property>
    </wvobject>
 </wave_config>

@@ -1,3 +1,3 @@
-verilog work  "/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v"
-verilog work  "/home/chupa/Pravka2/Final_DMA/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v"
+verilog work  "/home/chupa/final_dma/IPCore/Emul/Emul.v"
+verilog work  "/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v"
 verilog work "/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v"
