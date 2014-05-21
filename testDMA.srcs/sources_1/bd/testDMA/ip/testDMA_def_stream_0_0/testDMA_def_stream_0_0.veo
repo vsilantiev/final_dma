@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: xilinx.com:user:def_stream:1.0
-// IP Revision: 72
+// IP Revision: 78
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections
@@ -58,6 +58,7 @@ testDMA_def_stream_0_0 your_instance_name (
   .m00_axi_datav(m00_axi_datav),        // input m00_axi_datav
   .m00_gen_tdata(m00_gen_tdata),        // input [31 : 0] m00_gen_tdata
   .m00_len_ref(m00_len_ref),            // input [31 : 0] m00_len_ref
+  .m00_tx_en(m00_tx_en),                // output m00_tx_en
   .s00_axi_awaddr(s00_axi_awaddr),      // input [7 : 0] s00_axi_awaddr
   .s00_axi_awprot(s00_axi_awprot),      // input [2 : 0] s00_axi_awprot
   .s00_axi_awvalid(s00_axi_awvalid),    // input s00_axi_awvalid

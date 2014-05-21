@@ -1,10 +1,11 @@
-module ADC_emul(input clk,input reset,input valid,/*output lvds,output clk_out*/ output link, input ready);
+module ADC_emul(input clk,input reset,input valid,/*output lvds,output clk_out*/ output link);
 parameter WIDTH=16;//������ LVDS ������
+
 parameter accPP=1;//����������
 wire clk;
 wire reset;
 wire valid;
-wire ready;
+///wire ready;
 wire nul;
 reg [WIDTH-1:0] acc;//������� ����������
 reg redirect_flag;//���� ��������������� ����� ������
@@ -20,26 +21,28 @@ wire [WIDTH-1:0] link;
 /******���������_������**********/
 always @ (posedge clk or negedge reset)
 	begin
-	  if ((!reset)||(!nul))
+	  if ((!reset)||(!valid))
 	    begin
 	      acc<=0;
 	      redirect_flag<=1;
 	    end
 	    
-	  else if (nul)
+	  else if (valid)
 	 begin
 	 case (acc)
 	   1:redirect_flag<=1;
 	   2**15-2 :redirect_flag<=0;
+	   default:redirect_flag<=0;
 	 endcase
 	 case (redirect_flag)
 	   0:acc<=acc-accPP;
 	   1:acc<=acc+accPP;
+	   default:acc<=0;
 	 endcase
      end
 	end
 	
-assign nul=valid && ready;
+////assign nul=valid && ready;
 	
 /***���������_���������_��������***/
 /*always @ (posedge clk or negedge reset)

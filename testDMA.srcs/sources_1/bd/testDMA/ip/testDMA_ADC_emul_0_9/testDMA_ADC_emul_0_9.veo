@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: omega.local:user:ADC_emul:1.0
-// IP Revision: 21
+// IP Revision: 23
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections
@@ -58,8 +58,7 @@ testDMA_ADC_emul_0_9 your_instance_name (
   .clk(clk),      // input clk
   .reset(reset),  // input reset
   .valid(valid),  // input valid
-  .link(link),    // output [15 : 0] link
-  .ready(ready)  // input ready
+  .link(link)    // output [15 : 0] link
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

@@ -25,7 +25,8 @@
         input wire [C_S00_AXIS_TDATA_WIDTH-1 : 0] m00_gen_tdata,
         
         input wire [31:0] m00_len_ref,
-
+    
+        output wire m00_tx_en,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -73,6 +74,7 @@
 	) def_stream_v1_0_M00_AXIS_inst (
 	     .M_LEN_REF(m00_len_ref),
 	    .V(m00_axi_datav),
+	    .tx_en(m00_tx_en),
 	    .M_TDATA(m00_gen_tdata),
 		.M_AXIS_ACLK(m00_axis_aclk),
 		.M_AXIS_ARESETN(m00_axis_aresetn),

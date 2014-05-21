@@ -48,7 +48,7 @@
 
 
 // IP VLNV: omega.local:user:ADC_emul:1.0
-// IP Revision: 21
+// IP Revision: 23
 
 `timescale 1ns/1ps
 
@@ -57,15 +57,13 @@ module testDMA_ADC_emul_0_9 (
   clk,
   reset,
   valid,
-  link,
-  ready
+  link
 );
 
 input clk;
 input reset;
 input valid;
 output [15 : 0] link;
-input ready;
 
   ADC_emul #(
     .WIDTH(32),
@@ -74,7 +72,6 @@ input ready;
     .clk(clk),
     .reset(reset),
     .valid(valid),
-    .link(link),
-    .ready(ready)
+    .link(link)
   );
 endmodule

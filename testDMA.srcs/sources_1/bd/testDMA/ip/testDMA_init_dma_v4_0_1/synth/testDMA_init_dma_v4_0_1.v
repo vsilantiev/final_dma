@@ -48,16 +48,18 @@
 
 
 // IP VLNV: xilinx.com:user:init_dma_v4:4.0
-// IP Revision: 63
+// IP Revision: 70
 
 (* X_CORE_INFO = "init_dma_v4_v4_0,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "testDMA_init_dma_v4_0_1,init_dma_v4_v4_0,{}" *)
-(* CORE_GENERATION_INFO = "testDMA_init_dma_v4_0_1,init_dma_v4_v4_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=init_dma_v4,x_ipVersion=4.0,x_ipCoreRevision=63,x_ipLanguage=VERILOG,C_M00_AXI_START_DATA_VALUE=0x00001001,C_M00_AXI_TARGET_SLAVE_BASE_ADDR=0x40400030,C_M00_AXI_ADDR_WIDTH=32,C_M00_AXI_DATA_WIDTH=32,C_M00_AXI_TRANSACTIONS_NUM=4,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7,C_M01_AXI_START_DATA_VALUE=0x00000004,C_M01_AXI_TARGET_SLAVE_BASE_ADDR=0x44A00000,C_M01_AXI_ADDR_WIDTH=32,C_M01_AXI_DATA_WIDTH=32,C_M01_AXI_TRANSACTIONS_NUM=11}" *)
+(* CORE_GENERATION_INFO = "testDMA_init_dma_v4_0_1,init_dma_v4_v4_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=init_dma_v4,x_ipVersion=4.0,x_ipCoreRevision=70,x_ipLanguage=VERILOG,C_M00_AXI_START_DATA_VALUE=0x00001001,C_M00_AXI_TARGET_SLAVE_BASE_ADDR=0x40400030,C_M00_AXI_ADDR_WIDTH=32,C_M00_AXI_DATA_WIDTH=32,C_M00_AXI_TRANSACTIONS_NUM=4,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7,C_M01_AXI_START_DATA_VALUE=0x00000004,C_M01_AXI_TARGET_SLAVE_BASE_ADDR=0x44A00000,C_M01_AXI_ADDR_WIDTH=32,C_M01_AXI_DATA_WIDTH=32,C_M01_AXI_TRANSACTIONS_NUM=11}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module testDMA_init_dma_v4_0_1 (
   m00_len_ref,
   m00_valid2stream,
   m00_irq_dma,
+  m00_per_imp,
+  m00_start_capture,
   s00_axi_aclk,
   s00_axi_aresetn,
   s00_axi_awaddr,
@@ -130,6 +132,8 @@ module testDMA_init_dma_v4_0_1 (
 output [31 : 0] m00_len_ref;
 output m00_valid2stream;
 input m00_irq_dma;
+output [31 : 0] m00_per_imp;
+input m00_start_capture;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *)
 input s00_axi_aclk;
 (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S00_AXI_RST RST" *)
@@ -278,6 +282,8 @@ output m01_axi_rready;
     .m00_len_ref(m00_len_ref),
     .m00_valid2stream(m00_valid2stream),
     .m00_irq_dma(m00_irq_dma),
+    .m00_per_imp(m00_per_imp),
+    .m00_start_capture(m00_start_capture),
     .s00_axi_aclk(s00_axi_aclk),
     .s00_axi_aresetn(s00_axi_aresetn),
     .s00_axi_awaddr(s00_axi_awaddr),

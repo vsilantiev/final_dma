@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: xilinx.com:user:init_dma_v4:4.0
-// IP Revision: 63
+// IP Revision: 70
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections
@@ -55,76 +55,78 @@
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 testDMA_init_dma_v4_0_1 your_instance_name (
-  .m00_len_ref(m00_len_ref),            // output [31 : 0] m00_len_ref
-  .m00_valid2stream(m00_valid2stream),  // output m00_valid2stream
-  .m00_irq_dma(m00_irq_dma),            // input m00_irq_dma
-  .s00_axi_aclk(s00_axi_aclk),          // input s00_axi_aclk
-  .s00_axi_aresetn(s00_axi_aresetn),    // input s00_axi_aresetn
-  .s00_axi_awaddr(s00_axi_awaddr),      // input [6 : 0] s00_axi_awaddr
-  .s00_axi_awprot(s00_axi_awprot),      // input [2 : 0] s00_axi_awprot
-  .s00_axi_awvalid(s00_axi_awvalid),    // input s00_axi_awvalid
-  .s00_axi_awready(s00_axi_awready),    // output s00_axi_awready
-  .s00_axi_wdata(s00_axi_wdata),        // input [31 : 0] s00_axi_wdata
-  .s00_axi_wstrb(s00_axi_wstrb),        // input [3 : 0] s00_axi_wstrb
-  .s00_axi_wvalid(s00_axi_wvalid),      // input s00_axi_wvalid
-  .s00_axi_wready(s00_axi_wready),      // output s00_axi_wready
-  .s00_axi_bresp(s00_axi_bresp),        // output [1 : 0] s00_axi_bresp
-  .s00_axi_bvalid(s00_axi_bvalid),      // output s00_axi_bvalid
-  .s00_axi_bready(s00_axi_bready),      // input s00_axi_bready
-  .s00_axi_araddr(s00_axi_araddr),      // input [6 : 0] s00_axi_araddr
-  .s00_axi_arprot(s00_axi_arprot),      // input [2 : 0] s00_axi_arprot
-  .s00_axi_arvalid(s00_axi_arvalid),    // input s00_axi_arvalid
-  .s00_axi_arready(s00_axi_arready),    // output s00_axi_arready
-  .s00_axi_rdata(s00_axi_rdata),        // output [31 : 0] s00_axi_rdata
-  .s00_axi_rresp(s00_axi_rresp),        // output [1 : 0] s00_axi_rresp
-  .s00_axi_rvalid(s00_axi_rvalid),      // output s00_axi_rvalid
-  .s00_axi_rready(s00_axi_rready),      // input s00_axi_rready
-  .m00_axi_error(m00_axi_error),        // output m00_axi_error
-  .m00_axi_txn_done(m00_axi_txn_done),  // output m00_axi_txn_done
-  .m00_axi_aclk(m00_axi_aclk),          // input m00_axi_aclk
-  .m00_axi_aresetn(m00_axi_aresetn),    // input m00_axi_aresetn
-  .m00_axi_awaddr(m00_axi_awaddr),      // output [31 : 0] m00_axi_awaddr
-  .m00_axi_awprot(m00_axi_awprot),      // output [2 : 0] m00_axi_awprot
-  .m00_axi_awvalid(m00_axi_awvalid),    // output m00_axi_awvalid
-  .m00_axi_awready(m00_axi_awready),    // input m00_axi_awready
-  .m00_axi_wdata(m00_axi_wdata),        // output [31 : 0] m00_axi_wdata
-  .m00_axi_wstrb(m00_axi_wstrb),        // output [3 : 0] m00_axi_wstrb
-  .m00_axi_wvalid(m00_axi_wvalid),      // output m00_axi_wvalid
-  .m00_axi_wready(m00_axi_wready),      // input m00_axi_wready
-  .m00_axi_bresp(m00_axi_bresp),        // input [1 : 0] m00_axi_bresp
-  .m00_axi_bvalid(m00_axi_bvalid),      // input m00_axi_bvalid
-  .m00_axi_bready(m00_axi_bready),      // output m00_axi_bready
-  .m00_axi_araddr(m00_axi_araddr),      // output [31 : 0] m00_axi_araddr
-  .m00_axi_arprot(m00_axi_arprot),      // output [2 : 0] m00_axi_arprot
-  .m00_axi_arvalid(m00_axi_arvalid),    // output m00_axi_arvalid
-  .m00_axi_arready(m00_axi_arready),    // input m00_axi_arready
-  .m00_axi_rdata(m00_axi_rdata),        // input [31 : 0] m00_axi_rdata
-  .m00_axi_rresp(m00_axi_rresp),        // input [1 : 0] m00_axi_rresp
-  .m00_axi_rvalid(m00_axi_rvalid),      // input m00_axi_rvalid
-  .m00_axi_rready(m00_axi_rready),      // output m00_axi_rready
-  .m01_axi_error(m01_axi_error),        // output m01_axi_error
-  .m01_axi_txn_done(m01_axi_txn_done),  // output m01_axi_txn_done
-  .m01_axi_aclk(m01_axi_aclk),          // input m01_axi_aclk
-  .m01_axi_aresetn(m01_axi_aresetn),    // input m01_axi_aresetn
-  .m01_axi_awaddr(m01_axi_awaddr),      // output [31 : 0] m01_axi_awaddr
-  .m01_axi_awprot(m01_axi_awprot),      // output [2 : 0] m01_axi_awprot
-  .m01_axi_awvalid(m01_axi_awvalid),    // output m01_axi_awvalid
-  .m01_axi_awready(m01_axi_awready),    // input m01_axi_awready
-  .m01_axi_wdata(m01_axi_wdata),        // output [31 : 0] m01_axi_wdata
-  .m01_axi_wstrb(m01_axi_wstrb),        // output [3 : 0] m01_axi_wstrb
-  .m01_axi_wvalid(m01_axi_wvalid),      // output m01_axi_wvalid
-  .m01_axi_wready(m01_axi_wready),      // input m01_axi_wready
-  .m01_axi_bresp(m01_axi_bresp),        // input [1 : 0] m01_axi_bresp
-  .m01_axi_bvalid(m01_axi_bvalid),      // input m01_axi_bvalid
-  .m01_axi_bready(m01_axi_bready),      // output m01_axi_bready
-  .m01_axi_araddr(m01_axi_araddr),      // output [31 : 0] m01_axi_araddr
-  .m01_axi_arprot(m01_axi_arprot),      // output [2 : 0] m01_axi_arprot
-  .m01_axi_arvalid(m01_axi_arvalid),    // output m01_axi_arvalid
-  .m01_axi_arready(m01_axi_arready),    // input m01_axi_arready
-  .m01_axi_rdata(m01_axi_rdata),        // input [31 : 0] m01_axi_rdata
-  .m01_axi_rresp(m01_axi_rresp),        // input [1 : 0] m01_axi_rresp
-  .m01_axi_rvalid(m01_axi_rvalid),      // input m01_axi_rvalid
-  .m01_axi_rready(m01_axi_rready)      // output m01_axi_rready
+  .m00_len_ref(m00_len_ref),              // output [31 : 0] m00_len_ref
+  .m00_valid2stream(m00_valid2stream),    // output m00_valid2stream
+  .m00_irq_dma(m00_irq_dma),              // input m00_irq_dma
+  .m00_per_imp(m00_per_imp),              // output [31 : 0] m00_per_imp
+  .m00_start_capture(m00_start_capture),  // input m00_start_capture
+  .s00_axi_aclk(s00_axi_aclk),            // input s00_axi_aclk
+  .s00_axi_aresetn(s00_axi_aresetn),      // input s00_axi_aresetn
+  .s00_axi_awaddr(s00_axi_awaddr),        // input [6 : 0] s00_axi_awaddr
+  .s00_axi_awprot(s00_axi_awprot),        // input [2 : 0] s00_axi_awprot
+  .s00_axi_awvalid(s00_axi_awvalid),      // input s00_axi_awvalid
+  .s00_axi_awready(s00_axi_awready),      // output s00_axi_awready
+  .s00_axi_wdata(s00_axi_wdata),          // input [31 : 0] s00_axi_wdata
+  .s00_axi_wstrb(s00_axi_wstrb),          // input [3 : 0] s00_axi_wstrb
+  .s00_axi_wvalid(s00_axi_wvalid),        // input s00_axi_wvalid
+  .s00_axi_wready(s00_axi_wready),        // output s00_axi_wready
+  .s00_axi_bresp(s00_axi_bresp),          // output [1 : 0] s00_axi_bresp
+  .s00_axi_bvalid(s00_axi_bvalid),        // output s00_axi_bvalid
+  .s00_axi_bready(s00_axi_bready),        // input s00_axi_bready
+  .s00_axi_araddr(s00_axi_araddr),        // input [6 : 0] s00_axi_araddr
+  .s00_axi_arprot(s00_axi_arprot),        // input [2 : 0] s00_axi_arprot
+  .s00_axi_arvalid(s00_axi_arvalid),      // input s00_axi_arvalid
+  .s00_axi_arready(s00_axi_arready),      // output s00_axi_arready
+  .s00_axi_rdata(s00_axi_rdata),          // output [31 : 0] s00_axi_rdata
+  .s00_axi_rresp(s00_axi_rresp),          // output [1 : 0] s00_axi_rresp
+  .s00_axi_rvalid(s00_axi_rvalid),        // output s00_axi_rvalid
+  .s00_axi_rready(s00_axi_rready),        // input s00_axi_rready
+  .m00_axi_error(m00_axi_error),          // output m00_axi_error
+  .m00_axi_txn_done(m00_axi_txn_done),    // output m00_axi_txn_done
+  .m00_axi_aclk(m00_axi_aclk),            // input m00_axi_aclk
+  .m00_axi_aresetn(m00_axi_aresetn),      // input m00_axi_aresetn
+  .m00_axi_awaddr(m00_axi_awaddr),        // output [31 : 0] m00_axi_awaddr
+  .m00_axi_awprot(m00_axi_awprot),        // output [2 : 0] m00_axi_awprot
+  .m00_axi_awvalid(m00_axi_awvalid),      // output m00_axi_awvalid
+  .m00_axi_awready(m00_axi_awready),      // input m00_axi_awready
+  .m00_axi_wdata(m00_axi_wdata),          // output [31 : 0] m00_axi_wdata
+  .m00_axi_wstrb(m00_axi_wstrb),          // output [3 : 0] m00_axi_wstrb
+  .m00_axi_wvalid(m00_axi_wvalid),        // output m00_axi_wvalid
+  .m00_axi_wready(m00_axi_wready),        // input m00_axi_wready
+  .m00_axi_bresp(m00_axi_bresp),          // input [1 : 0] m00_axi_bresp
+  .m00_axi_bvalid(m00_axi_bvalid),        // input m00_axi_bvalid
+  .m00_axi_bready(m00_axi_bready),        // output m00_axi_bready
+  .m00_axi_araddr(m00_axi_araddr),        // output [31 : 0] m00_axi_araddr
+  .m00_axi_arprot(m00_axi_arprot),        // output [2 : 0] m00_axi_arprot
+  .m00_axi_arvalid(m00_axi_arvalid),      // output m00_axi_arvalid
+  .m00_axi_arready(m00_axi_arready),      // input m00_axi_arready
+  .m00_axi_rdata(m00_axi_rdata),          // input [31 : 0] m00_axi_rdata
+  .m00_axi_rresp(m00_axi_rresp),          // input [1 : 0] m00_axi_rresp
+  .m00_axi_rvalid(m00_axi_rvalid),        // input m00_axi_rvalid
+  .m00_axi_rready(m00_axi_rready),        // output m00_axi_rready
+  .m01_axi_error(m01_axi_error),          // output m01_axi_error
+  .m01_axi_txn_done(m01_axi_txn_done),    // output m01_axi_txn_done
+  .m01_axi_aclk(m01_axi_aclk),            // input m01_axi_aclk
+  .m01_axi_aresetn(m01_axi_aresetn),      // input m01_axi_aresetn
+  .m01_axi_awaddr(m01_axi_awaddr),        // output [31 : 0] m01_axi_awaddr
+  .m01_axi_awprot(m01_axi_awprot),        // output [2 : 0] m01_axi_awprot
+  .m01_axi_awvalid(m01_axi_awvalid),      // output m01_axi_awvalid
+  .m01_axi_awready(m01_axi_awready),      // input m01_axi_awready
+  .m01_axi_wdata(m01_axi_wdata),          // output [31 : 0] m01_axi_wdata
+  .m01_axi_wstrb(m01_axi_wstrb),          // output [3 : 0] m01_axi_wstrb
+  .m01_axi_wvalid(m01_axi_wvalid),        // output m01_axi_wvalid
+  .m01_axi_wready(m01_axi_wready),        // input m01_axi_wready
+  .m01_axi_bresp(m01_axi_bresp),          // input [1 : 0] m01_axi_bresp
+  .m01_axi_bvalid(m01_axi_bvalid),        // input m01_axi_bvalid
+  .m01_axi_bready(m01_axi_bready),        // output m01_axi_bready
+  .m01_axi_araddr(m01_axi_araddr),        // output [31 : 0] m01_axi_araddr
+  .m01_axi_arprot(m01_axi_arprot),        // output [2 : 0] m01_axi_arprot
+  .m01_axi_arvalid(m01_axi_arvalid),      // output m01_axi_arvalid
+  .m01_axi_arready(m01_axi_arready),      // input m01_axi_arready
+  .m01_axi_rdata(m01_axi_rdata),          // input [31 : 0] m01_axi_rdata
+  .m01_axi_rresp(m01_axi_rresp),          // input [1 : 0] m01_axi_rresp
+  .m01_axi_rvalid(m01_axi_rvalid),        // input m01_axi_rvalid
+  .m01_axi_rready(m01_axi_rready)        // output m01_axi_rready
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

@@ -60,6 +60,13 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../Final_DMA/IPCore/init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../Emul"/>
       <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_axi_dma_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../180414stream/newIPCore/def_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_2.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../reg_init_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../acp_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_cdma_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../260214/IPCore/Emul"/>
     </Config>
   </FileSet>
 </DARoots>

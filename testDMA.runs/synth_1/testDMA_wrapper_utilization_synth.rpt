@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Tue May 20 15:39:43 2014
+| Date         : Wed May 21 16:18:18 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file testDMA_wrapper_utilization_synth.rpt -pb testDMA_wrapper_utilization_synth.pb
 | Design       : testDMA_wrapper
@@ -29,8 +29,8 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 12421 |     0 |     53200 | 23.34 |
-|   LUT as Logic             | 11881 |     0 |     53200 | 22.33 |
+| Slice LUTs*                | 12419 |     0 |     53200 | 23.34 |
+|   LUT as Logic             | 11879 |     0 |     53200 | 22.32 |
 |   LUT as Memory            |   540 |     0 |     17400 |  3.10 |
 |     LUT as Distributed RAM |   162 |     0 |           |       |
 |     LUT as Shift Register  |   378 |     0 |           |       |
@@ -132,11 +132,11 @@ Table of Contents
 | Ref Name |  Used |
 +----------+-------+
 | FDRE     | 11358 |
-| LUT6     |  5715 |
-| LUT3     |  2823 |
-| LUT4     |  2587 |
-| LUT5     |  1415 |
-| LUT2     |   890 |
+| LUT6     |  5746 |
+| LUT3     |  2822 |
+| LUT4     |  2590 |
+| LUT5     |  1379 |
+| LUT2     |   892 |
 | LUT1     |   639 |
 | MUXF7    |   562 |
 | FDCE     |   374 |

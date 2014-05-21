@@ -48,16 +48,17 @@
 
 
 // IP VLNV: xilinx.com:user:def_stream:1.0
-// IP Revision: 72
+// IP Revision: 78
 
 (* X_CORE_INFO = "def_stream_v1_0,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "testDMA_def_stream_0_0,def_stream_v1_0,{}" *)
-(* CORE_GENERATION_INFO = "testDMA_def_stream_0_0,def_stream_v1_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=def_stream,x_ipVersion=1.0,x_ipCoreRevision=72,x_ipLanguage=VERILOG,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=8,C_M00_AXIS_TDATA_WIDTH=32,C_M00_AXIS_START_COUNT=32,C_S00_AXIS_TDATA_WIDTH=32}" *)
+(* CORE_GENERATION_INFO = "testDMA_def_stream_0_0,def_stream_v1_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=def_stream,x_ipVersion=1.0,x_ipCoreRevision=78,x_ipLanguage=VERILOG,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=8,C_M00_AXIS_TDATA_WIDTH=32,C_M00_AXIS_START_COUNT=32,C_S00_AXIS_TDATA_WIDTH=32}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module testDMA_def_stream_0_0 (
   m00_axi_datav,
   m00_gen_tdata,
   m00_len_ref,
+  m00_tx_en,
   s00_axi_awaddr,
   s00_axi_awprot,
   s00_axi_awvalid,
@@ -91,6 +92,7 @@ module testDMA_def_stream_0_0 (
 input m00_axi_datav;
 input [31 : 0] m00_gen_tdata;
 input [31 : 0] m00_len_ref;
+output m00_tx_en;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR" *)
 input [7 : 0] s00_axi_awaddr;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT" *)
@@ -158,6 +160,7 @@ input m00_axis_aresetn;
     .m00_axi_datav(m00_axi_datav),
     .m00_gen_tdata(m00_gen_tdata),
     .m00_len_ref(m00_len_ref),
+    .m00_tx_en(m00_tx_en),
     .s00_axi_awaddr(s00_axi_awaddr),
     .s00_axi_awprot(s00_axi_awprot),
     .s00_axi_awvalid(s00_axi_awvalid),

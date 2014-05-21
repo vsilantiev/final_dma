@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:init_dma_v4:4.0
-// IP Revision: 63
+// IP Revision: 70
 
 `timescale 1ns/1ps
 
@@ -57,6 +57,8 @@ module testDMA_init_dma_v4_0_1 (
   m00_len_ref,
   m00_valid2stream,
   m00_irq_dma,
+  m00_per_imp,
+  m00_start_capture,
   s00_axi_aclk,
   s00_axi_aresetn,
   s00_axi_awaddr,
@@ -129,6 +131,8 @@ module testDMA_init_dma_v4_0_1 (
 output [31 : 0] m00_len_ref;
 output m00_valid2stream;
 input m00_irq_dma;
+output [31 : 0] m00_per_imp;
+input m00_start_capture;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *)
 input s00_axi_aclk;
 (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S00_AXI_RST RST" *)
@@ -277,6 +281,8 @@ output m01_axi_rready;
     .m00_len_ref(m00_len_ref),
     .m00_valid2stream(m00_valid2stream),
     .m00_irq_dma(m00_irq_dma),
+    .m00_per_imp(m00_per_imp),
+    .m00_start_capture(m00_start_capture),
     .s00_axi_aclk(s00_axi_aclk),
     .s00_axi_aresetn(s00_axi_aresetn),
     .s00_axi_awaddr(s00_axi_awaddr),

@@ -15,6 +15,8 @@
         input wire V,
         input wire [C_M_AXIS_TDATA_WIDTH-1 : 0] M_TDATA,
         input wire [31:0] M_LEN_REF,
+        
+        output wire tx_en,
 
 		// User ports ends
 		// Do not modify the ports beyond this line
@@ -81,7 +83,7 @@
 	reg  	axis_tlast_delay;
 	//FIFO implementation signals
 	reg [C_M_AXIS_TDATA_WIDTH-1 : 0] 	stream_data_out;
-	wire  	tx_en;
+	//wire  	tx_en;
 	//The master has issued all the streaming data stored in FIFO
 	reg  	tx_done;
 
@@ -188,9 +190,9 @@
 	    // Streaming output data is read from FIFO       
 	    always @( posedge M_AXIS_ACLK )                  
 	    begin
-	       if (tx_en)
+	       ///////if (tx_en)
 	          begin                                                                               
-	               stream_data_out <= /*read_pointer*/  M_TDATA;                             
+	               stream_data_out <=/* read_pointer*/  M_TDATA;                             
 	          end
 	    end                                              
 
