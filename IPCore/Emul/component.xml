@@ -171,8 +171,8 @@
         <xilinx:taxonomy>/BaseIP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>ADC_emul_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>21</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-05-20T07:07:03Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>22</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-05-20T12:36:04Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
       </xilinx:tags>

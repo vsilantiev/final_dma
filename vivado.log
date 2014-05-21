@@ -2,8 +2,13 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+<<<<<<< HEAD
 # Start of session at: Tue May 20 17:51:50 2014
 # Process ID: 24129
+=======
+# Start of session at: Tue May 20 13:24:55 2014
+# Process ID: 18327
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
 # Log file: /home/vladimir/Z/zedboard/final_dma/vivado.log
 # Journal file: /home/vladimir/Z/zedboard/final_dma/vivado.jou
 #-----------------------------------------------------------
@@ -16,3 +21,965 @@ WARNING: [Common 17-301] Failed to get a license: Synthesis
 INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/Vivado/2013.3/data/parts/arch.xml
 Parsing RTL primitives file [/opt/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [/opt/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+<<<<<<< HEAD
+=======
+start_gui
+WARNING: [Vivado 15-19] WARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
+
+open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr
+INFO: [Project 1-313] Project file moved from '/home/chupa/WORK/testDMA3work' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_ADC_emul_0_8/testDMA_ADC_emul_0_8.upgrade_log', nor could it be found using path '/home/chupa/WORK/testDMA3work/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_ADC_emul_0_8/testDMA_ADC_emul_0_8.upgrade_log'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 4570.438 ; gain = 166.574
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:user:init_dma_v4:4.0 - init_dma_v4_0
+Adding component instance block -- xilinx.com:user:def_stream:1.0 - def_stream_0
+Adding component instance block -- omega.local:user:ADC_emul:1.0 - ADC_emul_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Successfully read diagram <testDMA> from BD file </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 4615.359 ; gain = 17.172
+ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0/component.xml}
+INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/def_stream_1.0' since last save.
+IP Repository Path: Could not find the directory '/home/vladimir/Z/zedboard/final_dma/def_stream_1.0', nor could it be found using path '/home/vladimir/Z/zedboard/def_stream_1.0'.
+IP Repository Path: Could not find the directory '/home/vladimir/Z/zedboard/final_dma/newIPCore', nor could it be found using path '/home/vladimir/Z/zedboard/newIPCore'.
+INFO: [Project 1-356] IP Repository Path: Directory not found as '/home/vladimir/vladimir/Z/zedboard/Final_DMA/IPCore/def_stream_1.0'; using path '/home/vladimir/Z/zedboard/Final_DMA/IPCore/def_stream_1.0' instead.
+IP Repository Path: Could not find the directory '/home/chupa/Pravka2/Final_DMA/IPCore/def_stream_1.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/Z/zedboard/final_dma/def_stream_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/Z/zedboard/final_dma/newIPCore'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_axi_dma_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+WARNING: [IP_Flow 19-3299] If you move the project, the path for repository '/home/vladimir/Z/zedboard/final_dma/IPCore' may become invalid. A better location for the repository would be in a path adjacent to the project.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/testDMA/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/Final_DMA/IPCore/def_stream_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/chupa/Pravka2/Final_DMA/IPCore/def_stream_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_axi_dma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_axi_dma_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:2.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_2.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 4674.391 ; gain = 29.812
+close_project
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml}
+INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' since last save.
+IP Repository Path: Could not find the directory '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'.
+IP Repository Path: Could not find the directory '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'.
+IP Repository Path: Could not find the directory '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+WARNING: [IP_Flow 19-3299] If you move the project, the path for repository '/home/vladimir/Z/zedboard/final_dma/IPCore' may become invalid. A better location for the repository would be in a path adjacent to the project.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/Final_DMA/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_status:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:slave_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_axi_dma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:acp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_init:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_cdma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:2.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4765.340 ; gain = 0.000
+ipx::merge_project_changes ports [ipx::current_core]
+INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+INFO: [IP_Flow 19-2418] Expression "((C_M00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+INFO: [IP_Flow 19-2418] Expression "((C_M01_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+ipx::remove_port {PL_LEN_REF} [ipx::current_core]
+ipx::remove_port {PS_R} [ipx::current_core]
+ipx::remove_port {PL_R} [ipx::current_core]
+ipx::remove_port {PS_DDR_ADDR_BUF} [ipx::current_core]
+ipx::remove_port {PL_DDR_ADDR_BUF} [ipx::current_core]
+ipx::remove_port {PL_ADDRM0_BRAM} [ipx::current_core]
+ipx::remove_port {PL_ADDRM1_BRAM} [ipx::current_core]
+ipx::remove_port {PL_STARTM0_CDMA} [ipx::current_core]
+ipx::remove_port {PL_STARTM1_CDMA} [ipx::current_core]
+ipx::remove_port {PL_START_CAPTURES} [ipx::current_core]
+ipx::remove_port {PS_START_CAPTURES} [ipx::current_core]
+ipx::update_ip_instances
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-3422] Upgraded testDMA_init_dma_v4_0_1 (init_dma_v4_0 4.0) from revision 61 to revision 62
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_v4_0_1/testDMA_init_dma_v4_0_1.upgrade_log'.
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+upgrade_bd_cells: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4771.348 ; gain = 0.000
+ipx::update_ip_instances: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 4771.348 ; gain = 0.000
+make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -top
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+WARNING: [Vivado 12-3480] The generated wrapper file has already been imported into the project, the imported file is:
+'/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/imports/hdl/testDMA_wrapper.v'
+make_wrapper: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 4780.688 ; gain = 9.340
+import_files -force -norecurse /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -top
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+WARNING: [Vivado 12-3480] The generated wrapper file has already been imported into the project, the imported file is:
+'/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/imports/hdl/testDMA_wrapper.v'
+make_wrapper: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 4822.398 ; gain = 24.539
+import_files -force -norecurse /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -fileset [get_filesets sources_1] -inst_template
+INFO: [Common 17-365] Interrupt caught but 'make_wrapper' cannot be canceled. Please wait for command to finish.
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+WARNING: [Vivado 12-3480] The generated wrapper file has already been imported into the project, the imported file is:
+'/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/imports/hdl/testDMA_wrapper.v'
+make_wrapper: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 4875.410 ; gain = 8.004
+INFO: [Common 17-681] Processing pending cancel.
+generate_target all [get_files  /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd]
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_processing_system7_0_0'.
+Delivering 'Vivado Synthesis' files for IP 'testDMA_processing_system7_0_0'.
+Delivering 'Vivado Simulation' files for IP 'testDMA_processing_system7_0_0'.
+WARNING: [IP_Flow 19-2987] IP 'testDMA_processing_system7_0_0' with unlicensed IP definition 'xilinx.com:ip:processing_system7:5.3' depends on licensed subcore IP definition 'xilinx.com:ip:processing_system7_bfm:2.0'. Please update your IP definition with license information.
+WARNING: [xilinx.com:ip:processing_system7:5.3-1] testDMA_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+Delivering 'Miscellaneous' files for IP 'testDMA_processing_system7_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_def_stream_0_0'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_def_stream_0_0'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_def_stream_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /def_stream_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_axi_dma_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_axi_dma_0_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+Delivering 'VHDL Simulation' files for IP 'testDMA_axi_dma_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_dma_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_proc_sys_reset_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'testDMA_proc_sys_reset_0'.
+Delivering 'Implementation' files for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_proc_sys_reset_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+Delivering 'VHDL Simulation' files for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /proc_sys_reset .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_xbar_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_xbar_1'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_xbar_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/xbar .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_xbar_3'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_xbar_3'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_xbar_3'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/xbar .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_init_dma_v4_0_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_init_dma_v4_0_1'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_init_dma_v4_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /init_dma_v4_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_axis_data_fifo_0_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axis_data_fifo_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_ADC_emul_0_9'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_ADC_emul_0_9'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_ADC_emul_0_9'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /ADC_emul_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_432'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_432'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_432'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_537'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_537'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_537'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_433'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_433'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_433'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_538'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_538'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_538'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_434'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_434'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_434'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_539'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_539'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_539'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_540'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_540'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_540'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_435'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_435'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_435'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_us .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_541'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_541'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_541'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_436'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_436'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_436'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_us .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_542'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_542'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_542'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/m00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_437'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_437'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_437'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_us .
+generate_target: Time (s): cpu = 00:00:57 ; elapsed = 00:00:49 . Memory (MB): peak = 4875.410 ; gain = 0.000
+generate_target all [get_files  /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd]
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_processing_system7_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_processing_system7_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_processing_system7_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation Wrapper' target for IP 'testDMA_processing_system7_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Miscellaneous' target for IP 'testDMA_processing_system7_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_def_stream_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_def_stream_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_def_stream_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /def_stream_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_axi_dma_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_dma_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /proc_sys_reset .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_xbar_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_xbar_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_xbar_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_xbar_3'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_xbar_3'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_xbar_3'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_init_dma_v4_0_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_init_dma_v4_0_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_init_dma_v4_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /init_dma_v4_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axis_data_fifo_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_ADC_emul_0_9'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_ADC_emul_0_9'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_ADC_emul_0_9'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /ADC_emul_0 .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_ds_432'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_ds_432'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_ds_432'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_537'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_537'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_537'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_ds_433'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_ds_433'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_ds_433'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_538'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_538'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_538'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_ds_434'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_ds_434'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_ds_434'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_ds .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_539'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_539'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_539'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_540'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_540'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_540'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_us_435'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_us_435'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_us_435'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_us .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_541'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_541'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_541'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_us_436'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_us_436'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_us_436'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_us .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_pc_542'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_pc_542'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_pc_542'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [IP_Flow 19-1706] Not generating up to date 'Instantiation Template' target for IP 'testDMA_auto_us_437'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'testDMA_auto_us_437'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Simulation' target for IP 'testDMA_auto_us_437'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_us .
+generate_target: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 4875.410 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 20 15:10:28 2014] Launched synth_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/runme.log
+[Tue May 20 15:10:28 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml}
+INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' since last save.
+IP Repository Path: Could not find the directory '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'.
+IP Repository Path: Could not find the directory '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'.
+IP Repository Path: Could not find the directory '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+WARNING: [IP_Flow 19-3299] If you move the project, the path for repository '/home/vladimir/Z/zedboard/final_dma/IPCore' may become invalid. A better location for the repository would be in a path adjacent to the project.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/Final_DMA/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_status:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/stracp_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:slave_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_axi_dma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:acp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_init:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_cdma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:2.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+ipx::update_ip_instances
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-3422] Upgraded testDMA_init_dma_v4_0_1 (init_dma_v4_0 4.0) from revision 62 to revision 63
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_v4_0_1/testDMA_init_dma_v4_0_1.upgrade_log'.
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+upgrade_bd_cells: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 4876.406 ; gain = 0.000
+ipx::update_ip_instances: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 4876.406 ; gain = 0.000
+make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -top
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+WARNING: [Vivado 12-3480] The generated wrapper file has already been imported into the project, the imported file is:
+'/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/imports/hdl/testDMA_wrapper.v'
+make_wrapper: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4876.406 ; gain = 0.000
+import_files -force -norecurse /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA_wrapper.v
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd]
+INFO: [BD 41-237] Bus Interface property HAS_TSTRB does not match between /axi_dma_0/S_AXIS_S2MM(0) and /axis_data_fifo_0/M_AXIS(1)
+INFO: [BD 41-237] Bus Interface property HAS_TKEEP does not match between /axi_dma_0/S_AXIS_S2MM(1) and /axis_data_fifo_0/M_AXIS(0)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S01_AXI(2) and /processing_system7_0_axi_periph/xbar/M02_AXI(1)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/xbar/M02_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(1) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property NUM_READ_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property NUM_WRITE_OUTSTANDING does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(2) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S00_AXI(256) and /processing_system7_0_axi_periph/s00_couplers/auto_us/M_AXI(16)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(1) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /processing_system7_0_axi_periph/xbar/S01_AXI(256) and /processing_system7_0_axi_periph/s01_couplers/auto_us/M_AXI(1)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /axi_mem_intercon/xbar/S00_AXI(2) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property READ_WRITE_MODE does not match between /axi_mem_intercon/xbar/S00_AXI(READ_WRITE) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(WRITE_ONLY)
+INFO: [BD 41-237] Bus Interface property SUPPORTS_NARROW_BURST does not match between /axi_mem_intercon/xbar/S00_AXI(1) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(0)
+INFO: [BD 41-237] Bus Interface property MAX_BURST_LENGTH does not match between /axi_mem_intercon/xbar/S00_AXI(256) and /axi_mem_intercon/s00_couplers/auto_us/M_AXI(8)
+INFO: [BD 41-237] Bus Interface property ID_WIDTH does not match between /processing_system7_0/S_AXI_HP0(6) and /axi_mem_intercon/m00_couplers/auto_pc/M_AXI(2)
+WARNING: [BD 41-1271] The connection to the pin: /axis_data_fifo_0/s_axis_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+WARNING: [BD 41-1271] The connection to the pin: /def_stream_0/m00_axis_tvalid has been overridden by the user. This pin will not be connected as a part of the interface connection: def_stream_0_m00_axis2 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. 
+Please check your design and connect them if needed: 
+/init_dma_v4_0/m01_axi_awready
+/init_dma_v4_0/m01_axi_wready
+/init_dma_v4_0/m01_axi_bresp
+/init_dma_v4_0/m01_axi_bvalid
+/init_dma_v4_0/m01_axi_arready
+/init_dma_v4_0/m01_axi_rdata
+/init_dma_v4_0/m01_axi_rresp
+/init_dma_v4_0/m01_axi_rvalid
+
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_arid'(2) to net 's01_couplers_to_xbar_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_bid'(1) to net 's01_couplers_to_xbar_BID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/xbar/s_axi_awid'(2) to net 's01_couplers_to_xbar_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/s01_couplers/M_AXI_rid'(1) to net 's01_couplers_to_xbar_RID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_data_fifo_0_m_axi_ARID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_data_fifo_0_m_axi_WID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_bid'(2) to net 'axi_data_fifo_0_m_axi_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_data_fifo_0_m_axi_AWID'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/M00_AXI_rid'(2) to net 'axi_data_fifo_0_m_axi_RID'(6) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/def_stream_0/m00_gen_tdata'(32) to net 'adc_emul_0_link'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : testDMA.v
+Verilog Output written to : testDMA_wrapper.v
+Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_processing_system7_0_0'.
+Delivering 'Vivado Synthesis' files for IP 'testDMA_processing_system7_0_0'.
+Delivering 'Vivado Simulation' files for IP 'testDMA_processing_system7_0_0'.
+WARNING: [IP_Flow 19-2987] IP 'testDMA_processing_system7_0_0' with unlicensed IP definition 'xilinx.com:ip:processing_system7:5.3' depends on licensed subcore IP definition 'xilinx.com:ip:processing_system7_bfm:2.0'. Please update your IP definition with license information.
+WARNING: [xilinx.com:ip:processing_system7:5.3-1] testDMA_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+Delivering 'Miscellaneous' files for IP 'testDMA_processing_system7_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_def_stream_0_0'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_def_stream_0_0'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_def_stream_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /def_stream_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_axi_dma_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'testDMA_axi_dma_0_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_axi_dma_0_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+Delivering 'VHDL Simulation' files for IP 'testDMA_axi_dma_0_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_dma_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_proc_sys_reset_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'testDMA_proc_sys_reset_0'.
+Delivering 'Implementation' files for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'testDMA_proc_sys_reset_0' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+Delivering 'VHDL Simulation' files for IP 'testDMA_proc_sys_reset_0'.
+INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'testDMA_proc_sys_reset_0'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /proc_sys_reset .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_xbar_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_xbar_1'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_xbar_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/xbar .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_xbar_3'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_xbar_3'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_xbar_3'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/xbar .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_init_dma_v4_0_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_init_dma_v4_0_1'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_init_dma_v4_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /init_dma_v4_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_axis_data_fifo_0_1'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_axis_data_fifo_0_1'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axis_data_fifo_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_ADC_emul_0_9'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_ADC_emul_0_9'.
+Delivering 'Verilog Simulation' files for IP 'testDMA_ADC_emul_0_9'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /ADC_emul_0 .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_444'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_444'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_444'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_549'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_549'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_549'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_445'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_445'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_445'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_550'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_550'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_550'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m01_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_ds_446'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_ds_446'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_ds_446'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_ds .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_551'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_551'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_551'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/m03_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_552'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_552'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_552'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_447'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_447'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_447'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_us .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_553'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_553'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_553'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_448'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_448'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_448'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s01_couplers/auto_us .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_pc_554'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_pc_554'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_pc_554'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/m00_couplers/auto_pc .
+Delivering 'Verilog Instantiation Template' file for IP 'testDMA_auto_us_449'.
+Delivering 'Verilog Synthesis' files for IP 'testDMA_auto_us_449'.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'Verilog Simulation' files for IP 'testDMA_auto_us_449'.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_us .
+generate_target: Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 4876.406 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 20 15:30:44 2014] Launched synth_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/runme.log
+[Tue May 20 15:30:44 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 20 15:33:12 2014] Launched synth_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/runme.log
+[Tue May 20 15:33:12 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 20 15:33:17 2014] Launched synth_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/runme.log
+[Tue May 20 15:33:17 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Tue May 20 15:33:21 2014] Launched synth_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue May 20 15:39:52 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 20 15:44:05 2014] Launched impl_1...
+Run output will be captured here: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2013.3
+Loading clock regions from /opt/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2013.3/data/./parts/xilinx/zynq/IOStandards.xml
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
+WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
+Parsing XDC File [/home/vladimir/Z/zedboard/final_dma/.Xil/Vivado-18327-ubuntu/dcp/testDMA_wrapper.xdc]
+Finished Parsing XDC File [/home/vladimir/Z/zedboard/final_dma/.Xil/Vivado-18327-ubuntu/dcp/testDMA_wrapper.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.78 ; elapsed = 00:00:00.76 . Memory (MB): peak = 5393.902 ; gain = 10.000
+Restoring placement.
+Restored 4341 out of 4341 XDEF sites from archive | CPU: 2.650000 secs | Memory: 37.203125 MB |
+INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 41 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 40 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+open_run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 5556.266 ; gain = 603.859
+export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] [get_runs impl_1] -bitstream -dir /home/vladimir/Z/zedboard/final_dma
+WARNING: [Vivado 12-690] Backannotated BMM file does not exist in the run dir:/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/testDMA_wrapper_bd.bmm
+Exporting to file /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
+INFO: [BD 41-436] exporting bit file '/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/testDMA_wrapper.bit'...
+export_hardware: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 5556.266 ; gain = 0.000
+launch_sdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/Emul} {/home/vladimir/Z/zedboard/final_dma/IPCore/Emul/component.xml}
+INFO: [Project 1-313] Project file moved from '/home/vladimir/260214/IPCore/Emul' since last save.
+IP Repository Path: Could not find the directory '/home/vladimir/vladimir/Z/zedboard/Final_DMA/IPCore/Emul', nor could it be found using path '/vladimir/Z/zedboard/Final_DMA/IPCore/Emul'.
+IP Repository Path: Could not find the directory '/home/vladimir/Z/zedboard/Pravka2/Final_DMA/IPCore/Emul', nor could it be found using path '/home/vladimir/Pravka2/Final_DMA/IPCore/Emul'.
+IP Repository Path: Could not find the directory '/home/chupa/final_dma/IPCore/Emul'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/reg_init_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/acp_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_cdma_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+WARNING: [IP_Flow 19-3299] If you move the project, the path for repository '/home/vladimir/Z/zedboard/final_dma/IPCore' may become invalid. A better location for the repository would be in a path adjacent to the project.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/260214/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/vladimir/Z/zedboard/Final_DMA/IPCore/Emul'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/vladimir/Z/zedboard/Pravka2/Final_DMA/IPCore/Emul'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user repository '/home/chupa/final_dma/IPCore/Emul'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:acp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/acp_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_init:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/reg_init_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_cdma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_cdma_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore' will take precedence over the same IP in repository '/home/vladimir/260214/IPCore/Emul'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore' will take precedence over the same IP in repository '/home/vladimir/260214/IPCore/Emul'.
+current_project testDMA
+ipx::edit_ip_in_project -upgrade true -name {edit_ip1} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml}
+INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+WARNING: [IP_Flow 19-3299] If you move the project, the path for repository '/home/vladimir/Z/zedboard/final_dma/IPCore' may become invalid. A better location for the repository would be in a path adjacent to the project.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'.
+INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_status:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:stracp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:slave_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_axi_dma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:acp:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:reg_init:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:def_stream:1.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_cdma:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:2.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'omega.local:user:ADC_emul:1.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'.
+INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma_v4:4.0'. The one found in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/180414stream/newIPCore'.
+close_project
+current_project testDMA
+close_project
+close_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 5620.293 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 20 16:32:38 2014...
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f

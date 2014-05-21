@@ -506,3 +506,4 @@ expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sour
 // HMemoryUtils.trashcanNow. Current time: 5/21/14 8:15:16 AM
 // HMemoryUtils.trashcanNow. Current time: 5/21/14 8:45:16 AM
 // HMemoryUtils.trashcanNow. Current time: 5/21/14 9:15:16 AM
+// TclEventType: FILE_SET_CHANGE

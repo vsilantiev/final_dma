@@ -323,7 +323,11 @@ module m00_couplers_imp_1ULZJWI
   assign m00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_pc_572 auto_pc
+=======
+testDMA_auto_pc_554 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -687,7 +691,11 @@ module m00_couplers_imp_VG7ZLK
   assign m00_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_ds_462 auto_ds
+=======
+testDMA_auto_ds_444 auto_ds
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -764,7 +772,11 @@ testDMA_auto_ds_462 auto_ds
         .s_axi_wready(m00_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m00_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m00_couplers_to_auto_ds_WVALID));
+<<<<<<< HEAD
 testDMA_auto_pc_567 auto_pc
+=======
+testDMA_auto_pc_549 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -1093,7 +1105,11 @@ module m01_couplers_imp_180AW1Y
   assign m01_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_ds_463 auto_ds
+=======
+testDMA_auto_ds_445 auto_ds
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -1170,7 +1186,11 @@ testDMA_auto_ds_463 auto_ds
         .s_axi_wready(m01_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m01_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m01_couplers_to_auto_ds_WVALID));
+<<<<<<< HEAD
 testDMA_auto_pc_568 auto_pc
+=======
+testDMA_auto_pc_550 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m01_couplers_ARADDR),
@@ -1780,7 +1800,11 @@ module m03_couplers_imp_16UK5X7
   assign m03_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_ds_464 auto_ds
+=======
+testDMA_auto_ds_446 auto_ds
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -1857,7 +1881,11 @@ testDMA_auto_ds_464 auto_ds
         .s_axi_wready(m03_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m03_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m03_couplers_to_auto_ds_WVALID));
+<<<<<<< HEAD
 testDMA_auto_pc_569 auto_pc
+=======
+testDMA_auto_pc_551 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m03_couplers_ARADDR),
@@ -2254,7 +2282,11 @@ module s00_couplers_imp_156Q4UY
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_pc_570 auto_pc
+=======
+testDMA_auto_pc_552 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_auto_us_ARADDR),
@@ -2334,7 +2366,11 @@ testDMA_auto_pc_570 auto_pc
         .s_axi_wready(s00_couplers_to_auto_pc_WREADY),
         .s_axi_wstrb(s00_couplers_to_auto_pc_WSTRB),
         .s_axi_wvalid(s00_couplers_to_auto_pc_WVALID));
+<<<<<<< HEAD
 testDMA_auto_us_465 auto_us
+=======
+testDMA_auto_us_447 auto_us
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_araddr(auto_us_to_s00_couplers_ARADDR),
         .m_axi_arburst(auto_us_to_s00_couplers_ARBURST),
         .m_axi_arcache(auto_us_to_s00_couplers_ARCACHE),
@@ -2565,7 +2601,11 @@ module s00_couplers_imp_5VZGPS
   assign s_aresetn_1 = S_ARESETN[0];
 GND GND
        (.G(GND_1));
+<<<<<<< HEAD
 testDMA_auto_us_467 auto_us
+=======
+testDMA_auto_us_449 auto_us
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_awaddr(auto_us_to_s00_couplers_AWADDR),
         .m_axi_awburst(auto_us_to_s00_couplers_AWBURST),
         .m_axi_awcache(auto_us_to_s00_couplers_AWCACHE),
@@ -3137,7 +3177,11 @@ module s01_couplers_imp_YBL7VO
   assign s01_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
+<<<<<<< HEAD
 testDMA_auto_pc_571 auto_pc
+=======
+testDMA_auto_pc_553 auto_pc
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_auto_us_ARADDR),
@@ -3194,7 +3238,11 @@ testDMA_auto_pc_571 auto_pc
         .s_axi_wready(s01_couplers_to_auto_pc_WREADY),
         .s_axi_wstrb(s01_couplers_to_auto_pc_WSTRB),
         .s_axi_wvalid(s01_couplers_to_auto_pc_WVALID));
+<<<<<<< HEAD
 testDMA_auto_us_466 auto_us
+=======
+testDMA_auto_us_448 auto_us
+>>>>>>> 5f7996098b39188307c60a232371abbd229cf83f
        (.m_axi_araddr(auto_us_to_s01_couplers_ARADDR),
         .m_axi_arburst(auto_us_to_s01_couplers_ARBURST),
         .m_axi_arcache(auto_us_to_s01_couplers_ARCACHE),
