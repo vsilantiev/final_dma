@@ -1360,3 +1360,202 @@ selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sour
 // Tcl Message: open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd} 
 dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
 // HMemoryUtils.trashcanNow. Current time: 5/21/14 4:38:39 PM
+// [GUI Memory]: 221 mb (+1389kb) [00:55:38]
+// [GUI Memory]: 223 mb (+2179kb) [00:55:50]
+// [GUI Memory]: 223 mb (+798kb) [00:59:10]
+// [GUI Memory]: 227 mb (+3670kb) [00:59:23]
+// [GUI Memory]: 230 mb (+2735kb) [00:59:35]
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 5:08:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 5:38:39 PM
+// Elapsed time: 3934 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 151, 529, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "data"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23, false, false, false, false, true); // F:ad (JViewport:JComponent, ResizableWindow:JWindow) - DOUBLE CLICK
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// ca:I (bR:JFrame):  Add IP : addNotify
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [Engine Memory]: 4,818 mb (+3997kb) [01:33:54]
+// [GUI Memory]: 231 mb (+1144kb) [01:37:50]
+// [GUI Memory]: 234 mb (+3700kb) [01:38:03]
+// [GUI Memory]: 237 mb (+2396kb) [01:41:49]
+// [GUI Memory]: 238 mb (+2033kb) [01:45:20]
+// [GUI Memory]: 242 mb (+3421kb) [01:45:33]
+// [GUI Memory]: 244 mb (+1888kb) [01:48:53]
+// [GUI Memory]: 246 mb (+3043kb) [01:49:05]
+// [GUI Memory]: 249 mb (+2390kb) [01:49:19]
+// [GUI Memory]: 250 mb (+1870kb) [01:52:39]
+// [GUI Memory]: 253 mb (+2280kb) [01:52:50]
+// [GUI Memory]: 256 mb (+3690kb) [01:53:03]
+// [GUI Memory]: 258 mb (+2028kb) [01:56:23]
+// [GUI Memory]: 260 mb (+2230kb) [01:56:35]
+// [GUI Memory]: 263 mb (+2847kb) [01:56:49]
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 6:08:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 6:38:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 7:08:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 7:38:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 8:08:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 8:38:39 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 9:08:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 9:38:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 10:08:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 10:38:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 11:08:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 11:38:40 PM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 12:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 12:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 1:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 1:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 2:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 2:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 3:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 3:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 4:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 4:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 5:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 5:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 6:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 6:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 7:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 7:38:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 8:08:40 AM
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 8:38:41 AM
+// Elapsed time: 54256 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 787, 128, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SystemBuilderView_ORIENTATION, "Orientation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SystemBuilderView_ORIENTATION, "Orientation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 13 seconds
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "fifo"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23, false, false, false, false, true); // F:ad (JViewport:JComponent, ResizableWindow:JWindow) - DOUBLE CLICK
+// TclEventType: PARAM_UPDATED
+// ca:I (bR:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog ("Add IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: set_property location {2 610 60} [get_bd_cells axi_data_fifo_1] 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,832 mb (+14753kb) [16:37:23]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: set_property location {1 423 65} [get_bd_cells axi_data_fifo_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// Elapsed time: 140 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 264 mb (+836kb) [16:44:35]
+// [GUI Memory]: 265 mb (+823kb) [16:44:35]
+// [GUI Memory]: 265 mb (+823kb) [16:44:35]
+// [GUI Memory]: 266 mb (+823kb) [16:44:35]
+// [GUI Memory]: 267 mb (+823kb) [16:44:35]
+// [GUI Memory]: 268 mb (+823kb) [16:44:35]
+// [GUI Memory]: 268 mb (+823kb) [16:44:35]
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 269 mb (+823kb) [16:44:35]
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_data_fifo_1] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 276 mb (+7267kb) [16:44:37]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_data_fifo_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,835 mb (+3145kb) [16:44:48]
+// [Engine Memory]: 4,837 mb (+2097kb) [16:44:48]
+// [Engine Memory]: 4,840 mb (+3145kb) [16:44:48]
+// [Engine Memory]: 4,842 mb (+2097kb) [16:44:48]
+// [Engine Memory]: 4,845 mb (+3145kb) [16:44:48]
+// [Engine Memory]: 4,846 mb (+1048kb) [16:44:48]
+// [Engine Memory]: 4,847 mb (+1048kb) [16:44:49]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,848 mb (+1048kb) [16:44:49]
+// HMemoryUtils.trashcanNow. Current time: 5/22/14 8:53:29 AM
+// aR:X (bR:JFrame): Save Project: addNotify
+// Elapsed time: 329 seconds
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// [Engine Memory]: 4,856 mb (+8388kb) [16:45:01]
+// ca:I (bR:JFrame):  Save Design : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// af:bv (bR:JFrame): Vivado: addNotify

@@ -28,3 +28,14 @@ export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sour
 launch_sdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
 open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
 open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_1
+endgroup
+set_property location {2 610 60} [get_bd_cells axi_data_fifo_1]
+set_property location {1 423 65} [get_bd_cells axi_data_fifo_0]
+delete_bd_objs [get_bd_cells axi_data_fifo_1]
+delete_bd_objs [get_bd_cells axi_data_fifo_0]
+save_bd_design
