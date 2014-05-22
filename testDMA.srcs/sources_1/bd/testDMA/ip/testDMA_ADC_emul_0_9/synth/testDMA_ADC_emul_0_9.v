@@ -48,7 +48,7 @@
 
 
 // IP VLNV: omega.local:user:ADC_emul:1.0
-// IP Revision: 23
+// IP Revision: 26
 
 (* X_CORE_INFO = "ADC_emul,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "testDMA_ADC_emul_0_9,ADC_emul,{}" *)
@@ -57,13 +57,17 @@ module testDMA_ADC_emul_0_9 (
   clk,
   reset,
   valid,
-  link
+  r,
+  link,
+  strobe
 );
 
 input clk;
 input reset;
 input valid;
+input [31 : 0] r;
 output [15 : 0] link;
+output [0 : 0] strobe;
 
   ADC_emul #(
     .WIDTH(32),
@@ -72,6 +76,8 @@ output [15 : 0] link;
     .clk(clk),
     .reset(reset),
     .valid(valid),
-    .link(link)
+    .r(r),
+    .link(link),
+    .strobe(strobe)
   );
 endmodule

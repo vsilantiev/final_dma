@@ -79,6 +79,10 @@
         <spirit:name>r</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left>31</spirit:left>
+            <spirit:right>0</spirit:right>
+          </spirit:vector>
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>std_logic</spirit:typeName>
@@ -109,6 +113,10 @@
         <spirit:name>strobe</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left>0</spirit:left>
+            <spirit:right>0</spirit:right>
+          </spirit:vector>
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>std_logic</spirit:typeName>
@@ -184,8 +192,8 @@
         <xilinx:taxonomy>/BaseIP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>ADC_emul_v1_0</xilinx:displayName>
-      <xilinx:coreRevision>23</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-05-21T14:04:14Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>26</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-05-22T12:37:44Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
       </xilinx:tags>

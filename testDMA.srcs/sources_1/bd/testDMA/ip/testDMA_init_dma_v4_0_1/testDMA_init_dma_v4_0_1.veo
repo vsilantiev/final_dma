@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: xilinx.com:user:init_dma_v4:4.0
-// IP Revision: 70
+// IP Revision: 71
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections

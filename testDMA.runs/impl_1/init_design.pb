@@ -118,6 +118,402 @@ $Parsing XDC File [%s] for cell '%s'
 Parsing XDC File [%s]
 179*designutils2f
 R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:defaultZ20-179
+”
+No ports matched '%s'.
+584*	planAhead2
+LD32default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+42default:default8@Z12-584
+‚
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+42default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[31]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+122default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+122default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[30]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+132default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+132default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[29]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+142default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+142default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[28]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+152default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+152default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[27]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+162default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+162default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[26]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+172default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+172default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[25]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+182default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+182default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[24]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+192default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+192default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[23]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+202default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+202default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[22]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+212default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+212default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[21]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+222default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+222default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[20]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+232default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+232default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[19]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+242default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+242default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[18]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+252default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+252default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[17]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+262default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+262default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[16]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+272default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+272default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[15]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+282default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+282default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[14]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+292default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+292default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[13]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+302default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+302default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[12]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+312default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+312default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[11]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+322default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+322default:default8@Z17-55
+ÿ
+No ports matched '%s'.
+584*	planAhead2
+LD3[10]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+332default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+332default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[9]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+342default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+342default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[8]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+352default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+352default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[7]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+362default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+362default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[6]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+372default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+372default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[5]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+382default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+382default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[4]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+392default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+392default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[3]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+402default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+402default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[2]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+412default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+412default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[1]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+422default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+422default:default8@Z17-55
+◊
+No ports matched '%s'.
+584*	planAhead2
+LD3[0]2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+432default:default8@Z12-584
+„
+"'%s' expects at least one object.
+55*common2 
+set_property2default:default2h
+R/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc2default:default2
+432default:default8@Z17-55
 •
 Finished Parsing XDC File [%s]
 178*designutils2f
@@ -147,79 +543,74 @@ ZCould not find module '%s'. The XDC file %s will not be read for any cell of th
 1082*designutils2'
 testDMA_auto_us_4472default:default2è
 {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_447/testDMA_auto_us_447_clocks.xdc2default:defaultZ20-1280
-µ
-ZCould not find module '%s'. The XDC file %s will not be read for any cell of this module.
-1082*designutils2'
-testDMA_auto_us_4492default:default2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_449/testDMA_auto_us_449_clocks.xdc2default:defaultZ20-1280
 ≠
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_570/testDMA_auto_ds_570_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_672/testDMA_auto_ds_672_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-848
 ∂
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_570/testDMA_auto_ds_570_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_672/testDMA_auto_ds_672_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-847
 ≠
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_571/testDMA_auto_ds_571_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_673/testDMA_auto_ds_673_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-848
 ∂
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_571/testDMA_auto_ds_571_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_673/testDMA_auto_ds_673_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-847
 ≠
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_572/testDMA_auto_ds_572_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_674/testDMA_auto_ds_674_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-848
 ∂
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_572/testDMA_auto_ds_572_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_674/testDMA_auto_ds_674_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-847
 ≠
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_573/testDMA_auto_us_573_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_675/testDMA_auto_us_675_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
 ∂
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_573/testDMA_auto_us_573_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_675/testDMA_auto_us_675_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-847
 ≠
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_574/testDMA_auto_us_574_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_676/testDMA_auto_us_676_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-848
 ∂
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_574/testDMA_auto_us_574_clocks.xdc2default:default2W
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_676/testDMA_auto_us_676_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-847
 û
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_575/testDMA_auto_us_575_clocks.xdc2default:default2H
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_677/testDMA_auto_us_677_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
 ß
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_575/testDMA_auto_us_575_clocks.xdc2default:default2H
+{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_677/testDMA_auto_us_677_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
 ≤
 Parsing XDC File [%s]
 179*designutils2|
-h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-14829-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-21256-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
 ª
 Finished Parsing XDC File [%s]
 178*designutils2|
-h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-14829-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-21256-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-143
@@ -234,10 +625,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
+00:00:172default:default2
 00:00:182default:default2
-00:00:182default:default2
-1332.3322default:default2
-610.4962default:defaultZ17-268
+1333.3362default:default2
+611.4962default:defaultZ17-268
 
 
 End Record

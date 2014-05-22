@@ -48,7 +48,7 @@ always @ (posedge clk or negedge reset)
 	 case (redirect_flag)
 	   0:acc<=acc-accPP;
 	   1:acc<=acc+accPP;
-	   //default:acc<=0;
+	   //default:acc<=0;тут 
 	 endcase
      end
 	end

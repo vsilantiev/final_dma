@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 21 16:20:51 2014
+| Date         : Thu May 22 16:54:49 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_io -file testDMA_wrapper_io_placed.rpt
 | Design       : testDMA_wrapper
@@ -22,7 +22,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           138 |
+|           137 |
 +---------------+
 
 
@@ -448,7 +448,7 @@ Table of Contents
 | U18        |                   |           | VCCO_33                 |           |                   |             33 |            |           |             |           |    2.50 |            |                        |                  |
 | U19        | LD6               | IOB33     | IO_0_33                 | OUTPUT    | LVCMOS25          |             33 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | U20        |                   | IOB33M    | IO_L5P_T0_33            | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
-| U21        | LD3               | IOB33S    | IO_L1N_T0_33            | OUTPUT    | LVCMOS25          |             33 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
+| U21        |                   | IOB33S    | IO_L1N_T0_33            | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
 | U22        | LD2               | IOB33S    | IO_L2N_T0_33            | OUTPUT    | LVCMOS25          |             33 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | V1         |                   |           | VCCO_DDR_502            |           |                   |                |            |           |             |           |   any** |            |                        |                  |
 | V2         | DDR_dqs_p[3]      | IOPAD     | PS_DDR_DQS_P3_502       | BIDIR     | DIFF_SSTL15_T_DCI |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |

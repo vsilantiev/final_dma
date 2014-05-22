@@ -39,14 +39,14 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.34 . Memory (MB): peak = 1340.344 ; gain = 7.0122default:default
+aTime (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1339.348 ; gain = 6.0122default:default
 X
 
 Starting %s Task
 103*constraints2&
 Logic Optimization2default:defaultZ18-103
 4
-(Logic Optimization | Checksum: 0fc4838d
+(Logic Optimization | Checksum: 1a512026
 *common
 <
 %Done setting XDC timing constraints.
@@ -69,13 +69,13 @@ B
 49*opt2
 02default:defaultZ31-49
 2
-&Phase 1 Retarget | Checksum: 4e521956
+&Phase 1 Retarget | Checksum: b2fa3959
 *common
 ‡
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1406.602 ; gain = 66.2582default:default
+\Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1407.699 ; gain = 68.3522default:default
 l
 
 Phase %s%s
@@ -89,15 +89,15 @@ C
 C
 Eliminated %s cells.
 10*opt2
-10482default:defaultZ31-10
+10792default:defaultZ31-10
 >
-2Phase 2 Constant Propagation | Checksum: 0438c504
+2Phase 2 Constant Propagation | Checksum: 97fdac65
 *common
 ‡
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1406.602 ; gain = 66.2582default:default
+\Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1407.699 ; gain = 68.3522default:default
 ]
 
 Phase %s%s
@@ -107,29 +107,29 @@ Phase %s%s
 N
  Eliminated %s unconnected nets.
 12*opt2
-27482default:defaultZ31-12
+28102default:defaultZ31-12
 O
 !Eliminated %s unconnected cells.
 11*opt2
 24922default:defaultZ31-11
 /
-#Phase 3 Sweep | Checksum: 862877b8
+#Phase 3 Sweep | Checksum: 053427c6
 *common
 ‡
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1406.602 ; gain = 66.2582default:default
+\Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1407.699 ; gain = 68.3522default:default
 @
-4Ending Logic Optimization Task | Checksum: 862877b8
+4Ending Logic Optimization Task | Checksum: 053427c6
 *common
 ‡
 
 %s
 *constraints2p
-\Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1406.602 ; gain = 66.2582default:default
+\Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1407.699 ; gain = 68.3522default:default
 7
-+Implement Debug Cores | Checksum: 0fc4838d
++Implement Debug Cores | Checksum: 1a512026
 *common
 X
 
@@ -165,23 +165,23 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 02default:default2
 682default:defaultZ34-65
 @
-4Ending Power Optimization Task | Checksum: 99272bce
+4Ending Power Optimization Task | Checksum: 5b19e246
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1531.121 ; gain = 124.5202default:default
+]Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1531.656 ; gain = 123.9572default:default
 Q
 Releasing license: %s
 83*common2"
 Implementation2default:defaultZ17-83
-½
+¿
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-302default:default2
-12default:default2
-22default:default2
+302default:default2
+342default:default2
+342default:default2
 02default:defaultZ4-41
 S
 %s completed successfully
@@ -194,8 +194,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 opt_design: 2default:default2
 00:00:192default:default2
 00:00:152default:default2
-1531.1212default:default2
-198.7892default:defaultZ17-268
+1531.6562default:default2
+198.3202default:defaultZ17-268
 4
 Writing XDEF routing.
 211*designutilsZ20-211
@@ -209,9 +209,9 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:00.282default:default2
-00:00:00.282default:default2
-1531.1252default:default2
+00:00:00.262default:default2
+00:00:00.272default:default2
+1531.6602default:default2
 0.0002default:defaultZ17-268
 
 

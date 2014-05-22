@@ -25,7 +25,6 @@ module testDMA_wrapper
     LD0,
     LD1,
     LD2,
-    LD3,
     LD4,
     LD5,
     LD6,
@@ -54,7 +53,6 @@ module testDMA_wrapper
   output LD0;
   output LD1;
   output LD2;
-  output LD3;
   output LD4;
   output LD5;
   output LD6;
@@ -84,7 +82,6 @@ module testDMA_wrapper
   wire LD0;
   wire LD1;
   wire LD2;
-  wire LD3;
   wire LD4;
   wire LD5;
   wire LD6;
@@ -115,7 +112,6 @@ testDMA testDMA_i
         .LD0(LD0),
         .LD1(LD1),
         .LD2(LD2),
-        .LD3(LD3),
         .LD4(LD4),
         .LD5(LD5),
         .LD6(LD6),

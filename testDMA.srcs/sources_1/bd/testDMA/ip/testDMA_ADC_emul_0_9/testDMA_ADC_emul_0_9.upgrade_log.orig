@@ -1,0 +1,35 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
+<<<<<<< HEAD
+| Date         : Wed May 21 11:05:27 2014
+| Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
+=======
+| Date         : Wed May 21 18:04:27 2014
+| Host         : Chupa running 64-bit Ubuntu 12.04.4 LTS
+>>>>>>> 8436a75eb4d729707dde5a426a4cae5f79e54745
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'testDMA_ADC_emul_0_9'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of testDMA_ADC_emul_0_9 (omega.local:user:ADC_emul:1.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+WARNING: Detected external port differences while upgrading IP 'testDMA_ADC_emul_0_9'. These changes may impact your design.
+
+-upgrade has removed port 'ready'
+<<<<<<< HEAD
+=======
+-upgrade has added port 'r'
+-upgrade has added port 'strobe'
+>>>>>>> 8436a75eb4d729707dde5a426a4cae5f79e54745
+

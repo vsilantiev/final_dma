@@ -605,7 +605,7 @@
     begin                                                                             
     if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1 || init_irqdma_pulse == 1'b1)                                                                                                                   
         M_PL_VALID2STR <= 1'b0;                                                                                                                               
-    else if (writes_done)   
+    else if (writes_done && M_PL_R)   
         M_PL_VALID2STR <= 1'b1;     
     end    
 	reg [31:0] offset_ddr;

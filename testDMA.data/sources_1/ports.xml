@@ -131,6 +131,40 @@
 			<Port Id="1" Dir="INOUT"/>
 			<Port Id="0" Dir="INOUT"/>
 		</Bus>
+		<Bus Id="LD3">
+			<Port Id="31" Dir="OUT"/>
+			<Port Id="30" Dir="OUT"/>
+			<Port Id="29" Dir="OUT"/>
+			<Port Id="28" Dir="OUT"/>
+			<Port Id="27" Dir="OUT"/>
+			<Port Id="26" Dir="OUT"/>
+			<Port Id="25" Dir="OUT"/>
+			<Port Id="24" Dir="OUT"/>
+			<Port Id="23" Dir="OUT"/>
+			<Port Id="22" Dir="OUT"/>
+			<Port Id="21" Dir="OUT"/>
+			<Port Id="20" Dir="OUT"/>
+			<Port Id="19" Dir="OUT"/>
+			<Port Id="18" Dir="OUT"/>
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
 		<Port Id="DDR_cas_n" Dir="INOUT"/>
 		<Port Id="DDR_ck_n" Dir="INOUT"/>
 		<Port Id="DDR_ck_p" Dir="INOUT"/>
@@ -148,7 +182,6 @@
 		<Port Id="LD0" Dir="OUT"/>
 		<Port Id="LD1" Dir="OUT"/>
 		<Port Id="LD2" Dir="OUT"/>
-		<Port Id="LD3" Dir="OUT"/>
 		<Port Id="LD4" Dir="OUT"/>
 		<Port Id="LD5" Dir="OUT"/>
 		<Port Id="LD6" Dir="OUT"/>

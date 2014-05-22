@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<<<<<<< HEAD
+<application name="pa" timeStamp="Thu May 22 08:53:38 2014">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="81fd67e0ad27423ea09128d0ee3fc2ab" type="ProjectID"/>
+<property name="ProjectIteration" value="58" type="ProjectIteration"/>
+=======
+<application name="pa" timeStamp="Wed May 21 18:04:51 2014">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="81fd67e0ad27423ea09128d0ee3fc2ab" type="ProjectID"/>
+<property name="ProjectIteration" value="44" type="ProjectIteration"/>
+>>>>>>> 8436a75eb4d729707dde5a426a4cae5f79e54745
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="-4" type="JavaHandler"/>
+<property name="RunImplementation" value="0" type="JavaHandler"/>
+<property name="RunSynthesis" value="0" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="0" type="JavaHandler"/>
+</item>
+<item name="Other">
+<<<<<<< HEAD
+<property name="GuiMode" value="83" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="34" type="TclMode"/>
+=======
+<property name="GuiMode" value="22" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="13" type="TclMode"/>
+>>>>>>> 8436a75eb4d729707dde5a426a4cae5f79e54745
+<property name="ISEMode" value="0" type="ISEMode"/>
+</item>
+</section>
+</application>
+</document>

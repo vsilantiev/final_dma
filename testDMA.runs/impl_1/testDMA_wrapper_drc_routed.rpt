@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 21 16:21:45 2014
+| Date         : Thu May 22 16:55:42 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -120,7 +120,7 @@ REPORT SUMMARY
                      Delay constraint missing on IO port
                      PS7 block required
            Max violations: <unlimited>
-         Violations found: 33
+         Violations found: 32
 
 2. REPORT DETAILS
 -----------------
@@ -269,25 +269,20 @@ Related violations: <none>
 
 XDCM-1#25 Warning
 Delay constraint missing on IO port  
-The port 'LD3' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+The port 'LD4' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
 
 XDCM-1#26 Warning
 Delay constraint missing on IO port  
-The port 'LD4' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+The port 'LD5' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
 
 XDCM-1#27 Warning
 Delay constraint missing on IO port  
-The port 'LD5' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
-Related violations: <none>
-
-XDCM-1#28 Warning
-Delay constraint missing on IO port  
 The port 'LD6' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
 
-XDCM-1#29 Warning
+XDCM-1#28 Warning
 Delay constraint missing on IO port  
 The port 'LD7' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
