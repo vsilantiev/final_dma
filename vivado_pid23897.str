@@ -1,0 +1,509 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+Process ID: 23897
+
+Current time: 	5/20/14 5:45:21 PM
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 3.8.0-38-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	/opt/Xilinx/Vivado/2013.3/tps/lnx64/jre
+
+User name: 	root
+User directory: /home/vladimir/Z/zedboard/final_dma
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 3716 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:45:22 PM
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// [GUI Memory]: 35 mb (+34435kb) [00:00:20]
+// [Engine Memory]: 3,716 mb (+3744770kb) [00:00:20]
+// [GUI Memory]: 45 mb (+10323kb) [00:00:45]
+// [GUI Memory]: 54 mb (+9567kb) [00:01:10]
+// [GUI Memory]: 64 mb (+10323kb) [00:01:35]
+// [GUI Memory]: 66 mb (+1641kb) [00:03:15]
+// [GUI Memory]: 75 mb (+9577kb) [00:03:40]
+// Elapsed time: 365 seconds
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+// Elapsed time: 34 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+setFileChooser ("/home/vladimir/Z/zedboard/final_dma/testDMA.xpr");
+// ca:I (bR:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:52:02 PM
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 3,764 mb (+50954kb) [00:06:49]
+// [GUI Memory]: 102 mb (+28409kb) [00:06:50]
+// [Engine Memory]: 3,804 mb (+41340kb) [00:06:50]
+// [Engine Memory]: 3,872 mb (+71352kb) [00:06:50]
+// [GUI Memory]: 106 mb (+4151kb) [00:06:50]
+// [GUI Memory]: 119 mb (+13841kb) [00:06:51]
+// [Engine Memory]: 3,900 mb (+29097kb) [00:06:51]
+// Tcl Message: open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/chupa/WORK/testDMA3work' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_444'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_549'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_445'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_550'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_446'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_551'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_552'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_us_447'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_553'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_us_448'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_554'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_us_449'. 
+// [Engine Memory]: 3,903 mb (+3149kb) [00:06:53]
+// [GUI Memory]: 122 mb (+3061kb) [00:06:54]
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 4577.910 ; gain = 175.621 
+// a:a (bR:JFrame): Critical Messages: addNotify
+// 'f' command handler elapsed time: 10 seconds
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog ("Open Project"); // ca:I (bR:JFrame)
+// [GUI Memory]: 126 mb (+4670kb) [00:06:55]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 3,904 mb (+1908kb) [00:06:56]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 130 mb (+4298kb) [00:06:56]
+// [Engine Memory]: 3,907 mb (+3145kb) [00:06:56]
+// [Engine Memory]: 3,909 mb (+2097kb) [00:06:56]
+// [GUI Memory]: 134 mb (+3856kb) [00:06:56]
+// [Engine Memory]: 3,912 mb (+3145kb) [00:06:56]
+// [GUI Memory]: 140 mb (+5974kb) [00:06:56]
+// [Engine Memory]: 3,913 mb (+1048kb) [00:06:56]
+// [Engine Memory]: 3,920 mb (+7405kb) [00:06:57]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,921 mb (+1048kb) [00:06:59]
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 3); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // ca:I (bR:JFrame)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, null, -1, false, false, false, true, false); // F:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Settings..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Project Settings: addNotify
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@5749d4bf", 3); // p:a (JViewport:JComponent, j:bf)
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@c1198d9", 2); // p:a (JViewport:JComponent, j:bf)
+selectButton (PAResourceAtoH.AbstractMultiChooser_REMOVE_SELECTED_FILES_AND_DIRECTORIES, (String) null); // a:JButton (JPanel:JComponent, j:bf)
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@53b2f429", 0); // p:a (JViewport:JComponent, j:bf)
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@9bbdaad", 1); // p:a (JViewport:JComponent, j:bf)
+selectButton (PAResourceAtoH.AbstractMultiChooser_REMOVE_SELECTED_FILES_AND_DIRECTORIES, (String) null); // a:JButton (JPanel:JComponent, j:bf)
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@53b2f429", 0); // p:a (JViewport:JComponent, j:bf)
+selectButton (PAResourceAtoH.AbstractMultiChooser_REMOVE_SELECTED_FILES_AND_DIRECTORIES, (String) null); // a:JButton (JPanel:JComponent, j:bf)
+selectButton (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All..."); // a:JButton (JPanel:JComponent, j:bf)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property ip_repo_paths  /home/vladimir/Z/zedboard/final_dma/IPCore [current_fileset] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// ca:I (bR:JFrame):  Refresh All IP Repositories : addNotify
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog ("Refresh All IP Repositories"); // ca:I (bR:JFrame)
+selectButton ((HResource) null, "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bf)
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bf)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0 
+// [Engine Memory]: 3,926 mb (+5255kb) [00:07:23]
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:52:38 PM
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 3,933 mb (+6828kb) [00:07:27]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset Adding component instance block -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0 Adding component instance block -- xilinx.com:user:def_stream:1.0 - def_stream_0 Adding component instance block -- omega.local:user:ADC_emul:1.0 - ADC_emul_0 Adding component instance block -- xilinx.com:user:init_dma_v4:4.0 - init_dma_v4_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,934 mb (+1048kb) [00:07:33]
+// [Engine Memory]: 3,936 mb (+2097kb) [00:07:33]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,941 mb (+5267kb) [00:07:34]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,942 mb (+1048kb) [00:07:37]
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 3,946 mb (+4194kb) [00:07:37]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 3,949 mb (+3158kb) [00:07:39]
+// [Engine Memory]: 3,956 mb (+6963kb) [00:07:39]
+// [Engine Memory]: 3,966 mb (+10608kb) [00:07:39]
+// [Engine Memory]: 3,980 mb (+14589kb) [00:07:39]
+// [Engine Memory]: 3,986 mb (+7028kb) [00:07:39]
+// [Engine Memory]: 3,992 mb (+6291kb) [00:07:39]
+// [GUI Memory]: 145 mb (+5052kb) [00:07:40]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <testDMA> from BD file </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// [GUI Memory]: 150 mb (+5479kb) [00:07:41]
+// [Engine Memory]: 4,001 mb (+9043kb) [00:07:41]
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [BD 41-433]  Design successfully migrated to use XCI files... 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,004 mb (+3149kb) [00:07:42]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 4694.512 ; gain = 94.711 
+// Elapsed time: 20 seconds
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+// [GUI Memory]: 158 mb (+8922kb) [00:07:42]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 159 mb (+372kb) [00:07:42]
+// [Engine Memory]: 4,015 mb (+11485kb) [00:07:43]
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:52:58 PM
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,021 mb (+6467kb) [00:07:44]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,022 mb (+1048kb) [00:07:44]
+// [Engine Memory]: 4,024 mb (+1802kb) [00:07:44]
+// [Engine Memory]: 4,032 mb (+8945kb) [00:07:44]
+// [Engine Memory]: 4,034 mb (+1998kb) [00:07:44]
+// [Engine Memory]: 4,039 mb (+5292kb) [00:07:44]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,059 mb (+20168kb) [00:07:45]
+selectButton (PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "validate_bd_design_rsb"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 4749.074 ; gain = 0.004 
+// Tcl Message: success 
+// Elapsed time: 11 seconds
+dismissDialog ("Validate Design"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,060 mb (+1048kb) [00:08:02]
+// [Engine Memory]: 4,063 mb (+3145kb) [00:08:02]
+// [Engine Memory]: 4,064 mb (+1048kb) [00:08:02]
+// [Engine Memory]: 4,067 mb (+3653kb) [00:08:02]
+// TclEventType: DG_UPDATE_GRAPH
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// [Engine Memory]: 4,070 mb (+3440kb) [00:08:03]
+// [Engine Memory]: 4,072 mb (+1351kb) [00:08:04]
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectRadioButton (PAResourceAtoH.AddHDLWrapperDialog_COPY_GENERATED_WRAPPER_TO_ALLOW_USER, "Copy generated wrapper to allow user edits"); // a:JRadioButton (JPanel:JComponent, a:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 4,081 mb (+9912kb) [00:08:10]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:53:27 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Verilog Output written to : testDMA.v Verilog Output written to : testDMA_wrapper.v Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 4771.582 ; gain = 9.457 
+// a:a (bR:JFrame): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 4,087 mb (+6291kb) [00:08:20]
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,089 mb (+2097kb) [00:08:21]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,099 mb (+10485kb) [00:08:22]
+// [Engine Memory]: 4,102 mb (+3145kb) [00:08:22]
+// [Engine Memory]: 4,104 mb (+2097kb) [00:08:22]
+// [Engine Memory]: 4,107 mb (+3145kb) [00:08:22]
+// [Engine Memory]: 4,108 mb (+1048kb) [00:08:22]
+// [Engine Memory]: 4,109 mb (+1048kb) [00:08:22]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,111 mb (+2097kb) [00:08:23]
+selectButton ((HResource) null, "Copy and overwrite"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,112 mb (+1048kb) [00:08:24]
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 4,113 mb (+1048kb) [00:08:24]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: import_files -force -norecurse /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA_wrapper.v 
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// ca:I (bR:JFrame):  Import HDL Wrapper : addNotify
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 5:53:40 PM
+dismissDialog ("Import HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,114 mb (+1048kb) [00:08:26]
+// [Engine Memory]: 4,117 mb (+3145kb) [00:08:26]
+// [Engine Memory]: 4,119 mb (+2097kb) [00:08:26]
+// [Engine Memory]: 4,121 mb (+2097kb) [00:08:26]
+// [Engine Memory]: 4,123 mb (+2097kb) [00:08:27]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,124 mb (+1048kb) [00:08:27]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,125 mb (+1048kb) [00:08:27]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,137 mb (+12582kb) [00:08:28]
+// [Engine Memory]: 4,139 mb (+2097kb) [00:08:28]
+// [Engine Memory]: 4,142 mb (+3145kb) [00:08:28]
+// [Engine Memory]: 4,144 mb (+2097kb) [00:08:28]
+// [Engine Memory]: 4,146 mb (+2097kb) [00:08:28]
+// [Engine Memory]: 4,148 mb (+2097kb) [00:08:28]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,149 mb (+1048kb) [00:08:29]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,153 mb (+3940kb) [00:08:30]
+// [Engine Memory]: 4,161 mb (+8863kb) [00:08:31]
+// Elapsed time: 35 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// [Engine Memory]: 4,163 mb (+2097kb) [00:09:25]
+// [GUI Memory]: 162 mb (+3195kb) [00:19:00]
+// [GUI Memory]: 166 mb (+4937kb) [00:19:25]
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 6:15:14 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 6:45:15 PM
+// [GUI Memory]: 168 mb (+1758kb) [01:28:10]
+// [GUI Memory]: 173 mb (+4571kb) [01:28:35]
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 7:15:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 7:45:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 8:15:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 8:45:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 9:15:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 9:45:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 10:15:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 10:45:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 11:15:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/20/14 11:45:15 PM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 12:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 12:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 1:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 1:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 2:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 2:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 3:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 3:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 4:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 4:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 5:15:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 5:45:15 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 6:15:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 6:45:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 7:15:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 7:45:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 8:15:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 8:45:16 AM
+// HMemoryUtils.trashcanNow. Current time: 5/21/14 9:15:16 AM
+// TclEventType: FILE_SET_CHANGE

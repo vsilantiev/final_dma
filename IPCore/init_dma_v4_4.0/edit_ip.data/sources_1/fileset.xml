@@ -57,8 +57,9 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0"/>
-      <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/Final_DMA/IPCore/init_dma_v4_4.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../Final_DMA/IPCore/init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../Emul"/>
+      <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0"/>
     </Config>
   </FileSet>
 </DARoots>

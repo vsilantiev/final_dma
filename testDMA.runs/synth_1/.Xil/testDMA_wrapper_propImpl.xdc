@@ -1,5 +1,5 @@
-set_property SRC_FILE_INFO {cfile:/home/vladimir/Z/zedboard/Final_DMA/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc rfile:../../../testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:testDMA_i/processing_system7_0/inst} [current_design]
-set_property SRC_FILE_INFO {cfile:/home/vladimir/Z/zedboard/Final_DMA/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc rfile:../../../testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc rfile:../../../testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:testDMA_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc rfile:../../../testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc id:2} [current_design]
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.3
 set_property src_info {type:SCOPED_XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
