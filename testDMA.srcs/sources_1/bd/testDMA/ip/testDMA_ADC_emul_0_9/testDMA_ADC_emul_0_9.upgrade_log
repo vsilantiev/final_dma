@@ -1,8 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 21 11:05:27 2014
-| Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
+| Date         : Wed May 21 18:04:27 2014
+| Host         : Chupa running 64-bit Ubuntu 12.04.4 LTS
 | Command      : upgrade_ip
 | Device       : xc7z020clg484-1
 -----------------------------------------------------------------------------------
@@ -22,4 +22,6 @@ After upgrade, an IP may have parameter and port differences compared to the ori
 WARNING: Detected external port differences while upgrading IP 'testDMA_ADC_emul_0_9'. These changes may impact your design.
 
 -upgrade has removed port 'ready'
+-upgrade has added port 'r'
+-upgrade has added port 'strobe'
 

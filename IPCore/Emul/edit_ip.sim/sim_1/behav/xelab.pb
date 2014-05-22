@@ -8,10 +8,10 @@ h
 %s
 *	simulator2T
 @Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.2default:default
-Ì
+Ä
 Running: %s
-333*	simulator2 
-‹/opt/Xilinx/Vivado/2013.3/bin/unwrapped/lnx64.o/xelab --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj /home/chupa/Pravka2/Final_DMA/IPCore/Emul/edit_ip.sim/sim_1/behav/testbench.prj work.testbench work.glbl 2default:defaultZ43-3449
+333*	simulator2˜
+ƒ/opt/Xilinx/Vivado/2013.3/bin/unwrapped/lnx64.o/xelab --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj /home/chupa/final_dma/IPCore/Emul/edit_ip.sim/sim_1/behav/testbench.prj work.testbench work.glbl 2default:defaultZ43-3449
 b
 .Multi-threading is on. Using %s slave threads
 406*	simulator2
@@ -19,38 +19,43 @@ b
 H
 +Determining compilation order of HDL files
 286*	simulatorZ43-3402
-©
-+Analyzing Verilog file "%s" into library %s165*xsimverific2D
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
+¡
++Analyzing Verilog file "%s" into library %s165*xsimverific2<
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
 work2default:defaultZ10-165
-Ê
+Ã
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
-clk2default:default2F
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
-42default:default8@Z10-1315
-Ì
+clk2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+172default:default8@Z10-1315
+Å
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
-reset2default:default2F
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
-52default:default8@Z10-1315
-Ì
+reset2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+182default:default8@Z10-1315
+Å
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
-valid2default:default2F
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
-62default:default8@Z10-1315
-Ì
-,redeclaration of ansi port %s is not allowed1315*xsimverific2
-ready2default:default2F
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
-72default:default8@Z10-1315
-Ì
+valid2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+192default:default8@Z10-1315
+Á
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+r2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+222default:default8@Z10-1315
+Ä
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
-link2default:default2F
-0/home/chupa/Pravka2/Final_DMA/IPCore/Emul/Emul.v2default:default2
-112default:default8@Z10-1315
-Ì
-+Analyzing Verilog file "%s" into library %s165*xsimverific2g
-S/home/chupa/Pravka2/Final_DMA/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2default:default2
+link2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+272default:default8@Z10-1315
+Æ
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+strobe2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+282default:default8@Z10-1315
+Ä
++Analyzing Verilog file "%s" into library %s165*xsimverific2_
+K/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2default:default2
 work2default:defaultZ10-165
 ª
 +Analyzing Verilog file "%s" into library %s165*xsimverific2E

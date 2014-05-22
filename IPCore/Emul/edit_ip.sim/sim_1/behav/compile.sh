@@ -32,4 +32,4 @@ ExecStep()
    fi
 }
 
-ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj /home/chupa/Pravka2/Final_DMA/IPCore/Emul/edit_ip.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl
+ExecStep xelab -m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav --prj /home/chupa/final_dma/IPCore/Emul/edit_ip.sim/sim_1/behav/testbench.prj   work.testbench   work.glbl

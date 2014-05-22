@@ -1,27 +1,38 @@
-module ADC_emul(input clk,input reset,input valid,/*output lvds,output clk_out*/ output link);
-parameter WIDTH=16;//������ LVDS ������
+module ADC_emul(
+                input clk,
+                input reset,
+                input valid,
+                input r,
+                output link,
+                output strobe
+                );
+                               
+/*Parametrs*/
+                    
+parameter WIDTH=16;
+parameter accPP=1;
 
-parameter accPP=1;//����������
+/*Variable*/
+
 wire clk;
 wire reset;
 wire valid;
-///wire ready;
+wire ready;
 wire nul;
-reg [WIDTH-1:0] acc;//������� ����������
-reg redirect_flag;//���� ��������������� ����� ������
+wire [WIDTH-1:0] r;// Laser period 
+reg [WIDTH-1:0] acc;
+reg redirect_flag;
+reg [WIDTH-1:0] r_acc;
+reg r_out;
 wire [WIDTH-1:0] link;
-//output wire [31:0]testlink;
-//reg sinc_flag;//���� ������ ������
-//reg [WIDTH-1:0]lvds_n;
-//reg [WIDTH-1:0]lvds_p;
-//wire [2*WIDTH-1:0]lvds;//�������� ����
-//wire clk_out;//�������� ��
+wire strobe;//Strobe signal
 
 
-/******���������_������**********/
+/*Output Data*/
+
 always @ (posedge clk or negedge reset)
 	begin
-	  if ((!reset)||(!valid))
+	  if ((!reset)||(!valid)||(strobe))
 	    begin
 	      acc<=0;
 	      redirect_flag<=1;
@@ -32,17 +43,39 @@ always @ (posedge clk or negedge reset)
 	 case (acc)
 	   1:redirect_flag<=1;
 	   2**15-2 :redirect_flag<=0;
-	   default:redirect_flag<=0;
+	   //default:redirect_flag<=0;
 	 endcase
 	 case (redirect_flag)
 	   0:acc<=acc-accPP;
 	   1:acc<=acc+accPP;
-	   default:acc<=0;
+	   //default:acc<=0;
 	 endcase
      end
 	end
-	
-////assign nul=valid && ready;
+//	
+/*Strobe signal*/
+//	
+always @ (posedge clk or negedge reset)
+    begin
+        if (!reset)
+            begin
+                r_acc<=0;
+                r_out<=0;
+            end
+        else if (r==r_acc)
+                begin
+                    r_acc<=0;
+                    r_out<=1;
+                end
+                else
+                begin  
+                    r_out<=0;
+                    r_acc<=r_acc+1;
+                end
+    end	
+
+
+
 	
 /***���������_���������_��������***/
 /*always @ (posedge clk or negedge reset)
@@ -68,4 +101,5 @@ always @ (posedge clk or negedge reset)
 //assign lvds=lvds_p+(lvds_n<<WIDTH);
 //assign clk_out=sinc_flag;
 assign link=acc;
+assign strobe=r_out;
 endmodule
