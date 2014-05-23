@@ -2,40 +2,12 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Wed May 21 16:08:34 2014
-# Process ID: 14200
+# Start of session at: Fri May 23 11:32:33 2014
+# Process ID: 31491
 # Log file: /home/vladimir/Z/zedboard/final_dma/vivado.log
 # Journal file: /home/vladimir/Z/zedboard/final_dma/vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr
 open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
-report_ip_status -name ip_status_1 
-current_bd_design testDMA
-upgrade_bd_cells [get_bd_cells [list /init_dma_v4_0 ] ]
-report_ip_status -name ip_status_1 
-make_wrapper -files [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] -top
-import_files -force -norecurse /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA_wrapper.v
-update_compile_order -fileset sources_1
-generate_target all [get_files  /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-open_run impl_1
-export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] [get_runs impl_1] -bitstream -dir /home/vladimir/Z/zedboard/final_dma
-launch_sdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
-export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] [get_runs impl_1] -bitstream -dir /home/vladimir/Z/zedboard/final_dma
-launch_sdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
-open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
-open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_1
-endgroup
-set_property location {2 610 60} [get_bd_cells axi_data_fifo_1]
-set_property location {1 423 65} [get_bd_cells axi_data_fifo_0]
-delete_bd_objs [get_bd_cells axi_data_fifo_1]
-delete_bd_objs [get_bd_cells axi_data_fifo_0]
-save_bd_design
+ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml}
