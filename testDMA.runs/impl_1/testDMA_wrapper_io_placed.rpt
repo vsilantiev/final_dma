@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Thu May 22 16:54:49 2014
+| Date         : Fri May 23 16:16:29 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_io -file testDMA_wrapper_io_placed.rpt
 | Design       : testDMA_wrapper
@@ -22,7 +22,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           137 |
+|           138 |
 +---------------+
 
 
@@ -63,7 +63,7 @@ Table of Contents
 | AA7        |                   | IOB33M    | IO_L14P_T2_SRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AA8        |                   | IOB33S    | IO_L11N_T1_SRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AA9        |                   | IOB33M    | IO_L11P_T1_SRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| AA10       |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| AA10       |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | AA11       |                   | IOB33M    | IO_L8P_T1_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AA12       |                   | IOB33M    | IO_L7P_T1_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AA13       |                   | IOB33S    | IO_L23N_T3_33           | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
@@ -78,7 +78,7 @@ Table of Contents
 | AA22       |                   | IOB33M    | IO_L7P_T1_33            | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
 | AB1        |                   | IOB33S    | IO_L15N_T2_DQS_13       | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AB2        |                   | IOB33M    | IO_L15P_T2_DQS_13       | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| AB3        |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| AB3        |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | AB4        |                   | IOB33S    | IO_L16N_T2_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AB5        |                   | IOB33M    | IO_L16P_T2_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | AB6        |                   | IOB33S    | IO_L17N_T2_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
@@ -410,7 +410,7 @@ Table of Contents
 | T2         | DDR_dq[21]        | IOPAD     | PS_DDR_DQ21_502         | BIDIR     | SSTL15_T_DCI      |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |
 | T3         | DDR_dq[17]        | IOPAD     | PS_DDR_DQ17_502         | BIDIR     | SSTL15_T_DCI      |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |
 | T4         |                   | IOB33M    | IO_L20P_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| T5         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| T5         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | T6         |                   | IOB33S    | IO_L19N_T3_VREF_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | T7         |                   |           | RSVDVCC1                |           |                   |                |            |           |             |           |         |            |                        |                  |
 | T8         |                   |           | RSVDVCC2                |           |                   |                |            |           |             |           |         |            |                        |                  |
@@ -435,7 +435,7 @@ Table of Contents
 | U5         |                   | IOB33S    | IO_L22N_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | U6         |                   | IOB33M    | IO_L22P_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | U7         |                   | IOB33     | IO_25_13                | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| U8         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| U8         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | U9         |                   | IOB33S    | IO_L6N_T0_VREF_13       | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | U10        |                   | IOB33M    | IO_L6P_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | U11        |                   | IOB33S    | IO_L5N_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
@@ -460,7 +460,7 @@ Table of Contents
 | V8         |                   | IOB33M    | IO_L2P_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | V9         |                   | IOB33S    | IO_L1N_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | V10        |                   | IOB33M    | IO_L1P_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| V11        |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| V11        |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | V12        |                   | IOB33M    | IO_L4P_T0_13            | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | V13        |                   | IOB33M    | IO_L20P_T3_33           | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
 | V14        |                   | IOB33M    | IO_L19P_T3_33           | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
@@ -475,7 +475,7 @@ Table of Contents
 | W1         | DDR_dq[28]        | IOPAD     | PS_DDR_DQ28_502         | BIDIR     | SSTL15_T_DCI      |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |
 | W2         | DDR_dqs_n[3]      | IOPAD     | PS_DDR_DQS_N3_502       | BIDIR     | DIFF_SSTL15_T_DCI |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |
 | W3         | DDR_dq[30]        | IOPAD     | PS_DDR_DQ30_502         | BIDIR     | SSTL15_T_DCI      |                |            |      FAST |             |           |         | FIXED      | NONE                   | SPLIT            |
-| W4         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| W4         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | W5         |                   | IOB33S    | IO_L24N_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | W6         |                   | IOB33M    | IO_L24P_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | W7         |                   | IOB33S    | IO_L23N_T3_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
@@ -500,11 +500,11 @@ Table of Contents
 | Y4         |                   | IOB33M    | IO_L18P_T2_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | Y5         |                   | IOB33S    | IO_L13N_T2_MRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | Y6         |                   | IOB33M    | IO_L13P_T2_MRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| Y7         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |   any** |            |                        |                  |
+| Y7         |                   |           | VCCO_13                 |           |                   |             13 |            |           |             |           |    2.50 |            |                        |                  |
 | Y8         |                   | IOB33S    | IO_L12N_T1_MRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | Y9         |                   | IOB33M    | IO_L12P_T1_MRCC_13      | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
 | Y10        |                   | IOB33S    | IO_L10N_T1_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
-| Y11        |                   | IOB33M    | IO_L10P_T1_13           | UNUSED    |                   |             13 |            |           |             |           |         |            |                        |                  |
+| Y11        | JA1[0]            | IOB33M    | IO_L10P_T1_13           | OUTPUT    | LVCMOS25          |             13 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | Y12        |                   |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | Y13        |                   | IOB33M    | IO_L23P_T3_33           | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
 | Y14        |                   | IOB33M    | IO_L22P_T3_33           | UNUSED    |                   |             33 |            |           |             |           |         |            |                        |                  |
