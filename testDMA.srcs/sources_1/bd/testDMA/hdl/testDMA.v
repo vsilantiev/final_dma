@@ -323,7 +323,7 @@ module m00_couplers_imp_1ULZJWI
   assign m00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_pc_870 auto_pc
+testDMA_auto_pc_912 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -687,7 +687,7 @@ module m00_couplers_imp_VG7ZLK
   assign m00_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_ds_754 auto_ds
+testDMA_auto_ds_796 auto_ds
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -764,7 +764,7 @@ testDMA_auto_ds_754 auto_ds
         .s_axi_wready(m00_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m00_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m00_couplers_to_auto_ds_WVALID));
-testDMA_auto_pc_865 auto_pc
+testDMA_auto_pc_907 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m00_couplers_ARADDR),
@@ -1093,7 +1093,7 @@ module m01_couplers_imp_180AW1Y
   assign m01_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_ds_755 auto_ds
+testDMA_auto_ds_797 auto_ds
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -1170,7 +1170,7 @@ testDMA_auto_ds_755 auto_ds
         .s_axi_wready(m01_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m01_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m01_couplers_to_auto_ds_WVALID));
-testDMA_auto_pc_866 auto_pc
+testDMA_auto_pc_908 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m01_couplers_ARADDR),
@@ -1780,7 +1780,7 @@ module m03_couplers_imp_16UK5X7
   assign m03_couplers_to_auto_ds_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_ds_756 auto_ds
+testDMA_auto_ds_798 auto_ds
        (.m_axi_araddr(auto_ds_to_auto_pc_ARADDR),
         .m_axi_arburst(auto_ds_to_auto_pc_ARBURST),
         .m_axi_arcache(auto_ds_to_auto_pc_ARCACHE),
@@ -1857,7 +1857,7 @@ testDMA_auto_ds_756 auto_ds
         .s_axi_wready(m03_couplers_to_auto_ds_WREADY),
         .s_axi_wstrb(m03_couplers_to_auto_ds_WSTRB),
         .s_axi_wvalid(m03_couplers_to_auto_ds_WVALID));
-testDMA_auto_pc_867 auto_pc
+testDMA_auto_pc_909 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_m03_couplers_ARADDR),
@@ -2254,7 +2254,7 @@ module s00_couplers_imp_156Q4UY
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_pc_868 auto_pc
+testDMA_auto_pc_910 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_auto_us_ARADDR),
@@ -2334,7 +2334,7 @@ testDMA_auto_pc_868 auto_pc
         .s_axi_wready(s00_couplers_to_auto_pc_WREADY),
         .s_axi_wstrb(s00_couplers_to_auto_pc_WSTRB),
         .s_axi_wvalid(s00_couplers_to_auto_pc_WVALID));
-testDMA_auto_us_757 auto_us
+testDMA_auto_us_799 auto_us
        (.m_axi_araddr(auto_us_to_s00_couplers_ARADDR),
         .m_axi_arburst(auto_us_to_s00_couplers_ARBURST),
         .m_axi_arcache(auto_us_to_s00_couplers_ARCACHE),
@@ -2565,7 +2565,7 @@ module s00_couplers_imp_5VZGPS
   assign s_aresetn_1 = S_ARESETN[0];
 GND GND
        (.G(GND_1));
-testDMA_auto_us_759 auto_us
+testDMA_auto_us_801 auto_us
        (.m_axi_awaddr(auto_us_to_s00_couplers_AWADDR),
         .m_axi_awburst(auto_us_to_s00_couplers_AWBURST),
         .m_axi_awcache(auto_us_to_s00_couplers_AWCACHE),
@@ -3137,7 +3137,7 @@ module s01_couplers_imp_YBL7VO
   assign s01_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
   assign s_aclk_1 = S_ACLK;
   assign s_aresetn_1 = S_ARESETN[0];
-testDMA_auto_pc_869 auto_pc
+testDMA_auto_pc_911 auto_pc
        (.aclk(s_aclk_1),
         .aresetn(s_aresetn_1),
         .m_axi_araddr(auto_pc_to_auto_us_ARADDR),
@@ -3194,7 +3194,7 @@ testDMA_auto_pc_869 auto_pc
         .s_axi_wready(s01_couplers_to_auto_pc_WREADY),
         .s_axi_wstrb(s01_couplers_to_auto_pc_WSTRB),
         .s_axi_wvalid(s01_couplers_to_auto_pc_WVALID));
-testDMA_auto_us_758 auto_us
+testDMA_auto_us_800 auto_us
        (.m_axi_araddr(auto_us_to_s01_couplers_ARADDR),
         .m_axi_arburst(auto_us_to_s01_couplers_ARBURST),
         .m_axi_arcache(auto_us_to_s01_couplers_ARCACHE),
@@ -3437,6 +3437,7 @@ module testDMA
   wire init_dma_0_m00_axi_txn_done;
   wire [31:0]init_dma_0_m00_len_ref;
   wire [31:0]init_dma_0_m00_per_imp;
+  wire init_dma_0_m00_start_vector;
   wire init_dma_0_m00_valid2stream;
   wire [31:0]init_dma_0_m01_axi_ARADDR;
   wire [2:0]init_dma_0_m01_axi_ARPROT;
@@ -3457,6 +3458,7 @@ module testDMA
   wire init_dma_0_m01_axi_WREADY;
   wire [3:0]init_dma_0_m01_axi_WSTRB;
   wire init_dma_0_m01_axi_WVALID;
+  wire init_dma_0_m01_axi_txn_done;
   wire [0:0]proc_sys_reset_interconnect_aresetn;
   wire [0:0]proc_sys_reset_peripheral_aresetn;
   wire [7:0]processing_system7_0_axi_periph_m00_axi_ARADDR;
@@ -3615,8 +3617,8 @@ module testDMA
   assign LD0 = def_stream_0_m00_tx_en;
   assign LD1 = axi_dma_0_s2mm_introut;
   assign LD2 = init_dma_0_m00_axi_txn_done;
-  assign LD4 = axi_dma_0_s2mm_introut;
-  assign LD5 = axi_dma_0_s2mm_introut;
+  assign LD4 = init_dma_0_m01_axi_txn_done;
+  assign LD5 = init_dma_0_m00_start_vector;
   assign LD6 = init_dma_0_m00_axi_error;
   assign LD7 = axi_dma_0_s2mm_introut;
 testDMA_ADC_emul_0_9 ADC_emul_0
@@ -3886,6 +3888,7 @@ testDMA_init_dma_0_1 init_dma_0
         .m00_len_ref(init_dma_0_m00_len_ref),
         .m00_per_imp(init_dma_0_m00_per_imp),
         .m00_start_capture(adc_emul_0_strobe),
+        .m00_start_vector(init_dma_0_m00_start_vector),
         .m00_valid2stream(init_dma_0_m00_valid2stream),
         .m01_axi_aclk(processing_system7_0_fclk_clk0),
         .m01_axi_araddr(init_dma_0_m01_axi_ARADDR),
@@ -3900,10 +3903,12 @@ testDMA_init_dma_0_1 init_dma_0
         .m01_axi_bready(init_dma_0_m01_axi_BREADY),
         .m01_axi_bresp(init_dma_0_m01_axi_BRESP),
         .m01_axi_bvalid(init_dma_0_m01_axi_BVALID),
+        .m01_axi_init_axi_txn(init_dma_0_m00_start_vector),
         .m01_axi_rdata(init_dma_0_m01_axi_RDATA),
         .m01_axi_rready(init_dma_0_m01_axi_RREADY),
         .m01_axi_rresp(init_dma_0_m01_axi_RRESP),
         .m01_axi_rvalid(init_dma_0_m01_axi_RVALID),
+        .m01_axi_txn_done(init_dma_0_m01_axi_txn_done),
         .m01_axi_wdata(init_dma_0_m01_axi_WDATA),
         .m01_axi_wready(init_dma_0_m01_axi_WREADY),
         .m01_axi_wstrb(init_dma_0_m01_axi_WSTRB),

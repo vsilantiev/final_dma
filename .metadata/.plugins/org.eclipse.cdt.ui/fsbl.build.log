@@ -1,4 +1,4 @@
-14:42:13 **** Auto Build of configuration Release for project fsbl ****
+17:45:18 **** Auto Build of configuration Release for project fsbl ****
 make all 
 Building file: ../src/ps7_init.c
 Invoking: ARM gcc compiler
@@ -17,5 +17,5 @@ arm-xilinx-eabi-size fsbl.elf  |tee "fsbl.elf.size"
 Finished building: fsbl.elf.size
  
 
-14:42:13 Build Finished (took 161ms)
+17:45:18 Build Finished (took 160ms)
 

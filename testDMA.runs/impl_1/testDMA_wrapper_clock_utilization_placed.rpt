@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Mon May 26 14:37:38 2014
+| Date         : Mon May 26 17:42:37 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_clock_utilization -file testDMA_wrapper_clock_utilization_placed.rpt
 | Design       : testDMA_wrapper
@@ -19,7 +19,7 @@ Table of Contents
 5. Details of I/O Clocks
 6. Details of Local Clocks
 7. Clock Regions : Key Resource Utilization
-8. Net wise resources used in clock region X1Y0
+8. Net wise resources used in clock region X0Y0
 9. Net wise resources used in clock region X0Y1
 10. Net wise resources used in clock region X1Y1
 11. Net wise resources used in clock region X0Y2
@@ -48,7 +48,7 @@ Table of Contents
 +-------+-----------------------------------------------------------------------+-----------------------------------------------+-------+-------+--------+---------------+-----------+
 | Index | BUFG Cell                                                             | Net Name                                      |  BELs | Sites | Locked | MaxDelay (ns) | Skew (ns) |
 +-------+-----------------------------------------------------------------------+-----------------------------------------------+-------+-------+--------+---------------+-----------+
-|     1 | testDMA_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG | testDMA_i/processing_system7_0/inst/FCLK_CLK0 | 11197 |  3621 |     no |         2.213 |     0.582 |
+|     1 | testDMA_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG | testDMA_i/processing_system7_0/inst/FCLK_CLK0 | 11284 |  3537 |     no |         2.213 |     0.582 |
 +-------+-----------------------------------------------------------------------+-----------------------------------------------+-------+-------+--------+---------------+-----------+
 
 
@@ -72,34 +72,34 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 20000 |    0 |  4000 |    0 |   120 |    0 |    30 |    0 |    60 |
-| X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   20 | 25600 |    0 |  3400 |    0 |   120 |    0 |    30 |    0 |    40 |
-| X0Y1              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  951 |  9600 |  111 |  1600 |    0 |    40 |    0 |    10 |    0 |    20 |
-| X1Y1              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4481 | 20800 |  216 |  3400 |    0 |   120 |   12 |    30 |    0 |    40 |
-| X0Y2              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  289 |  9600 |   27 |  1600 |    0 |    36 |    1 |     9 |    0 |    20 |
-| X1Y2              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4752 | 20800 |  315 |  3400 |    0 |   108 |   21 |    27 |    0 |    40 |
+| X0Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    9 | 20000 |    0 |  4000 |    0 |   120 |    0 |    30 |    0 |    60 |
+| X1Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 25600 |    0 |  3400 |    0 |   120 |    0 |    30 |    0 |    40 |
+| X0Y1              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 1224 |  9600 |   73 |  1600 |    0 |    40 |    0 |    10 |    0 |    20 |
+| X1Y1              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3996 | 20800 |  210 |  3400 |    0 |   120 |   11 |    30 |    0 |    40 |
+| X0Y2              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  843 |  9600 |   40 |  1600 |    0 |    36 |    2 |     9 |    0 |    20 |
+| X1Y2              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4508 | 20800 |  346 |  3400 |    0 |   108 |   21 |    27 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * RAMB36 site can be used as two RAMB18/FIFO18 sites
 
 
-8. Net wise resources used in clock region X1Y0
+8. Net wise resources used in clock region X0Y0
 -----------------------------------------------
 
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
-| BUFG        |   no   |         0 |         0 |       0 |       0 |  20 |     0 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |         0 |       0 |       0 |   9 |     0 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
 
 
 9. Net wise resources used in clock region X0Y1
 -----------------------------------------------
 
-+-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
-| Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
-+-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
-| BUFG        |   no   |         0 |         0 |       0 |       0 | 951 |   111 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
-+-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
++-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
+| Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
++-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
+| BUFG        |   no   |         0 |         0 |       0 |       0 | 1224 |    73 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
 
 
 10. Net wise resources used in clock region X1Y1
@@ -108,7 +108,7 @@ Table of Contents
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
-| BUFG        |   no   |         0 |        24 |       0 |       0 | 4481 |   216 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |        22 |       0 |       0 | 3996 |   210 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
 
 
@@ -118,7 +118,7 @@ Table of Contents
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
-| BUFG        |   no   |         0 |         2 |       0 |       0 | 289 |    27 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |         4 |       0 |       0 | 843 |    40 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+-----+-------+----------+------+-----------------------------------------------+
 
 
@@ -128,7 +128,7 @@ Table of Contents
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
 | Source Type | Locked | MMCM Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s | PLLs |                                Clock Net Name |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
-| BUFG        |   no   |         0 |        42 |       0 |       0 | 4752 |   315 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        |   no   |         0 |        42 |       0 |       0 | 4508 |   346 |        0 |    0 | testDMA_i/processing_system7_0/inst/FCLK_CLK0 |
 +-------------+--------+-----------+-----------+---------+---------+------+-------+----------+------+-----------------------------------------------+
 
 
@@ -156,5 +156,5 @@ set_property LOC BUFGCTRL_X0Y16 [get_cells testDMA_i/processing_system7_0/inst/b
 #startgroup
 create_pblock CLKAG_testDMA_i/processing_system7_0/inst/FCLK_CLK0
 add_cells_to_pblock [get_pblocks  CLKAG_testDMA_i/processing_system7_0/inst/FCLK_CLK0] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="testDMA_i/processing_system7_0/inst/FCLK_CLK0"}]]]
-resize_pblock [get_pblocks CLKAG_testDMA_i/processing_system7_0/inst/FCLK_CLK0] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
+resize_pblock [get_pblocks CLKAG_testDMA_i/processing_system7_0/inst/FCLK_CLK0] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
 #endgroup
