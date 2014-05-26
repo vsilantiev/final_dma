@@ -51,3 +51,4 @@ open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/te
 export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] [get_runs impl_1] -bitstream
 export_hardware [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd] [get_runs impl_1] -bitstream -dir /home/vladimir/Z/zedboard/final_dma
 launch_sdk -bit /home/vladimir/Z/zedboard/final_dma/hw/testDMA_wrapper.bit -workspace /home/vladimir/Z/zedboard/final_dma -hwspec /home/vladimir/Z/zedboard/final_dma/hw/testDMA.xml
+open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd}
