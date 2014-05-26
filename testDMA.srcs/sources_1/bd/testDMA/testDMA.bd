@@ -152,20 +152,28 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>init_dma_v4_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="init_dma_v4" spirit:vendor="xilinx.com" spirit:version="4.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_init_dma_v4_0_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_M00_AXI_START_DATA_VALUE">0x00001001</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_M00_AXI_TARGET_SLAVE_BASE_ADDR">0x40400030</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_M00_AXI_TRANSACTIONS_NUM">4</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>ADC_emul_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="ADC_emul" spirit:vendor="omega.local" spirit:version="1.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_ADC_emul_0_9</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>axi_data_fifo_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="axi_data_fifo" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_axi_data_fifo_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>init_dma_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="init_dma" spirit:vendor="xilinx.com" spirit:version="5.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_init_dma_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M00_AXI_START_DATA_VALUE">0x1001</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M00_AXI_TARGET_SLAVE_BASE_ADDR">0x41E00030</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M01_AXI_TARGET_SLAVE_BASE_ADDR">0x44A00000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_M01_AXI_TRANSACTIONS_NUM">1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -191,16 +199,6 @@
         <spirit:activeInterface spirit:busRef="S01_AXI" spirit:componentRef="axi_mem_intercon"/>
       </spirit:interconnection>
       <spirit:interconnection>
-        <spirit:name>processing_system7_0_axi_periph_m03_axi</spirit:name>
-        <spirit:activeInterface spirit:busRef="M03_AXI" spirit:componentRef="processing_system7_0_axi_periph"/>
-        <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="init_dma_v4_0"/>
-      </spirit:interconnection>
-      <spirit:interconnection>
-        <spirit:name>init_dma_v4_0_m00_axi</spirit:name>
-        <spirit:activeInterface spirit:busRef="M00_AXI" spirit:componentRef="init_dma_v4_0"/>
-        <spirit:activeInterface spirit:busRef="S01_AXI" spirit:componentRef="processing_system7_0_axi_periph"/>
-      </spirit:interconnection>
-      <spirit:interconnection>
         <spirit:name>axi_data_fifo_0_m_axi</spirit:name>
         <spirit:activeInterface spirit:busRef="M00_AXI" spirit:componentRef="axi_mem_intercon"/>
         <spirit:activeInterface spirit:busRef="S_AXI_HP0" spirit:componentRef="processing_system7_0"/>
@@ -219,6 +217,26 @@
         <spirit:name>processing_system7_0_axi_periph_m00_axi</spirit:name>
         <spirit:activeInterface spirit:busRef="M00_AXI" spirit:componentRef="processing_system7_0_axi_periph"/>
         <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="def_stream_0"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>processing_system7_0_axi_periph_m03_axi</spirit:name>
+        <spirit:activeInterface spirit:busRef="S00_AXI" spirit:componentRef="init_dma_0"/>
+        <spirit:activeInterface spirit:busRef="M03_AXI" spirit:componentRef="processing_system7_0_axi_periph"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>init_dma_0_m00_axi</spirit:name>
+        <spirit:activeInterface spirit:busRef="M00_AXI" spirit:componentRef="init_dma_0"/>
+        <spirit:activeInterface spirit:busRef="S01_AXI" spirit:componentRef="processing_system7_0_axi_periph"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>init_dma_0_m01_axi</spirit:name>
+        <spirit:activeInterface spirit:busRef="M01_AXI" spirit:componentRef="init_dma_0"/>
+        <spirit:activeInterface spirit:busRef="S_AXI" spirit:componentRef="axi_data_fifo_0"/>
+      </spirit:interconnection>
+      <spirit:interconnection>
+        <spirit:name>axi_data_fifo_0_m_axi1</spirit:name>
+        <spirit:activeInterface spirit:busRef="M_AXI" spirit:componentRef="axi_data_fifo_0"/>
+        <spirit:activeInterface spirit:busRef="S01_AXI" spirit:componentRef="init_dma_0"/>
       </spirit:interconnection>
     </spirit:interconnections>
     <spirit:adHocConnections>
@@ -244,10 +262,12 @@
         <spirit:internalPortReference spirit:componentRef="axis_data_fifo_0" spirit:portRef="s_axis_aclk"/>
         <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_axis_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="s00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_axi_aclk"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m01_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="ADC_emul_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="axi_data_fifo_0" spirit:portRef="aclk"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="s01_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m01_axi_aclk"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="s00_axi_aclk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>processing_system7_0_fclk_reset0_n</spirit:name>
@@ -271,9 +291,11 @@
         <spirit:internalPortReference spirit:componentRef="axis_data_fifo_0" spirit:portRef="s_axis_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="s00_axi_aresetn"/>
         <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_axis_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="s00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_axi_aresetn"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m01_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="axi_data_fifo_0" spirit:portRef="aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="s01_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m01_axi_aresetn"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="s00_axi_aresetn"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>proc_sys_reset_interconnect_aresetn</spirit:name>
@@ -289,27 +311,7 @@
         <spirit:externalPortReference spirit:portRef="LD7"/>
         <spirit:externalPortReference spirit:portRef="LD5"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="IRQ_F2P"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_irq_dma"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>init_dma_v4_0_ps_len_ref</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_len_ref"/>
-        <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_len_ref"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>init_dma_v4_0_m00_axi_txn_done</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_axi_txn_done"/>
-        <spirit:externalPortReference spirit:portRef="LD6"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>init_dma_v4_0_m00_axi_error</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_axi_error"/>
-        <spirit:externalPortReference spirit:portRef="LD2"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>init_dma_v4_0_pl_valid2str</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_valid2stream"/>
-        <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_axi_datav"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_irq_dma"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>adc_emul_0_link</spirit:name>
@@ -323,14 +325,34 @@
         <spirit:internalPortReference spirit:componentRef="ADC_emul_0" spirit:portRef="valid"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>init_dma_v4_0_m00_per_imp</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_per_imp"/>
+        <spirit:name>adc_emul_0_strobe</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ADC_emul_0" spirit:portRef="strobe"/>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_start_capture"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>init_dma_0_m00_len_ref</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_len_ref"/>
+        <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_len_ref"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>init_dma_0_m00_valid2stream</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_valid2stream"/>
+        <spirit:internalPortReference spirit:componentRef="def_stream_0" spirit:portRef="m00_axi_datav"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>init_dma_0_m00_per_imp</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_per_imp"/>
         <spirit:internalPortReference spirit:componentRef="ADC_emul_0" spirit:portRef="r"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>adc_emul_0_strobe</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="ADC_emul_0" spirit:portRef="strobe"/>
-        <spirit:internalPortReference spirit:componentRef="init_dma_v4_0" spirit:portRef="m00_start_capture"/>
+        <spirit:name>init_dma_0_m00_axi_error</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_axi_error"/>
+        <spirit:externalPortReference spirit:portRef="LD6"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>init_dma_0_m00_axi_txn_done</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="init_dma_0" spirit:portRef="m00_axi_txn_done"/>
+        <spirit:externalPortReference spirit:portRef="LD2"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>
@@ -890,7 +912,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_789</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_870</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI3</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -1255,7 +1277,7 @@
         <spirit:instanceName>auto_us</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_678</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_759</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">64</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2107,7 +2129,7 @@
         <spirit:instanceName>auto_ds</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_681</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_756</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">64</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">32</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2116,7 +2138,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_790</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_867</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2489,7 +2511,7 @@
         <spirit:instanceName>auto_ds</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_682</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_755</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">64</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">32</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2498,7 +2520,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_791</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_866</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2701,7 +2723,7 @@
         <spirit:instanceName>auto_ds</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_683</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_ds_754</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">64</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">32</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2710,7 +2732,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_792</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_865</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2913,7 +2935,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_793</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_869</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI4LITE</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -2922,7 +2944,7 @@
         <spirit:instanceName>auto_us</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_684</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_758</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">64</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -3125,7 +3147,7 @@
         <spirit:instanceName>auto_pc</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_protocol_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_794</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_pc_868</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_PROTOCOL">AXI3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_PROTOCOL">AXI4</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -3134,7 +3156,7 @@
         <spirit:instanceName>auto_us</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="axi_dwidth_converter" spirit:vendor="xilinx.com" spirit:version="2.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_685</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">testDMA_auto_us_757</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SI_DATA_WIDTH">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MI_DATA_WIDTH">64</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -3183,21 +3205,21 @@
         <spirit:width>32</spirit:width>
         <spirit:segments>
           <spirit:segment>
-            <spirit:name>SEG_axi_dma_0_Reg</spirit:name>
-            <spirit:displayName>/axi_dma_0/S_AXI_LITE/Reg</spirit:displayName>
-            <spirit:addressOffset>0x40400000</spirit:addressOffset>
-            <spirit:range>64K</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
-            <spirit:name>SEG_init_dma_v4_0_S00_AXI_reg</spirit:name>
-            <spirit:displayName>/init_dma_v4_0/S00_AXI/S00_AXI_reg</spirit:displayName>
-            <spirit:addressOffset>0x43C01000</spirit:addressOffset>
-            <spirit:range>4K</spirit:range>
-          </spirit:segment>
-          <spirit:segment>
             <spirit:name>SEG_def_stream_0_S00_AXI_reg</spirit:name>
             <spirit:displayName>/def_stream_0/S00_AXI/S00_AXI_reg</spirit:displayName>
             <spirit:addressOffset>0x43C00000</spirit:addressOffset>
+            <spirit:range>4K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_axi_dma_0_Reg</spirit:name>
+            <spirit:displayName>/axi_dma_0/S_AXI_LITE/Reg</spirit:displayName>
+            <spirit:addressOffset>0x41E00000</spirit:addressOffset>
+            <spirit:range>64K</spirit:range>
+          </spirit:segment>
+          <spirit:segment>
+            <spirit:name>SEG_init_dma_0_S00_AXI_reg</spirit:name>
+            <spirit:displayName>/init_dma_0/S00_AXI/S00_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x43C01000</spirit:addressOffset>
             <spirit:range>4K</spirit:range>
           </spirit:segment>
         </spirit:segments>
@@ -3241,9 +3263,9 @@
 
   <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
     <spirit:vendor>xilinx.com</spirit:vendor>
-    <spirit:library>Addressing/init_dma_v4_0</spirit:library>
-    <spirit:name>init_dma_v4</spirit:name>
-    <spirit:version>4.0</spirit:version>
+    <spirit:library>Addressing/init_dma_0</spirit:library>
+    <spirit:name>init_dma</spirit:name>
+    <spirit:version>5.0</spirit:version>
     <spirit:addressSpaces>
       <spirit:addressSpace>
         <spirit:name>M00_AXI</spirit:name>
@@ -3253,7 +3275,7 @@
           <spirit:segment>
             <spirit:name>SEG_axi_dma_0_Reg</spirit:name>
             <spirit:displayName>/axi_dma_0/S_AXI_LITE/Reg</spirit:displayName>
-            <spirit:addressOffset>0x40400000</spirit:addressOffset>
+            <spirit:addressOffset>0x41E00000</spirit:addressOffset>
             <spirit:range>64K</spirit:range>
           </spirit:segment>
         </spirit:segments>
@@ -3262,7 +3284,14 @@
         <spirit:name>M01_AXI</spirit:name>
         <spirit:range>4G</spirit:range>
         <spirit:width>32</spirit:width>
-        <spirit:segments/>
+        <spirit:segments>
+          <spirit:segment>
+            <spirit:name>SEG_init_dma_0_S01_AXI_reg</spirit:name>
+            <spirit:displayName>/init_dma_0/S01_AXI/S01_AXI_reg</spirit:displayName>
+            <spirit:addressOffset>0x44A00000</spirit:addressOffset>
+            <spirit:range>4K</spirit:range>
+          </spirit:segment>
+        </spirit:segments>
       </spirit:addressSpace>
     </spirit:addressSpaces>
   </spirit:component>
