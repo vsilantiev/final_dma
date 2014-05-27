@@ -63,13 +63,12 @@ set rc [catch {
   read_xdc /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc
   read_xdc -ref testDMA_axi_dma_0_0 -cells U0 /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0_clocks.xdc
   read_xdc -ref testDMA_axis_data_fifo_0_1 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_clocks.xdc
-  read_xdc -ref testDMA_auto_us_712 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_712/testDMA_auto_us_712_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_796 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_796/testDMA_auto_ds_796_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_797 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_797/testDMA_auto_ds_797_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_798 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_798/testDMA_auto_ds_798_clocks.xdc
-  read_xdc -ref testDMA_auto_us_799 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_799/testDMA_auto_us_799_clocks.xdc
-  read_xdc -ref testDMA_auto_us_800 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_800/testDMA_auto_us_800_clocks.xdc
-  read_xdc -ref testDMA_auto_us_801 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_801/testDMA_auto_us_801_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_868 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_868/testDMA_auto_ds_868_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_869 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_869/testDMA_auto_ds_869_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_870 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_870/testDMA_auto_ds_870_clocks.xdc
+  read_xdc -ref testDMA_auto_us_871 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_871/testDMA_auto_us_871_clocks.xdc
+  read_xdc -ref testDMA_auto_us_872 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_872/testDMA_auto_us_872_clocks.xdc
+  read_xdc -ref testDMA_auto_us_873 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_873/testDMA_auto_us_873_clocks.xdc
   link_design -top testDMA_wrapper -part xc7z020clg484-1
   close_msg_db -file init_design.pb
 } RESULT]

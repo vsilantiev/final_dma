@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Mon May 26 17:39:55 2014
+| Date         : Tue May 27 17:32:41 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file testDMA_wrapper_utilization_synth.rpt -pb testDMA_wrapper_utilization_synth.pb
 | Design       : testDMA_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 12805 |     0 |     53200 | 24.06 |
-|   LUT as Logic             | 12265 |     0 |     53200 | 23.05 |
+| Slice LUTs*                | 12602 |     0 |     53200 | 23.68 |
+|   LUT as Logic             | 12062 |     0 |     53200 | 22.67 |
 |   LUT as Memory            |   540 |     0 |     17400 |  3.10 |
 |     LUT as Distributed RAM |   162 |     0 |           |       |
 |     LUT as Shift Register  |   378 |     0 |           |       |
-| Slice Registers            | 12384 |     0 |    106400 | 11.63 |
-|   Register as Flip Flop    | 12384 |     0 |    106400 | 11.63 |
+| Slice Registers            | 12342 |     0 |    106400 | 11.59 |
+|   Register as Flip Flop    | 12342 |     0 |    106400 | 11.59 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |   562 |     0 |     26600 |  2.11 |
 | F8 Muxes                   |   128 |     0 |     13300 |  0.96 |
@@ -73,7 +73,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Loced | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |    7 |     0 |       200 |  3.50 |
+| Bonded IOB                  |    6 |     0 |       200 |  3.00 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
 | IBUFGDS                     |    0 |     0 |       192 |  0.00 |
@@ -131,13 +131,13 @@ Table of Contents
 +----------+-------+
 | Ref Name |  Used |
 +----------+-------+
-| FDRE     | 11604 |
-| LUT6     |  5884 |
-| LUT3     |  2942 |
-| LUT4     |  2619 |
-| LUT5     |  1381 |
-| LUT2     |   925 |
-| LUT1     |   711 |
+| FDRE     | 11562 |
+| LUT6     |  5836 |
+| LUT3     |  2822 |
+| LUT4     |  2603 |
+| LUT5     |  1365 |
+| LUT2     |   954 |
+| LUT1     |   674 |
 | MUXF7    |   562 |
 | FDCE     |   407 |
 | CARRY4   |   280 |
@@ -150,7 +150,7 @@ Table of Contents
 | SRL16E   |   109 |
 | RAMS32   |    80 |
 | RAMB36E1 |    34 |
-| OBUF     |     7 |
+| OBUF     |     6 |
 | PS7      |     1 |
 | BUFG     |     1 |
 +----------+-------+

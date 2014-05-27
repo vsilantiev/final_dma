@@ -12,7 +12,11 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/component.xml">
-      <FileInfo SFType="IPXACT"/>
+      <FileInfo SFType="IPXACT">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
@@ -20,6 +24,7 @@
       <Option Name="TopRTLFile" Val="$PPRDIR/Emul.v"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../IPCore"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_5.0"/>
     </Config>
   </FileSet>
 </DARoots>
