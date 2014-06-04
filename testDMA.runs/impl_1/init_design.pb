@@ -1,9 +1,4 @@
 
-Ç
-3Changing the constrs_type of fileset '%s' to '%s'.
-11*project2
-	constrs_12default:default2
-XDC2default:defaultZ1-11
 ^
 #Design is defaulting to srcset: %s
 437*	planAhead2
@@ -562,74 +557,74 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2û
 â/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_clocks.xdc2default:default23
 testDMA_i/axis_data_fifo_0/inst2default:defaultZ20-847
-≠
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_868/testDMA_auto_ds_868_clocks.xdc2default:default2W
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1253/testDMA_auto_ds_1253_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-848
-∂
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_868/testDMA_auto_ds_868_clocks.xdc2default:default2W
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1253/testDMA_auto_ds_1253_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-847
-≠
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_869/testDMA_auto_ds_869_clocks.xdc2default:default2W
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1254/testDMA_auto_ds_1254_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-848
-∂
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_869/testDMA_auto_ds_869_clocks.xdc2default:default2W
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1254/testDMA_auto_ds_1254_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-847
-≠
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_870/testDMA_auto_ds_870_clocks.xdc2default:default2W
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1255/testDMA_auto_ds_1255_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-848
-∂
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_870/testDMA_auto_ds_870_clocks.xdc2default:default2W
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1255/testDMA_auto_ds_1255_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-847
-≠
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_871/testDMA_auto_us_871_clocks.xdc2default:default2W
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1256/testDMA_auto_us_1256_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
-∂
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_871/testDMA_auto_us_871_clocks.xdc2default:default2W
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1256/testDMA_auto_us_1256_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-847
-≠
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_872/testDMA_auto_us_872_clocks.xdc2default:default2W
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1257/testDMA_auto_us_1257_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-848
-∂
+∏
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_872/testDMA_auto_us_872_clocks.xdc2default:default2W
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1257/testDMA_auto_us_1257_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-847
-û
+†
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_873/testDMA_auto_us_873_clocks.xdc2default:default2H
+848*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1258/testDMA_auto_us_1258_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
-ß
+©
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-{/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_873/testDMA_auto_us_873_clocks.xdc2default:default2H
+847*designutils2ë
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1258/testDMA_auto_us_1258_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
-±
+≤
 Parsing XDC File [%s]
-179*designutils2{
-g/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-9022-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
-∫
+179*designutils2|
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-14846-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
+ª
 Finished Parsing XDC File [%s]
-178*designutils2{
-g/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-9022-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
+178*designutils2|
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-14846-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-143
@@ -644,10 +639,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:172default:default2
-00:00:172default:default2
-1333.3322default:default2
-611.4962default:defaultZ17-268
+00:00:212default:default2
+00:00:212default:default2
+1391.8402default:default2
+670.0042default:defaultZ17-268
 
 
 End Record

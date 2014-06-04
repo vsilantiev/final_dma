@@ -371,3 +371,7 @@ set_property src_info {type:XDC file:3 line:73 export:INPUT save:INPUT read:READ
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==testDMA_auto_ds_683 || ORIG_REF_NAME==testDMA_auto_ds_683}]
 set_property src_info {type:XDC file:3 line:76 export:INPUT save:INPUT read:READ} [current_design]
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==testDMA_auto_us_685 || ORIG_REF_NAME==testDMA_auto_us_685}]
+set_property src_info {type:XDC file:3 line:79 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==testDMA_axi_data_fifo_0_2 || ORIG_REF_NAME==testDMA_axi_data_fifo_0_2}]
+set_property src_info {type:XDC file:3 line:85 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==testDMA_reg_status_0_1 || ORIG_REF_NAME==testDMA_reg_status_0_1}]

@@ -41,6 +41,7 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_5.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../Emul"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_v4_4.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../myip_6.0"/>
     </Config>
   </FileSet>
 </DARoots>
