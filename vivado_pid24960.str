@@ -1,0 +1,1035 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+Process ID: 24960
+
+Current time: 	5/27/14 10:43:59 AM
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 3.8.0-38-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	/opt/Xilinx/Vivado/2013.3/tps/lnx64/jre
+
+User name: 	root
+User directory: /home/vladimir/Z/zedboard/final_dma
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 3691 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:44:00 AM
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+setFileChooser ("/home/vladimir/Z/zedboard/final_dma/testDMA.xpr");
+// ca:I (bR:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 62 mb (+62120kb) [00:00:20]
+// [Engine Memory]: 3,718 mb (+3747219kb) [00:00:20]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 mb (+2834kb) [00:00:22]
+// [Engine Memory]: 3,775 mb (+60145kb) [00:00:22]
+// [GUI Memory]: 100 mb (+37301kb) [00:00:23]
+// [Engine Memory]: 3,852 mb (+80408kb) [00:00:23]
+// [GUI Memory]: 115 mb (+15697kb) [00:00:23]
+// [Engine Memory]: 3,854 mb (+2097kb) [00:00:23]
+// [GUI Memory]: 123 mb (+8885kb) [00:00:23]
+// [Engine Memory]: 3,858 mb (+4194kb) [00:00:23]
+// [Engine Memory]: 3,861 mb (+3145kb) [00:00:23]
+// [Engine Memory]: 3,864 mb (+2564kb) [00:00:23]
+// [Engine Memory]: 3,888 mb (+25673kb) [00:00:25]
+// [Engine Memory]: 3,892 mb (+4194kb) [00:00:25]
+// Tcl Message: open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/chupa/WORK/testDMA3work' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_708'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_709'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_814'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_ds_710'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_816'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_us_711'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_817'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_pc_818'. 
+// Tcl Message: ERROR: [IP_Flow 19-993] Could not find IP file for IP 'testDMA_auto_us_713'. 
+// [Engine Memory]: 3,896 mb (+4194kb) [00:00:26]
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 4574.398 ; gain = 193.973 
+// a:a (bR:JFrame): Critical Messages: addNotify
+// 'f' command handler elapsed time: 18 seconds
+// Elapsed time: 10 seconds
+dismissDialog ("Open Project"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, a:a)
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 3,915 mb (+19865kb) [00:00:31]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 3,918 mb (+3149kb) [00:00:31]
+// [Engine Memory]: 3,920 mb (+2097kb) [00:00:31]
+// [Engine Memory]: 3,924 mb (+4431kb) [00:00:31]
+// [Engine Memory]: 3,928 mb (+3571kb) [00:00:31]
+// [Engine Memory]: 3,949 mb (+22364kb) [00:00:32]
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:44:25 AM
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0 
+// [Engine Memory]: 3,949 mb (+12kb) [00:00:37]
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// [GUI Memory]: 126 mb (+2563kb) [00:00:40]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset Adding component instance block -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0 Adding component instance block -- xilinx.com:user:def_stream:1.0 - def_stream_0 Adding component instance block -- xilinx.com:user:init_dma_v4:4.0 - init_dma_v4_0 Adding component instance block -- omega.local:user:ADC_emul:1.0 - ADC_emul_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,951 mb (+2097kb) [00:00:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,959 mb (+8495kb) [00:00:43]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 3,967 mb (+8388kb) [00:00:43]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 126 mb (+417kb) [00:00:45]
+// [Engine Memory]: 3,991 mb (+25272kb) [00:00:45]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 128 mb (+2397kb) [00:00:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 130 mb (+2021kb) [00:00:45]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 133 mb (+3072kb) [00:00:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 135 mb (+2022kb) [00:00:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 137 mb (+1778kb) [00:00:45]
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 3,994 mb (+2793kb) [00:00:45]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,996 mb (+2097kb) [00:00:48]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,997 mb (+1048kb) [00:00:48]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,005 mb (+8388kb) [00:00:48]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 137 mb (+299kb) [00:00:48]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,006 mb (+1048kb) [00:00:49]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 152 mb (+16017kb) [00:00:50]
+// [Engine Memory]: 4,006 mb (+12kb) [00:00:50]
+// [GUI Memory]: 154 mb (+2033kb) [00:00:50]
+// [Engine Memory]: 4,007 mb (+1138kb) [00:00:50]
+// [GUI Memory]: 160 mb (+5562kb) [00:00:50]
+// [GUI Memory]: 165 mb (+5443kb) [00:00:51]
+// [Engine Memory]: 4,009 mb (+2236kb) [00:00:51]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <testDMA> from BD file </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,016 mb (+6754kb) [00:00:52]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [BD 41-433]  Design successfully migrated to use XCI files... 
+// Tcl Message: Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:44:45 AM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,022 mb (+6299kb) [00:00:53]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:19 . Memory (MB): peak = 4712.023 ; gain = 84.711 
+// Elapsed time: 18 seconds
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,023 mb (+1048kb) [00:00:57]
+// [Engine Memory]: 4,025 mb (+2097kb) [00:00:57]
+// [Engine Memory]: 4,027 mb (+2097kb) [00:00:57]
+// [Engine Memory]: 4,029 mb (+2097kb) [00:00:57]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,030 mb (+1048kb) [00:01:03]
+// Elapsed time: 11 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 365, 444, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "fifo"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Data FIFO", 23, false, false, false, false, true); // F:ad (JViewport:JComponent, ResizableWindow:JWindow) - DOUBLE CLICK
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,042 mb (+12582kb) [00:01:17]
+// [Engine Memory]: 4,043 mb (+1048kb) [00:01:17]
+// [Engine Memory]: 4,046 mb (+3145kb) [00:01:17]
+// [Engine Memory]: 4,048 mb (+2097kb) [00:01:17]
+// [Engine Memory]: 4,050 mb (+2097kb) [00:01:17]
+// [Engine Memory]: 4,052 mb (+2097kb) [00:01:17]
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:45:10 AM
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,053 mb (+1048kb) [00:01:21]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_m03_axi] 
+// [Engine Memory]: 4,054 mb (+1703kb) [00:01:25]
+// [Engine Memory]: 4,055 mb (+1048kb) [00:01:26]
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {3 857 1034} [get_bd_cells axi_data_fifo_0] 
+// TclEventType: RSB_REMOVE_OBJECT
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# Current time: 5/27/14 10:45:29 AM
+# Process ID: 24960
+# Platform: Unix
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [Common 17-39] 'connect_bd_intf_net' failed due to earlier errors.
+ (See /home/vladimir/Z/zedboard/final_dma/vivado_pid24960.debug)
+*/
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins processing_system7_0_axi_periph/M03_AXI] [get_bd_intf_pins axi_data_fifo_0/M_AXI] 
+// Tcl Message: ERROR: [BD 41-171] The modes of the interface pins 'M03_AXI'(Master) and 'M_AXI'(Master) are incompatible. They cannot be connected. ERROR: [BD 5-3] Error: running connect_bd_intf_net. 
+// Tcl Message: ERROR: [Common 17-39] 'connect_bd_intf_net' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'connect_bd_intf_net' failed due to earlier errors.  (Vivado v2013.3 (64-bit))'
+// [Engine Memory]: 4,075 mb (+21225kb) [00:01:38]
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:45:31 AM
+// Elapsed time: 27 seconds
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins processing_system7_0_axi_periph/M03_AXI] [get_bd_intf_pins axi_data_fifo_0/S_AXI] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins axi_data_fifo_0/M_AXI] [get_bd_intf_pins init_dma_v4_0/S00_AXI] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets processing_system7_0_fclk_clk0] [get_bd_pins axi_data_fifo_0/aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets proc_sys_reset_peripheral_aresetn] [get_bd_pins axi_data_fifo_0/aresetn] [get_bd_pins proc_sys_reset/peripheral_aresetn] 
+// Elapsed time: 32 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 797, 548, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+selectMenu (PAResourceQtoZ.SystemBuilderView_ORIENTATION, "Orientation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenu (PAResourceQtoZ.SystemBuilderView_ORIENTATION, "Orientation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// i:X (bR:JFrame): Edit in IP Packager: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, i:X)
+// ca:I (bR:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 4,081 mb (+6299kb) [00:02:20]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' since last save. 
+// Tcl Message: IP Repository Path: Could not find the directory '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'. IP Repository Path: Could not find the directory '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'. IP Repository Path: Could not find the directory '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'. Scanning sources... Finished scanning sources 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// [Engine Memory]: 4,084 mb (+3149kb) [00:02:23]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 4777.750 ; gain = 11.859 
+// 'g' command handler elapsed time: 9 seconds
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog ("Edit in IP Packager"); // ca:I (bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v), init_dma_v4_v4_0_M01_AXI_inst - init_dma_v4_v4_0_M01_AXI (init_dma_v4_v4_0_M01_AXI.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v), init_dma_v4_v4_0_M01_AXI_inst - init_dma_v4_v4_0_M01_AXI (init_dma_v4_v4_0_M01_AXI.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:46:25 AM
+// [Engine Memory]: 4,087 mb (+3149kb) [00:02:33]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:46:29 AM
+// [Engine Memory]: 4,090 mb (+3149kb) [00:02:37]
+selectCodeEditor ("init_dma_v4_v4_0.v", 434, 364); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor ("init_dma_v4_v4_0.v", 53, 695); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("init_dma_v4_v4_0.v", 326, 308); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4); // w:K (v:u, bR:JFrame)
+// aR:X (bR:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// ca:I (bR:JFrame):  Open Project Manager : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog ("Open Project Manager"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Ports Wizard"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# Current time: 5/27/14 10:47:23 AM
+# Process ID: 24960
+# Platform: Unix
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+ (See /home/vladimir/Z/zedboard/final_dma/vivado_pid24960.debug)
+*/
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M01_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.  (Vivado v2013.3 (64-bit))'
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:47:25 AM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // F:l (JViewport:JComponent, bR:JFrame)
+// [Engine Memory]: 4,099 mb (+8806kb) [00:03:36]
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // F:l (JViewport:JComponent, bR:JFrame)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Interfaces", 5); // F:l (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI ; xilinx.com:interface:aximm_rtl:1.0 ; master ; ", 2); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI ; xilinx.com:interface:aximm_rtl:1.0 ; master ; ", 2, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.InterfaceFacetTable_REMOVE_INTERFACE, "Remove Interface"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_bus_interface {M01_AXI} [ipx::current_core] 
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI_RST ; xilinx.com:signal:reset_rtl:1.0 ; slave ; ", 6); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI_RST ; xilinx.com:signal:reset_rtl:1.0 ; slave ; ", 6, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectMenuItem (PAResourceItoP.InterfaceFacetTable_REMOVE_INTERFACE, "Remove Interface"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_bus_interface {M01_AXI_RST} [ipx::current_core] 
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI_CLK ; xilinx.com:signal:clock_rtl:1.0 ; slave ; ", 6); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.InterfaceFacetTable_BUS_INTERFACE_FACET_TABLE, "M01_AXI_CLK ; xilinx.com:signal:clock_rtl:1.0 ; slave ; ", 6, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectMenuItem (PAResourceItoP.InterfaceFacetTable_REMOVE_INTERFACE, "Remove Interface"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_bus_interface {M01_AXI_CLK} [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.MessageBanner_SEE_LIST_OF_ERROR_MESSAGES, "5 errors"); // h:i (JPanel:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 8, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0_M01_AXI (init_dma_v4_v4_0_M01_AXI.v)]", 4, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// aC:I (bR:JFrame): Remove Sources: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aC:I)
+closeView (PAResourceItoP.PAViews_CODE, "Code"); // G:b
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog ("Remove Sources"); // aC:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files /home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/hdl/init_dma_v4_v4_0_M01_AXI.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// [GUI Memory]: 167 mb (+2053kb) [00:04:20]
+// [GUI Memory]: 171 mb (+4036kb) [00:04:20]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# Current time: 5/27/14 10:48:13 AM
+# Process ID: 24960
+# Platform: Unix
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+ (See /home/vladimir/Z/zedboard/final_dma/vivado_pid24960.debug)
+*/
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.  (Vivado v2013.3 (64-bit))'
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 4,116 mb (+17612kb) [00:04:22]
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 8, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_PACKAGER_PORT_IMPORT, "Import IP Ports"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// u:J (bR:JFrame): Import Ports from HDL: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, u:J)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 172 mb (+1088kb) [00:04:30]
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 174 mb (+1917kb) [00:04:30]
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 175 mb (+958kb) [00:04:30]
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 177 mb (+2879kb) [00:04:30]
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 179 mb (+1917kb) [00:04:30]
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 180 mb (+612kb) [00:04:30]
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 181 mb (+1088kb) [00:04:30]
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 'q' command handler elapsed time: 4 seconds
+// Tcl Message: ipx::remove_all_port [ipx::current_core] 
+// Tcl Message: ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/hdl/init_dma_v4_v4_0.v} -top_module_name {init_dma_v4_v4_0} 
+// Tcl Message: INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M01_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. 
+dismissDialog ("Import Ports from HDL"); // u:J (bR:JFrame)
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // F:l (JViewport:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v4_v4_0 (init_dma_v4_v4_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 13 seconds
+selectCodeEditor ("init_dma_v4_v4_0.v", 275, 584); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4); // w:K (v:u, bR:JFrame)
+// aR:X (bR:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// ca:I (bR:JFrame):  Open Project Manager : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog ("Open Project Manager"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,122 mb (+6291kb) [00:05:13]
+// [GUI Memory]: 192 mb (+11511kb) [00:05:13]
+// [Engine Memory]: 4,124 mb (+2097kb) [00:05:13]
+// [Engine Memory]: 4,126 mb (+2097kb) [00:05:13]
+// [Engine Memory]: 4,129 mb (+3145kb) [00:05:13]
+// [Engine Memory]: 4,131 mb (+2097kb) [00:05:13]
+// [Engine Memory]: 4,133 mb (+2097kb) [00:05:13]
+// [GUI Memory]: 192 mb (+385kb) [00:05:14]
+// [Engine Memory]: 4,134 mb (+1048kb) [00:05:14]
+// TclEventType: DG_UPDATE_GRAPH
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Customization Parameters Wizard"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. 
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:49:10 AM
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_LEN_REF ; in ;  ; 31 ;  ; 0 ;  ; wire", 3); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 8, true, false, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - SHIFT KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 8); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_LEN_REF ; in ;  ; 31 ;  ; 0 ;  ; wire", 3); // P:ad (JViewport:JComponent, bR:JFrame)
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_START_CAPTURES ; in ;  ; 0 ;  ; 0 ;  ; wire", 1, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_START_CAPTURES ; out ;  ; 0 ;  ; 0 ;  ; wire", 0, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 8, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_DDR_ADDR_BUF ; in ;  ; 31 ;  ; 0 ;  ; wire", 9, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_ADDRM0_BRAM ; out ;  ; 31 ;  ; 0 ;  ; wire", 10, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_ADDRM1_BRAM ; in ;  ; 31 ;  ; 0 ;  ; wire", 11, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_STARTM0_CDMA ; out ;  ; 0 ;  ; 0 ;  ; wire", 12, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_STARTM1_CDMA ; in ;  ; 0 ;  ; 0 ;  ; wire", 13, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_ADDRM0_BRAM ; out ;  ; 31 ;  ; 0 ;  ; wire", 10, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.PortFacetTable_REMOVE_PORT, "Remove Port"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_port {PL_LEN_REF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_START_CAPTURES} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_START_CAPTURES} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_DDR_ADDR_BUF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_DDR_ADDR_BUF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_ADDRM0_BRAM} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_ADDRM1_BRAM} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_STARTM0_CDMA} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_STARTM1_CDMA} [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 9); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceQtoZ.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, bR:JFrame)
+// ca:I (bR:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView (PAResourceItoP.PAViews_PACKAGE_IP, "Package IP - init_dma_v4"); // u:aA
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: PROJECT_CLOSE
+// [Engine Memory]: 4,138 mb (+4194kb) [00:05:36]
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:49:28 AM
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:49:29 AM
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:49:29 AM
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:49:30 AM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances 
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+dismissDialog ("Remove Sources"); // aC:I (bR:JFrame)
+dismissDialog ("Import Ports from HDL"); // u:J (bR:JFrame)
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-3471] Wrote upgrade log to '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_v4_0_1/testDMA_init_dma_v4_0_1.upgrade_log'. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [IP_Flow 19-100] No files associated with the core file: '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_814/testDMA_auto_pc_814.xci' 
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 4830.953 ; gain = 4.000 
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectButton (PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "validate_bd_design_rsb"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4830.953 ; gain = 0.000 
+// Tcl Message: success 
+// da:a (bR:JFrame): Critical Messages: addNotify
+dismissDialog ("Validate Design"); // ca:I (bR:JFrame)
+selectButton (PAResourceAtoH.CmdMsgDialog_OK, "OK"); // g:a (JPanel:JComponent, da:a)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "init_dma_v4_0 ; S00_AXI ; S00_AXI_reg ;  ;  ; ", 6); // d:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: assign_bd_address [get_bd_addr_segs init_dma_v4_0/S00_AXI/S00_AXI_reg] -target_address_space /processing_system7_0/Data 
+// Tcl Message: </init_dma_v4_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C01000[ 4K ]> 
+selectTable (PAResourceAtoH.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_dma_0 ; S_AXI_LITE ; Reg ; 0x40400000 ; 64K ; 0x4040FFFF", 14); // d:ad (JViewport:JComponent, bR:JFrame)
+selectTab ("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// HOptionPane Error: 'Tcl error in init_gui procedure for BD Cell 'init_dma_v4_0'. ERROR: [Common 17-39] 'ipgui::add_param' failed due to earlier errors.   (Error)'
+// [Engine Memory]: 4,154 mb (+17612kb) [00:06:33]
+// HMemoryUtils.trashcanNow. Current time: 5/27/14 10:50:26 AM
+// 'M' command handler elapsed time: 4 seconds
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// HOptionPane Error: 'Tcl error in init_gui procedure for BD Cell 'init_dma_v4_0'. ERROR: [Common 17-39] 'ipgui::add_param' failed due to earlier errors.   (Error)'
+// 'M' command handler elapsed time: 8 seconds
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// HOptionPane Error: 'Tcl error in init_gui procedure for BD Cell 'init_dma_v4_0'. ERROR: [Common 17-39] 'ipgui::add_param' failed due to earlier errors.   (Error)'
+selectButton ((HResource) null, "OK"); // JButton:AbstractButton (JPanel:JComponent, C:JDialog)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 754, 602, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// i:X (bR:JFrame): Edit in IP Packager: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, i:X)
+// ca:I (bR:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0/component.xml} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/vladimir/Z/zedboard/180414stream/newIPCore/init_dma_v4_4.0' since last save. 
+// Tcl Message: IP Repository Path: Could not find the directory '/home/vladimir/vladimir/Z/zedboard/testDMA/IPCore/init_dma_v4_4.0'. IP Repository Path: Could not find the directory '/home/vladimir/Z/WORK!!!!!/testDMA3work/IPCore/init_dma_v4_4.0'. IP Repository Path: Could not find the directory '/home/chupa/WORK/testDMA3work/IPCore/init_dma_v4_4.0'. Scanning sources... Finished scanning sources 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4847.750 ; gain = 0.000 
+// 'g' command handler elapsed time: 8 seconds
+dismissDialog ("Edit in IP Packager"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

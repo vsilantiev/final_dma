@@ -1,0 +1,12 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/Xilinx/Vivado/2013.3/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x744749) [0x7f22dec7c749]
+/opt/Xilinx/Vivado/2013.3/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xa7) [0x7f22dec80fb7]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0xfcb0) [0x7f2305c36cb0]
+/opt/Xilinx/Vivado/2013.3/lib/lnx64.o/librdi_rsb.so(HRSBCoLmxUtils::IsEnabled(HACGSpirit::HACGSAddressBlockType const*)+0x39) [0x7f22ec758a79]
+/opt/Xilinx/Vivado/2013.3/lib/lnx64.o/librdi_rsb.so(HRSBCoCompAddrBlk::getEnablement() const+0x12) [0x7f22ec74bdd2]
+/opt/Xilinx/Vivado/2013.3/lib/lnx64.o/librdi_rsb.so(HRSBMoAddrRelations::GetUnAddressedAddrBlksOf(HRSBMoAddrSpace const&, HSTVector<HRSBMoAddrBlk*, stlp_std::allocator<HRSBMoAddrBlk*> >&)+0x463) [0x7f22ec861453]
+/opt/Xilinx/Vivado/2013.3/lib/lnx64.o/librdi_rsb.so(Java_ui_data_rsbi_RSBAddrRelations_1GetUnAddressedAddrBlksOf+0x30) [0x7f22ec99f090]
+[0x7f22da7b56dd]

@@ -1,0 +1,1292 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+Process ID: 3832
+
+Current time: 	6/2/14 8:56:37 AM
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 3.8.0-38-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 3840x1200
+Screen resolution (DPI): 96
+Available screens: 2
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	/opt/Xilinx/Vivado/2013.3/tps/lnx64/jre
+
+User name: 	root
+User directory: /home/vladimir/Z/zedboard/final_dma
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 3713 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:56:38 AM
+// [GUI Memory]: 23 mb (+21783kb) [00:00:20]
+// [Engine Memory]: 3,716 mb (+3744889kb) [00:00:20]
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// Elapsed time: 20 seconds
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+setFileChooser ("/home/vladimir/Z/zedboard/final_dma/testDMA.xpr");
+// ca:I (bR:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr 
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:57:03 AM
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 40 mb (+18185kb) [00:00:33]
+// [Engine Memory]: 3,793 mb (+80621kb) [00:00:33]
+// [GUI Memory]: 106 mb (+68619kb) [00:00:34]
+// [Engine Memory]: 3,806 mb (+14217kb) [00:00:34]
+// [Engine Memory]: 3,845 mb (+40697kb) [00:00:35]
+// [Engine Memory]: 3,848 mb (+3145kb) [00:00:35]
+// [Engine Memory]: 3,850 mb (+2097kb) [00:00:35]
+// [Engine Memory]: 3,857 mb (+7340kb) [00:00:35]
+// [GUI Memory]: 115 mb (+9419kb) [00:00:35]
+// [Engine Memory]: 3,858 mb (+1351kb) [00:00:35]
+// [Engine Memory]: 3,880 mb (+23158kb) [00:00:35]
+// [Engine Memory]: 3,890 mb (+9486kb) [00:00:36]
+// [Engine Memory]: 3,891 mb (+1048kb) [00:00:37]
+// Tcl Message: open_project /home/vladimir/Z/zedboard/final_dma/testDMA.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/chupa/WORK/testDMA3work' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// [Engine Memory]: 3,899 mb (+8388kb) [00:00:37]
+// [GUI Memory]: 129 mb (+14870kb) [00:00:38]
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 4572.887 ; gain = 170.484 
+// 'f' command handler elapsed time: 12 seconds
+// Elapsed time: 10 seconds
+dismissDialog ("Open Project"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 3,900 mb (+1048kb) [00:00:41]
+// [Engine Memory]: 3,903 mb (+3145kb) [00:00:41]
+// [Engine Memory]: 3,905 mb (+2097kb) [00:00:41]
+// [Engine Memory]: 3,910 mb (+5906kb) [00:00:41]
+// [Engine Memory]: 3,923 mb (+13377kb) [00:00:41]
+// [Engine Memory]: 3,939 mb (+16957kb) [00:00:42]
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 3,942 mb (+3149kb) [00:00:42]
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// [Engine Memory]: 3,943 mb (+1048kb) [00:00:44]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testDMA_wrapper (testDMA_wrapper.v), testDMA_i - testDMA (testDMA.bd)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: open_bd_design {/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0 
+// [Engine Memory]: 3,968 mb (+26226kb) [00:00:46]
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,971 mb (+3145kb) [00:00:49]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:user:init_dma:5.0 - init_dma_0 Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 3,983 mb (+12877kb) [00:00:50]
+// [Engine Memory]: 3,985 mb (+2097kb) [00:00:51]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,987 mb (+2097kb) [00:00:51]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 3,993 mb (+5947kb) [00:00:51]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,000 mb (+6995kb) [00:00:51]
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,019 mb (+20037kb) [00:00:52]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,025 mb (+6291kb) [00:00:54]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,026 mb (+1048kb) [00:00:54]
+// [Engine Memory]: 4,027 mb (+1048kb) [00:00:54]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 141 mb (+12014kb) [00:00:55]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 4,028 mb (+1540kb) [00:00:56]
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 4,029 mb (+1048kb) [00:00:56]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 143 mb (+2575kb) [00:00:57]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 145 mb (+2024kb) [00:00:57]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,034 mb (+5242kb) [00:00:57]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 146 mb (+618kb) [00:00:59]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 147 mb (+2068kb) [00:00:59]
+// [Engine Memory]: 4,037 mb (+3145kb) [00:00:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 149 mb (+2038kb) [00:00:59]
+// [Engine Memory]: 4,039 mb (+2097kb) [00:00:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,044 mb (+5242kb) [00:00:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 4,044 mb (+12kb) [00:01:00]
+// [GUI Memory]: 150 mb (+843kb) [00:01:00]
+// [Engine Memory]: 4,051 mb (+7102kb) [00:01:00]
+// [Engine Memory]: 4,057 mb (+6291kb) [00:01:00]
+// [Engine Memory]: 4,058 mb (+1048kb) [00:01:00]
+// [Engine Memory]: 4,060 mb (+2097kb) [00:01:00]
+// [GUI Memory]: 153 mb (+2719kb) [00:01:00]
+// [Engine Memory]: 4,062 mb (+2334kb) [00:01:01]
+// [Engine Memory]: 4,063 mb (+1048kb) [00:01:01]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// Tcl Message: Successfully read diagram <testDMA> from BD file </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [BD 41-433]  Design successfully migrated to use XCI files... 
+// Tcl Message: Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:57:34 AM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 4,069 mb (+6299kb) [00:01:04]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 4759.844 ; gain = 138.387 
+// Elapsed time: 20 seconds
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 614, 600, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// i:X (bR:JFrame): Edit in IP Packager: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, i:X)
+// ca:I (bR:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0/component.xml} 
+// [Engine Memory]: 4,073 mb (+4194kb) [00:01:25]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 4,079 mb (+6299kb) [00:01:26]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// [GUI Memory]: 158 mb (+5050kb) [00:01:29]
+// [Engine Memory]: 4,090 mb (+10985kb) [00:01:29]
+// [Engine Memory]: 4,098 mb (+8388kb) [00:01:31]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/Emul'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_v4_4.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 4794.180 ; gain = 34.336 
+// [Engine Memory]: 4,101 mb (+3149kb) [00:01:31]
+// 'g' command handler elapsed time: 8 seconds
+dismissDialog ("Edit in IP Packager"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:58:04 AM
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 4,104 mb (+3149kb) [00:01:34]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:58:09 AM
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 197, 283); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:58:17 AM
+// [Engine Memory]: 4,107 mb (+3149kb) [00:01:47]
+selectCodeEditor ("init_dma_v5_0.v", 223, 544); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_UNDO, "Undo"); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_UNDO, "Undo"); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 134, 297); // aR:G (JPanel:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (RDIResourceCommand.RDICommands_UNDO, "Undo"); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("init_dma_v5_0.v", 230, 326); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor ("init_dma_v5_0.v", 198, 397); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 202, 440); // aR:G (JPanel:JComponent, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_M00_AXI_inst - init_dma_v5_0_M00_AXI (init_dma_v5_0_M00_AXI.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_M00_AXI_inst - init_dma_v5_0_M00_AXI (init_dma_v5_0_M00_AXI.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 8:59:27 AM
+// [Engine Memory]: 4,110 mb (+3149kb) [00:02:57]
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 185, 403); // aR:G (JPanel:JComponent, bR:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START", true); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 178, 420); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 210, 406); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 182, 172); // aR:G (JPanel:JComponent, bR:JFrame)
+setText (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START", true); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+applyEnter (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "START"); // j:am (c:JComboBox, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 657, 574); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 13 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4); // w:K (v:u, bR:JFrame)
+// aR:X (bR:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// ca:I (bR:JFrame):  Open Project Manager : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 4,116 mb (+6299kb) [00:04:15]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog ("Open Project Manager"); // ca:I (bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton (PAResourceItoP.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Ports Wizard"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_LEN_REF ; in ;  ; 31 ;  ; 0 ;  ; wire", 3); // P:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_START_CAPTURES ; in ;  ; 0 ;  ; 0 ;  ; wire", 1, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_START_CAPTURES ; out ;  ; 0 ;  ; 0 ;  ; wire", 0, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 9, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_DDR_ADDR_BUF ; in ;  ; 31 ;  ; 0 ;  ; wire", 10, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_DDR_ADDR_BUF ; in ;  ; 31 ;  ; 0 ;  ; wire", 10, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.PortFacetTable_REMOVE_PORT, "Remove Port"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// [GUI Memory]: 161 mb (+3279kb) [00:04:25]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_port {PL_LEN_REF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_START_CAPTURES} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_START_CAPTURES} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_DDR_ADDR_BUF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_DDR_ADDR_BUF} [ipx::current_core] 
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 9); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceQtoZ.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// ca:I (bR:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView (PAResourceItoP.PAViews_PACKAGE_IP, "Package IP - init_dma"); // u:aA
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:00:58 AM
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:00:59 AM
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:00:59 AM
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:01:00 AM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances 
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded testDMA_init_dma_0_1 (init_dma_v5_0 5.0) from revision 39 to revision 40 
+// Tcl Message: INFO: [IP_Flow 19-3471] Wrote upgrade log to '/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_0_1/testDMA_init_dma_0_1.upgrade_log'. 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: Wrote  : </home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd>  
+// Tcl Message: upgrade_bd_cells: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 4809.199 ; gain = 0.000 ipx::update_ip_instances: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 4809.199 ; gain = 0.000 
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 162 mb (+803kb) [00:04:43]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 165 mb (+3394kb) [00:05:18]
+// [GUI Memory]: 167 mb (+2063kb) [00:05:30]
+// [GUI Memory]: 167 mb (+351kb) [00:08:13]
+// [GUI Memory]: 169 mb (+2037kb) [00:08:25]
+// [GUI Memory]: 169 mb (+106kb) [00:11:20]
+// [GUI Memory]: 173 mb (+4407kb) [00:11:33]
+// [GUI Memory]: 175 mb (+1638kb) [00:14:40]
+// [GUI Memory]: 179 mb (+4219kb) [00:14:53]
+// [GUI Memory]: 181 mb (+2077kb) [00:18:00]
+// [GUI Memory]: 181 mb (+597kb) [00:20:55]
+// [GUI Memory]: 184 mb (+3061kb) [00:21:08]
+// [GUI Memory]: 187 mb (+3058kb) [00:21:20]
+// Elapsed time: 1044 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 155, 410, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_BLOCK_DESIGN, "Open Block Design"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_BLOCK_DESIGN, "Open Block Design"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_WINDOW, "Window"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_WINDOW, "Window"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM, "Create Block Design"); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// y:X (bR:JFrame): Create Block Design: addNotify
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, y:X)
+dismissDialog ("Create Block Design"); // y:X (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FLOW, "Flow"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_REPORT, "Report"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package IP..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_TOOLS, "Tools"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// X:aB (bR:JFrame): Create And Package New IP: addNotify
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+selectRadioButton ((HResource) null, "Create new AXI4 peripheral. Creates AXI4 IP, Driver, TestApp and the AXI4 BFM example design."); // S:a (R:t, X:aB)
+selectButton (PAResourceItoP.NewIpWizard_IP_DEFINITION_SOURCE_LOCATION, (String) null); // n:a (aG:JPanel, X:aB)
+setFolderChooser ("/home/vladimir/Z/zedboard/final_dma/IPCore");
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+setText (PAResourceItoP.NewIpWizard_VENDOR, "6.0"); // am:JTextField (t:JPanel, X:aB)
+// [GUI Memory]: 188 mb (+697kb) [00:22:40]
+setText (PAResourceItoP.NewIpWizard_VENDOR, "init_dma_v6_0"); // am:JTextField (t:JPanel, X:aB)
+// [GUI Memory]: 197 mb (+9451kb) [00:22:53]
+setText (PAResourceItoP.NewIpWizard_VENDOR, "init_dma_v6_0"); // am:JTextField (t:JPanel, X:aB)
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+selectButton (PAResourceItoP.NewIpWizard_ADD_INTERFACE, "Add Interface"); // a:JButton (JPanel:JComponent, X:aB)
+selectButton (PAResourceItoP.NewIpWizard_ADD_INTERFACE, "Add Interface"); // a:JButton (JPanel:JComponent, X:aB)
+selectComboBox (PAResourceItoP.NewIpWizard_INTERFACE_MODE, "Master", 0); // c:JComboBox (ap:t, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "5"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "4"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "4"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "4"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "4"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "5"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "6"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "7"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "8"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "9"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "32"); // T:JSpinner (t:JPanel, X:aB)
+setSpinner (PAResourceItoP.NewIpWizard_NUMBER_OF_REGISTERS, "512"); // T:JSpinner (t:JPanel, X:aB)
+// Elapsed time: 11 seconds
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+// [GUI Memory]: 203 mb (+6461kb) [00:23:43]
+selectButton ((HResource) null, "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+selectRadioButton (PAResourceItoP.NewIpWizard_ADD_IP_TO_CATALOG_AND_OPEN_IP_IN_EDITING, "Add IP to catalog and open IP in editing session"); // a:JRadioButton (JPanel:JComponent, X:aB)
+selectButton ((HResource) null, "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, X:aB)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: FILE_SET_CHANGE
+// 'o' command handler elapsed time: 90 seconds
+// Tcl Message: create_peripheral {xilinx.com} {user} {myip} {6.0} -dir {/home/vladimir/Z/zedboard/final_dma/IPCore} 
+// Tcl Message: add_peripheral_interface {S00_AXI} -interface_mode {slave} -axi_type {lite} [ipx::find_open_core xilinx.com:user:myip:6.0] 
+// Tcl Message: ipx::get_bus_parameter  {DATA_WIDTH} [ipx::get_bus_interface S00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]] 
+// Tcl Message: set_property VALUE {32} [ipx::get_bus_parameter DATA_WIDTH [ipx::get_bus_interface S00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]]] 
+// Tcl Message: ipx::get_bus_parameter  {NUM_REG} [ipx::get_bus_interface S00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]] 
+// Tcl Message: set_property VALUE {32} [ipx::get_bus_parameter NUM_REG [ipx::get_bus_interface S00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]]] 
+// Tcl Message: add_peripheral_interface {S01_AXI} -interface_mode {slave} -axi_type {lite} [ipx::find_open_core xilinx.com:user:myip:6.0] 
+// Tcl Message: ipx::get_bus_parameter  {DATA_WIDTH} [ipx::get_bus_interface S01_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]] 
+// Tcl Message: set_property VALUE {32} [ipx::get_bus_parameter DATA_WIDTH [ipx::get_bus_interface S01_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]]] 
+// Tcl Message: ipx::get_bus_parameter  {NUM_REG} [ipx::get_bus_interface S01_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]] 
+// Tcl Message: set_property VALUE {512} [ipx::get_bus_parameter NUM_REG [ipx::get_bus_interface S01_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]]] 
+// Tcl Message: add_peripheral_interface {M00_AXI} -interface_mode {master} -axi_type {lite} [ipx::find_open_core xilinx.com:user:myip:6.0] 
+// Tcl Message: ipx::get_bus_parameter  {DATA_WIDTH} [ipx::get_bus_interface M00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]] 
+// Tcl Message: set_property VALUE {32} [ipx::get_bus_parameter DATA_WIDTH [ipx::get_bus_interface M00_AXI [ipx::find_open_core xilinx.com:user:myip:6.0]]] 
+// Tcl Message: generate_peripheral [ipx::find_open_core xilinx.com:user:myip:6.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core xilinx.com:user:myip:6.0] 
+// Tcl Message: set_property ip_repo_paths  {/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0 /home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0 /home/vladimir/Z/zedboard/final_dma/IPCore} [current_fileset] 
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_myip_v6_0} -directory {/home/vladimir/Z/zedboard/final_dma} {/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0/component.xml} 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 4809.199 ; gain = 0.000 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 724, 271, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// i:X (bR:JFrame): Edit in IP Packager: addNotify
+setText (PAResourceAtoH.EditInIPPackagerHandler_PROJECT_NAME, "edit_ip1"); // am:JTextField (JPanel:JComponent, i:X)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, i:X)
+// ca:I (bR:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_ip1} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0/component.xml} 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4809.199 ; gain = 0.000 
+// 'g' command handler elapsed time: 8 seconds
+dismissDialog ("Edit in IP Packager"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+setText (PAResourceItoP.IdentificationContentPanel_NAME, "init_dma"); // N:am (ab:M, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: set_property name {init_dma} [ipx::find_open_core xilinx.com:user:myip:6.0] 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_myip_v6_0 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:21:05 AM
+// [Engine Memory]: 4,122 mb (+6135kb) [00:24:35]
+// Elapsed time: 14 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_ip1 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:21:23 AM
+// [Engine Memory]: 4,125 mb (+3149kb) [00:24:53]
+selectCodeEditor ("myip_v6_0.v", 433, 260); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 420, 278); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor ("init_dma_v5_0.v", 347, 564); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 359, 566); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 112, 516, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 88, 157); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 88, 157, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 268, 668); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 275, 670); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 126, 643, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 324, 235); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 132, 248, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 4, 307); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 4, 278); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 5, 249); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 237, 231); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 258, 218); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 294, 190); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 435, 643); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 299, 588); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 63, 578, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 263, 282); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 156, 293, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 112, 293); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 326, 567); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 554, 424); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 376, 697); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 311, 322); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 460, 495); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 421, 525); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 309, 544); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 213, 429); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 264, 368); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 107, 361, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 103, 447); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 103, 447, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 28, 460); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 271, 590); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 324, 553); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 215, 469); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 314, 455); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 79, 444, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 82, 488); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 82, 488, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 27, 496); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 410, 549); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 550, 597); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 250, 611); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 148, 528, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 212, 382); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 133, 401, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 148, 409, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 117, 574, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 111, 398); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 98, 389, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 44, 414); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 319, 447); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 58, 403, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 293, 431); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 172, 397); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 172, 397, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 252, 375); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 183, 416, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 54, 285); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 53, 281); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 35, 292, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 64, 338); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 2, 311); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 10, 275); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 380, 652); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 320, 622); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 71, 618, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 312, 563); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 8, 684); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 8, 684, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("myip_v6_0.v", 185, 667); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 311, 597); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 462, 593); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 310, 592); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 630, 591, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 42, 686); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 40, 680, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 372, 518); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0.v", 594, 434); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S00_AXI_inst - init_dma_v5_0_S00_AXI (init_dma_v5_0_S00_AXI.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S00_AXI_inst - init_dma_v5_0_S00_AXI (init_dma_v5_0_S00_AXI.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:25:44 AM
+// [Engine Memory]: 4,128 mb (+3149kb) [00:29:14]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S00_AXI_inst - init_dma_v5_0_S00_AXI (init_dma_v5_0_S00_AXI.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 298, 245); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S00_AXI_inst - myip_v6_0_S00_AXI (myip_v6_0_S00_AXI.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_myip_v6_0 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S00_AXI_inst - myip_v6_0_S00_AXI (myip_v6_0_S00_AXI.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:25:47 AM
+// [Engine Memory]: 4,131 mb (+3149kb) [00:29:17]
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 250, 253); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 191, 243); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 245, 251); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_M00_AXI_inst - myip_v6_0_M00_AXI (myip_v6_0_M00_AXI.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_M00_AXI_inst - myip_v6_0_M00_AXI (myip_v6_0_M00_AXI.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:26:00 AM
+// [Engine Memory]: 4,134 mb (+3149kb) [00:29:30]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// Elapsed time: 18 seconds
+selectCodeEditor ("myip_v6_0.v", 266, 392); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0.v", 266, 392); // aR:G (JPanel:JComponent, bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:26:30 AM
+selectCodeEditor ("myip_v6_0.v", 25, 649); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 33 seconds
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S00_AXI_inst - myip_v6_0_S00_AXI (myip_v6_0_S00_AXI.v)]", 2); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S00_AXI_inst - myip_v6_0_S00_AXI (myip_v6_0_S00_AXI.v)]", 2, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 178, 258); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 249, 250); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 68, 238); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 261, 255); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 246, 246); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 78, 235, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 127, 218); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 119, 220, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 112, 210); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 538, 286); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 323, 334); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S00_AXI.v", 90, 326, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 544, 282); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 33, 247); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S00_AXI.v", 33, 247, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S01_AXI_inst - myip_v6_0_S01_AXI (myip_v6_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S01_AXI_inst - myip_v6_0_S01_AXI (myip_v6_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_S01_AXI_inst - myip_v6_0_S01_AXI (myip_v6_0_S01_AXI.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:28:27 AM
+// [Engine Memory]: 4,137 mb (+3149kb) [00:31:57]
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_ip1 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_S01_AXI_inst - init_dma_v5_0_S01_AXI (init_dma_v5_0_S01_AXI.v)]", 3, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:28:30 AM
+// [Engine Memory]: 4,140 mb (+3149kb) [00:32:00]
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 323, 230); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 152, 234, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 57, 223); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 63, 216); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 71, 219, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 112, 216); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 505, 325); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 410, 359); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 485, 460); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 232, 459, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 131, 478); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 333, 370); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 38, 426); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_S01_AXI.v", 36, 431, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_S01_AXI.v", 338, 502); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 10 seconds
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_M00_AXI_inst - myip_v6_0_M00_AXI (myip_v6_0_M00_AXI.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_myip_v6_0 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v6_0 (myip_v6_0.v), myip_v6_0_M00_AXI_inst - myip_v6_0_M00_AXI (myip_v6_0_M00_AXI.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_M00_AXI_inst - init_dma_v5_0_M00_AXI (init_dma_v5_0_M00_AXI.v)]", 4); // n:f (u:JPanel, bR:JFrame)
+// Tcl Message: current_project edit_ip1 
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, init_dma_v5_0 (init_dma_v5_0.v), init_dma_v5_0_M00_AXI_inst - init_dma_v5_0_M00_AXI (init_dma_v5_0_M00_AXI.v)]", 4, false, false, false, false, true); // n:f (u:JPanel, bR:JFrame) - DOUBLE CLICK
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:29:50 AM
+// [Engine Memory]: 4,143 mb (+3149kb) [00:33:20]
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 190, 504); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 121, 413, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 403, 409); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 96, 234); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 96, 234, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 13, 356); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 6, 348); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 4, 324); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 7, 279); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 242, 400); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 236, 394); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 247, 396); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 233, 399); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 522, 584); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 492, 445); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 353, 613); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 341, 568); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 272, 474); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 93, 713); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 64, 535, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 533); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 533, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 721, 408); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 364, 432); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 422, 462); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 685, 478); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 350); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 144, 510); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 130, 516); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 130, 494); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 129, 503); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 17, 504, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 15, 354); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 15, 354, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 314, 529); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 16, 277); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 6, 282, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 325, 517); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 16, 388); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 16, 388, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 390, 632); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 122, 700); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 182, 651, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 120, 577); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 124, 555, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 82, 548); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 88, 635); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 368, 628); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 127, 637); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 212, 586, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 127, 683); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 141, 682); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 651, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 372, 635); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 140, 322); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 62, 315, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 7, 371); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 7, 371, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 352, 631); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 31, 470); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 37, 477, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 273, 593); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 100, 596); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 16, 605); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 611); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 611, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 10, 623); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 448, 665); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 298, 659); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 319, 537); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 329, 337); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 102, 458); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 430, 529); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 417, 626); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 383, 614); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 482, 630); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 411, 656); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 128, 440); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 0, 439, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 416); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 416, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 363, 610); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 26, 619); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 14, 622, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 472); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 472, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 77, 219); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 281, 621); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 60, 444); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 32, 680); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 71, 101, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 683); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 5, 683, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 3, 354); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 434, 287); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 471, 410); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 348, 95); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 529, 95, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_COPY, "Copy"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 595, 235); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 595, 235, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 465, 228); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 599, 271); // aR:G (JPanel:JComponent, bR:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 400, 320); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 400, 320, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 402, 320); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 391, 229); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 397, 231, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 390, 139); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 396, 144, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 627, 347); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 422, 141); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 422, 141, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 420, 141); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 426, 62); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 435, 69, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 394, 235); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 398, 235, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 405, 305); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 408, 305, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 391, 188); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 399, 189, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 395, 245); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 396, 244, false, false, false, true, false); // aR:G (JPanel:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (RDIResource.HCodeEditor_PASTE, "Paste"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+selectCodeEditor ("init_dma_v5_0_M00_AXI.v", 526, 448); // aR:G (JPanel:JComponent, bR:JFrame)
+selectCodeEditor ("myip_v6_0_M00_AXI.v", 448, 324); // aR:G (JPanel:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4); // w:K (v:u, bR:JFrame)
+// aR:X (bR:JFrame): Save Project: addNotify
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// ca:I (bR:JFrame):  Open Project Manager : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: current_project edit_myip_v6_0 
+// [Engine Memory]: 4,152 mb (+9449kb) [00:42:45]
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::current_core {/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0/component.xml} 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog ("Open Project Manager"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports", 4); // F:l (JViewport:JComponent, bR:JFrame)
+selectButton (PAResourceItoP.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Ports Wizard"); // h:i (JPanel:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_S01_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. INFO: [IP_Flow 19-2418] Expression "((C_M00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable. 
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_DDR_ADDR_BUF ; in ;  ; 31 ;  ; 0 ;  ; wire", 10); // P:ad (JViewport:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "m00_start_capture ; in ;  ; 0 ;  ; 0 ;  ; wire", 8, true, false, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - SHIFT KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_DDR_ADDR_BUF ; out ;  ; 31 ;  ; 0 ;  ; wire", 9, true, false, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - SHIFT KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_LEN_REF ; in ;  ; 31 ;  ; 0 ;  ; wire", 3, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PL_START_CAPTURES ; in ;  ; 0 ;  ; 0 ;  ; wire", 1, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_START_CAPTURES ; out ;  ; 0 ;  ; 0 ;  ; wire", 0, false, true, false, false, false); // P:ad (JViewport:JComponent, bR:JFrame) - CONTROL KEY DOWN
+selectTable (PAResourceItoP.PortFacetTable_PORT_FACET_TABLE, "PS_START_CAPTURES ; out ;  ; 0 ;  ; 0 ;  ; wire", 0, false, false, false, true, false); // P:ad (JViewport:JComponent, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceItoP.PortFacetTable_REMOVE_PORT, "Remove Port"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: ipx::remove_port {PL_DDR_ADDR_BUF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_DDR_ADDR_BUF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_LEN_REF} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PL_START_CAPTURES} [ipx::current_core] 
+// Tcl Message: ipx::remove_port {PS_START_CAPTURES} [ipx::current_core] 
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 9); // F:l (JViewport:JComponent, bR:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton (PAResourceQtoZ.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a:JButton (JPanel:JComponent, bR:JFrame)
+// ca:I (bR:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView (PAResourceItoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aA
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:39:34 AM
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:39:35 AM
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:39:35 AM
+// TclEventType: CREATE_IP_CATALOG
+// HMemoryUtils.trashcanNow. Current time: 6/2/14 9:39:35 AM
+// Tcl Message: ipx::update_ip_instances 
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// Tcl Message: INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:6.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+dismissDialog ("Package IP"); // ca:I (bR:JFrame)
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 142, 278, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "ini"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "init_dma_v6_0", 0); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "init_dma_v6_0", 0); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "init_dma_v6_0", 0, false, false, false, false, true); // F:ad (JViewport:JComponent, ResizableWindow:JWindow) - DOUBLE CLICK
+// TclEventType: PARAM_UPDATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:myip:6.0 myip_0 endgroup 
+// Tcl Message: startgroup current_project testDMA 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: set_property location {2 836 1664} [get_bd_cells myip_0] 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectView (PAResourceItoP.PAViews_SYSTEM, "System", 243, 440, 1226, 780, false, false, false, true, false); // cb:aA (TdiGroup:JideTabbedPane, bR:JFrame) - POPUP TRIGGER
+selectMenu (PAResourceQtoZ.SystemBuilderView_ORIENTATION, "Orientation"); // af:JMenu (am:JPopupMenu, bR:JFrame)
+selectMenuItem (PAResourceQtoZ.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// i:X (bR:JFrame): Edit in IP Packager: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, i:X)
+// ca:I (bR:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {edit_ip} -directory {/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0} {/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0/component.xml} 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0'. INFO: [IP_Flow 19-1700] Loaded user repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/Xilinx/Vivado/2013.3/data/ip'. INFO: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:init_dma:6.0'. The one found in repository '/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0' will take precedence over the same IP in repository '/home/vladimir/Z/zedboard/final_dma/IPCore'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4845.090 ; gain = 0.000 
+// 'g' command handler elapsed time: 6 seconds
+dismissDialog ("Edit in IP Packager"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 207 mb (+4477kb) [00:43:40]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectList (PAResourceItoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP GUI Customization Layout", 7); // F:l (JViewport:JComponent, bR:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 211 mb (+3845kb) [00:43:40]
+// [GUI Memory]: 214 mb (+3526kb) [00:43:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
