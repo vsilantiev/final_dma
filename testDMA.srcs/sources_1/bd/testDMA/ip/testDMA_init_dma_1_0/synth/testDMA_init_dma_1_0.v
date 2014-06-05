@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:init_dma:6.0
-// IP Revision: 32
+// IP Revision: 35
 
 (* X_CORE_INFO = "myip_v6_0,Vivado 2013.3" *)
 (* CHECK_LICENSE_TYPE = "testDMA_init_dma_1_0,myip_v6_0,{}" *)
-(* CORE_GENERATION_INFO = "testDMA_init_dma_1_0,myip_v6_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=init_dma,x_ipVersion=6.0,x_ipCoreRevision=32,x_ipLanguage=VERILOG,C_S01_AXI_DATA_WIDTH=32,C_S01_AXI_ADDR_WIDTH=11,C_M00_AXI_START_DATA_VALUE=0x00001001,C_M00_AXI_TARGET_SLAVE_BASE_ADDR=0x41E00030,C_M00_AXI_ADDR_WIDTH=32,C_M00_AXI_DATA_WIDTH=32,C_M00_AXI_TRANSACTIONS_NUM=4,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7}" *)
+(* CORE_GENERATION_INFO = "testDMA_init_dma_1_0,myip_v6_0,{x_ipProduct=Vivado 2013.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=init_dma,x_ipVersion=6.0,x_ipCoreRevision=35,x_ipLanguage=VERILOG,C_S01_AXI_DATA_WIDTH=32,C_S01_AXI_ADDR_WIDTH=11,C_M00_AXI_START_DATA_VALUE=0x00001001,C_M00_AXI_TARGET_SLAVE_BASE_ADDR=0x41E00030,C_M00_AXI_ADDR_WIDTH=32,C_M00_AXI_DATA_WIDTH=32,C_M00_AXI_TRANSACTIONS_NUM=4,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module testDMA_init_dma_1_0 (
   m00_len_ref,

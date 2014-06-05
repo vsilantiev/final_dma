@@ -39,14 +39,14 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.68 . Memory (MB): peak = 1395.852 ; gain = 3.0122default:default
+aTime (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.66 . Memory (MB): peak = 1397.852 ; gain = 6.0122default:default
 X
 
 Starting %s Task
 103*constraints2&
 Logic Optimization2default:defaultZ18-103
 4
-(Logic Optimization | Checksum: 120ac13e
+(Logic Optimization | Checksum: e0d78a3a
 *common
 <
 %Done setting XDC timing constraints.
@@ -69,13 +69,13 @@ B
 49*opt2
 02default:defaultZ31-49
 2
-&Phase 1 Retarget | Checksum: 1e4d4fa7
+&Phase 1 Retarget | Checksum: 18720ac0
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
+]Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1512.125 ; gain = 114.2732default:default
 l
 
 Phase %s%s
@@ -91,13 +91,13 @@ C
 10*opt2
 20812default:defaultZ31-10
 >
-2Phase 2 Constant Propagation | Checksum: 9436ce56
+2Phase 2 Constant Propagation | Checksum: 3c0bef8b
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
+]Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1512.125 ; gain = 114.2732default:default
 ]
 
 Phase %s%s
@@ -113,23 +113,23 @@ O
 11*opt2
 68152default:defaultZ31-11
 /
-#Phase 3 Sweep | Checksum: f19a50d7
+#Phase 3 Sweep | Checksum: aaec18fe
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
+]Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1512.125 ; gain = 114.2732default:default
 @
-4Ending Logic Optimization Task | Checksum: f19a50d7
+4Ending Logic Optimization Task | Checksum: aaec18fe
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
+]Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1512.125 ; gain = 114.2732default:default
 7
-+Implement Debug Cores | Checksum: 120ac13e
++Implement Debug Cores | Checksum: e0d78a3a
 *common
 X
 
@@ -165,13 +165,13 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 02default:default2
 682default:defaultZ34-65
 @
-4Ending Power Optimization Task | Checksum: d269d9b5
+4Ending Power Optimization Task | Checksum: 4de7737e
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1670.645 ; gain = 158.7852default:default
+]Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1670.348 ; gain = 158.2232default:default
 Q
 Releasing license: %s
 83*common2"
@@ -193,9 +193,9 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 opt_design: 2default:default2
 00:00:402default:default2
-00:00:312default:default2
-1670.6452default:default2
-279.8052default:defaultZ17-268
+00:00:302default:default2
+1670.3482default:default2
+279.5082default:defaultZ17-268
 4
 Writing XDEF routing.
 211*designutilsZ20-211
@@ -211,7 +211,7 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 Write XDEF Complete: 2default:default2
 00:00:00.492default:default2
 00:00:00.492default:default2
-1683.1452default:default2
+1695.3482default:default2
 0.0002default:defaultZ17-268
 €
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
@@ -219,8 +219,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 write_checkpoint: 2default:default2
 00:00:142default:default2
 00:00:062default:default2
-1683.1482default:default2
-12.5042default:defaultZ17-268
+1695.3522default:default2
+25.0042default:defaultZ17-268
 
 
 End Record

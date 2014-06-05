@@ -28,6 +28,7 @@
         input wire [31:0] M_PL_DDR_ADDR_BUF,
         input wire M_PL_IRQ_DMA,       
         output reg M_PL_IRQ_END_BUFF_DMA,       
+
         input wire M_PL_R,
         output reg START,
         
@@ -35,6 +36,7 @@
         input wire [31:0] OUTINDEX,
         
         output reg    idle,
+        
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -762,7 +764,11 @@ reg     [31:0] offset_ddr;
 reg  	init_irqdma_ff;
 reg  	init_irqdma_ff2;
 wire  	init_irqdma_pulse;
+
+
 assign init_irqdma_pulse	= (!init_irqdma_ff2) && init_irqdma_ff;
+
+
 
 always @(posedge M_AXI_ACLK)										      
     begin                                                                        
@@ -775,10 +781,9 @@ always @(posedge M_AXI_ACLK)
             idle <= 0;
          end
     else if (idle == 1 && init_irqdma_pulse == 1)
-          begin  
-                ////////
+          begin
+             M_PL_IRQ_END_BUFF_DMA <= 0; 
              offset_ddr <= 0;
-             M_PL_IRQ_END_BUFF_DMA <= 0;
              idle <= 0;  
              START <= 0;  
           end     
@@ -787,31 +792,26 @@ always @(posedge M_AXI_ACLK)
         begin
             START <= 1;
             M_PL_IRQ_END_BUFF_DMA <= 0;
-            ////offset_ddr <= 0;
-            ///idle <= 0;
         end                                                                                                                                                                                                                                                         
     else if (init_irqdma_pulse == 1'b1 && idle == 0) 
          begin
          if (((offset_ddr + M_PL_LEN_REF*4) >= 32'h400000) && (offset_ddr < 32'h400000) && (OUTINDEX == INDEX)) // буфер ddr заполнен след. адреса нет
             begin
+                M_PL_IRQ_END_BUFF_DMA <= 1;
                 idle <= 1;
                 START <= 0;
-                M_PL_IRQ_END_BUFF_DMA <= 1;
-                ///offset_ddr <= 0; Сдесь нельзя нулить вектор не переключен 
             end                   
          else if (((offset_ddr + M_PL_LEN_REF*4) >= 32'h400000) && (offset_ddr < 32'h400000) && (OUTINDEX != INDEX))
             begin
+                M_PL_IRQ_END_BUFF_DMA <= 1;
                 idle <= 0;
                 START <= 1;
-                M_PL_IRQ_END_BUFF_DMA <= 1;
                 offset_ddr <= 0; // Скорее всего все нормально сдесь
             end
          else 
             begin
-                START <= 0;
-                ///START <= 1;
                 M_PL_IRQ_END_BUFF_DMA <= 0;
-                ///////////idle <= 0;
+                START <= 0;
                 offset_ddr <= offset_ddr +  M_PL_LEN_REF*4;//+ C_M_LEN_DATA;    max M_PL_LEN_REF 10000 - 1 = ffff (10000*4=40000)
             end
             
