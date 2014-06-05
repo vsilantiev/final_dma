@@ -345,6 +345,8 @@ set_property src_info {type:XDC file:2 line:43 export:INPUT save:INPUT read:READ
 set_property IOSTANDARD LVCMOS25 [get_ports {LD3[0]}]
 set_property src_info {type:XDC file:2 line:45 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD LVCMOS25 [get_ports LD5]
+set_property src_info {type:XDC file:2 line:50 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y11 [get_ports {JA1[0]}]
 set_property src_info {type:XDC file:3 line:40 export:INPUT save:INPUT read:READ} [current_design]
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==testDMA_auto_pc_573 || ORIG_REF_NAME==testDMA_auto_pc_573}]
 set_property src_info {type:XDC file:3 line:43 export:INPUT save:INPUT read:READ} [current_design]

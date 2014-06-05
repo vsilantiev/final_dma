@@ -39,14 +39,14 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2u
-aTime (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.66 . Memory (MB): peak = 1397.852 ; gain = 5.0122default:default
+aTime (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.68 . Memory (MB): peak = 1395.852 ; gain = 3.0122default:default
 X
 
 Starting %s Task
 103*constraints2&
 Logic Optimization2default:defaultZ18-103
 4
-(Logic Optimization | Checksum: 3f1d821c
+(Logic Optimization | Checksum: 120ac13e
 *common
 <
 %Done setting XDC timing constraints.
@@ -69,13 +69,13 @@ B
 49*opt2
 02default:defaultZ31-49
 2
-&Phase 1 Retarget | Checksum: cef7a944
+&Phase 1 Retarget | Checksum: 1e4d4fa7
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1510.977 ; gain = 113.1252default:default
+]Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
 l
 
 Phase %s%s
@@ -89,15 +89,15 @@ C
 C
 Eliminated %s cells.
 10*opt2
-21132default:defaultZ31-10
+20812default:defaultZ31-10
 >
-2Phase 2 Constant Propagation | Checksum: 68ec289c
+2Phase 2 Constant Propagation | Checksum: 9436ce56
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1510.977 ; gain = 113.1252default:default
+]Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
 ]
 
 Phase %s%s
@@ -107,29 +107,29 @@ Phase %s%s
 N
  Eliminated %s unconnected nets.
 12*opt2
-80692default:defaultZ31-12
+80372default:defaultZ31-12
 O
 !Eliminated %s unconnected cells.
 11*opt2
 68152default:defaultZ31-11
 /
-#Phase 3 Sweep | Checksum: b2c32313
+#Phase 3 Sweep | Checksum: f19a50d7
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1510.977 ; gain = 113.1252default:default
+]Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
 @
-4Ending Logic Optimization Task | Checksum: b2c32313
+4Ending Logic Optimization Task | Checksum: f19a50d7
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1510.977 ; gain = 113.1252default:default
+]Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1511.859 ; gain = 116.0082default:default
 7
-+Implement Debug Cores | Checksum: 3f1d821c
++Implement Debug Cores | Checksum: 120ac13e
 *common
 X
 
@@ -165,13 +165,13 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 02default:default2
 682default:defaultZ34-65
 @
-4Ending Power Optimization Task | Checksum: e66a7320
+4Ending Power Optimization Task | Checksum: d269d9b5
 *common
 ˆ
 
 %s
 *constraints2q
-]Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1666.941 ; gain = 155.9652default:default
+]Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1670.645 ; gain = 158.7852default:default
 Q
 Releasing license: %s
 83*common2"
@@ -192,10 +192,10 @@ opt_design2default:defaultZ4-42
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 opt_design: 2default:default2
-00:00:392default:default2
-00:00:302default:default2
-1666.9412default:default2
-275.1022default:defaultZ17-268
+00:00:402default:default2
+00:00:312default:default2
+1670.6452default:default2
+279.8052default:defaultZ17-268
 4
 Writing XDEF routing.
 211*designutilsZ20-211
@@ -209,18 +209,18 @@ A
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
-00:00:00.472default:default2
-00:00:00.482default:default2
-1691.9412default:default2
+00:00:00.492default:default2
+00:00:00.492default:default2
+1683.1452default:default2
 0.0002default:defaultZ17-268
 €
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2&
 write_checkpoint: 2default:default2
-00:00:132default:default2
+00:00:142default:default2
 00:00:062default:default2
-1691.9452default:default2
-25.0042default:defaultZ17-268
+1683.1482default:default2
+12.5042default:defaultZ17-268
 
 
 End Record

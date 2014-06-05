@@ -46,3 +46,6 @@ set_property IOSTANDARD LVCMOS25 [get_ports LD5]
 set_property IOSTANDARD LVCMOS25 [get_ports LD6]
 set_property IOSTANDARD LVCMOS25 [get_ports LD7]
 
+
+set_property PACKAGE_PIN Y11 [get_ports {JA1[0]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {JA1[0]}]

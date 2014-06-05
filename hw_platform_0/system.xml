@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jun  4 17:29:03 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun  5 11:19:44 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
@@ -55,6 +55,11 @@
         <CONNECTION INSTANCE="init_dma_1" PORT="m00_axi_txn_done"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="O" NAME="JA1" SIGIS="undef" SIGNAME="ADC_emul_0_strobe">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="strobe"/>
+      </CONNECTIONS>
+    </PORT>
   </EXTERNALPORTS>
 
   <MODULES>
@@ -94,6 +99,7 @@
         <PORT DIR="O" NAME="strobe" SIGIS="undef" SIGNAME="ADC_emul_0_strobe">
           <CONNECTIONS>
             <CONNECTION INSTANCE="init_dma_1" PORT="m00_start_capture"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JA1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -456,7 +462,7 @@
         <PARAMETER CHANGEDBY="undefined" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1368"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1380"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -887,7 +893,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1258"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1270"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3037,6 +3043,7 @@
         <PORT DIR="O" NAME="m00_irq_end_buff_dma" SIGIS="undef" SIGNAME="init_dma_1_m00_irq_end_buff_dma">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="LD7"/>
+            <CONNECTION INSTANCE="ps7_scugic_0" PORT="IRQ_F2P"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m00_per_imp" SIGIS="undef" SIGNAME="init_dma_1_m00_per_imp">
@@ -3545,7 +3552,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1253"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1265"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3961,7 +3968,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1363"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1375"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -4277,7 +4284,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1254"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1266"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -4693,7 +4700,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1364"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1376"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -4997,7 +5004,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1255"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1267"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -5413,7 +5420,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1365"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1377"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -5729,7 +5736,7 @@
         <PARAMETER CHANGEDBY="propagated" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1366"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1378"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -6160,7 +6167,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1256"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1268"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -6568,7 +6575,7 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1367"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1379"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -6884,7 +6891,7 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1257"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1269"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -13962,7 +13969,11 @@
         <PORT DIR="I" NAME="Core0_nIRQ" SIGIS="INTERRUPT"/>
         <PORT DIR="I" NAME="Core1_nFIQ" SIGIS="INTERRUPT"/>
         <PORT DIR="I" NAME="Core1_nIRQ" SIGIS="INTERRUPT"/>
-        <PORT DIR="I" NAME="IRQ_F2P" SIGIS="INTERRUPT"/>
+        <PORT DIR="I" NAME="IRQ_F2P" SIGIS="INTERRUPT" SIGNAME="init_dma_1_m00_irq_end_buff_dma">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="init_dma_1" PORT="m00_irq_end_buff_dma"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" NAME="S_AXI_ACLK" SIGIS="CLK" SIGNAME="ps7_axi_interconnect_0_M_AXI_ACLK">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ps7_axi_interconnect_0" PORT="M_AXI_ACLK"/>
