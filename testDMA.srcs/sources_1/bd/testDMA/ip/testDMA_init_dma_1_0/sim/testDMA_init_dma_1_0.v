@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:init_dma:6.0
-// IP Revision: 35
+// IP Revision: 41
 
 `timescale 1ns/1ps
 

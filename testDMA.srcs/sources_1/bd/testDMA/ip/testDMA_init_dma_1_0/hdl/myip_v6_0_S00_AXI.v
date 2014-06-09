@@ -14,6 +14,8 @@
 		// Users to add ports here
         output wire [31:0] S_PS_LEN_REF,        
         output wire [31:0] S_PS_R,
+        
+        input wire [31:0] S_PS_DDR_ADDR_BUF1,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -241,7 +243,7 @@
 	    begin
 	      slv_reg0 <= 0;
 	      slv_reg1 <= 0;
-	      slv_reg2 <= 0;
+	      //slv_reg2 <= 0;
 	      slv_reg3 <= 0;
 	      slv_reg4 <= 0;
 	      slv_reg5 <= 0;
@@ -290,6 +292,7 @@
 	                // Slave register 1
 	                slv_reg1[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
 	              end  
+	          /*
 	          5'h02:
 	            for ( byte_index = 0; byte_index <= (C_S_AXI_DATA_WIDTH/8)-1; byte_index = byte_index+1 )
 	              if ( S_AXI_WSTRB[byte_index] == 1 ) begin
@@ -297,6 +300,7 @@
 	                // Slave register 2
 	                slv_reg2[(byte_index*8) +: 8] <= S_AXI_WDATA[(byte_index*8) +: 8];
 	              end  
+	          */
 	          5'h03:
 	            for ( byte_index = 0; byte_index <= (C_S_AXI_DATA_WIDTH/8)-1; byte_index = byte_index+1 )
 	              if ( S_AXI_WSTRB[byte_index] == 1 ) begin
@@ -704,7 +708,21 @@
 	end    
 
 	// Add user logic here
-
+	always @( posedge S_AXI_ACLK )
+    begin
+    if ( S_AXI_ARESETN == 1'b0 )
+     begin  
+       slv_reg2  <= 0;
+     end
+     else
+        begin
+        slv_reg2 <= S_PS_DDR_ADDR_BUF1;
+        //slv_reg0[0:7] <= reg0[0:7];
+        //slv_reg1[0:7] <= reg0[7:15];
+        //slv_reg2[0:7] <= reg0[16:23];
+        //slv_reg3[0:7] <= reg0[24:32];
+        end
+    end
 	// User logic ends
 
 	endmodule

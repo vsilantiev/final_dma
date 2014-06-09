@@ -15,7 +15,7 @@
     <File Path="$PSRCDIR/sources_1/imports/hdl/testDMA_wrapper.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/testDMA/hdl/testDMA_wrapper.v"/>
-        <Attr Name="ImportTime" Val="1401958645"/>
+        <Attr Name="ImportTime" Val="1402306389"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>

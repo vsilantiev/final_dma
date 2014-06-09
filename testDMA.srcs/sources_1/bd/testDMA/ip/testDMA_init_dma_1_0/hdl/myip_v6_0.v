@@ -48,6 +48,9 @@
 
         output wire M_PL_IDLE,
         input wire S_PL_IDLE,
+        
+        output wire [31:0] PS_DDR_ADDR_BUF1,//S1
+        input wire [31:0] PL_DDR_ADDR_BUF1,//S0
 
 		// Ports of Axi Slave Bus Interface S00_AXI
 		input wire  s00_axi_aclk,
@@ -127,6 +130,7 @@
 	) myip_v6_0_S00_AXI_inst (
 		.S_PS_R(m00_per_imp),
         .S_PS_LEN_REF(m00_len_ref),
+        .S_PS_DDR_ADDR_BUF1(PL_DDR_ADDR_BUF1),
 		.S_AXI_ACLK(s00_axi_aclk),
 		.S_AXI_ARESETN(s00_axi_aresetn),
 		.S_AXI_AWADDR(s00_axi_awaddr),
@@ -161,6 +165,7 @@
         .INDEX(S_PL_INDEX),
         .OUTINDEX(S_PL_OUTINDEX),
         .IDLE(S_PL_IDLE),
+        .S_PS_DDR_ADDR_BUF1(PS_DDR_ADDR_BUF1),
 		.S_AXI_ACLK(s01_axi_aclk),
 		.S_AXI_ARESETN(s01_axi_aresetn),
 		.S_AXI_AWADDR(s01_axi_awaddr),
@@ -239,5 +244,6 @@
 	// User logic ends
 
     assign S_PL_IDLE = M_PL_IDLE;
+    assign PL_DDR_ADDR_BUF1 = PS_DDR_ADDR_BUF1;
 
 	endmodule

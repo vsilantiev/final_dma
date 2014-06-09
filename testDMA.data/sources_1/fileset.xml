@@ -15,7 +15,7 @@
     <File Path="$PSRCDIR/sources_1/imports/hdl/testDMA_wrapper.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/testDMA/hdl/testDMA_wrapper.v"/>
-        <Attr Name="ImportTime" Val="1401958645"/>
+        <Attr Name="ImportTime" Val="1402306389"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -43,7 +43,6 @@
       <Option Name="TopModule" Val="testDMA_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/IPCore/myip_6.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/IPCore/init_dma_5.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/IPCore"/>
     </Config>
   </FileSet>

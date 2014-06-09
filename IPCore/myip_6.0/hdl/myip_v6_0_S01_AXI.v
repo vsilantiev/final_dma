@@ -1,3 +1,4 @@
+
 	module myip_v6_0_S01_AXI #
 	(
 		// Users to add parameters here
@@ -19,6 +20,8 @@
         output reg [31:0] INDEX,
         output reg [31:0] OUTINDEX,
 		input wire IDLE,
+		
+		output reg [31:0] S_PS_DDR_ADDR_BUF1,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -755,12 +758,73 @@
 	   else if (start)
 	   begin
 	       if ( OUTINDEX == 40 )
-	           OUTINDEX <= 0;
+	           begin    
+	               OUTINDEX <= 1;
+	           end
 	       else
 	           OUTINDEX <= OUTINDEX + 1;
 	   end
 	end
-	
+
+	always @( posedge S_AXI_ACLK)
+	   begin
+	       if ( S_AXI_ARESETN == 1'b0 )
+	       begin
+	       S_PS_DDR_ADDR_BUF1 <= 0;
+	       end
+	       else
+	       begin 
+	           if (S_PS_START_CAPTURES == 0)
+	           begin
+	           S_PS_DDR_ADDR_BUF1 <= S_PS_DDR_ADDR_BUF;
+	           end
+	           else
+	           begin
+	           case (OUTINDEX-1)
+	           1: S_PS_DDR_ADDR_BUF1 <= slv_reg0;
+	           2: S_PS_DDR_ADDR_BUF1 <= slv_reg1;
+	           3: S_PS_DDR_ADDR_BUF1 <= slv_reg2;
+	           4: S_PS_DDR_ADDR_BUF1 <= slv_reg3;
+	           5: S_PS_DDR_ADDR_BUF1 <= slv_reg4;
+	           6: S_PS_DDR_ADDR_BUF1 <= slv_reg5;
+               7: S_PS_DDR_ADDR_BUF1 <= slv_reg6;
+               8: S_PS_DDR_ADDR_BUF1 <= slv_reg7;
+               9: S_PS_DDR_ADDR_BUF1 <= slv_reg8;
+               10: S_PS_DDR_ADDR_BUF1 <= slv_reg9;
+               11: S_PS_DDR_ADDR_BUF1 <= slv_reg10;
+               12: S_PS_DDR_ADDR_BUF1 <= slv_reg11;
+               13: S_PS_DDR_ADDR_BUF1 <= slv_reg12;
+               14: S_PS_DDR_ADDR_BUF1 <= slv_reg13;
+               15: S_PS_DDR_ADDR_BUF1 <= slv_reg14;
+               16: S_PS_DDR_ADDR_BUF1 <= slv_reg15;
+               17: S_PS_DDR_ADDR_BUF1 <= slv_reg16;
+               18: S_PS_DDR_ADDR_BUF1 <= slv_reg17;
+               19: S_PS_DDR_ADDR_BUF1 <= slv_reg18;
+               20: S_PS_DDR_ADDR_BUF1 <= slv_reg19;
+               21: S_PS_DDR_ADDR_BUF1 <= slv_reg20;
+               22: S_PS_DDR_ADDR_BUF1 <= slv_reg21;
+               23: S_PS_DDR_ADDR_BUF1 <= slv_reg22;
+               24: S_PS_DDR_ADDR_BUF1 <= slv_reg23;
+               25: S_PS_DDR_ADDR_BUF1 <= slv_reg24;
+               26: S_PS_DDR_ADDR_BUF1 <= slv_reg25;
+               27: S_PS_DDR_ADDR_BUF1 <= slv_reg26;
+               28: S_PS_DDR_ADDR_BUF1 <= slv_reg27;
+               29: S_PS_DDR_ADDR_BUF1 <= slv_reg28;
+               30: S_PS_DDR_ADDR_BUF1 <= slv_reg29;
+               31: S_PS_DDR_ADDR_BUF1 <= slv_reg30;
+               32: S_PS_DDR_ADDR_BUF1 <= slv_reg31;
+               33: S_PS_DDR_ADDR_BUF1 <= slv_reg32;
+               34: S_PS_DDR_ADDR_BUF1 <= slv_reg33;
+               35: S_PS_DDR_ADDR_BUF1 <= slv_reg34;
+               36: S_PS_DDR_ADDR_BUF1 <= slv_reg35;
+               37: S_PS_DDR_ADDR_BUF1 <= slv_reg36;
+               38: S_PS_DDR_ADDR_BUF1 <= slv_reg37;
+               39: S_PS_DDR_ADDR_BUF1 <= slv_reg38;
+               40: S_PS_DDR_ADDR_BUF1 <= slv_reg39;
+	           endcase
+	           end
+	       end
+	    end
 	
 	always @( posedge S_AXI_ACLK)
 	   begin

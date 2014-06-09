@@ -5,14 +5,12 @@
   set_param gui.test TreeTableDev
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-set_msg_config -id {HDL-1065} -limit 10000
 create_project -in_memory -part xc7z020clg484-1
 set_property target_language Verilog [current_project]
 set_property board em.avnet.com:zynq:zed:d [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
 set_property ip_repo_paths {
   /home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0
-  /home/vladimir/Z/zedboard/final_dma/IPCore/init_dma_5.0
   /home/vladimir/Z/zedboard/final_dma/IPCore
 } [current_fileset]
 
@@ -28,24 +26,24 @@ set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedbo
 set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_3/testDMA_xbar_3_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1301/testDMA_auto_ds_1301_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1301/testDMA_auto_ds_1301_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1411/testDMA_auto_pc_1411_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1302/testDMA_auto_ds_1302_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1302/testDMA_auto_ds_1302_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1412/testDMA_auto_pc_1412_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1303/testDMA_auto_ds_1303_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1303/testDMA_auto_ds_1303_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1413/testDMA_auto_pc_1413_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1414/testDMA_auto_pc_1414_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1304/testDMA_auto_us_1304_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1304/testDMA_auto_us_1304_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1415/testDMA_auto_pc_1415_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1305/testDMA_auto_us_1305_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1305/testDMA_auto_us_1305_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1416/testDMA_auto_pc_1416_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1306/testDMA_auto_us_1306_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1306/testDMA_auto_us_1306_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1513/testDMA_auto_pc_1513_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1514/testDMA_auto_pc_1514_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1515/testDMA_auto_pc_1515_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1516/testDMA_auto_pc_1516_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1517/testDMA_auto_pc_1517_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1518/testDMA_auto_pc_1518_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/testDMA.bd]
