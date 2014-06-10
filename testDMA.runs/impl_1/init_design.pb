@@ -560,71 +560,71 @@ $Parsing XDC File [%s] for cell '%s'
 ¯
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-848
 ¸
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-847
 ¯
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-848
 ¸
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-847
 ¯
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-848
 ¸
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-847
 ¯
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/testDMA_auto_us_1418_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
 ¸
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/testDMA_auto_us_1418_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-847
 ¯
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/testDMA_auto_us_1419_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-848
 ¸
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/testDMA_auto_us_1419_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-847
  
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_clocks.xdc2default:default2H
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/testDMA_auto_us_1420_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
 ©
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2‘
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_clocks.xdc2default:default2H
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/testDMA_auto_us_1420_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
 ²
 Parsing XDC File [%s]
 179*designutils2|
-h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-15622-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-19174-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-179
 »
 Finished Parsing XDC File [%s]
 178*designutils2|
-h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-15622-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
+h/home/vladimir/Z/zedboard/final_dma/testDMA.runs/impl_1/.Xil/Vivado-19174-ubuntu/dcp/testDMA_wrapper.xdc2default:defaultZ20-178
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-143
@@ -640,9 +640,9 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
 00:00:212default:default2
-00:00:222default:default2
-1392.8442default:default2
-671.0042default:defaultZ17-268
+00:00:212default:default2
+1386.8442default:default2
+665.0042default:defaultZ17-268
 
 
 End Record

@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Mon Jun  9 14:03:50 2014
+| Date         : Mon Jun  9 16:13:45 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file testDMA_wrapper_utilization_synth.rpt -pb testDMA_wrapper_utilization_synth.pb
 | Design       : testDMA_wrapper
@@ -29,16 +29,16 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 35590 |     0 |     53200 | 66.89 |
-|   LUT as Logic             | 35050 |     0 |     53200 | 65.88 |
+| Slice LUTs*                | 32924 |     0 |     53200 | 61.88 |
+|   LUT as Logic             | 32384 |     0 |     53200 | 60.87 |
 |   LUT as Memory            |   540 |     0 |     17400 |  3.10 |
 |     LUT as Distributed RAM |   162 |     0 |           |       |
 |     LUT as Shift Register  |   378 |     0 |           |       |
-| Slice Registers            | 28727 |     0 |    106400 | 26.99 |
-|   Register as Flip Flop    | 28727 |     0 |    106400 | 26.99 |
+| Slice Registers            | 26630 |     0 |    106400 | 25.02 |
+|   Register as Flip Flop    | 26630 |     0 |    106400 | 25.02 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
-| F7 Muxes                   |  2962 |     0 |     26600 | 11.13 |
-| F8 Muxes                   |  1152 |     0 |     13300 |  8.66 |
+| F7 Muxes                   |  2706 |     0 |     26600 | 10.17 |
+| F8 Muxes                   |  1024 |     0 |     13300 |  7.69 |
 +----------------------------+-------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis for a more realistic count.
 
@@ -131,15 +131,15 @@ Table of Contents
 +----------+-------+
 | Ref Name |  Used |
 +----------+-------+
-| FDRE     | 27947 |
-| LUT6     | 22848 |
-| LUT4     |  7027 |
-| LUT3     |  3512 |
-| MUXF7    |  2962 |
-| LUT5     |  2825 |
-| MUXF8    |  1152 |
-| LUT2     |   980 |
-| LUT1     |   768 |
+| FDRE     | 25850 |
+| LUT6     | 20190 |
+| LUT4     |  7023 |
+| LUT3     |  3509 |
+| LUT5     |  2824 |
+| MUXF7    |  2706 |
+| MUXF8    |  1024 |
+| LUT2     |   979 |
+| LUT1     |   767 |
 | FDCE     |   407 |
 | CARRY4   |   307 |
 | SRLC32E  |   269 |

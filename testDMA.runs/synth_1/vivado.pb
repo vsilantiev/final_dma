@@ -27,6 +27,10 @@ C/opt/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:d
 5
 Refreshing IP repositories
 234*coregenZ19-234
+à
+Loaded user repository '%s'.
+1135*coregen2M
+9/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.02default:defaultZ19-1700
 Ç
 Loaded user repository '%s'.
 1135*coregen2G
@@ -45,13 +49,19 @@ xDuplicate IP found for '%s'. The one found in repository '%s' will take precede
 xilinx.com:user:init_dma:6.02default:default2G
 3/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.02default:default2>
 */home/vladimir/Z/zedboard/final_dma/IPCore2default:defaultZ19-1663
+◊
+xDuplicate IP found for '%s'. The one found in repository '%s' will take precedence over the same IP in repository '%s'.
+1161*coregen22
+xilinx.com:user:def_stream:1.02default:default2M
+9/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.02default:default2>
+*/home/vladimir/Z/zedboard/final_dma/IPCore2default:defaultZ19-1663
 ¯
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
 00:00:052default:default2
 00:00:062default:default2
-799.1882default:default2
+799.1912default:default2
 77.3522default:defaultZ17-268
 s
 Command: %s
@@ -114,7 +124,7 @@ u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDM
 1302default:default8@Z8-2507
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 882.000 ; gain = 257.164
+xStarting RTL Elaboration : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 882.004 ; gain = 257.164
 2default:default
 ·
 synthesizing module '%s'638*oasys2#
@@ -14236,7 +14246,7 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 synthesizing module '%s'638*oasys2.
 testDMA_axi_mem_intercon_12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-41292default:default8@Z8-638
+41162default:default8@Z8-638
 Â
 synthesizing module '%s'638*oasys2,
 m00_couplers_imp_1ULZJWI2default:default2i
@@ -14244,13 +14254,13 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 32default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15182default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1518/synth/testDMA_auto_pc_1518.v2default:default2
+testDMA_auto_pc_15302default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1530/synth/testDMA_auto_pc_1530.v2default:default2
 572default:default8@Z8-638
 È
 synthesizing module '%s'638*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -14355,7 +14365,7 @@ X
 œ
 synthesizing module '%s'638*oasys29
 %axi_protocol_converter_v2_1_axi3_conv2default:default2ƒ
-≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
+≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-638
 V
 %s*synth2G
@@ -14420,7 +14430,7 @@ _
 ”
 synthesizing module '%s'638*oasys2;
 'axi_protocol_converter_v2_1_a_axi3_conv2default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -19931,12 +19941,12 @@ $fifo_generator_v11_0__parameterized32default:default2
 'axi_protocol_converter_v2_1_a_axi3_conv2default:default2
 802default:default2
 12default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
 ”
 synthesizing module '%s'638*oasys2;
 'axi_protocol_converter_v2_1_w_axi3_conv2default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -19975,12 +19985,12 @@ _
 'axi_protocol_converter_v2_1_w_axi3_conv2default:default2
 812default:default2
 12default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_w_axi3_conv.v2default:default2
 612default:default8@Z8-256
 ”
 synthesizing module '%s'638*oasys2;
 'axi_protocol_converter_v2_1_b_downsizer2default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-638
 V
 %s*synth2G
@@ -20019,12 +20029,12 @@ M
 'axi_protocol_converter_v2_1_b_downsizer2default:default2
 822default:default2
 12default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-256
 „
 synthesizing module '%s'638*oasys2K
 7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -22595,12 +22605,12 @@ $fifo_generator_v11_0__parameterized42default:default2
 7axi_protocol_converter_v2_1_a_axi3_conv__parameterized02default:default2
 822default:default2
 12default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_a_axi3_conv.v2default:default2
 622default:default8@Z8-256
 ”
 synthesizing module '%s'638*oasys2;
 'axi_protocol_converter_v2_1_r_axi3_conv2default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -22655,28 +22665,28 @@ M
 'axi_protocol_converter_v2_1_r_axi3_conv2default:default2
 832default:default2
 12default:default2∆
-Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
+Ø/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_r_axi3_conv.v2default:default2
 612default:default8@Z8-256
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_protocol_converter_v2_1_axi3_conv2default:default2
 842default:default2
 12default:default2ƒ
-≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
+≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi3_conv.v2default:default2
 692default:default8@Z8-256
 •
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 852default:default2
 12default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 ∆
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15182default:default2
+testDMA_auto_pc_15302default:default2
 862default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1518/synth/testDMA_auto_pc_1518.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1530/synth/testDMA_auto_pc_1530.v2default:default2
 572default:default8@Z8-256
 °
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -22692,13 +22702,13 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 24142default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_us_14082default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/synth/testDMA_auto_us_1408.v2default:default2
+testDMA_auto_us_14202default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/synth/testDMA_auto_us_1420.v2default:default2
 572default:default8@Z8-638
 Ω
 synthesizing module '%s'638*oasys21
 axi_dwidth_converter_v2_1_top2default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -22803,7 +22813,7 @@ X
 Õ
 synthesizing module '%s'638*oasys29
 %axi_dwidth_converter_v2_1_axi_upsizer2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-638
 V
 %s*synth2G
@@ -24216,7 +24226,7 @@ a
 …
 synthesizing module '%s'638*oasys27
 #axi_dwidth_converter_v2_1_a_upsizer2default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -24363,12 +24373,12 @@ $generic_baseblocks_v2_1_command_fifo2default:default2
 #axi_dwidth_converter_v2_1_a_upsizer2default:default2
 932default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
 …
 synthesizing module '%s'638*oasys27
 #axi_dwidth_converter_v2_1_w_upsizer2default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
 642default:default8@Z8-638
 U
 %s*synth2F
@@ -24423,33 +24433,33 @@ Y
 #axi_dwidth_converter_v2_1_w_upsizer2default:default2
 942default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_upsizer.v2default:default2
 642default:default8@Z8-256
 â
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_axi_upsizer2default:default2
 952default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys21
 axi_dwidth_converter_v2_1_top2default:default2
 962default:default2
 12default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 ∆
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_us_14082default:default2
+testDMA_auto_us_14202default:default2
 972default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/synth/testDMA_auto_us_1408.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/synth/testDMA_auto_us_1420.v2default:default2
 572default:default8@Z8-256
 ‡
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_us2default:default2(
-testDMA_auto_us_14082default:default2
+testDMA_auto_us_14202default:default2
 402default:default2
 392default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
@@ -27788,7 +27798,7 @@ s_axi_arid2default:default2
 42default:default2"
 testDMA_xbar_32default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-48772default:default8@Z8-689
+48642default:default8@Z8-689
 ‰
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 32default:default2
@@ -27797,14 +27807,14 @@ s_axi_awid2default:default2
 42default:default2"
 testDMA_xbar_32default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-48882default:default8@Z8-689
+48752default:default8@Z8-689
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 testDMA_axi_mem_intercon_12default:default2
 1182default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-41292default:default8@Z8-256
+41162default:default8@Z8-256
 ù
 synthesizing module '%s'638*oasys2.
 testDMA_axis_data_fifo_0_12default:default2ù
@@ -70459,14 +70469,6 @@ c
 %s*synth2T
 @	Parameter C_M00_AXIS_START_COUNT bound to: 32 - type: integer 
 2default:default
-a
-%s*synth2R
->	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-`
-%s*synth2Q
-=	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
-2default:default
 ó
 synthesizing module '%s'638*oasys2,
 def_stream_v1_0_M00_AXIS2default:default2ö
@@ -70511,61 +70513,25 @@ K
 12default:default2ö
 É/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0_M00_AXIS.v2default:default2
 12default:default8@Z8-256
-ï
-synthesizing module '%s'638*oasys2+
-def_stream_v1_0_S00_AXI2default:default2ô
-Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0_S00_AXI.v2default:default2
-12default:default8@Z8-638
-_
-%s*synth2P
-<	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
-2default:default
-^
-%s*synth2O
-;	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
-2default:default
-T
-%s*synth2E
-1	Parameter ADDR_LSB bound to: 2 - type: integer 
-2default:default
-]
-%s*synth2N
-:	Parameter OPT_MEM_ADDR_BITS bound to: 5 - type: integer 
-2default:default
-Ì
-default block is never used226*oasys2ô
-Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0_S00_AXI.v2default:default2
-3422default:default8@Z8-226
-Ì
-default block is never used226*oasys2ô
-Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0_S00_AXI.v2default:default2
-9692default:default8@Z8-226
-“
-%done synthesizing module '%s' (%s#%s)256*oasys2+
-def_stream_v1_0_S00_AXI2default:default2
-1282default:default2
-12default:default2ô
-Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0_S00_AXI.v2default:default2
-12default:default8@Z8-256
 ¡
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 def_stream_v1_02default:default2
-1292default:default2
+1282default:default2
 12default:default2ê
 z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/work/hdl/def_stream_v1_0.v2default:default2
 12default:default8@Z8-256
-É
+Ç
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 inst2default:default2#
 def_stream_v1_02default:default2
-332default:default2
-322default:default2î
-~/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/synth/testDMA_def_stream_0_0.v2default:default2
-1592default:default8@Z8-350
+122default:default2
+112default:default2î
+~/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/synth/testDMA_def_stream_0_0.v2default:default2
+942default:default8@Z8-350
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 testDMA_def_stream_0_02default:default2
-1302default:default2
+1292default:default2
 12default:default2î
 ~/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_def_stream_0_0/synth/testDMA_def_stream_0_0.v2default:default2
 572default:default8@Z8-256
@@ -70577,14 +70543,6 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 testDMA_def_stream_0_02default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 37592default:default8@Z8-689
-Á
-Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2 
-def_stream_02default:default2*
-testDMA_def_stream_0_02default:default2
-322default:default2
-242default:default2i
-S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-37502default:default8@Z8-350
 ä
 synthesizing module '%s'638*oasys2(
 testDMA_init_dma_1_02default:default2ê
@@ -70659,7 +70617,7 @@ u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDM
 æ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 myip_v6_0_S00_AXI2default:default2
-1312default:default2
+1302default:default2
 12default:default2ã
 u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_1_0/hdl/myip_v6_0_S00_AXI.v2default:default2
 12default:default8@Z8-256
@@ -70699,7 +70657,7 @@ u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDM
 æ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 myip_v6_0_S01_AXI2default:default2
-1322default:default2
+1312default:default2
 12default:default2ã
 u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_1_0/hdl/myip_v6_0_S01_AXI.v2default:default2
 22default:default8@Z8-256
@@ -70759,14 +70717,14 @@ u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDM
 æ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 myip_v6_0_M00_AXI2default:default2
-1332default:default2
+1322default:default2
 12default:default2ã
 u/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_1_0/hdl/myip_v6_0_M00_AXI.v2default:default2
 12default:default8@Z8-256
 Æ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	myip_v6_02default:default2
-1342default:default2
+1332default:default2
 12default:default2É
 m/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_1_0/hdl/myip_v6_0.v2default:default2
 12default:default8@Z8-256
@@ -70781,7 +70739,7 @@ z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDM
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 testDMA_init_dma_1_02default:default2
-1352default:default2
+1342default:default2
 12default:default2ê
 z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_init_dma_1_0/synth/testDMA_init_dma_1_0.v2default:default2
 572default:default8@Z8-256
@@ -70918,14 +70876,14 @@ S
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2
 SRL162default:default2
-1362default:default2
+1352default:default2
 12default:default2M
 7/opt/Xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 265002default:default8@Z8-256
 »
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
-1372default:default2
+1362default:default2
 12default:default2°
 ä/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
@@ -70946,28 +70904,28 @@ R
 –
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
-1382default:default2
+1372default:default2
 12default:default2•
 é/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
 “
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
-1392default:default2
+1382default:default2
 12default:default2¶
 è/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
 ﬁ
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 proc_sys_reset2default:default2
-1402default:default2
+1392default:default2
 12default:default2¨
 ï/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
 ÷
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 testDMA_proc_sys_reset_02default:default2
-1412default:default2
+1402default:default2
 12default:default2õ
 Ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/synth/testDMA_proc_sys_reset_0.vhd2default:default2
 712default:default8@Z8-256
@@ -70978,7 +70936,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 102default:default2
 72default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-38472default:default8@Z8-350
+38342default:default8@Z8-350
 ©
 synthesizing module '%s'638*oasys22
 testDMA_processing_system7_0_02default:default2•
@@ -71157,7 +71115,7 @@ V
 Ù
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-1422default:default2
+1412default:default2
 12default:default2M
 7/opt/Xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 4342default:default8@Z8-256
@@ -71173,7 +71131,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
-1432default:default2
+1422default:default2
 12default:default2M
 7/opt/Xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 2692default:default8@Z8-256
@@ -71586,14 +71544,14 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
-1442default:default2
+1432default:default2
 12default:default2M
 7/opt/Xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 193392default:default8@Z8-256
 Ö
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
-1452default:default2
+1442default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
@@ -71608,7 +71566,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 Ê
 %done synthesizing module '%s' (%s#%s)256*oasys22
 testDMA_processing_system7_0_02default:default2
-1462default:default2
+1452default:default2
 12default:default2•
 é/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/synth/testDMA_processing_system7_0_0.v2default:default2
 572default:default8@Z8-256
@@ -71619,7 +71577,7 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 62default:default22
 testDMA_processing_system7_0_02default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-39232default:default8@Z8-689
+39102default:default8@Z8-689
 ¯
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 22default:default2"
@@ -71627,7 +71585,7 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 62default:default22
 testDMA_processing_system7_0_02default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-39342default:default8@Z8-689
+39212default:default8@Z8-689
 ˜
 Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s'689*oasys2
 22default:default2!
@@ -71635,7 +71593,7 @@ Pwidth (%s) of port connection '%s' does not match port width (%s) of module '%s
 62default:default22
 testDMA_processing_system7_0_02default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-39542default:default8@Z8-689
+39412default:default8@Z8-689
 ˘
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2(
 processing_system7_02default:default22
@@ -71643,12 +71601,12 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 1172default:default2
 1082default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-38552default:default8@Z8-350
+38422default:default8@Z8-350
 ˘
 synthesizing module '%s'638*oasys2=
 )testDMA_processing_system7_0_axi_periph_02default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-49132default:default8@Z8-638
+49002default:default8@Z8-638
 Ê
 synthesizing module '%s'638*oasys2+
 m00_couplers_imp_VG7ZLK2default:default2i
@@ -71656,13 +71614,13 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 4082default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_ds_14032default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/synth/testDMA_auto_ds_1403.v2default:default2
+testDMA_auto_ds_14152default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/synth/testDMA_auto_ds_1415.v2default:default2
 572default:default8@Z8-638
 Õ
 synthesizing module '%s'638*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized02default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -71767,7 +71725,7 @@ _
 —
 synthesizing module '%s'638*oasys2;
 'axi_dwidth_converter_v2_1_axi_downsizer2default:default2ƒ
-≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_downsizer.v2default:default2
+≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_downsizer.v2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -71852,7 +71810,7 @@ a
 Õ
 synthesizing module '%s'638*oasys29
 %axi_dwidth_converter_v2_1_a_downsizer2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-638
 V
 %s*synth2G
@@ -74112,7 +74070,7 @@ Z
 ⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2ù
 Ü/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -74273,14 +74231,14 @@ W
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized32default:default2
-1462default:default2
+1452default:default2
 12default:default2ô
 Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2õ
 Ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -74392,49 +74350,49 @@ W
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2û
 á/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2´
 î/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2ü
 à/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized52default:default2
-1462default:default2
+1452default:default2
 12default:default2ß
 ê/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 È
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2°
 ä/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized22default:default2
-1462default:default2
+1452default:default2
 12default:default2´
 î/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized22default:default2
-1462default:default2
+1452default:default2
 12default:default2¨
 ï/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
@@ -76616,7 +76574,7 @@ Z
 ⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 input_blk__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2ù
 Ü/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/common/input_blk.vhd2default:default2
 2782default:default8@Z8-256
@@ -76777,14 +76735,14 @@ W
 —
 %done synthesizing module '%s' (%s#%s)256*oasys2(
 dmem__parameterized42default:default2
-1462default:default2
+1452default:default2
 12default:default2ô
 Ç/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/dmem.vhd2default:default2
 1652default:default8@Z8-256
 ’
 %done synthesizing module '%s' (%s#%s)256*oasys2*
 memory__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2õ
 Ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/memory.vhd2default:default2
 2152default:default8@Z8-256
@@ -76896,63 +76854,63 @@ W
 ‹
 %done synthesizing module '%s' (%s#%s)256*oasys2.
 output_blk__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2û
 á/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/common/output_blk.vhd2default:default2
 2682default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2:
 &fifo_generator_ramfifo__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2´
 î/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/ramfifo/fifo_generator_ramfifo.vhd2default:default2
 3062default:default8@Z8-256
 Â
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "fifo_generator_top__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2ü
 à/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_top.vhd2default:default2
 2692default:default8@Z8-256
 ı
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *fifo_generator_v11_0_synth__parameterized62default:default2
-1462default:default2
+1452default:default2
 12default:default2ß
 ê/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_v11_0_synth.vhd2default:default2
 6672default:default8@Z8-256
 È
 %done synthesizing module '%s' (%s#%s)256*oasys28
 $fifo_generator_v11_0__parameterized72default:default2
-1462default:default2
+1452default:default2
 12default:default2°
 ä/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/fifo_generator_v11_0/fifo_generator_v11_0.vhd2default:default2
 6492default:default8@Z8-256
 ˘
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_data_fifo_v2_1_fifo_gen__parameterized32default:default2
-1462default:default2
+1452default:default2
 12default:default2´
 î/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_fifo_gen.v2default:default2
 602default:default8@Z8-256
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_axic_fifo__parameterized32default:default2
-1462default:default2
+1452default:default2
 12default:default2¨
 ï/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_fifo.v2default:default2
 642default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_a_downsizer2default:default2
-1472default:default2
+1462default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-256
 Õ
 synthesizing module '%s'638*oasys29
 %axi_dwidth_converter_v2_1_w_downsizer2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
 632default:default8@Z8-638
 V
 %s*synth2G
@@ -76985,14 +76943,14 @@ c
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_w_downsizer2default:default2
-1482default:default2
+1472default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
 632default:default8@Z8-256
 Õ
 synthesizing module '%s'638*oasys29
 %axi_dwidth_converter_v2_1_b_downsizer2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_b_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-638
 V
 %s*synth2G
@@ -77021,14 +76979,14 @@ M
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_b_downsizer2default:default2
-1492default:default2
+1482default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_b_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_b_downsizer.v2default:default2
 652default:default8@Z8-256
 ›
 synthesizing module '%s'638*oasys2I
 5axi_dwidth_converter_v2_1_a_downsizer__parameterized02default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-638
 V
 %s*synth2G
@@ -77113,14 +77071,14 @@ L
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2I
 5axi_dwidth_converter_v2_1_a_downsizer__parameterized02default:default2
-1492default:default2
+1482default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_downsizer.v2default:default2
 642default:default8@Z8-256
 Õ
 synthesizing module '%s'638*oasys29
 %axi_dwidth_converter_v2_1_r_downsizer2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
 612default:default8@Z8-638
 V
 %s*synth2G
@@ -77173,40 +77131,40 @@ c
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys29
 %axi_dwidth_converter_v2_1_r_downsizer2default:default2
-1502default:default2
+1492default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
 612default:default8@Z8-256
 é
 %done synthesizing module '%s' (%s#%s)256*oasys2;
 'axi_dwidth_converter_v2_1_axi_downsizer2default:default2
-1512default:default2
+1502default:default2
 12default:default2ƒ
-≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_downsizer.v2default:default2
+≠/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_downsizer.v2default:default2
 712default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized02default:default2
-1512default:default2
+1502default:default2
 12default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_ds_14032default:default2
-1522default:default2
+testDMA_auto_ds_14152default:default2
+1512default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/synth/testDMA_auto_ds_1403.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/synth/testDMA_auto_ds_1415.v2default:default2
 572default:default8@Z8-256
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15132default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1513/synth/testDMA_auto_pc_1513.v2default:default2
+testDMA_auto_pc_15252default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1525/synth/testDMA_auto_pc_1525.v2default:default2
 572default:default8@Z8-638
 ˘
 synthesizing module '%s'638*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -77311,7 +77269,7 @@ X
 √
 synthesizing module '%s'638*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2æ
-ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -77730,7 +77688,7 @@ X
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized82default:default2
-1522default:default2
+1512default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -77754,7 +77712,7 @@ X
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized92default:default2
-1522default:default2
+1512default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -77778,7 +77736,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized102default:default2
-1522default:default2
+1512default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -77802,21 +77760,21 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized112default:default2
-1522default:default2
+1512default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized12default:default2
-1522default:default2
+1512default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 ÿ
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 V
 %s*synth2G
@@ -77829,7 +77787,7 @@ V
 ·
 synthesizing module '%s'638*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2Õ
-∂/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+∂/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -77850,7 +77808,7 @@ N
 ’
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2«
-∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -77863,14 +77821,14 @@ _
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
-1532default:default2
+1522default:default2
 12default:default2«
-∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
 ’
 synthesizing module '%s'638*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2«
-∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -77883,21 +77841,21 @@ _
 í
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
-1542default:default2
+1532default:default2
 12default:default2«
-∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+∞/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
-1552default:default2
+1542default:default2
 12default:default2Õ
-∂/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+∂/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
 Ÿ
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -77917,26 +77875,26 @@ L
 2default:default
 ú
 default block is never used226*oasys2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
-1562default:default2
+1552default:default2
 12default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
-1572default:default2
+1562default:default2
 12default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
 ◊
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2»
-±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 V
 %s*synth2G
@@ -77985,7 +77943,7 @@ U
 ⁄
 synthesizing module '%s'638*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -78018,14 +77976,14 @@ J
 ó
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
-1582default:default2
+1572default:default2
 12default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 Í
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -78058,21 +78016,21 @@ J
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
-1582default:default2
+1572default:default2
 12default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
-1592default:default2
+1582default:default2
 12default:default2»
-±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
 ÿ
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 V
 %s*synth2G
@@ -78085,7 +78043,7 @@ V
 Ÿ
 synthesizing module '%s'638*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -78105,26 +78063,26 @@ $	Parameter SM_DONE bound to: 2'b11
 2default:default
 ú
 default block is never used226*oasys2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
-1602default:default2
+1592default:default2
 12default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
 ï
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
-1612default:default2
+1602default:default2
 12default:default2…
-≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+≤/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
 ◊
 synthesizing module '%s'638*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2»
-±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 V
 %s*synth2G
@@ -78161,7 +78119,7 @@ V
 Í
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -78194,14 +78152,14 @@ M
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
-1612default:default2
+1602default:default2
 12default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 Í
 synthesizing module '%s'638*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -78234,16 +78192,16 @@ M
 ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
-1612default:default2
+1602default:default2
 12default:default2 
-≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+≥/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
-1622default:default2
+1612default:default2
 12default:default2»
-±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+±/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 ﬂ
 synthesizing module '%s'638*oasys2N
@@ -78990,7 +78948,7 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized12default:default2
-1622default:default2
+1612default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -79014,7 +78972,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized122default:default2
-1622default:default2
+1612default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -79038,7 +78996,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized132default:default2
-1622default:default2
+1612default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -79062,7 +79020,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized142default:default2
-1622default:default2
+1612default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -79086,7 +79044,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized152default:default2
-1622default:default2
+1612default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -79462,42 +79420,42 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized12default:default2
-1622default:default2
+1612default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized22default:default2
-1622default:default2
+1612default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
-1632default:default2
+1622default:default2
 12default:default2æ
-ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
 ∂
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2
-1632default:default2
+1622default:default2
 12default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15132default:default2
-1642default:default2
+testDMA_auto_pc_15252default:default2
+1632default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1513/synth/testDMA_auto_pc_1513.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1525/synth/testDMA_auto_pc_1525.v2default:default2
 572default:default8@Z8-256
 £
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m00_couplers_imp_VG7ZLK2default:default2
-1652default:default2
+1642default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 4082default:default8@Z8-256
@@ -79508,32 +79466,32 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 8262default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_ds_14042default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/synth/testDMA_auto_ds_1404.v2default:default2
+testDMA_auto_ds_14162default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/synth/testDMA_auto_ds_1416.v2default:default2
 572default:default8@Z8-638
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_ds_14042default:default2
-1662default:default2
+testDMA_auto_ds_14162default:default2
+1652default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/synth/testDMA_auto_ds_1404.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/synth/testDMA_auto_ds_1416.v2default:default2
 572default:default8@Z8-256
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15142default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1514/synth/testDMA_auto_pc_1514.v2default:default2
+testDMA_auto_pc_15262default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1526/synth/testDMA_auto_pc_1526.v2default:default2
 572default:default8@Z8-638
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15142default:default2
-1672default:default2
+testDMA_auto_pc_15262default:default2
+1662default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1514/synth/testDMA_auto_pc_1514.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1526/synth/testDMA_auto_pc_1526.v2default:default2
 572default:default8@Z8-256
 ‡
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_pc2default:default2(
-testDMA_auto_pc_15142default:default2
+testDMA_auto_pc_15262default:default2
 562default:default2
 532default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
@@ -79541,7 +79499,7 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m01_couplers_imp_180AW1Y2default:default2
-1682default:default2
+1672default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 8262default:default8@Z8-256
@@ -79553,7 +79511,7 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 m02_couplers_imp_WNEIF92default:default2
-1692default:default2
+1682default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 12292default:default8@Z8-256
@@ -79564,32 +79522,32 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 15012default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_ds_14052default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/synth/testDMA_auto_ds_1405.v2default:default2
+testDMA_auto_ds_14172default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/synth/testDMA_auto_ds_1417.v2default:default2
 572default:default8@Z8-638
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_ds_14052default:default2
-1702default:default2
+testDMA_auto_ds_14172default:default2
+1692default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/synth/testDMA_auto_ds_1405.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/synth/testDMA_auto_ds_1417.v2default:default2
 572default:default8@Z8-256
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15152default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1515/synth/testDMA_auto_pc_1515.v2default:default2
+testDMA_auto_pc_15272default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1527/synth/testDMA_auto_pc_1527.v2default:default2
 572default:default8@Z8-638
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15152default:default2
-1712default:default2
+testDMA_auto_pc_15272default:default2
+1702default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1515/synth/testDMA_auto_pc_1515.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1527/synth/testDMA_auto_pc_1527.v2default:default2
 572default:default8@Z8-256
 •
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 m03_couplers_imp_16UK5X72default:default2
-1722default:default2
+1712default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 15012default:default8@Z8-256
@@ -79600,13 +79558,13 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 19192default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15162default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1516/synth/testDMA_auto_pc_1516.v2default:default2
+testDMA_auto_pc_15282default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1528/synth/testDMA_auto_pc_1528.v2default:default2
 572default:default8@Z8-638
 ˘
 synthesizing module '%s'638*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized12default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -79711,26 +79669,26 @@ X
 ∂
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized12default:default2
-1722default:default2
+1712default:default2
 12default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15162default:default2
-1732default:default2
+testDMA_auto_pc_15282default:default2
+1722default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1516/synth/testDMA_auto_pc_1516.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1528/synth/testDMA_auto_pc_1528.v2default:default2
 572default:default8@Z8-256
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_us_14062default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/synth/testDMA_auto_us_1406.v2default:default2
+testDMA_auto_us_14182default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/synth/testDMA_auto_us_1418.v2default:default2
 572default:default8@Z8-638
 Õ
 synthesizing module '%s'638*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized12default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -79835,7 +79793,7 @@ X
 ›
 synthesizing module '%s'638*oasys2I
 5axi_dwidth_converter_v2_1_axi_upsizer__parameterized02default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-638
 V
 %s*synth2G
@@ -80738,7 +80696,7 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized22default:default2
-1732default:default2
+1722default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -80762,7 +80720,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized162default:default2
-1732default:default2
+1722default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -80786,7 +80744,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized172default:default2
-1732default:default2
+1722default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -80810,7 +80768,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized182default:default2
-1732default:default2
+1722default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -81186,21 +81144,21 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized22default:default2
-1732default:default2
+1722default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized32default:default2
-1732default:default2
+1722default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 Ÿ
 synthesizing module '%s'638*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized02default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -81338,21 +81296,21 @@ Y
 ê
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4generic_baseblocks_v2_1_command_fifo__parameterized02default:default2
-1732default:default2
+1722default:default2
 12default:default2π
 ¢/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_command_fifo.v2default:default2
 622default:default8@Z8-256
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized02default:default2
-1732default:default2
+1722default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
 Ÿ
 synthesizing module '%s'638*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -81465,14 +81423,14 @@ Y
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized12default:default2
-1732default:default2
+1722default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
 …
 synthesizing module '%s'638*oasys27
 #axi_dwidth_converter_v2_1_r_upsizer2default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-638
 U
 %s*synth2F
@@ -81529,9 +81487,9 @@ Y
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys27
 #axi_dwidth_converter_v2_1_r_upsizer2default:default2
-1742default:default2
+1732default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-256
 ﬂ
 synthesizing module '%s'638*oasys2N
@@ -82278,7 +82236,7 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized32default:default2
-1742default:default2
+1732default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -82302,7 +82260,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized192default:default2
-1742default:default2
+1732default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -82678,42 +82636,42 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized32default:default2
-1742default:default2
+1732default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized42default:default2
-1742default:default2
+1732default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2I
 5axi_dwidth_converter_v2_1_axi_upsizer__parameterized02default:default2
-1742default:default2
+1732default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized12default:default2
-1742default:default2
+1732default:default2
 12default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_us_14062default:default2
-1752default:default2
+testDMA_auto_us_14182default:default2
+1742default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/synth/testDMA_auto_us_1406.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/synth/testDMA_auto_us_1418.v2default:default2
 572default:default8@Z8-256
 ‡
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_us2default:default2(
-testDMA_auto_us_14062default:default2
+testDMA_auto_us_14182default:default2
 762default:default2
 742default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
@@ -82721,7 +82679,7 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 •
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 s00_couplers_imp_156Q4UY2default:default2
-1762default:default2
+1752default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 19192default:default8@Z8-256
@@ -82732,13 +82690,13 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 28822default:default8@Z8-638
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_pc_15172default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1517/synth/testDMA_auto_pc_1517.v2default:default2
+testDMA_auto_pc_15292default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1529/synth/testDMA_auto_pc_1529.v2default:default2
 572default:default8@Z8-638
 ˘
 synthesizing module '%s'638*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized22default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -82843,26 +82801,26 @@ X
 ∂
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized22default:default2
-1762default:default2
+1752default:default2
 12default:default2—
-∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+∫/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_pc_15172default:default2
-1772default:default2
+testDMA_auto_pc_15292default:default2
+1762default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1517/synth/testDMA_auto_pc_1517.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_pc_1529/synth/testDMA_auto_pc_1529.v2default:default2
 572default:default8@Z8-256
 ä
 synthesizing module '%s'638*oasys2(
-testDMA_auto_us_14072default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/synth/testDMA_auto_us_1407.v2default:default2
+testDMA_auto_us_14192default:default2ê
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/synth/testDMA_auto_us_1419.v2default:default2
 572default:default8@Z8-638
 Õ
 synthesizing module '%s'638*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized22default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-638
 V
 %s*synth2G
@@ -82967,7 +82925,7 @@ X
 ›
 synthesizing module '%s'638*oasys2I
 5axi_dwidth_converter_v2_1_axi_upsizer__parameterized12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-638
 V
 %s*synth2G
@@ -83501,14 +83459,14 @@ a
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized52default:default2
-1772default:default2
+1762default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
 Ÿ
 synthesizing module '%s'638*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized22default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-638
 U
 %s*synth2F
@@ -83621,14 +83579,14 @@ Y
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_a_upsizer__parameterized22default:default2
-1772default:default2
+1762default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_a_upsizer.v2default:default2
 632default:default8@Z8-256
 Ÿ
 synthesizing module '%s'638*oasys2G
 3axi_dwidth_converter_v2_1_r_upsizer__parameterized02default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-638
 U
 %s*synth2F
@@ -83685,35 +83643,35 @@ Y
 ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2G
 3axi_dwidth_converter_v2_1_r_upsizer__parameterized02default:default2
-1772default:default2
+1762default:default2
 12default:default2¿
-©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
+©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_upsizer.v2default:default2
 622default:default8@Z8-256
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2I
 5axi_dwidth_converter_v2_1_axi_upsizer__parameterized12default:default2
-1772default:default2
+1762default:default2
 12default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_axi_upsizer.v2default:default2
 722default:default8@Z8-256
 ä
 %done synthesizing module '%s' (%s#%s)256*oasys2A
 -axi_dwidth_converter_v2_1_top__parameterized22default:default2
-1772default:default2
+1762default:default2
 12default:default2∫
-£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
+£/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_top.v2default:default2
 792default:default8@Z8-256
 «
 %done synthesizing module '%s' (%s#%s)256*oasys2(
-testDMA_auto_us_14072default:default2
-1782default:default2
+testDMA_auto_us_14192default:default2
+1772default:default2
 12default:default2ê
-z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/synth/testDMA_auto_us_1407.v2default:default2
+z/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/synth/testDMA_auto_us_1419.v2default:default2
 572default:default8@Z8-256
 ‡
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_us2default:default2(
-testDMA_auto_us_14072default:default2
+testDMA_auto_us_14192default:default2
 722default:default2
 702default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
@@ -83721,7 +83679,7 @@ S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testD
 §
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s01_couplers_imp_YBL7VO2default:default2
-1792default:default2
+1782default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 28822default:default8@Z8-256
@@ -84438,7 +84396,7 @@ U
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized02default:default2
-1792default:default2
+1782default:default2
 12default:default2æ
 ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -84474,7 +84432,7 @@ U
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized12default:default2
-1792default:default2
+1782default:default2
 12default:default2æ
 ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
@@ -84510,14 +84468,14 @@ U
 ö
 %done synthesizing module '%s' (%s#%s)256*oasys2M
 9generic_baseblocks_v2_1_comparator_static__parameterized22default:default2
-1792default:default2
+1782default:default2
 12default:default2æ
 ß/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v2default:default2
 612default:default8@Z8-256
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized22default:default2
-1792default:default2
+1782default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -84550,14 +84508,14 @@ Y
 ˜
 %done synthesizing module '%s' (%s#%s)256*oasys2
 MUXF72default:default2
-1802default:default2
+1792default:default2
 12default:default2M
 7/opt/Xilinx/Vivado/2013.3/scripts/rt/data/unisim_comp.v2default:default2
 117042default:default8@Z8-256
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized42default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -84634,21 +84592,21 @@ U
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2@
 ,axi_data_fifo_v2_1_ndeep_srl__parameterized12default:default2
-1802default:default2
+1792default:default2
 12default:default2¨
 ï/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_ndeep_srl.v2default:default2
 582default:default8@Z8-256
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized22default:default2
-1802default:default2
+1792default:default2
 12default:default2∞
 ô/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized22default:default2
-1802default:default2
+1792default:default2
 12default:default2Æ
 ó/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -84829,14 +84787,14 @@ X
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized52default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized32default:default2
-1802default:default2
+1792default:default2
 12default:default2Æ
 ó/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -84933,14 +84891,14 @@ C
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized22default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_wdata_router__parameterized02default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
@@ -85100,7 +85058,7 @@ Q
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized42default:default2
-1802default:default2
+1792default:default2
 12default:default2Æ
 ó/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -85260,7 +85218,7 @@ Q
 Ä
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /axi_crossbar_v2_1_si_transactor__parameterized52default:default2
-1802default:default2
+1792default:default2
 12default:default2Æ
 ó/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_si_transactor.v2default:default2
 812default:default8@Z8-256
@@ -85357,14 +85315,14 @@ C
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized32default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_wdata_router__parameterized12default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_router.v2default:default2
 672default:default8@Z8-256
@@ -85428,7 +85386,7 @@ b
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_decoder__parameterized32default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v2default:default2
 692default:default8@Z8-256
@@ -85525,14 +85483,14 @@ C
 ã
 %done synthesizing module '%s' (%s#%s)256*oasys2H
 4axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized42default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_reg_srl_fifo.v2default:default2
 612default:default8@Z8-256
 ¯
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_crossbar_v2_1_wdata_mux__parameterized12default:default2
-1802default:default2
+1792default:default2
 12default:default2™
 ì/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_wdata_mux.v2default:default2
 682default:default8@Z8-256
@@ -85588,7 +85546,7 @@ V
 É
 %done synthesizing module '%s' (%s#%s)256*oasys2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized32default:default2
-1802default:default2
+1792default:default2
 12default:default2∞
 ô/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_data_fifo_v2_1/hdl/verilog/axi_data_fifo_v2_1_axic_srl_fifo.v2default:default2
 612default:default8@Z8-256
@@ -86337,7 +86295,7 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized42default:default2
-1802default:default2
+1792default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
@@ -86361,7 +86319,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized202default:default2
-1802default:default2
+1792default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -86385,7 +86343,7 @@ X
 ü
 %done synthesizing module '%s' (%s#%s)256*oasys2P
 <axi_register_slice_v2_1_axic_register_slice__parameterized212default:default2
-1802default:default2
+1792default:default2
 12default:default2¿
 ©/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
@@ -86761,14 +86719,14 @@ a
 å
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized42default:default2
-1802default:default2
+1792default:default2
 12default:default2∑
 †/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
 ú
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized62default:default2
-1802default:default2
+1792default:default2
 12default:default2ø
 ®/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
@@ -86829,7 +86787,7 @@ Y
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized62default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -86857,7 +86815,7 @@ X
 Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2C
 /generic_baseblocks_v2_1_mux_enc__parameterized72default:default2
-1802default:default2
+1792default:default2
 12default:default2¥
 ù/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/generic_baseblocks_v2_1/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v2default:default2
 632default:default8@Z8-256
@@ -86871,7 +86829,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_addr_arbiter__parameterized02default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_addr_arbiter.v2default:default2
 652default:default8@Z8-256
@@ -86943,28 +86901,28 @@ U
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_decerr_slave__parameterized02default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v2default:default2
 642default:default8@Z8-256
 ˆ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_crossbar_v2_1_crossbar__parameterized02default:default2
-1802default:default2
+1792default:default2
 12default:default2©
 í/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_crossbar.v2default:default2
 902default:default8@Z8-256
 ˛
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_crossbar_v2_1_axi_crossbar__parameterized02default:default2
-1802default:default2
+1792default:default2
 12default:default2≠
 ñ/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/axi_crossbar_v2_1/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v2default:default2
 542default:default8@Z8-256
 µ
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 testDMA_xbar_12default:default2
-1812default:default2
+1802default:default2
 12default:default2Ñ
 n/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_xbar_1/synth/testDMA_xbar_1.v2default:default2
 572default:default8@Z8-256
@@ -86975,35 +86933,35 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 782default:default2
 762default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-61872default:default8@Z8-350
+61742default:default8@Z8-350
 ∂
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )testDMA_processing_system7_0_axi_periph_02default:default2
-1822default:default2
+1812default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
-49132default:default8@Z8-256
+49002default:default8@Z8-256
 î
 %done synthesizing module '%s' (%s#%s)256*oasys2
 testDMA2default:default2
-1832default:default2
+1822default:default2
 12default:default2i
 S/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/hdl/testDMA.v2default:default2
 32712default:default8@Z8-256
 û
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 testDMA_wrapper2default:default2
-1842default:default2
+1832default:default2
 12default:default2n
 X/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/imports/hdl/testDMA_wrapper.v2default:default2
 32default:default8@Z8-256
 û
 %s*synth2é
-zFinished RTL Elaboration : Time (s): cpu = 00:04:42 ; elapsed = 00:04:47 . Memory (MB): peak = 3064.379 ; gain = 2439.543
+zFinished RTL Elaboration : Time (s): cpu = 00:04:43 ; elapsed = 00:04:48 . Memory (MB): peak = 3041.383 ; gain = 2416.543
 2default:default
 ú
 %s*synth2å
-xStart RTL Optimization : Time (s): cpu = 00:04:42 ; elapsed = 00:04:47 . Memory (MB): peak = 3064.379 ; gain = 2439.543
+xStart RTL Optimization : Time (s): cpu = 00:04:43 ; elapsed = 00:04:48 . Memory (MB): peak = 3041.383 ; gain = 2416.543
 2default:default
 ;
 %s*synth2,
@@ -87962,62 +87920,62 @@ $Parsing XDC File [%s] for cell '%s'
 Ø
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-848
 ∏
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m00_couplers/auto_ds/inst2default:defaultZ20-847
 Ø
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-848
 ∏
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m01_couplers/auto_ds/inst2default:defaultZ20-847
 Ø
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-848
 ∏
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/m03_couplers/auto_ds/inst2default:defaultZ20-847
 Ø
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/testDMA_auto_us_1418_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-848
 ∏
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1406/testDMA_auto_us_1406_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/testDMA_auto_us_1418_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s00_couplers/auto_us/inst2default:defaultZ20-847
 Ø
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/testDMA_auto_us_1419_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-848
 ∏
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1407/testDMA_auto_us_1407_clocks.xdc2default:default2W
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/testDMA_auto_us_1419_clocks.xdc2default:default2W
 CtestDMA_i/processing_system7_0_axi_periph/s01_couplers/auto_us/inst2default:defaultZ20-847
 †
 $Parsing XDC File [%s] for cell '%s'
 848*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_clocks.xdc2default:default2H
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/testDMA_auto_us_1420_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-848
 ©
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ë
-}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1408/testDMA_auto_us_1408_clocks.xdc2default:default2H
+}/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/testDMA_auto_us_1420_clocks.xdc2default:default2H
 4testDMA_i/axi_mem_intercon/s00_couplers/auto_us/inst2default:defaultZ20-847
 ?
 &Completed Processing XDC Constraints
@@ -88036,15 +87994,15 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 2default:defaultZ1-111
 ú
 %s*synth2å
-xStart RTL Optimization : Time (s): cpu = 00:06:09 ; elapsed = 00:06:15 . Memory (MB): peak = 4630.895 ; gain = 4006.059
+xStart RTL Optimization : Time (s): cpu = 00:06:10 ; elapsed = 00:06:15 . Memory (MB): peak = 4578.883 ; gain = 3954.043
 2default:default
 ∑
 %s*synth2ß
-íFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:15 ; elapsed = 00:06:22 . Memory (MB): peak = 4630.898 ; gain = 4006.062
+íFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:16 ; elapsed = 00:06:22 . Memory (MB): peak = 4578.887 ; gain = 3954.047
 2default:default
 ü
 %s*synth2è
-{Finished RTL Optimization : Time (s): cpu = 00:06:15 ; elapsed = 00:06:22 . Memory (MB): peak = 4630.898 ; gain = 4006.062
+{Finished RTL Optimization : Time (s): cpu = 00:06:16 ; elapsed = 00:06:22 . Memory (MB): peak = 4578.887 ; gain = 3954.047
 2default:default
 ‚
 merging register '%s' into '%s'3619*oasys24
@@ -88098,13 +88056,13 @@ $axi_data_fifo_v2_1_axic_reg_srl_fifo2default:defaultZ8-802
 merging register '%s' into '%s'3619*oasys2%
 first_mi_word_reg2default:default2"
 first_word_reg2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_w_downsizer.v2default:default2
 3032default:default8@Z8-4471
 Á
 merging register '%s' into '%s'3619*oasys2"
 first_word_reg2default:default2%
 first_mi_word_reg2default:default2¬
-´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
+´/home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1/hdl/verilog/axi_dwidth_converter_v2_1_r_downsizer.v2default:default2
 3082default:default8@Z8-4471
 ≥
 3inferred FSM for state register '%s' in module '%s'802*oasys2
@@ -88210,15 +88168,15 @@ Report RTL Partitions:
 2default:default
 ]
 %s*synth2N
-:|8     |case__931__GD           |           1|       291|
+:|8     |case__863__GD           |           1|       291|
 2default:default
 ]
 %s*synth2N
-:|9     |logic__1164__GD         |           1|        32|
+:|9     |logic__1087__GD         |           1|        32|
 2default:default
 ]
 %s*synth2N
-:|10    |case__491__GD           |           1|       295|
+:|10    |case__423__GD           |           1|       295|
 2default:default
 ]
 %s*synth2N
@@ -88262,7 +88220,7 @@ Report RTL Partitions:
 2default:default
 ]
 %s*synth2N
-:|21    |case__639__GD           |           1|       293|
+:|21    |case__571__GD           |           1|       293|
 2default:default
 ]
 %s*synth2N
@@ -88330,15 +88288,11 @@ Report RTL Partitions:
 2default:default
 ]
 %s*synth2N
-:|38    |testDMA__GCB0           |           1|     32335|
+:|38    |testDMA__GCB0           |           1|     39616|
 2default:default
 ]
 %s*synth2N
-:|39    |testDMA__GCB1           |           1|     14181|
-2default:default
-]
-%s*synth2N
-:|40    |testDMA__GCB2           |           1|     20597|
+:|39    |testDMA__GCB1           |           1|      8876|
 2default:default
 ]
 %s*synth2N
@@ -88352,7 +88306,7 @@ BRAMs: 280 (col length: RAMB8 0 RAMB16 0 RAMB18 60 RAMB36 30)
 2default:default
 ≥
 %s*synth2£
-éFinished Loading Part and Timing Information : Time (s): cpu = 00:07:01 ; elapsed = 00:07:07 . Memory (MB): peak = 4630.898 ; gain = 4006.062
+éFinished Loading Part and Timing Information : Time (s): cpu = 00:07:00 ; elapsed = 00:07:07 . Memory (MB): peak = 4578.887 ; gain = 3954.047
 2default:default
 B
 %s*synth23
@@ -88416,11 +88370,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input      3 Bit       Adders := 2     
+.	   2 Input      3 Bit       Adders := 35    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 35    
+.	   3 Input      3 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
@@ -88484,7 +88438,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 664   
+.	               32 Bit    Registers := 599   
 2default:default
 Q
 %s*synth2B
@@ -88524,7 +88478,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 125   
+.	                8 Bit    Registers := 123   
 2default:default
 Q
 %s*synth2B
@@ -88548,11 +88502,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 186   
+.	                2 Bit    Registers := 184   
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 991   
+.	                1 Bit    Registers := 986   
 2default:default
 0
 %s*synth2!
@@ -88576,19 +88530,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 65    
-2default:default
-Q
-%s*synth2B
-.	   5 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
 .	  32 Input     32 Bit        Muxes := 31    
 2default:default
 Q
 %s*synth2B
-.	  64 Input     32 Bit        Muxes := 64    
+.	   3 Input     32 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -88596,7 +88542,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 6     
+.	   2 Input     32 Bit        Muxes := 65    
+2default:default
+Q
+%s*synth2B
+.	   5 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -88624,15 +88574,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   8 Input      8 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      8 Bit        Muxes := 100   
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -88668,15 +88618,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      3 Bit        Muxes := 65    
-2default:default
-Q
-%s*synth2B
-.	   7 Input      3 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -88684,7 +88626,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      2 Bit        Muxes := 13    
+.	   5 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      3 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -88696,19 +88642,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 9     
+.	   5 Input      2 Bit        Muxes := 13    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      1 Bit        Muxes := 7     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 18    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 630   
+.	   2 Input      1 Bit        Muxes := 624   
 2default:default
 Q
 %s*synth2B
@@ -88716,11 +88654,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 88    
+.	   8 Input      1 Bit        Muxes := 9     
 2default:default
 Q
 %s*synth2B
 .	  41 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 18    
+2default:default
+Q
+%s*synth2B
+.	   7 Input      1 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 88    
 2default:default
 F
 %s*synth27
@@ -88729,202 +88679,6 @@ F
 ;
 %s*synth2,
 Module testDMA_wrapper 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized4__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module testDMA_axis_data_fifo_0_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_dwidth_converter_v2_1_top__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__87 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-_
-%s*synth2P
-<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__49 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-B
-%s*synth23
-Module fifo_generator_ramfifo 
 2default:default
 B
 %s*synth23
@@ -88946,9 +88700,65 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
+@
+%s*synth21
+Module testDMA_auto_pc_1529 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__67 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 F
 %s*synth27
-#Module axi_datamover_s2mm_realign 
+#Module testDMA_axi_mem_intercon_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__1 
 2default:default
 B
 %s*synth23
@@ -88960,67 +88770,99 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 2     
 2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   7 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm__1 
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized8 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+F
+%s*synth27
+#Module compare__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	   2 Input      1 Bit         XORs := 7     
 2default:default
-0
-%s*synth2!
-+---Muxes : 
+C
+%s*synth24
+ Module m00_couplers_imp_VG7ZLK 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
+.Module generic_baseblocks_v2_1_carry_and__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__113 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      1 Bit         XORs := 7     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__50 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 G
 %s*synth28
-$Module compare__parameterized1__44 
+$Module wr_logic__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_ndeep_srl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__21 
 2default:default
 B
 %s*synth23
@@ -89034,29 +88876,29 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized2 
+C
+%s*synth24
+ Module dmem__parameterized3__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+H
+%s*synth29
+%Module input_blk__parameterized5__3 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
+N
+%s*synth2?
++Module axi_protocol_converter_v2_1_b2s__2 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 4
 %s*synth2%
@@ -89066,77 +88908,25 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__4 
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized23 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__7 
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__43 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_infrastructure_v1_1_vector2axi__3 
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__1 
 2default:default
 B
 %s*synth23
@@ -89144,355 +88934,11 @@ B
 2default:default
 ]
 %s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__2 
+:Module axi_crossbar_v2_1_addr_decoder__parameterized1__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__72 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_register_slice_v2_1_axi_register_slice 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module rd_bin_cntr__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module rd_fwft 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-X
-%s*synth2I
-5Module axi_protocol_converter_v2_1_b2s_b_channel__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_register_slice_v2_1_axic_register_slice__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__60 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_fwft__parameterized0__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__59 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -89506,217 +88952,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-`
-%s*synth2Q
-=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized5__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__104 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__52 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_aw_channel__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-C
-%s*synth24
- Module def_stream_v1_0_S00_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 65    
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	  64 Input     32 Bit        Muxes := 64    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-9
-%s*synth2*
-Module axi_datamover 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized7__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module blk_mem_gen_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__114 
+.Module fifo_generator_top__parameterized5__3 
 2default:default
 B
 %s*synth23
@@ -89770,170 +89008,6 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-3
-%s*synth2$
-Module upcnt_n 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_fwft__parameterized0__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__52 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__66 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_protocol_converter_v2_1_b2s_cmd_translator__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
 [
 %s*synth2L
 8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__9 
@@ -89942,593 +89016,17 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__77 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 N
 %s*synth2?
-+Module wr_status_flags_ss__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module dmem__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module compare__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-H
-%s*synth29
-%Module rd_logic__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__51 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized5__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-_
-%s*synth2P
-<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-B
-%s*synth23
-Module memory__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 3     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1514 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1518 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized3__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1515 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1516 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__86 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__44 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 3     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-6
-%s*synth2'
-Module compare__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-J
-%s*synth2;
-'Module testDMA_processing_system7_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module wr_handshaking_flags__1 
++Module axi_protocol_converter_v2_1_b2s__1 
 2default:default
 B
 %s*synth23
@@ -90542,57 +89040,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__110 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module axi_dma_rst_module 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized3 
+c
+%s*synth2T
+@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
 2default:default
 B
 %s*synth23
@@ -90604,491 +89054,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   2 Input     32 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-j
-%s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__48 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__50 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_router__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__101 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_router__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__102 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_crossbar_v2_1_si_transactor__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
->
-%s*synth2/
-Module rd_status_flags_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module wr_logic__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-`
-%s*synth2Q
-=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
+.	   2 Input      6 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      5 Bit       Adders := 1     
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__68 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized6__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_axi2vector 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      4 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -91096,207 +89074,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 1     
+.	               32 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-N
-%s*synth2?
-+Module axis_data_fifo_v1_1_axis_data_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__87 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized7__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               69 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized2__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_r_downsizer__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
+.	               16 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
@@ -91304,139 +89086,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 1     
+.	                6 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                4 Bit    Registers := 4     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	                3 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module rd_logic__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module dmem__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized4__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module axi_datamover_skid_buf__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               40 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 3     
+.	                2 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -91448,19 +89110,27 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     40 Bit        Muxes := 1     
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 1     
+.	   2 Input     16 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__63 
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 10    
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__13 
 2default:default
 B
 %s*synth23
@@ -91468,71 +89138,47 @@ B
 2default:default
 X
 %s*synth2I
-5Module axi_protocol_converter_v2_1_b2s_r_channel__2 
+5Module blk_mem_gen_prim_wrapper_v6__parameterized24 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized5 
+.Module generic_baseblocks_v2_1_carry_and__40 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-U
-%s*synth2F
-2Module axis_infrastructure_v1_1_util_vector2axis 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module rd_logic__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__49 
+@
+%s*synth21
+Module testDMA_auto_pc_1528 
 2default:default
 B
 %s*synth23
@@ -91540,7 +89186,7 @@ B
 2default:default
 M
 %s*synth2>
-*Module axi_crossbar_v2_1_arbiter_resp__1 
+*Module axi_crossbar_v2_1_addr_arbiter__1 
 2default:default
 B
 %s*synth23
@@ -91552,11 +89198,75 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 2     
+.	               65 Bit    Registers := 1     
 2default:default
-H
-%s*synth29
-%Module axi_datamover_wr_status_cntl 
+Q
+%s*synth2B
+.	                2 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+@
+%s*synth21
+Module testDMA_auto_pc_1527 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_pc_1525 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module axi_crossbar_v2_1_wdata_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3__3 
 2default:default
 B
 %s*synth23
@@ -91568,7 +89278,143 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__112 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__76 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__76 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module axi_dma_s2mm_cmdsts_if 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 4
 %s*synth2%
@@ -91584,11 +89430,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 12    
+.	                1 Bit    Registers := 10    
 2default:default
 0
 %s*synth2!
@@ -91596,675 +89438,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 9     
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__108 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__58 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-1
-%s*synth2"
-Module dc_ss 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__43 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_r_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__99 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__85 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_mssai_skid_buf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 14    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module fifo_generator_v11_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_axic_srl_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-M
-%s*synth2>
-*Module reset_blk_ramfifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               69 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-V
-%s*synth2G
-3Module processing_system7_v5_3_processing_system7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     62 Bit        Muxes := 1     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized3__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__88 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized14 
+)Module axi_data_fifo_v2_1_ndeep_srl__14 
 2default:default
 B
 %s*synth23
@@ -92272,1079 +89450,23 @@ B
 2default:default
 P
 %s*synth2A
--Module reset_blk_ramfifo__parameterized0__4 
+-Module generic_baseblocks_v2_1_carry_and__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized6 
 2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-`
-%s*synth2Q
-=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module reset_blk_ramfifo__parameterized0__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__66 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_splitter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-@
-%s*synth21
-Module testDMA_ADC_emul_0_9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__83 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_arbiter__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized3__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized11__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     36 Bit        Muxes := 1     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized10__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-=
-%s*synth2.
-Module axi_dma_s2mm_mngr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module axi_dwidth_converter_v2_1_top 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_protocol_converter_v2_1_b2s_cmd_translator__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized5__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module axi_crossbar_v2_1_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized16__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               73 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_ar_channel__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-B
-%s*synth23
-Module memory__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_crossbar_v2_1_si_transactor 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-E
-%s*synth26
-"Module memory__parameterized5__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-`
-%s*synth2Q
-=Module generic_baseblocks_v2_1_command_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-e
-%s*synth2V
-BModule axis_infrastructure_v1_1_util_aclken_converter_wrapper__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized15__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized21 
-2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_data_fifo_v2_1_axic_srl_fifo__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
 2default:default
-H
-%s*synth29
-%Module input_blk__parameterized5__4 
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized9 
 2default:default
 B
 %s*synth23
@@ -93450,149 +89572,13 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-N
-%s*synth2?
-+Module wr_status_flags_ss__parameterized1 
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized2__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized9__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module compare__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 7     
-2default:default
-G
-%s*synth28
-$Module rd_bin_cntr__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__89 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_a_downsizer__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	               11 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 7     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 17    
 2default:default
 0
 %s*synth2!
@@ -93600,39 +89586,99 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module fifo_generator_v11_0__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input     11 Bit        Muxes := 1     
+.	   2 Input      2 Bit       Adders := 3     
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 7     
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   8 Input      3 Bit        Muxes := 2     
+.	   2 Input     16 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   2 Input      2 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   8 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 11    
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
 F
 %s*synth27
-#Module compare__parameterized1__7 
+#Module dynshreg_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module proc_sys_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__3 
 2default:default
 B
 %s*synth23
@@ -93646,9 +89692,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-X
-%s*synth2I
-5Module axis_infrastructure_v1_1_util_vector2axis__1 
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized6 
 2default:default
 B
 %s*synth23
@@ -93656,15 +89702,15 @@ B
 2default:default
 Q
 %s*synth2B
-.Module axi_infrastructure_v1_1_axi2vector__2 
+.Module axi_infrastructure_v1_1_axi2vector__4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__18 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__66 
 2default:default
 B
 %s*synth23
@@ -93672,79 +89718,15 @@ B
 2default:default
 K
 %s*synth2<
-(Module rd_bin_cntr__parameterized1__11 
+(Module generic_baseblocks_v2_1_mux_enc 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-6
-%s*synth2'
-Module compare__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__75 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized23 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__49 
 2default:default
 B
 %s*synth23
@@ -93752,7 +89734,7 @@ B
 2default:default
 j
 %s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__2 
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__3 
 2default:default
 B
 %s*synth23
@@ -93782,17 +89764,105 @@ Q
 %s*synth2B
 .	   2 Input     62 Bit        Muxes := 1     
 2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized7 
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 3     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
 ]
 %s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__1 
+:Module axi_protocol_converter_v2_1_b2s_cmd_translator__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+E
+%s*synth26
+"Module axi_datamover_ms_strb_set 
 2default:default
 B
 %s*synth23
@@ -93804,7 +89874,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   5 Input      3 Bit        Muxes := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 M
 %s*synth2>
@@ -93814,9 +89892,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__8 
+E
+%s*synth26
+"Module updn_cntr__parameterized0 
 2default:default
 B
 %s*synth23
@@ -93828,7 +89906,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
+.	   2 Input      7 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -93836,67 +89914,167 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 2     
+.	                7 Bit    Registers := 1     
 2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__3 
+M
+%s*synth2>
+*Module axi_crossbar_v2_1_addr_decoder__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized6 
+/Module axi_dwidth_converter_v2_1_a_upsizer__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-I
-%s*synth2:
-&Module axi_crossbar_v2_1_splitter__3 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+;
+%s*synth2,
+Module def_stream_v1_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module updn_cntr__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__73 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+P
+%s*synth2A
+-Module rd_handshaking_flags__parameterized0 
 2default:default
 B
 %s*synth23
@@ -93908,15 +90086,31 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                1 Bit    Registers := 2     
 2default:default
->
-%s*synth2/
-Module axi_dma_sofeof_gen 
+D
+%s*synth25
+!Module rd_logic__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -93924,11 +90118,127 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 7     
+.	                5 Bit    Registers := 1     
 2default:default
-G
-%s*synth28
-$Module blk_mem_gen_prim_wrapper_v6 
+Q
+%s*synth2B
+.	                4 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__91 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized8 
 2default:default
 B
 %s*synth23
@@ -94006,377 +90316,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_incr_cmd__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized5__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module output_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_bin_cntr__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                7 Bit    Registers := 3     
-2default:default
-;
-%s*synth2,
-Module axi_dma_lite_if 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	               10 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 15    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 49    
-2default:default
-q
-%s*synth2b
-NModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module testDMA_def_stream_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_dwidth_converter_v2_1_axi_downsizer__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized5__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__46 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module s01_couplers_imp_1XMYHY6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
->
-%s*synth2/
-Module axi_dma_reg_module 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   9 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   9 Input      4 Bit        Muxes := 1     
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized5__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__45 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized5 
+F
+%s*synth27
+#Module output_blk__parameterized1 
 2default:default
 B
 %s*synth23
@@ -94384,7 +90326,95 @@ B
 2default:default
 J
 %s*synth2;
-'Module rd_bin_cntr__parameterized1__1 
+'Module axi_crossbar_v2_1_addr_decoder 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized4__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_cmd_translator 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__8 
 2default:default
 B
 %s*synth23
@@ -94406,9 +90436,17 @@ Q
 %s*synth2B
 .	                5 Bit    Registers := 2     
 2default:default
-c
-%s*synth2T
-@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__3 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__97 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized4 
 2default:default
 B
 %s*synth23
@@ -94422,25 +90460,25 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit       Adders := 1     
 2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
 4
 %s*synth2%
 +---Registers : 
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                5 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -94448,15 +90486,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
+.	   2 Input      5 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -94464,51 +90498,111 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+E
+%s*synth26
+"Module memory__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
+.	                9 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__90 
+.Module generic_baseblocks_v2_1_carry_and__71 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized5__3 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__93 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_aw_channel__2 
+[
+%s*synth2L
+8Module axi_crossbar_v2_1_si_transactor__parameterized5 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_b_downsizer__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -94520,11 +90614,107 @@ Q
 2default:default
 Q
 %s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
 .	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
 2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__30 
+)Module axi_data_fifo_v2_1_ndeep_srl__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module updn_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized5__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module generic_baseblocks_v2_1_comparator_static 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized0__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module blk_mem_gen_generic_cstr 
 2default:default
 B
 %s*synth23
@@ -94578,17 +90768,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-@
-%s*synth21
-Module testDMA_auto_ds_1405 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_incr_cmd__4 
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_r_upsizer 
 2default:default
 B
 %s*synth23
@@ -94600,15 +90782,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
+.	   2 Input      8 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
+.	   2 Input      3 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -94616,11 +90794,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                9 Bit    Registers := 1     
+.	               64 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
 2default:default
 0
 %s*synth2!
@@ -94628,15 +90818,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
+.	   2 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
+2default:default
+B
+%s*synth23
+Module testDMA_def_stream_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 S
 %s*synth2D
@@ -94646,9 +90852,41 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-N
-%s*synth2?
-+Module rd_status_flags_ss__parameterized0 
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module m02_couplers_imp_WNEIF9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__61 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__7 
 2default:default
 B
 %s*synth23
@@ -94662,125 +90900,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 2     
 2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module def_stream_v1_0_M00_AXIS 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-D
-%s*synth25
-!Module cntr_incr_decr_addn_f__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-N
-%s*synth2?
-+Module rd_status_flags_ss__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized7 
 2default:default
 B
 %s*synth23
@@ -94858,17 +90980,157 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
->
-%s*synth2/
-Module fifo_generator_top 
+R
+%s*synth2C
+/Module axi_datamover_skid_buf__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module rd_fwft__parameterized0__12 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               40 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     40 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__55 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__75 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized2__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_aw_channel__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+3
+%s*synth2$
+Module rd_fwft 
 2default:default
 B
 %s*synth23
@@ -94884,7 +91146,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                1 Bit    Registers := 3     
 2default:default
 0
 %s*synth2!
@@ -94910,97 +91172,13 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized30 
+G
+%s*synth28
+$Module wr_logic__parameterized1__6 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__69 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_w_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__103 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized5__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module compare__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
 2default:default
 R
 %s*synth2C
@@ -95054,41 +91232,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 19    
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__73 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-S
-%s*synth2D
-0Module blk_mem_gen_prim_width__parameterized32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_protocol_converter_v2_1_b2s_cmd_translator__3 
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized11__2 
 2default:default
 B
 %s*synth23
@@ -95100,7 +91246,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
+.	               36 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -95108,15 +91262,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
+.	   2 Input     36 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
+.Module generic_baseblocks_v2_1_carry_and__37 
 2default:default
-_
-%s*synth2P
-<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3__3 
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_data_fifo_v2_1_axic_reg_srl_fifo__1 
 2default:default
 B
 %s*synth23
@@ -95148,7 +91306,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
+.	                1 Bit    Registers := 4     
 2default:default
 0
 %s*synth2!
@@ -95156,23 +91314,39 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	   5 Input      2 Bit        Muxes := 1     
 2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized3 
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 7     
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__9 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized2 
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized1__1 
 2default:default
 B
 %s*synth23
@@ -95180,7 +91354,7 @@ B
 2default:default
 ]
 %s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized1__1 
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__7 
 2default:default
 B
 %s*synth23
@@ -95194,29 +91368,221 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized5__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 [
 %s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__3 
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__23 
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__6 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Z
+%s*synth2K
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_protocol_converter_v2_1_b2s_cmd_translator__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__78 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+M
+%s*synth2>
+*Module reset_blk_ramfifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__45 
+)Module axi_data_fifo_v2_1_ndeep_srl__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_crossbar_v2_1_splitter__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__65 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__5 
 2default:default
 B
 %s*synth23
@@ -95224,7 +91590,7 @@ B
 2default:default
 T
 %s*synth2E
-1Module axi_dwidth_converter_v2_1_w_downsizer__2 
+1Module axi_dwidth_converter_v2_1_w_downsizer__1 
 2default:default
 B
 %s*synth23
@@ -95282,25 +91648,33 @@ Q
 %s*synth2B
 .	   8 Input      3 Bit        Muxes := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__33 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__12 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__34 
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_mux__parameterized1__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized5__2 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__85 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__22 
 2default:default
 B
 %s*synth23
@@ -95308,39 +91682,23 @@ B
 2default:default
 R
 %s*synth2C
-/Module blk_mem_gen_prim_width__parameterized2 
+/Module fifo_generator_ramfifo__parameterized6 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized0 
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__101 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-c
-%s*synth2T
-@Module generic_baseblocks_v2_1_command_fifo__parameterized0__1 
+C
+%s*synth24
+ Module axi_datamover_strb_gen2 
 2default:default
 B
 %s*synth23
@@ -95352,23 +91710,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   2 Input      3 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	               12 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
+.	   3 Input      3 Bit       Adders := 1     
 2default:default
 0
 %s*synth2!
@@ -95376,31 +91722,79 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
+Z
+%s*synth2K
+7Module axi_register_slice_v2_1_axic_register_slice__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__19 
+.	               62 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-H
-%s*synth29
-%Module wr_logic__parameterized1__11 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 B
 %s*synth23
-Detailed RTL Component Info : 
-2default:default
->
-%s*synth2/
-Module wr_status_flags_ss 
+Module memory__parameterized3 
 2default:default
 B
 %s*synth23
@@ -95414,17 +91808,9 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-n
-%s*synth2_
-KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized1 
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized10 
 2default:default
 B
 %s*synth23
@@ -95432,103 +91818,23 @@ B
 2default:default
 j
 %s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__1 
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized9__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module axi_protocol_converter_v2_1_b2s_r_channel__1 
+Y
+%s*synth2J
+6Module axi_dwidth_converter_v2_1_top__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_axi_crossbar 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__53 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__67 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__4 
+G
+%s*synth28
+$Module compare__parameterized1__25 
 2default:default
 B
 %s*synth23
@@ -95540,11 +91846,163 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 7     
+.	   2 Input      1 Bit         XORs := 5     
 2default:default
-F
-%s*synth27
-#Module fifo_generator_v11_0_synth 
+b
+%s*synth2S
+?Module axis_infrastructure_v1_1_util_aclken_converter_wrapper 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_wr_status_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 12    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 9     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 9     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 13    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_crossbar_v2_1_addr_decoder__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+A
+%s*synth22
+Module dc_ss__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized3 
 2default:default
 B
 %s*synth23
@@ -95558,21 +92016,53 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-;
-%s*synth2,
-Module blk_mem_gen_top 
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_dwidth_converter_v2_1_axi_upsizer__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__46 
+.	                3 Bit    Registers := 1     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
 2default:default
 O
 %s*synth2@
@@ -95626,181 +92116,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 19    
 2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1517 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module axi_crossbar_v2_1_splitter__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_pc_1513 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__63 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_incr_cmd__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-F
-%s*synth27
-#Module compare__parameterized1__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-N
-%s*synth2?
-+Module axi_protocol_converter_v2_1_b2s__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
 S
 %s*synth2D
-0Module generic_baseblocks_v2_1_command_fifo__2 
+0Module blk_mem_gen_prim_width__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__5 
 2default:default
 B
 %s*synth23
@@ -95820,11 +92146,175 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               30 Bit    Registers := 1     
+.	                5 Bit    Registers := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__64 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized4__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module axi_dwidth_converter_v2_1_a_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 1     
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized4__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_bin_cntr__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module def_stream_v1_0_M00_AXIS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+]
+%s*synth2N
+:Module axi_protocol_converter_v2_1_b2s_cmd_translator__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
 2default:default
 Q
 %s*synth2B
@@ -95836,31 +92326,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   3 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__82 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__48 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__58 
+Z
+%s*synth2K
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__4 
 2default:default
 B
 %s*synth23
@@ -95868,7 +92342,287 @@ B
 2default:default
 S
 %s*synth2D
-0Module axi_dwidth_converter_v2_1_axi_downsizer 
+0Module blk_mem_gen_prim_width__parameterized13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_protocol_converter_v2_1_b2s_r_channel__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+7
+%s*synth2(
+Module rd_bin_cntr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+I
+%s*synth2:
+&Module axi_crossbar_v2_1_splitter__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_dwidth_converter_v2_1_axi_upsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_crossbar_v2_1_arbiter_resp__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized5__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_fwft__parameterized0__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized15 
 2default:default
 B
 %s*synth23
@@ -95876,7 +92630,7 @@ B
 2default:default
 F
 %s*synth27
-#Module compare__parameterized1__9 
+#Module compare__parameterized1__4 
 2default:default
 B
 %s*synth23
@@ -95890,9 +92644,41 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-g
-%s*synth2X
-DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+G
+%s*synth28
+$Module rd_logic__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_prim_width 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__8 
 2default:default
 B
 %s*synth23
@@ -95904,15 +92690,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
 .	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -95920,15 +92702,195 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   4 Input      2 Bit        Muxes := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__10 
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_aw_channel__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized2__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module wr_status_flags_ss__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+S
+%s*synth2D
+0Module fifo_generator_v11_0__parameterized7__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module axi_dma_s2mm_mngr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module m00_couplers_imp_1ULZJWI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__49 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_mux__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+2
+%s*synth2#
+Module bindec 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
 2default:default
 W
 %s*synth2H
@@ -96002,9 +92964,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized5__1 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__94 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__80 
 2default:default
 B
 %s*synth23
@@ -96020,1607 +92990,7 @@ B
 2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__55 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module proc_sys_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-4
-%s*synth2%
-Module cdc_sync 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__71 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_command_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               30 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-G
-%s*synth28
-$Module wr_bin_cntr__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__70 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module reset_blk_ramfifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module axi_datamover_s2mm_scatter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-:
-%s*synth2+
-Module testDMA_xbar_3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__78 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_protocol_converter_v2_1_b2s__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__44 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__68 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized3__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-g
-%s*synth2X
-DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.Module cntr_incr_decr_addn_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-F
-%s*synth27
-#Module testDMA_axi_mem_intercon_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module myip_v6_0_S00_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 32    
-2default:default
-Q
-%s*synth2B
-.	                7 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	  32 Input     32 Bit        Muxes := 31    
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 6     
-2default:default
-C
-%s*synth24
- Module rd_fwft__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_ndeep_srl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-e
-%s*synth2V
-BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__91 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module compare__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized7__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module blk_mem_output_block__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_protocol_converter_v2_1_axi_protocol_converter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-K
-%s*synth2<
-(Module wr_bin_cntr__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__56 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__112 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__74 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized5__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__62 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module wr_status_flags_ss__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
->
-%s*synth2/
-Module axi_datamover_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_v8_0_synth__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__92 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized13__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__69 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_r_downsizer__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__65 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__56 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module wr_logic 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_mux__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__90 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_datamover_stbs_set_nodre__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   9 Input      4 Bit        Muxes := 1     
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__70 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_r_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__61 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_decoder 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module wr_handshaking_flags 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__89 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__55 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               73 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-2
-%s*synth2#
-Module memory 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__50 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module rd_handshaking_flags 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module srl_fifo_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_b_downsizer__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__91 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__51 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__42 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__57 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     62 Bit        Muxes := 1     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized4__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__93 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module blk_mem_gen_v8_0_synth 
+)Module axi_data_fifo_v2_1_ndeep_srl__45 
 2default:default
 B
 %s*synth23
@@ -97674,237 +93044,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__42 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module srl_fifo_rbu_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__60 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-=
-%s*synth2.
-Module axi_dma_mm2s_mngr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 S
 %s*synth2D
-0Module generic_baseblocks_v2_1_command_fifo__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               30 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_simple_fifo__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-?
-%s*synth20
-Module blk_mem_input_block 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-2
-%s*synth2#
-Module bindec 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-3
-%s*synth2$
-Module testDMA 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized4 
+0Module fifo_generator_v11_0__parameterized6__5 
 2default:default
 B
 %s*synth23
@@ -97912,907 +93054,7 @@ B
 2default:default
 F
 %s*synth27
-#Module dynshreg_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__111 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_infrastructure_v1_1_vector2axi__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__86 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-Module lpf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 13    
-2default:default
-C
-%s*synth24
- Module s01_couplers_imp_YBL7VO 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-U
-%s*synth2F
-2Module axis_infrastructure_v1_1_util_axis2vector 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module rd_status_flags_ss__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized6__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__81 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_register_slice_v2_1_axic_register_slice 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__64 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_vector2axi__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized4__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-Module dmem 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__94 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module axi_data_fifo_v2_1_fifo_gen 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__71 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module s00_couplers_imp_156Q4UY 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__92 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__98 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module blk_mem_gen_prim_wrapper_v6__parameterized9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axis_infrastructure_v1_1_util_axis2vector__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module generic_baseblocks_v2_1_comparator_static 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module m00_couplers_imp_VG7ZLK 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_b_downsizer__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-K
-%s*synth2<
-(Module blk_mem_gen_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_addr_arbiter 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               65 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_wrdata_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 23    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 15    
-2default:default
-4
-%s*synth2%
-Module sequence 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-5
-%s*synth2&
-Module input_blk 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-c
-%s*synth2T
-@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__8 
+#Module rd_fwft__parameterized0__3 
 2default:default
 B
 %s*synth23
@@ -98854,9 +93096,33 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-7
-%s*synth2(
-Module cdc_sync__1 
+V
+%s*synth2G
+3Module axi_register_slice_v2_1_axi_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_mm2s_omit_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__1 
 2default:default
 B
 %s*synth23
@@ -98868,67 +93134,35 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__95 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module axi_datamover_ms_strb_set 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      3 Bit        Muxes := 1     
+.	                2 Bit    Registers := 1     
 2default:default
-q
-%s*synth2b
-NModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0__1 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_mux__parameterized1__3 
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized19 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__2 
+Q
+%s*synth2B
+.Module axi_protocol_converter_v2_1_axi3_conv 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module compare__parameterized0__3 
+G
+%s*synth28
+$Module compare__parameterized1__46 
 2default:default
 B
 %s*synth23
@@ -98940,11 +93174,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 7     
+.	   2 Input      1 Bit         XORs := 5     
 2default:default
-E
-%s*synth26
-"Module input_blk__parameterized2 
+D
+%s*synth25
+!Module axi_datamover_cmd_status 
 2default:default
 B
 %s*synth23
@@ -99050,73 +93284,49 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__8 
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized20 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized4 
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__102 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-5
-%s*synth2&
-Module myip_v6_0 
+G
+%s*synth28
+$Module compare__parameterized1__47 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module input_blk__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+/
+%s*synth2 
++---XORs : 
 2default:default
 Q
 %s*synth2B
-.Module wr_status_flags_ss__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
+.	   2 Input      1 Bit         XORs := 5     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__72 
+.Module generic_baseblocks_v2_1_carry_and__50 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-N
-%s*synth2?
-+Module fifo_generator_top__parameterized5 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__44 
 2default:default
 B
 %s*synth23
@@ -99124,7 +93334,963 @@ B
 2default:default
 P
 %s*synth2A
--Module axi_data_fifo_v2_1_axic_reg_srl_fifo 
+-Module fifo_generator_v11_0__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_data_fifo_v2_1_axic_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+<
+%s*synth2-
+Module blk_mem_gen_v8_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__93 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     62 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+U
+%s*synth2F
+2Module axis_infrastructure_v1_1_util_vector2axis 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module cntr_incr_decr_addn_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_ds_1417 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_datamover_strb_gen2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      3 Bit       Adders := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+B
+%s*synth23
+Module fifo_generator_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_r_upsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module axi_datamover_skid_buf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module myip_v6_0_S00_AXI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 32    
+2default:default
+Q
+%s*synth2B
+.	                7 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	  32 Input     32 Bit        Muxes := 31    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_ar_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_incr_cmd__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_b_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module rd_bin_cntr__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_a_downsizer__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	               11 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 7     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 17    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     11 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module blk_mem_input_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+H
+%s*synth29
+%Module rd_logic__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_mssai_skid_buf 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 14    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module wr_logic__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized5__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 7     
+2default:default
+F
+%s*synth27
+#Module fifo_generator_v11_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
 2default:default
 B
 %s*synth23
@@ -99156,7 +94322,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
+.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -99164,31 +94330,39 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
+.Module generic_baseblocks_v2_1_carry_and__47 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__9 
+H
+%s*synth29
+%Module input_blk__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized5__5 
 2default:default
 B
 %s*synth23
@@ -99200,27 +94374,27 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	               26 Bit    Registers := 1     
 2default:default
-3
-%s*synth2$
-Module axi_dma 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized2__1 
+F
+%s*synth27
+#Module output_blk__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__16 
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module fifo_generator_v11_0 
 2default:default
 B
 %s*synth23
@@ -99228,15 +94402,63 @@ B
 2default:default
 Q
 %s*synth2B
-.Module axi_infrastructure_v1_1_axi2vector__1 
+.Module generic_baseblocks_v2_1_carry_and__54 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__106 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__59 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized5__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized3__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module wr_logic__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized14__2 
 2default:default
 B
 %s*synth23
@@ -99250,9 +94472,73 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__6 
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__9 
 2default:default
 B
 %s*synth23
@@ -99264,7 +94550,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	               68 Bit    Registers := 2     
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99272,11 +94558,447 @@ Q
 2default:default
 Q
 %s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__94 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__92 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__103 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_ar_channel__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module axi_datamover_s2mm_realign 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   7 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module generic_baseblocks_v2_1_command_fifo__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               30 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+4
+%s*synth2%
+Module wr_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
 .	                1 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+<
+%s*synth2-
+Module axi_dma_smple_sm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	              150 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 4     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__95 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_command_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               30 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+D
+%s*synth25
+!Module rd_logic__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+S
+%s*synth2D
+0Module blk_mem_gen_prim_width__parameterized32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized3__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_pc_1526 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_dwidth_converter_v2_1_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               37 Bit    Registers := 1     
 2default:default
 ]
 %s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized3__9 
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__2 
 2default:default
 B
 %s*synth23
@@ -99290,33 +95012,25 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized1__1 
+@
+%s*synth21
+Module testDMA_auto_ds_1416 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.Module axi_infrastructure_v1_1_axi2vector__3 
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized13__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized6__1 
+@
+%s*synth21
+Module rd_handshaking_flags 
 2default:default
 B
 %s*synth23
@@ -99328,7 +95042,103 @@ B
 2default:default
 Q
 %s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
 .	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99346,9 +95156,221 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_wrap_cmd__3 
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module testDMA_proc_sys_reset_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__77 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_us_1418 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module fifo_generator_v11_0__parameterized6__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_dwidth_converter_v2_1_top__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_dwidth_converter_v2_1_axi_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module reset_blk_ramfifo__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+@
+%s*synth21
+Module testDMA_ADC_emul_0_9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module compare__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_ndeep_srl__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_fwft__parameterized0__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module generic_baseblocks_v2_1_command_fifo__2 
 2default:default
 B
 %s*synth23
@@ -99360,19 +95382,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -99380,7 +95390,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               12 Bit    Registers := 2     
+.	               30 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99388,7 +95398,123 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 3     
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__70 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module fifo_generator_top 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized3__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module ADC_emul 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99404,67 +95530,83 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     12 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
+.	   3 Input      1 Bit        Muxes := 2     
 2default:default
 [
 %s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__6 
+8Module generic_baseblocks_v2_1_mux_enc__parameterized3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__43 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__6 
+.Module generic_baseblocks_v2_1_carry_and__45 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module compare__parameterized1__34 
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-/
-%s*synth2 
-+---XORs : 
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_dwidth_converter_v2_1_top__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
+.Module axi_infrastructure_v1_1_vector2axi__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module reset_blk_ramfifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module sequence 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
 2default:default
 Q
 %s*synth2B
@@ -99526,173 +95668,13 @@ Q
 %s*synth2B
 .	   8 Input      3 Bit        Muxes := 1     
 2default:default
-c
-%s*synth2T
-@Module axi_protocol_converter_v2_1_a_axi3_conv__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 10    
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 C
 %s*synth24
- Module s00_couplers_imp_5VZGPS 
+ Module axi_datamover_addr_cntl 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__39 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__35 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-@
-%s*synth21
-Module axi_datamover_ibttcc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   3 Input     23 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -99700,15 +95682,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	               16 Bit    Registers := 1     
+.	               32 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -99716,103 +95690,91 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                6 Bit    Registers := 1     
+.	                4 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	                4 Bit    Registers := 13    
+.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 40    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
+.	                1 Bit    Registers := 6     
 2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     16 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      7 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 7     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.	   7 Input      1 Bit        Muxes := 5     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 3     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__96 
+9
+%s*synth2*
+Module axi_datamover 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module updn_cntr__parameterized1 
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__107 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__4 
+V
+%s*synth2G
+3Module axi_dwidth_converter_v2_1_axi_downsizer__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__4 
+F
+%s*synth27
+#Module srl_fifo_f__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
 2default:default
 @
 %s*synth21
@@ -99822,17 +95784,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module output_blk__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized5 
+R
+%s*synth2C
+/Module wr_status_flags_ss__parameterized1__10 
 2default:default
 B
 %s*synth23
@@ -99844,139 +95798,331 @@ B
 2default:default
 Q
 %s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__76 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__85 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__73 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Y
-%s*synth2J
-6Module axi_dwidth_converter_v2_1_top__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_dwidth_converter_v2_1_axi_upsizer__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	                1 Bit    Registers := 2     
 2default:default
 X
 %s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__4 
+G
+%s*synth28
+$Module wr_logic__parameterized1__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-j
-%s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0__2 
+G
+%s*synth28
+$Module compare__parameterized1__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+>
+%s*synth2/
+Module wr_status_flags_ss 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__40 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module blk_mem_gen_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+5
+%s*synth2&
+Module bindec__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_bin_cntr__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               15 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__37 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module srl_fifo_f__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__80 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__41 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+C
+%s*synth24
+ Module s00_couplers_imp_5VZGPS 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module testDMA_axi_dma_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__92 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized13__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_r_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module output_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_axi2vector__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_simple_fifo__1 
 2default:default
 B
 %s*synth23
@@ -100006,9 +96152,245 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
-D
-%s*synth25
-!Module m03_couplers_imp_16UK5X7 
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized11__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     36 Bit        Muxes := 1     
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_mux__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               26 Bit    Registers := 1     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_decerr_slave 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 14    
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 8     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_arbiter_resp 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+S
+%s*synth2D
+0Module fifo_generator_v11_0__parameterized7__1 
 2default:default
 B
 %s*synth23
@@ -100032,23 +96414,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__93 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized14__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module axi_crossbar_v2_1_splitter__2 
+.Module wr_status_flags_ss__parameterized1__3 
 2default:default
 B
 %s*synth23
@@ -100060,27 +96426,27 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                1 Bit    Registers := 2     
 2default:default
 X
 %s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
+5Module generic_baseblocks_v2_1_comparator_static__5 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized5__1 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__82 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-S
-%s*synth2D
-0Module generic_baseblocks_v2_1_command_fifo__1 
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__9 
 2default:default
 B
 %s*synth23
@@ -100100,51 +96466,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               30 Bit    Registers := 1     
+.	                5 Bit    Registers := 2     
 2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized1__2 
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__8 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module axi_datamover_sfifo_autord 
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_incr_cmd__5 
 2default:default
 B
 %s*synth23
@@ -100156,7 +96490,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -100164,7 +96506,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 1     
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -100172,15 +96518,183 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+K
+%s*synth2<
+(Module wr_bin_cntr__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
 2default:default
 G
 %s*synth28
-$Module compare__parameterized1__46 
+$Module wr_logic__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__108 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module wr_status_flags_ss__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+H
+%s*synth29
+%Module wr_logic__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+q
+%s*synth2b
+NModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__72 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__11 
 2default:default
 B
 %s*synth23
@@ -100194,41 +96708,29 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-G
-%s*synth28
-$Module rd_bin_cntr__parameterized2 
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized5__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-C
-%s*synth24
- Module axi_datamover_strb_gen2 
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized4__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-1
-%s*synth2"
-+---Adders : 
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized3 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      3 Bit       Adders := 1     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 0
 %s*synth2!
@@ -100236,23 +96738,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__2 
 2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-V
-%s*synth2G
-3Module axi_crossbar_v2_1_crossbar__parameterized0 
+=
+%s*synth2.
+Module myip_v6_0_M00_AXI 
 2default:default
 B
 %s*synth23
@@ -100264,15 +96762,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
+.	   2 Input     32 Bit       Adders := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 8     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit       Adders := 2     
+.	   2 Input      3 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -100280,7 +96774,107 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 2     
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 18    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   5 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 17    
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_r_downsizer__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -100292,35 +96886,263 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     40 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 18    
+.	   2 Input      8 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__80 
+.	   8 Input      3 Bit        Muxes := 1     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 P
 %s*synth2A
--Module generic_baseblocks_v2_1_carry_and__8 
+-Module blk_mem_output_block__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized1__1 
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module axi_data_fifo_v2_1_axic_srl_fifo__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__81 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+`
+%s*synth2Q
+=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+:
+%s*synth2+
+Module testDMA_xbar_3 
 2default:default
 B
 %s*synth23
@@ -100374,9 +97196,737 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__64 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module rd_status_flags_ss__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+c
+%s*synth2T
+@Module generic_baseblocks_v2_1_command_fifo__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+N
+%s*synth2?
++Module rd_status_flags_ss__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized3__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_r_downsizer__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               36 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     36 Bit        Muxes := 1     
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_us_1419 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module axi_dma_mm2s_mngr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module axi_data_fifo_v2_1_axic_srl_fifo__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_vector2axi 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+`
+%s*synth2Q
+=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 6     
+2default:default
+X
+%s*synth2I
+5Module axis_infrastructure_v1_1_util_vector2axis__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_ar_channel__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
 F
 %s*synth27
-#Module rd_fwft__parameterized0__4 
+#Module output_blk__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_protocol_converter_v2_1_axi_protocol_converter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_b_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module axi_datamover_indet_btt 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                7 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_datamover_stbs_set_nodre__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   9 Input      4 Bit        Muxes := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized3__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__7 
 2default:default
 B
 %s*synth23
@@ -100418,25 +97968,33 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized5 
+S
+%s*synth2D
+0Module generic_baseblocks_v2_1_command_fifo__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-]
-%s*synth2N
-:Module axi_protocol_converter_v2_1_b2s_cmd_translator__2 
+1
+%s*synth2"
++---Adders : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
 +---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               30 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -100448,31 +98006,179 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_b_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
-Module rd_logic 
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+`
+%s*synth2Q
+=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__74 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized1__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-<
-%s*synth2-
-Module axi_dma_smple_sm 
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_protocol_converter_v2_1_b2s_b_channel__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__9 
 2default:default
 B
 %s*synth23
@@ -100484,15 +98190,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	              150 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
 .	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -100504,19 +98206,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 3     
+.	   2 Input      2 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   4 Input      1 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   4 Input      1 Bit        Muxes := 4     
+.	   3 Input      1 Bit        Muxes := 1     
 2default:default
-D
-%s*synth25
-!Module m01_couplers_imp_180AW1Y 
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized1 
 2default:default
 B
 %s*synth23
@@ -100524,23 +98238,7 @@ B
 2default:default
 h
 %s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized2__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized13__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized3 
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
 2default:default
 B
 %s*synth23
@@ -100552,11 +98250,655 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized14__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_axi2vector__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__33 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+F
+%s*synth27
+#Module rd_fwft__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+@
+%s*synth21
+Module testDMA_auto_us_1420 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__88 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__96 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized2__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+D
+%s*synth25
+!Module m01_couplers_imp_180AW1Y 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module rd_status_flags_ss__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Z
+%s*synth2K
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__62 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_prim_width__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized16 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               73 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+_
+%s*synth2P
+<Module axi_dwidth_converter_v2_1_a_upsizer__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__82 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__60 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__63 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__38 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
 2default:default
 ]
 %s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized2__3 
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__9 
 2default:default
 B
 %s*synth23
@@ -100568,19 +98910,615 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
-Y
-%s*synth2J
-6Module axi_dwidth_converter_v2_1_top__parameterized2 
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-c
-%s*synth2T
-@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__2 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized2__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__89 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module blk_mem_gen_v8_0_synth 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_crossbar_v2_1_splitter__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_protocol_converter_v2_1_b2s_b_channel__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__65 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_logic__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module axi_datamover_stbs_set_nodre 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   9 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__87 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__14 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_protocol_converter_v2_1_b2s 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     62 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__90 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized2__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__63 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module srl_fifo_rbu_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__20 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module wr_handshaking_flags__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized5__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               26 Bit    Registers := 1     
+2default:default
+;
+%s*synth2,
+Module axi_dma_lite_if 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	               10 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 15    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 49    
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_arbiter__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized10__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+`
+%s*synth2Q
+=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized1 
 2default:default
 B
 %s*synth23
@@ -100642,9 +99580,141 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_logic__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__61 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_datamover_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__17 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module rd_logic 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
 J
 %s*synth2;
-'Module rd_bin_cntr__parameterized1__8 
+'Module rd_bin_cntr__parameterized1__9 
 2default:default
 B
 %s*synth23
@@ -100666,9 +99736,105 @@ Q
 %s*synth2B
 .	                5 Bit    Registers := 2     
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized4 
+G
+%s*synth28
+$Module compare__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+G
+%s*synth28
+$Module wr_bin_cntr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                7 Bit    Registers := 2     
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module fifo_generator_v11_0__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
 2default:default
 B
 %s*synth23
@@ -100680,11 +99846,171 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 4     
+.	                2 Bit    Registers := 1     
 2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized15__1 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module axi_datamover_wrdata_cntl 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 23    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 15    
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module generic_baseblocks_v2_1_mux_enc__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__86 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 15    
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__109 
 2default:default
 B
 %s*synth23
@@ -100692,7 +100018,7 @@ B
 2default:default
 J
 %s*synth2;
-'Module srl_fifo_rbu_f__parameterized1 
+'Module srl_fifo_rbu_f__parameterized2 
 2default:default
 B
 %s*synth23
@@ -100714,9 +100040,25 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-;
-%s*synth2,
-Module blk_mem_gen_mux 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized0 
 2default:default
 B
 %s*synth23
@@ -100728,43 +100070,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-O
-%s*synth2@
-,Module axi_data_fifo_v2_1_axic_srl_fifo__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
+.	                1 Bit    Registers := 3     
 2default:default
 0
 %s*synth2!
@@ -100772,31 +100078,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module memory__parameterized4 
+E
+%s*synth26
+"Module memory__parameterized5__4 
 2default:default
 B
 %s*synth23
@@ -100808,67 +100094,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	               37 Bit    Registers := 1     
+.	               26 Bit    Registers := 1     
 2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__47 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized5__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-8
-%s*synth2)
-Module sync_fifo_fg 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__54 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized3__1 
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
 2default:default
 B
 %s*synth23
@@ -100876,31 +100106,79 @@ B
 2default:default
 j
 %s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__8 
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module axi_dwidth_converter_v2_1_top__parameterized1 
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__9 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized6 
+I
+%s*synth2:
+&Module output_blk__parameterized5__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-D
-%s*synth25
-!Module rd_logic__parameterized1 
+2
+%s*synth2#
+Module memory 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized4 
 2default:default
 B
 %s*synth23
@@ -100978,29 +100256,21 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__84 
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      2 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -101008,27 +100278,35 @@ B
 2default:default
 Q
 %s*synth2B
-.	               26 Bit    Registers := 1     
+.	                2 Bit    Registers := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__97 
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+D
+%s*synth25
+!Module m03_couplers_imp_16UK5X7 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-V
-%s*synth2G
-3Module axi_dwidth_converter_v2_1_axi_downsizer__1 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__62 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-K
-%s*synth2<
-(Module wr_bin_cntr__parameterized1__11 
+g
+%s*synth2X
+DModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2 
 2default:default
 B
 %s*synth23
@@ -101048,67 +100326,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-T
-%s*synth2E
-1Module blk_mem_gen_generic_cstr__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized5__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-R
-%s*synth2C
-/Module fifo_generator_ramfifo__parameterized5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_incr_cmd__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
+.	                5 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -101116,43 +100334,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-H
-%s*synth29
-%Module wr_logic__parameterized1__10 
+.Module generic_baseblocks_v2_1_carry_and__83 
 2default:default
 B
 %s*synth23
@@ -101160,47 +100346,31 @@ B
 2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__14 
+)Module axi_data_fifo_v2_1_ndeep_srl__98 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-b
-%s*synth2S
-?Module axis_infrastructure_v1_1_util_aclken_converter_wrapper 
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__106 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized3 
+\
+%s*synth2M
+9Module axi_dwidth_converter_v2_1_top__parameterized0__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module compare__parameterized1__19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-_
-%s*synth2P
-<Module axi_dwidth_converter_v2_1_r_upsizer__parameterized0 
+R
+%s*synth2C
+/Module axi_dwidth_converter_v2_1_w_upsizer__2 
 2default:default
 B
 %s*synth23
@@ -101224,11 +100394,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
+.	                8 Bit    Registers := 17    
 2default:default
 Q
 %s*synth2B
@@ -101236,11 +100402,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
+.	                1 Bit    Registers := 21    
 2default:default
 0
 %s*synth2!
@@ -101248,27 +100410,43 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
+.	   2 Input      8 Bit        Muxes := 10    
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
+.	   2 Input      3 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 19    
 2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
 2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module wr_bin_cntr__parameterized0 
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+7
+%s*synth2(
+Module wr_bin_cntr 
 2default:default
 B
 %s*synth23
@@ -101280,7 +100458,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit       Adders := 1     
+.	   2 Input      3 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -101288,99 +100466,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                7 Bit    Registers := 2     
-2default:default
-A
-%s*synth22
-Module axi_dma_s2mm_sts_mngr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-6
-%s*synth2'
-Module dc_ss_fwft 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
+.	                3 Bit    Registers := 2     
 2default:default
 G
 %s*synth28
-$Module wr_bin_cntr__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               15 Bit    Registers := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_crossbar_v2_1_addr_arbiter__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               65 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 5     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__45 
+$Module compare__parameterized1__33 
 2default:default
 B
 %s*synth23
@@ -101394,17 +100484,269 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__4 
+`
+%s*synth2Q
+=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_w_downsizer__1 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+7
+%s*synth2(
+Module cdc_sync__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__60 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+3
+%s*synth2$
+Module compare 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__51 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__30 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module upcnt_n 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+N
+%s*synth2?
++Module axi_infrastructure_v1_1_axi2vector 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_register_slice_v2_1_axic_register_slice__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_axi_crossbar 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_datamover_sfifo_autord__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101418,21 +100760,9 @@ Q
 %s*synth2B
 .	   2 Input      8 Bit       Adders := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 2     
-2default:default
 4
 %s*synth2%
 +---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -101444,43 +100774,63 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      8 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 1     
-2default:default
-F
-%s*synth27
-#Module dynshreg_f__parameterized1 
+;
+%s*synth2,
+Module blk_mem_gen_top 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized10 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__19 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__3 
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_crossbar_v2_1_wdata_mux__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
+Module dmem 
 2default:default
 B
 %s*synth23
@@ -101494,161 +100844,25 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module rd_handshaking_flags__parameterized0 
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized4__2 
+.Module generic_baseblocks_v2_1_carry_and__89 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module testDMA_proc_sys_reset_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized2__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 15    
 2default:default
 C
 %s*synth24
- Module dmem__parameterized4__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__94 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized14__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_wdata_router 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module wr_logic__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module generic_baseblocks_v2_1_carry_and 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_r_channel 
+ Module rd_fwft__parameterized0 
 2default:default
 B
 %s*synth23
@@ -101660,183 +100874,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
+.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__57 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__75 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized0__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_mux__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_dwidth_converter_v2_1_axi_upsizer__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-?
-%s*synth20
-Module testDMA_axi_dma_0_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-J
-%s*synth2;
-'Module srl_fifo_rbu_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
+.	                1 Bit    Registers := 5     
 2default:default
 0
 %s*synth2!
@@ -101844,23 +100886,31 @@ Q
 2default:default
 Q
 %s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-F
-%s*synth27
-#Module compare__parameterized1__3 
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
 2default:default
 W
 %s*synth2H
@@ -101934,25 +100984,33 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-G
-%s*synth28
-$Module axi_crossbar_v2_1_wdata_mux 
+X
+%s*synth2I
+5Module axi_data_fifo_v2_1_axic_fifo__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__4 
+@
+%s*synth21
+Module testDMA_auto_pc_1530 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-E
-%s*synth26
-"Module updn_cntr__parameterized0 
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__110 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1__1 
 2default:default
 B
 %s*synth23
@@ -101964,7 +101022,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      7 Bit       Adders := 1     
+.	   2 Input      5 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -101972,75 +101030,59 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                7 Bit    Registers := 1     
+.	                5 Bit    Registers := 1     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-6
-%s*synth2'
-Module dynshreg_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__36 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized6__1 
+.Module generic_baseblocks_v2_1_carry_and__55 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__9 
+>
+%s*synth2/
+Module axi_dma_sofeof_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 7     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__32 
 2default:default
 B
 %s*synth23
@@ -102094,13 +101136,29 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__1 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__86 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -102108,43 +101166,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 2     
+.	                5 Bit    Registers := 2     
 2default:default
-B
-%s*synth23
-Module blk_mem_gen_prim_width 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized5__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized1__4 
+G
+%s*synth28
+$Module compare__parameterized1__26 
 2default:default
 B
 %s*synth23
@@ -102158,9 +101184,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 5     
 2default:default
-I
-%s*synth2:
-&Module axi_crossbar_v2_1_splitter__4 
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__15 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm__2 
 2default:default
 B
 %s*synth23
@@ -102174,33 +101208,37 @@ Q
 %s*synth2B
 .	                2 Bit    Registers := 1     
 2default:default
-H
-%s*synth29
-%Module input_blk__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+0
+%s*synth2!
++---Muxes : 
 2default:default
 Q
 %s*synth2B
-.Module axi_infrastructure_v1_1_axi2vector__4 
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_axi2vector__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-@
-%s*synth21
-Module dmem__parameterized1 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__59 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module compare__parameterized1__28 
+C
+%s*synth24
+ Module compare__parameterized2 
 2default:default
 B
 %s*synth23
@@ -102212,11 +101250,43 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
+.	   2 Input      1 Bit         XORs := 15    
 2default:default
-N
-%s*synth2?
-+Module axi_datamover_fifo__parameterized0 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__114 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__5 
 2default:default
 B
 %s*synth23
@@ -102228,11 +101298,103 @@ B
 2default:default
 Q
 %s*synth2B
-.	               32 Bit    Registers := 1     
+.	               62 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 5     
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     62 Bit        Muxes := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__71 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module processing_system7_v5_3_processing_system7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module testDMA_processing_system7_0_axi_periph_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module s01_couplers_imp_YBL7VO 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -102242,9 +101404,65 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__4 
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_vector2axi__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_axi_upsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_bin_cntr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                7 Bit    Registers := 3     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__85 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__29 
 2default:default
 B
 %s*synth23
@@ -102252,7 +101470,31 @@ B
 2default:default
 F
 %s*synth27
-#Module compare__parameterized1__5 
+#Module compare__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__20 
 2default:default
 B
 %s*synth23
@@ -102268,15 +101510,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.Module axi_infrastructure_v1_1_vector2axi__2 
+.Module generic_baseblocks_v2_1_carry_and__84 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized11__1 
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module rd_status_flags_ss 
 2default:default
 B
 %s*synth23
@@ -102285,62 +101535,14 @@ B
 4
 %s*synth2%
 +---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               36 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
 .	                1 Bit    Registers := 2     
 2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     36 Bit        Muxes := 1     
-2default:default
-U
-%s*synth2F
-2Module axi_protocol_converter_v2_1_b2s_b_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__29 
+A
+%s*synth22
+Module cntr_incr_decr_addn_f 
 2default:default
 B
 %s*synth23
@@ -102352,19 +101554,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
+.	   2 Input      1 Bit         XORs := 3     
 2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1 
+_
+%s*synth2P
+<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized2__1 
 2default:default
 B
 %s*synth23
@@ -102376,7 +101570,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
+.	   2 Input      4 Bit       Adders := 1     
 2default:default
 /
 %s*synth2 
@@ -102392,7 +101586,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                4 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -102410,9 +101604,65 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 1     
 2default:default
-Z
-%s*synth2K
-7Module axi_register_slice_v2_1_axic_register_slice__2 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__84 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module testDMA_axis_data_fifo_0_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized6__1 
 2default:default
 B
 %s*synth23
@@ -102424,7 +101674,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	               62 Bit    Registers := 1     
+.	                4 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -102442,33 +101692,61 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized0 
+T
+%s*synth2E
+1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-@
-%s*synth21
-Module dmem__parameterized2 
+1
+%s*synth2"
++---Adders : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
 2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__2 
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
 2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__2 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__4 
 2default:default
 B
 %s*synth23
@@ -102476,7 +101754,55 @@ B
 2default:default
 Q
 %s*synth2B
-.Module rd_status_flags_ss__parameterized1__1 
+.Module fifo_generator_top__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__58 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized15__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_vector2axi__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__9 
 2default:default
 B
 %s*synth23
@@ -102490,17 +101816,189 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 2     
 2default:default
-C
-%s*synth24
- Module dmem__parameterized4__1 
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__8 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-@
-%s*synth21
-Module dmem__parameterized0 
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized9__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module wr_logic__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     62 Bit        Muxes := 1     
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_fwft__parameterized0__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 5     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__74 
 2default:default
 B
 %s*synth23
@@ -102508,15 +102006,275 @@ B
 2default:default
 L
 %s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__76 
+)Module axi_data_fifo_v2_1_ndeep_srl__28 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-`
-%s*synth2Q
-=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4 
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__88 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module blk_mem_gen_v8_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized5__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_crossbar_v2_1_crossbar__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 8     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     40 Bit        Muxes := 10    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 18    
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+@
+%s*synth21
+Module dmem__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module rd_status_flags_ss__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_dwidth_converter_v2_1_top__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_protocol_converter_v2_1_b2s_simple_fifo__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+@
+%s*synth21
+Module dmem__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module testDMA_processing_system7_0_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module generic_baseblocks_v2_1_comparator_static__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__66 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+c
+%s*synth2T
+@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__3 
 2default:default
 B
 %s*synth23
@@ -102578,957 +102336,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-7
-%s*synth2(
-Module wr_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__40 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-]
-%s*synth2N
-:Module axi_crossbar_v2_1_addr_decoder__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module rd_fwft__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 5     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized18 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_protocol_converter_v2_1_axi3_conv 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module bindec__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 8     
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized17 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_dwidth_converter_v2_1_top__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_mm2s_omit_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 7     
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized10__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-V
-%s*synth2G
-3Module axi_datamover_sfifo_autord__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-Module ADC_emul 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 2     
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module axi_crossbar_v2_1_splitter__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
 j
 %s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized9__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__100 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_wdata_mux__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__41 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_vector2axi__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_us_1408 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_us_1407 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized16 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__77 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-@
-%s*synth21
-Module testDMA_auto_ds_1403 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_decerr_slave 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 7     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 14    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-Q
-%s*synth2B
-.Module axi_infrastructure_v1_1_vector2axi__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module generic_baseblocks_v2_1_mux_enc 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__54 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module axi_crossbar_v2_1_arbiter_resp 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-N
-%s*synth2?
-+Module wr_status_flags_ss__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__84 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-7
-%s*synth2(
-Module rd_bin_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 3     
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_data_fifo_v2_1_axic_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized14 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module rd_status_flags_ss__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-R
-%s*synth2C
-/Module axi_dwidth_converter_v2_1_a_upsizer__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-j
-%s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2__1 
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1__2 
 2default:default
 B
 %s*synth23
@@ -103558,13 +102368,553 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
-M
-%s*synth2>
-*Module axi_crossbar_v2_1_wdata_router__1 
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module s01_couplers_imp_1XMYHY6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+8
+%s*synth2)
+Module sync_fifo_fg 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__36 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+U
+%s*synth2F
+2Module axis_infrastructure_v1_1_util_axis2vector 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_wdata_router 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__42 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__83 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module axi_datamover_wr_demux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized2__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__111 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+H
+%s*synth29
+%Module axi_datamover_s2mm_full_wrap 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__90 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+M
+%s*synth2>
+*Module generic_baseblocks_v2_1_carry_and 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__43 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module axi_protocol_converter_v2_1_w_axi3_conv 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.Module fifo_generator_top__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module axi_dma 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_logic__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_b_downsizer__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+V
+%s*synth2G
+3Module axi_dwidth_converter_v2_1_axi_downsizer__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+>
+%s*synth2/
+Module axi_dma_reg_module 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   9 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   9 Input      4 Bit        Muxes := 1     
 2default:default
 [
 %s*synth2L
@@ -103574,9 +102924,189 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized21__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
 Q
 %s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__26 
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+@
+%s*synth21
+Module wr_handshaking_flags 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__73 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized7__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               69 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_protocol_converter_v2_1_b2s_cmd_translator__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
+Module cdc_sync 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized4__2 
 2default:default
 B
 %s*synth23
@@ -103584,15 +103114,243 @@ B
 2default:default
 @
 %s*synth21
-Module testDMA_auto_us_1406 
+Module dmem__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized1__3 
+G
+%s*synth28
+$Module wr_logic__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+_
+%s*synth2P
+<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__19 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__57 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module rd_bin_cntr__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module srl_fifo_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+J
+%s*synth2;
+'Module wr_bin_cntr__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+5
+%s*synth2&
+Module myip_v6_0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_bin_cntr__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+Y
+%s*synth2J
+6Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized2 
 2default:default
 B
 %s*synth23
@@ -103600,15 +103358,15 @@ B
 2default:default
 X
 %s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__5 
+5Module blk_mem_gen_prim_wrapper_v6__parameterized10 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-3
-%s*synth2$
-Module compare 
+D
+%s*synth25
+!Module cntr_incr_decr_addn_f__1 
 2default:default
 B
 %s*synth23
@@ -103622,17 +103380,341 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 3     
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized13 
+@
+%s*synth21
+Module dmem__parameterized1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__6 
+K
+%s*synth2<
+(Module axi_data_fifo_v2_1_ndeep_srl__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+D
+%s*synth25
+!Module s00_couplers_imp_156Q4UY 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module wr_status_flags_ss__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.Module axi_dwidth_converter_v2_1_r_downsizer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized3__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__56 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__104 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module rd_bin_cntr__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized10__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+e
+%s*synth2V
+BModule generic_baseblocks_v2_1_comparator_static__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_incr_cmd__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__87 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module rd_logic__parameterized1__10 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__7 
 2default:default
 B
 %s*synth23
@@ -103738,17 +103820,73 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 10    
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__39 
+C
+%s*synth24
+ Module compare__parameterized0 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module axi_protocol_converter_v2_1_b2s_b_channel__1 
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 7     
+2default:default
+1
+%s*synth2"
+Module dc_ss 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module wr_status_flags_ss__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module axi_datamover_s2mm_scatter 
 2default:default
 B
 %s*synth23
@@ -103760,7 +103898,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	   3 Input     23 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 2     
 2default:default
 4
 %s*synth2%
@@ -103768,187 +103914,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
+.	               23 Bit    Registers := 2     
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     62 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_incr_cmd__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_crossbar_v2_1_addr_decoder__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_dma_s2mm_cmdsts_if 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
+.	                2 Bit    Registers := 3     
 2default:default
 Q
 %s*synth2B
@@ -103960,1059 +103930,23 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__78 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input     23 Bit        Muxes := 5     
 2default:default
 Q
 %s*synth2B
-.Module wr_status_flags_ss__parameterized1__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__24 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-R
-%s*synth2C
-/Module rd_status_flags_ss__parameterized1__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-H
-%s*synth29
-%Module axi_datamover_stbs_set_nodre 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   9 Input      4 Bit        Muxes := 1     
-2default:default
-=
-%s*synth2.
-Module myip_v6_0_M00_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 18    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   5 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
+.	   2 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 17    
-2default:default
-@
-%s*synth21
-Module reset_blk_ramfifo__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__109 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module axi_crossbar_v2_1_addr_decoder__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__39 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized5__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
 2default:default
 Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 4     
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__67 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule generic_baseblocks_v2_1_comparator_static__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_a_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-`
-%s*synth2Q
-=Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 3     
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__37 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-;
-%s*synth2,
-Module def_stream_v1_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_data_fifo_v2_1_axic_srl_fifo__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-G
-%s*synth28
-$Module rd_logic__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module sync_fifo_fg__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__42 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__113 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized4__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-I
-%s*synth2:
-&Module output_blk__parameterized5__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-<
-%s*synth2-
-Module blk_mem_gen_v8_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-N
-%s*synth2?
-+Module axi_infrastructure_v1_1_vector2axi 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module memory__parameterized5__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               26 Bit    Registers := 1     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__88 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module input_blk__parameterized5__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__64 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_ar_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module generic_baseblocks_v2_1_comparator_static__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__77 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__26 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__79 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-a
-%s*synth2R
->Module axi_infrastructure_v1_1_axi2vector__parameterized0__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized27 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module axi_datamover_addr_cntl 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-S
-%s*synth2D
-0Module axi_protocol_converter_v2_1_b_downsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-P
-%s*synth2A
--Module generic_baseblocks_v2_1_carry_and__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-G
-%s*synth28
-$Module compare__parameterized1__13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 5     
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__82 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-5
-%s*synth2&
-Module updn_cntr 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-A
-%s*synth22
-Module axi_dma_register_s2mm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	               23 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 16    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     23 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     13 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-D
-%s*synth25
-!Module cntr_incr_decr_addn_f__1 
+6
+%s*synth2'
+Module compare__3 
 2default:default
 B
 %s*synth23
@@ -105026,22 +103960,6 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit         XORs := 3     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__38 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
 h
 %s*synth2Y
 EModule generic_baseblocks_v2_1_comparator_static__parameterized0__1 
@@ -105050,9 +103968,33 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized11 
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__72 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_crossbar_v2_1_splitter__1 
 2default:default
 B
 %s*synth23
@@ -105064,7 +104006,23 @@ B
 2default:default
 Q
 %s*synth2B
-.	               36 Bit    Registers := 2     
+.	                2 Bit    Registers := 1     
+2default:default
+W
+%s*synth2H
+4Module axi_register_slice_v2_1_axic_register_slice 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               62 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -105080,7 +104038,335 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input     36 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_w_downsizer__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 1     
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__67 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module wr_logic__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                9 Bit    Registers := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__54 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+\
+%s*synth2M
+9Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__13 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module dynshreg_f__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized12 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module blk_mem_gen_v8_0__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+S
+%s*synth2D
+0Module generic_baseblocks_v2_1_command_fifo__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               30 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module fifo_generator_ramfifo__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+D
+%s*synth25
+!Module rd_logic__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module blk_mem_output_block 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized1__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+9
+%s*synth2*
+Module axi_dma_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 17    
+2default:default
+M
+%s*synth2>
+*Module axi_crossbar_v2_1_wdata_router__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 S
 %s*synth2D
@@ -105170,37 +104456,13 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 12    
 2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__4 
+]
+%s*synth2N
+:Module axi_crossbar_v2_1_addr_decoder__parameterized2__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -105208,567 +104470,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 1     
-2default:default
-W
-%s*synth2H
-4Module axi_protocol_converter_v2_1_b2s_simple_fifo 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized13 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized0__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__25 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__33 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized28 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_data_fifo_v2_1_fifo_gen__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module fifo_generator_ramfifo__parameterized6__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized29 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized19 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-W
-%s*synth2H
-4Module axi_crossbar_v2_1_wdata_mux__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_protocol_converter_v2_1_b2s_simple_fifo__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-T
-%s*synth2E
-1Module axi_protocol_converter_v2_1_b2s_incr_cmd 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     12 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     10 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                9 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      9 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-T
-%s*synth2E
-1Module axi_dwidth_converter_v2_1_a_downsizer__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      8 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      6 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	               11 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 7     
-2default:default
-Q
-%s*synth2B
-.	                6 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 17    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input     11 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 7     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 4     
-2default:default
-Q
-%s*synth2B
-.	   8 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 11    
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized20 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized3__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module testDMA_auto_ds_1404 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-i
-%s*synth2Z
-FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               68 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-J
-%s*synth2;
-'Module rd_bin_cntr__parameterized1__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized12 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module rd_logic__parameterized1__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_rd_cmd_fsm 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-h
-%s*synth2Y
-EModule axi_register_slice_v2_1_axic_register_slice__parameterized21 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__65 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module axi_datamover_cmd_status 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-F
-%s*synth27
-#Module srl_fifo_f__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__80 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+.	   2 Input      4 Bit        Muxes := 1     
 2default:default
 c
 %s*synth2T
-@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized1__1 
+@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__2 
 2default:default
 B
 %s*synth23
@@ -105830,641 +104536,13 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
-2default:default
-U
-%s*synth2F
-2Module testDMA_processing_system7_0_axi_periph_0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized15 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module dmem__parameterized3__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__61 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module axi_dwidth_converter_v2_1_axi_upsizer 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-\
-%s*synth2M
-9Module axi_data_fifo_v2_1_ndeep_srl__parameterized0__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-^
-%s*synth2O
-;Module generic_baseblocks_v2_1_mux_enc__parameterized1__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized30 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 2     
-2default:default
-9
-%s*synth2*
-Module axi_dma_reset 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 17    
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_aw_channel 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-S
-%s*synth2D
-0Module generic_baseblocks_v2_1_command_fifo__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               30 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__53 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized31 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Z
-%s*synth2K
-7Module axi_crossbar_v2_1_decerr_slave__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 9     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 8     
-2default:default
-_
-%s*synth2P
-<Module axi_data_fifo_v2_1_axic_srl_fifo__parameterized1__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
-2default:default
-R
-%s*synth2C
-/Module rd_status_flags_ss__parameterized1__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-^
-%s*synth2O
-;Module axi_infrastructure_v1_1_axi2vector__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__34 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-M
-%s*synth2>
-*Module reset_blk_ramfifo__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module wr_status_flags_ss__parameterized1__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-=
-%s*synth2.
-Module myip_v6_0_S01_AXI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit       Adders := 3     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 514   
-2default:default
-Q
-%s*synth2B
-.	               11 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	 510 Input     32 Bit        Muxes := 509   
-2default:default
-Q
-%s*synth2B
-.	  41 Input      6 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 11    
-2default:default
-Q
-%s*synth2B
-.	  41 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__23 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__4 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module reset_blk_ramfifo__parameterized0__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-A
-%s*synth22
-Module dc_ss__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-S
-%s*synth2D
-0Module axi_data_fifo_v2_1_axic_reg_srl_fifo__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit       Adders := 1     
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      5 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      5 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   5 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 7     
-2default:default
-j
-%s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               62 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     62 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
@@ -106566,121 +104644,9 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 11    
 2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__10 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module fifo_generator_top__parameterized6__1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module blk_mem_gen_prim_wrapper_v6__parameterized32 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_ndeep_srl__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-H
-%s*synth29
-%Module axi_datamover_s2mm_full_wrap 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 1     
-2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_ndeep_srl__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-A
-%s*synth22
-Module cntr_incr_decr_addn_f 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 3     
-2default:default
-C
-%s*synth24
- Module m02_couplers_imp_WNEIF9 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-:
-%s*synth2+
-Module testDMA_xbar_1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-E
-%s*synth26
-"Module input_blk__parameterized3 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-f
-%s*synth2W
-CModule axi_register_slice_v2_1_axi_register_slice__parameterized1 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-O
-%s*synth2@
-,Module axi_dwidth_converter_v2_1_r_upsizer 
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_incr_cmd__2 
 2default:default
 B
 %s*synth23
@@ -106692,11 +104658,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -106704,71 +104674,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	               64 Bit    Registers := 1     
+.	                9 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 4     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input     32 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      8 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      3 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
-2default:default
-B
-%s*synth23
-Module axi_datamover_skid_buf 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               32 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 3     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 10    
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -106780,15 +104690,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      4 Bit        Muxes := 1     
+.	   2 Input      9 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
-J
-%s*synth2;
-'Module wr_bin_cntr__parameterized1__1 
+G
+%s*synth28
+$Module wr_bin_cntr__parameterized1 
 2default:default
 B
 %s*synth23
@@ -106810,49 +104720,33 @@ Q
 %s*synth2B
 .	                5 Bit    Registers := 2     
 2default:default
-L
-%s*synth2=
-)Module axi_data_fifo_v2_1_ndeep_srl__81 
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized4__3 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module axi_protocol_converter_v2_1_b2s_ar_channel__1 
+X
+%s*synth2I
+5Module axis_infrastructure_v1_1_util_axis2vector__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 1     
-2default:default
-F
-%s*synth27
-#Module compare__parameterized0__1 
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized14 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-/
-%s*synth2 
-+---XORs : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit         XORs := 7     
-2default:default
-V
-%s*synth2G
-3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
+J
+%s*synth2;
+'Module srl_fifo_rbu_f__parameterized1 
 2default:default
 B
 %s*synth23
@@ -106864,7 +104758,7 @@ B
 2default:default
 Q
 %s*synth2B
-.	                2 Bit    Registers := 1     
+.	                1 Bit    Registers := 3     
 2default:default
 0
 %s*synth2!
@@ -106872,15 +104766,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 1     
+.	   2 Input      1 Bit        Muxes := 3     
 2default:default
-Q
-%s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
-2default:default
-R
-%s*synth2C
-/Module axi_dwidth_converter_v2_1_w_upsizer__2 
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_incr_cmd__1 
 2default:default
 B
 %s*synth23
@@ -106892,11 +104782,15 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	   2 Input     12 Bit       Adders := 2     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
+.	   2 Input     10 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit       Adders := 1     
 2default:default
 4
 %s*synth2%
@@ -106904,15 +104798,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	                8 Bit    Registers := 17    
+.	                9 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
-.	                3 Bit    Registers := 2     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 21    
+.	                1 Bit    Registers := 2     
 2default:default
 0
 %s*synth2!
@@ -106920,31 +104810,31 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 10    
+.	   2 Input     32 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
+.	   2 Input      9 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 19    
+.	   2 Input      1 Bit        Muxes := 4     
 2default:default
-D
-%s*synth25
-!Module blk_mem_gen_generic_cstr 
+Q
+%s*synth2B
+.Module rd_status_flags_ss__parameterized1__8 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-G
-%s*synth28
-$Module wr_logic__parameterized1__1 
+4
+%s*synth2%
++---Registers : 
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
 2default:default
 P
 %s*synth2A
@@ -106954,9 +104844,9 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-Y
-%s*synth2J
-6Module fifo_generator_v11_0_synth__parameterized5__4 
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_vector2axi__parameterized1__2 
 2default:default
 B
 %s*synth23
@@ -106964,7 +104854,543 @@ B
 2default:default
 j
 %s*synth2[
-GModule axi_register_slice_v2_1_axic_register_slice__parameterized8__5 
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_protocol_converter_v2_1_b2s_wrap_cmd__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     12 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 4     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+3
+%s*synth2$
+Module testDMA 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__48 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized4__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module axi_data_fifo_v2_1_axic_srl_fifo__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__53 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_axi_crossbar__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+h
+%s*synth2Y
+EModule generic_baseblocks_v2_1_comparator_static__parameterized0__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module axi_data_fifo_v2_1_fifo_gen__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module fifo_generator_v11_0__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+n
+%s*synth2_
+KModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_decoder__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 1     
+2default:default
+P
+%s*synth2A
+-Module reset_blk_ramfifo__parameterized0__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+M
+%s*synth2>
+*Module reset_blk_ramfifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__18 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+a
+%s*synth2R
+>Module axi_infrastructure_v1_1_axi2vector__parameterized4__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__46 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+C
+%s*synth24
+ Module dmem__parameterized3__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+O
+%s*synth2@
+,Module blk_mem_input_block__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__44 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__28 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module generic_baseblocks_v2_1_mux_enc__parameterized7__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized5__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__24 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+:
+%s*synth2+
+Module testDMA_xbar_1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+f
+%s*synth2W
+CModule axi_register_slice_v2_1_axi_register_slice__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__45 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+R
+%s*synth2C
+/Module rd_status_flags_ss__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__68 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized8 
 2default:default
 B
 %s*synth23
@@ -106994,17 +105420,65 @@ Q
 %s*synth2B
 .	   2 Input     62 Bit        Muxes := 1     
 2default:default
-S
-%s*synth2D
-0Module fifo_generator_v11_0__parameterized7__1 
+/
+%s*synth2 
+Module lpf 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-F
-%s*synth27
-#Module axi_datamover_strb_gen2__1 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 13    
+2default:default
+N
+%s*synth2?
++Module fifo_generator_top__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__52 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module testDMA_auto_ds_1415 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module reset_blk_ramfifo__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+T
+%s*synth2E
+1Module blk_mem_gen_generic_cstr__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module axi_datamover_ibttcc 
 2default:default
 B
 %s*synth23
@@ -107016,11 +105490,47 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit       Adders := 1     
+.	   3 Input     23 Bit       Adders := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      3 Bit       Adders := 1     
+.	   2 Input     16 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      7 Bit       Adders := 2     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	               16 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 13    
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 40    
 2default:default
 0
 %s*synth2!
@@ -107028,7 +105538,179 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      4 Bit        Muxes := 2     
+.	   2 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     16 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      7 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      3 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 5     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 8     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      1 Bit        Muxes := 5     
+2default:default
+g
+%s*synth2X
+DModule axi_register_slice_v2_1_axic_register_slice__parameterized7 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               69 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+F
+%s*synth27
+#Module axi_crossbar_v2_1_splitter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+T
+%s*synth2E
+1Module axi_dwidth_converter_v2_1_a_downsizer__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      8 Bit       Adders := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit       Adders := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      6 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	               11 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 7     
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 3     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 17    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     11 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 7     
+2default:default
+Q
+%s*synth2B
+.	   8 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -107036,63 +105718,219 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 2     
+.	   2 Input      2 Bit        Muxes := 4     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 1     
+.	   8 Input      1 Bit        Muxes := 1     
 2default:default
-D
-%s*synth25
-!Module wr_logic__parameterized2 
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 11    
 2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-@
-%s*synth21
-Module blk_mem_output_block 
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized5__5 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized3 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__30 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-X
-%s*synth2I
-5Module axi_data_fifo_v2_1_axic_fifo__parameterized3 
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_aw_channel 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-P
-%s*synth2A
--Module fifo_generator_v11_0__parameterized5 
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                8 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__57 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-M
-%s*synth2>
-*Module axi_data_fifo_v2_1_ndeep_srl__107 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__38 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized1 
+V
+%s*synth2G
+3Module fifo_generator_v11_0_synth__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+c
+%s*synth2T
+@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized4__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_addr_arbiter__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               64 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__70 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__91 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_ndeep_srl__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_router__parameterized1 
 2default:default
 B
 %s*synth23
@@ -107100,7 +105938,7 @@ B
 2default:default
 F
 %s*synth27
-#Module rd_fwft__parameterized0__9 
+#Module rd_fwft__parameterized0__4 
 2default:default
 B
 %s*synth23
@@ -107142,9 +105980,853 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 3     
 2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_router__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module input_blk 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_vector2axi__parameterized3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+`
+%s*synth2Q
+=Module generic_baseblocks_v2_1_command_fifo__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               12 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
 L
 %s*synth2=
-)Module blk_mem_gen_v8_0__parameterized1 
+)Module axi_data_fifo_v2_1_ndeep_srl__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module wr_bin_cntr__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized16__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               73 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module axi_datamover_sfifo_autord 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      4 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 7     
+2default:default
+N
+%s*synth2?
++Module axis_data_fifo_v1_1_axis_data_fifo 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module wr_logic__parameterized1__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized19__6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               68 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized15__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module axi_dma_register_s2mm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               32 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	               23 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 16    
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     23 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input     13 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      9 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      8 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+6
+%s*synth2'
+Module dynshreg_f 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+;
+%s*synth2,
+Module blk_mem_gen_mux 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__75 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+F
+%s*synth27
+#Module output_blk__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+U
+%s*synth2F
+2Module fifo_generator_ramfifo__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module compare__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module sync_fifo_fg__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+H
+%s*synth29
+%Module input_blk__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module compare__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+K
+%s*synth2<
+(Module blk_mem_gen_top__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+c
+%s*synth2T
+@Module axi_data_fifo_v2_1_axic_reg_srl_fifo__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      5 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      5 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   5 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 3     
+2default:default
+U
+%s*synth2F
+2Module axi_protocol_converter_v2_1_b2s_r_channel 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+G
+%s*synth28
+$Module axi_data_fifo_v2_1_fifo_gen 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+k
+%s*synth2\
+HModule axi_register_slice_v2_1_axic_register_slice__parameterized12__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__99 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+?
+%s*synth20
+Module axi_datamover_reset 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__69 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+A
+%s*synth22
+Module axi_dma_s2mm_sts_mngr 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+B
+%s*synth23
+Module memory__parameterized5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               26 Bit    Registers := 1     
+2default:default
+G
+%s*synth28
+$Module rd_logic__parameterized1__8 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+B
+%s*synth23
+Module memory__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                6 Bit    Registers := 1     
+2default:default
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized6__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+@
+%s*synth21
+Module dmem__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__22 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__21 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__69 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+q
+%s*synth2b
+NModule axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+P
+%s*synth2A
+-Module generic_baseblocks_v2_1_carry_and__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+^
+%s*synth2O
+;Module axi_infrastructure_v1_1_axi2vector__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module axi_crossbar_v2_1_splitter__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+[
+%s*synth2L
+8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__5 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+E
+%s*synth26
+"Module memory__parameterized5__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               26 Bit    Registers := 1     
+2default:default
+B
+%s*synth23
+Module memory__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                5 Bit    Registers := 1     
+2default:default
+E
+%s*synth26
+"Module input_blk__parameterized0 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__35 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+K
+%s*synth2<
+(Module axi_crossbar_v2_1_si_transactor 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                4 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 2     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized30 
 2default:default
 B
 %s*synth23
@@ -107152,7 +106834,47 @@ B
 2default:default
 j
 %s*synth2[
-GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1__1 
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized3__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+e
+%s*synth2V
+BModule axis_infrastructure_v1_1_util_aclken_converter_wrapper__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized29 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__23 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_register_slice_v2_1_axic_register_slice__parameterized2__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+j
+%s*synth2[
+GModule axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2__2 
 2default:default
 B
 %s*synth23
@@ -107182,9 +106904,133 @@ Q
 %s*synth2B
 .	   2 Input      2 Bit        Muxes := 1     
 2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__81 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+V
+%s*synth2G
+3Module axi_protocol_converter_v2_1_b2s_wr_cmd_fsm 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
 Q
 %s*synth2B
-.Module axi_dwidth_converter_v2_1_b_downsizer 
+.	                2 Bit    Registers := 1     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   4 Input      2 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      2 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.Module reset_blk_ramfifo__parameterized0__11 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                3 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 6     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized31 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__68 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module axi_protocol_converter_v2_1_b2s_r_channel__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+Z
+%s*synth2K
+7Module axi_crossbar_v2_1_wdata_mux__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module compare__parameterized1__34 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+W
+%s*synth2H
+4Module blk_mem_gen_prim_wrapper_v6__parameterized4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_axic_srl_fifo 
 2default:default
 B
 %s*synth23
@@ -107196,15 +107042,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit       Adders := 1     
+.	   2 Input      2 Bit       Adders := 1     
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
 2default:default
 4
 %s*synth2%
 +---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                8 Bit    Registers := 1     
 2default:default
 Q
 %s*synth2B
@@ -107220,11 +107070,191 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 1     
+.	   2 Input      2 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      2 Bit        Muxes := 2     
+.	   2 Input      1 Bit        Muxes := 1     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized32 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__78 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__47 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+]
+%s*synth2N
+:Module axi_protocol_converter_v2_1_b2s_cmd_translator__3 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   3 Input     32 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 4     
+2default:default
+D
+%s*synth25
+!Module cntr_incr_decr_addn_f__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 3     
+2default:default
+F
+%s*synth27
+#Module compare__parameterized1__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 5     
+2default:default
+M
+%s*synth2>
+*Module axi_data_fifo_v2_1_ndeep_srl__100 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+N
+%s*synth2?
++Module axi_datamover_fifo__parameterized1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 4     
+2default:default
+Q
+%s*synth2B
+.Module wr_status_flags_ss__parameterized1__4 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 2     
+2default:default
+J
+%s*synth2;
+'Module axi_crossbar_v2_1_addr_arbiter 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               65 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 5     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 3     
+2default:default
+0
+%s*synth2!
++---Muxes : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 5     
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized26 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Q
+%s*synth2B
+.Module generic_baseblocks_v2_1_carry_and__27 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized25 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
 2default:default
 E
 %s*synth26
@@ -107266,69 +107296,17 @@ Q
 %s*synth2B
 .	   2 Input      1 Bit        Muxes := 2     
 2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__5 
+F
+%s*synth27
+#Module output_blk__parameterized4 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-R
-%s*synth2C
-/Module blk_mem_gen_prim_width__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-C
-%s*synth24
- Module axi_datamover_indet_btt 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-1
-%s*synth2"
-+---Adders : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      7 Bit       Adders := 1     
-2default:default
-Q
-%s*synth2B
-.	   2 Input      4 Bit       Adders := 1     
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                7 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                4 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 2     
-2default:default
-K
-%s*synth2<
-(Module axi_protocol_converter_v2_1_b2s 
+>
+%s*synth2/
+Module axi_dma_rst_module 
 2default:default
 B
 %s*synth23
@@ -107342,13 +107320,77 @@ Q
 %s*synth2B
 .	                1 Bit    Registers := 1     
 2default:default
-]
-%s*synth2N
-:Module axi_protocol_converter_v2_1_b2s_cmd_translator__5 
+i
+%s*synth2Z
+FModule axi_register_slice_v2_1_axi_register_slice__parameterized4__1 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+6
+%s*synth2'
+Module dc_ss_fwft 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+/
+%s*synth2 
++---XORs : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit         XORs := 1     
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__79 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+Y
+%s*synth2J
+6Module fifo_generator_v11_0_synth__parameterized5__2 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+G
+%s*synth28
+$Module blk_mem_gen_prim_wrapper_v6 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__74 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+=
+%s*synth2.
+Module myip_v6_0_S01_AXI 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     32 Bit       Adders := 3     
 2default:default
 4
 %s*synth2%
@@ -107356,7 +107398,19 @@ B
 2default:default
 Q
 %s*synth2B
-.	                1 Bit    Registers := 3     
+.	               32 Bit    Registers := 514   
+2default:default
+Q
+%s*synth2B
+.	               11 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                2 Bit    Registers := 2     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 10    
 2default:default
 0
 %s*synth2!
@@ -107364,87 +107418,35 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 1     
+.	   2 Input     32 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 4     
+.	 510 Input     32 Bit        Muxes := 509   
 2default:default
-?
-%s*synth20
-Module axi_datamover_reset 
+Q
+%s*synth2B
+.	  41 Input      6 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 11    
+2default:default
+Q
+%s*synth2B
+.	  41 Input      1 Bit        Muxes := 2     
+2default:default
+Q
+%s*synth2B
+.Module axi_infrastructure_v1_1_vector2axi__2 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-k
-%s*synth2\
-HModule axi_register_slice_v2_1_axic_register_slice__parameterized20__5 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-P
-%s*synth2A
--Module reset_blk_ramfifo__parameterized0__7 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                3 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 6     
-2default:default
-F
-%s*synth27
-#Module output_blk__parameterized2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized2__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-B
-%s*synth23
-Module axi_datamover_wr_demux 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__62 
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__37 
 2default:default
 B
 %s*synth23
@@ -107452,123 +107454,7 @@ B
 2default:default
 Z
 %s*synth2K
-7Module axi_crossbar_v2_1_addr_arbiter__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	               64 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                5 Bit    Registers := 1     
-2default:default
-Q
-%s*synth2B
-.	                2 Bit    Registers := 4     
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 3     
-2default:default
-0
-%s*synth2!
-+---Muxes : 
-2default:default
-Q
-%s*synth2B
-.	   2 Input      1 Bit        Muxes := 5     
-2default:default
-R
-%s*synth2C
-/Module wr_status_flags_ss__parameterized1__11 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-4
-%s*synth2%
-+---Registers : 
-2default:default
-Q
-%s*synth2B
-.	                1 Bit    Registers := 2     
-2default:default
-O
-%s*synth2@
-,Module blk_mem_input_block__parameterized0 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-V
-%s*synth2G
-3Module fifo_generator_v11_0_synth__parameterized6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-[
-%s*synth2L
-8Module axi_data_fifo_v2_1_axic_fifo__parameterized3__2 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__59 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__6 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-D
-%s*synth25
-!Module m00_couplers_imp_1ULZJWI 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__22 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-K
-%s*synth2<
-(Module axi_data_fifo_v2_1_ndeep_srl__8 
-2default:default
-B
-%s*synth23
-Detailed RTL Component Info : 
-2default:default
-Q
-%s*synth2B
-.Module generic_baseblocks_v2_1_carry_and__32 
+7Module axi_data_fifo_v2_1_fifo_gen__parameterized2__2 
 2default:default
 B
 %s*synth23
@@ -107576,7 +107462,31 @@ B
 2default:default
 R
 %s*synth2C
-/Module fifo_generator_ramfifo__parameterized3 
+/Module blk_mem_gen_prim_width__parameterized9 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+L
+%s*synth2=
+)Module axi_data_fifo_v2_1_ndeep_srl__39 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+I
+%s*synth2:
+&Module output_blk__parameterized6__1 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+X
+%s*synth2I
+5Module blk_mem_gen_prim_wrapper_v6__parameterized28 
 2default:default
 B
 %s*synth23
@@ -107630,18 +107540,18 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2!
 M_VALID_i_reg2default:default2D
 0axi_data_fifo_v2_1_axic_srl_fifo__parameterized32default:defaultZ8-3332
-Ÿ
+÷
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\gen_rep[0].fifoaddr_reg[1] 2default:default2G
-3axi_data_fifo_v2_1_axic_srl_fifo__parameterized1__12default:defaultZ8-3332
-Ÿ
+\gen_rep[0].fifoaddr_reg[1] 2default:default2D
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:defaultZ8-3332
+÷
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys20
-\gen_rep[0].fifoaddr_reg[0] 2default:default2G
-3axi_data_fifo_v2_1_axic_srl_fifo__parameterized1__12default:defaultZ8-3332
- 
+\gen_rep[0].fifoaddr_reg[0] 2default:default2D
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:defaultZ8-3332
+«
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2!
-M_VALID_i_reg2default:default2G
-3axi_data_fifo_v2_1_axic_srl_fifo__parameterized1__12default:defaultZ8-3332
+M_VALID_i_reg2default:default2D
+0axi_data_fifo_v2_1_axic_srl_fifo__parameterized12default:defaultZ8-3332
 ﬂ
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2?
 +\gen_master_slots[4].w_issuing_cnt_reg[39] 2default:default2>
@@ -108159,7 +108069,7 @@ QI_RST_MODULE/REG_HRD_RST_OUT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.s_level_out_d4_r
 3192default:default8@Z8-4471
 ´
 %s*synth2õ
-ÜFinished Cross Boundary Optimization : Time (s): cpu = 00:07:34 ; elapsed = 00:07:41 . Memory (MB): peak = 4630.898 ; gain = 4006.062
+ÜFinished Cross Boundary Optimization : Time (s): cpu = 00:07:34 ; elapsed = 00:07:41 . Memory (MB): peak = 4578.887 ; gain = 3954.047
 2default:default
 ¢
 %s*synth2í
@@ -108189,55 +108099,55 @@ Distributed RAM:
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1_top/ram__26 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1_top/ram__26 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1_top/ram__28 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1_top/ram__28 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1403/axi_dwidth_converter_v2_1_top/ram__30 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1415/axi_dwidth_converter_v2_1_top/ram__30 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1404/axi_dwidth_converter_v2_1_top/ram__32 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1416/axi_dwidth_converter_v2_1_top/ram__32 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1404/axi_dwidth_converter_v2_1_top/ram__34 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1416/axi_dwidth_converter_v2_1_top/ram__34 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1404/axi_dwidth_converter_v2_1_top/ram__36 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1416/axi_dwidth_converter_v2_1_top/ram__36 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1405/axi_dwidth_converter_v2_1_top/ram__38 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                        | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1417/axi_dwidth_converter_v2_1_top/ram__38 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1405/axi_dwidth_converter_v2_1_top/ram__40 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                        | User Attribute     | 32 X 9               | RAM32M x 2     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1417/axi_dwidth_converter_v2_1_top/ram__40 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1405/axi_dwidth_converter_v2_1_top/ram__42 | 
+≥|axi_dwidth_converter_v2_1_top | gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                          | User Attribute     | 32 X 26              | RAM32M x 5     | testDMA_processing_system7_0_axi_periph_0/testDMA_auto_ds_1417/axi_dwidth_converter_v2_1_top/ram__42 | 
 2default:default
 ÿ
 %s*synth2»
-≥|axi_dma                       | I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 8 X 9                | RAM32M x 2     | testDMA_axi_dma_0_0/axi_dma/ram__44                                                                  | 
+≥|testDMA_auto_pc_1530          | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                                 | User Attribute     | 32 X 6               | RAM32M x 1     | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1530/ram__44                                              | 
 2default:default
 ÿ
 %s*synth2»
-≥|testDMA_auto_pc_1518          | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                                 | User Attribute     | 32 X 6               | RAM32M x 1     | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1518/ram__46                                              | 
+≥|testDMA_auto_pc_1530          | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                            | User Attribute     | 32 X 5               | RAM32M x 1     | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1530/ram__46                                              | 
 2default:default
 ÿ
 %s*synth2»
-≥|testDMA_auto_pc_1518          | inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                            | User Attribute     | 32 X 5               | RAM32M x 1     | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1518/ram__48                                              | 
+≥|testDMA_auto_pc_1530          | inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                    | User Attribute     | 32 X 1               | RAM32X1D x 1   | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1530/ram__48                                              | 
 2default:default
 ÿ
 %s*synth2»
-≥|testDMA_auto_pc_1518          | inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg                                                    | User Attribute     | 32 X 1               | RAM32X1D x 1   | testDMA_axi_mem_intercon_1/testDMA_auto_pc_1518/ram__50                                              | 
+≥|axi_dma                       | I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute     | 8 X 9                | RAM32M x 2     | testDMA_axi_dma_0_0/axi_dma/ram__50                                                                  | 
 2default:default
 ÿ
 %s*synth2»
@@ -108267,39 +108177,35 @@ ctestDMA_i/init_dma_1/insti_36/myip_v6_0_M00_AXI_insti_28/\myip_v6_0_M00_AXI_ins
 HtestDMA_i/init_dma_1/insti_36/\myip_v6_0_M00_AXI_inst/axi_awaddr_reg[1] 2default:defaultZ8-3333
 †
 %s*synth2ê
-|Finished Area Optimization : Time (s): cpu = 00:08:44 ; elapsed = 00:08:51 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+|Finished Area Optimization : Time (s): cpu = 00:08:52 ; elapsed = 00:09:00 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 Ø
 %s*synth2ü
-äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:08:46 ; elapsed = 00:08:54 . Memory (MB): peak = 4630.902 ; gain = 4006.066
-2default:default
-F
-%s*synth27
-#info: repartitioned rtl @ 2627.0ps
+äFinished Applying XDC Timing Constraints : Time (s): cpu = 00:08:55 ; elapsed = 00:09:02 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 ¢
 %s*synth2í
-~Finished Timing Optimization : Time (s): cpu = 00:09:18 ; elapsed = 00:09:26 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+~Finished Timing Optimization : Time (s): cpu = 00:09:12 ; elapsed = 00:09:20 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 °
 %s*synth2ë
-}Finished Technology Mapping : Time (s): cpu = 00:10:14 ; elapsed = 00:10:23 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+}Finished Technology Mapping : Time (s): cpu = 00:10:15 ; elapsed = 00:10:23 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 o
 %s*synth2`
-Ldesign testDMA_auto_pc_1513 has 4 max_fanout violations cannot be satisfied
+Ldesign testDMA_auto_pc_1525 has 4 max_fanout violations cannot be satisfied
 2default:default
 o
 %s*synth2`
-Ldesign testDMA_auto_pc_1514 has 4 max_fanout violations cannot be satisfied
+Ldesign testDMA_auto_pc_1526 has 4 max_fanout violations cannot be satisfied
 2default:default
 o
 %s*synth2`
-Ldesign testDMA_auto_pc_1515 has 4 max_fanout violations cannot be satisfied
+Ldesign testDMA_auto_pc_1527 has 4 max_fanout violations cannot be satisfied
 2default:default
 õ
 %s*synth2ã
-wFinished IO Insertion : Time (s): cpu = 00:10:21 ; elapsed = 00:10:30 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+wFinished IO Insertion : Time (s): cpu = 00:10:23 ; elapsed = 00:10:31 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 ;
 %s*synth2,
@@ -108328,11 +108234,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ¨
 %s*synth2ú
-áFinished Renaming Generated Instances : Time (s): cpu = 00:10:21 ; elapsed = 00:10:31 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+áFinished Renaming Generated Instances : Time (s): cpu = 00:10:23 ; elapsed = 00:10:32 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 ©
 %s*synth2ô
-ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:10:26 ; elapsed = 00:10:36 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+ÑFinished Rebuilding User Hierarchy : Time (s): cpu = 00:10:28 ; elapsed = 00:10:37 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 ¢
 %s*synth2í
@@ -108458,31 +108364,31 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|4     |GND        |     4|
+|4     |GND        |     3|
 2default:default
 ?
 %s*synth20
-|5     |LUT1       |   768|
+|5     |LUT1       |   767|
 2default:default
 ?
 %s*synth20
-|6     |LUT2       |   980|
+|6     |LUT2       |   979|
 2default:default
 ?
 %s*synth20
-|7     |LUT3       |  3512|
+|7     |LUT3       |  3509|
 2default:default
 ?
 %s*synth20
-|8     |LUT4       |  7027|
+|8     |LUT4       |  7023|
 2default:default
 ?
 %s*synth20
-|9     |LUT5       |  2825|
+|9     |LUT5       |  2824|
 2default:default
 ?
 %s*synth20
-|10    |LUT6       | 22848|
+|10    |LUT6       | 20190|
 2default:default
 ?
 %s*synth20
@@ -108494,11 +108400,11 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|13    |MUXF7      |  2962|
+|13    |MUXF7      |  2706|
 2default:default
 ?
 %s*synth20
-|14    |MUXF8      |  1152|
+|14    |MUXF8      |  1024|
 2default:default
 ?
 %s*synth20
@@ -108554,7 +108460,7 @@ Report Cell Usage:
 2default:default
 ?
 %s*synth20
-|28    |FDRE       | 27947|
+|28    |FDRE       | 25850|
 2default:default
 ?
 %s*synth20
@@ -108591,11 +108497,11 @@ g+------+------------------------------------+----------------------------------
 2default:default
 ä
 %s*synth2{
-g|1     |top                                 |                                                 | 71747|
+g|1     |top                                 |                                                 | 66597|
 2default:default
 ä
 %s*synth2{
-g|2     |  testDMA_i                         |testDMA                                          | 71740|
+g|2     |  testDMA_i                         |testDMA                                          | 66590|
 2default:default
 ä
 %s*synth2{
@@ -108603,131 +108509,131 @@ g|3     |    init_dma_1                      |testDMA_init_dma_1_0              
 2default:default
 ä
 %s*synth2{
-g|4     |    def_stream_0                    |testDMA_def_stream_0_0                           |  5412|
+g|4     |    processing_system7_0_axi_periph |testDMA_processing_system7_0_axi_periph_0        | 12996|
 2default:default
 ä
 %s*synth2{
-g|5     |    axis_data_fifo_0                |testDMA_axis_data_fifo_0_1                       |   436|
+g|5     |      \m00_couplers/auto_ds         |testDMA_auto_ds_1415                             |  1611|
 2default:default
 ä
 %s*synth2{
-g|6     |      inst                          |axis_data_fifo_v1_1_axis_data_fifo               |   436|
+g|6     |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0    |  1611|
 2default:default
 ä
 %s*synth2{
-g|7     |    processing_system7_0            |testDMA_processing_system7_0_0                   |   221|
+g|7     |      \m00_couplers/auto_pc         |testDMA_auto_pc_1525                             |  1090|
 2default:default
 ä
 %s*synth2{
-g|8     |      inst                          |processing_system7_v5_3_processing_system7       |   221|
+g|8     |      \m01_couplers/auto_ds         |testDMA_auto_ds_1416                             |  1611|
 2default:default
 ä
 %s*synth2{
-g|9     |    proc_sys_reset                  |testDMA_proc_sys_reset_0                         |    65|
+g|9     |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0__2 |  1611|
 2default:default
 ä
 %s*synth2{
-g|10    |      U0                            |proc_sys_reset                                   |    65|
+g|10    |      \m01_couplers/auto_pc         |testDMA_auto_pc_1526                             |  1090|
 2default:default
 ä
 %s*synth2{
-g|11    |    ADC_emul_0                      |testDMA_ADC_emul_0_9                             |   203|
+g|11    |      \m03_couplers/auto_ds         |testDMA_auto_ds_1417                             |  1611|
 2default:default
 ä
 %s*synth2{
-g|12    |    processing_system7_0_axi_periph |testDMA_processing_system7_0_axi_periph_0        | 12996|
+g|12    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0__1 |  1611|
 2default:default
 ä
 %s*synth2{
-g|13    |      \m00_couplers/auto_ds         |testDMA_auto_ds_1403                             |  1611|
+g|13    |      \m03_couplers/auto_pc         |testDMA_auto_pc_1527                             |  1090|
 2default:default
 ä
 %s*synth2{
-g|14    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0    |  1611|
+g|14    |      \s00_couplers/auto_pc         |testDMA_auto_pc_1528                             |     0|
 2default:default
 ä
 %s*synth2{
-g|15    |      \m00_couplers/auto_pc         |testDMA_auto_pc_1513                             |  1090|
+g|15    |      \s00_couplers/auto_us         |testDMA_auto_us_1418                             |  1282|
 2default:default
 ä
 %s*synth2{
-g|16    |      \m01_couplers/auto_ds         |testDMA_auto_ds_1404                             |  1611|
+g|16    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized1    |  1282|
 2default:default
 ä
 %s*synth2{
-g|17    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0__2 |  1611|
+g|17    |      \s01_couplers/auto_pc         |testDMA_auto_pc_1529                             |     0|
 2default:default
 ä
 %s*synth2{
-g|18    |      \m01_couplers/auto_pc         |testDMA_auto_pc_1514                             |  1090|
+g|18    |      \s01_couplers/auto_us         |testDMA_auto_us_1419                             |  1168|
 2default:default
 ä
 %s*synth2{
-g|19    |      \m03_couplers/auto_ds         |testDMA_auto_ds_1405                             |  1611|
+g|19    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized2    |  1168|
 2default:default
 ä
 %s*synth2{
-g|20    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized0__1 |  1611|
+g|20    |      xbar                          |testDMA_xbar_1                                   |  2442|
 2default:default
 ä
 %s*synth2{
-g|21    |      \m03_couplers/auto_pc         |testDMA_auto_pc_1515                             |  1090|
+g|21    |    processing_system7_0            |testDMA_processing_system7_0_0                   |   221|
 2default:default
 ä
 %s*synth2{
-g|22    |      \s00_couplers/auto_pc         |testDMA_auto_pc_1516                             |     0|
+g|22    |      inst                          |processing_system7_v5_3_processing_system7       |   221|
 2default:default
 ä
 %s*synth2{
-g|23    |      \s00_couplers/auto_us         |testDMA_auto_us_1406                             |  1282|
+g|23    |    axi_mem_intercon                |testDMA_axi_mem_intercon_1                       |  2641|
 2default:default
 ä
 %s*synth2{
-g|24    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized1    |  1282|
+g|24    |      \m00_couplers/auto_pc         |testDMA_auto_pc_1530                             |   948|
 2default:default
 ä
 %s*synth2{
-g|25    |      \s01_couplers/auto_pc         |testDMA_auto_pc_1517                             |     0|
+g|25    |      \s00_couplers/auto_us         |testDMA_auto_us_1420                             |   583|
 2default:default
 ä
 %s*synth2{
-g|26    |      \s01_couplers/auto_us         |testDMA_auto_us_1407                             |  1168|
+g|26    |        inst                        |axi_dwidth_converter_v2_1_top                    |   583|
 2default:default
 ä
 %s*synth2{
-g|27    |        inst                        |axi_dwidth_converter_v2_1_top__parameterized2    |  1168|
+g|27    |      xbar                          |testDMA_xbar_3                                   |  1108|
 2default:default
 ä
 %s*synth2{
-g|28    |      xbar                          |testDMA_xbar_1                                   |  2442|
+g|28    |    axi_dma_0                       |testDMA_axi_dma_0_0                              |  2876|
 2default:default
 ä
 %s*synth2{
-g|29    |    axi_mem_intercon                |testDMA_axi_mem_intercon_1                       |  2641|
+g|29    |      U0                            |axi_dma                                          |  2876|
 2default:default
 ä
 %s*synth2{
-g|30    |      \m00_couplers/auto_pc         |testDMA_auto_pc_1518                             |   948|
+g|30    |    axis_data_fifo_0                |testDMA_axis_data_fifo_0_1                       |   436|
 2default:default
 ä
 %s*synth2{
-g|31    |      \s00_couplers/auto_us         |testDMA_auto_us_1408                             |   583|
+g|31    |      inst                          |axis_data_fifo_v1_1_axis_data_fifo               |   436|
 2default:default
 ä
 %s*synth2{
-g|32    |        inst                        |axi_dwidth_converter_v2_1_top                    |   583|
+g|32    |    def_stream_0                    |testDMA_def_stream_0_0                           |   263|
 2default:default
 ä
 %s*synth2{
-g|33    |      xbar                          |testDMA_xbar_3                                   |  1108|
+g|33    |    proc_sys_reset                  |testDMA_proc_sys_reset_0                         |    65|
 2default:default
 ä
 %s*synth2{
-g|34    |    axi_dma_0                       |testDMA_axi_dma_0_0                              |  2876|
+g|34    |      U0                            |proc_sys_reset                                   |    65|
 2default:default
 ä
 %s*synth2{
-g|35    |      U0                            |axi_dma                                          |  2876|
+g|35    |    ADC_emul_0                      |testDMA_ADC_emul_0_9                             |   203|
 2default:default
 ä
 %s*synth2{
@@ -108735,15 +108641,15 @@ g+------+------------------------------------+----------------------------------
 2default:default
 ®
 %s*synth2ò
-ÉFinished Writing Synthesis Report : Time (s): cpu = 00:17:05 ; elapsed = 00:17:15 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+ÉFinished Writing Synthesis Report : Time (s): cpu = 00:17:25 ; elapsed = 00:17:35 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 44 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 36 warnings.
 2default:default
 ¶
 %s*synth2ñ
-ÅSynthesis Optimization Complete : Time (s): cpu = 00:17:05 ; elapsed = 00:17:16 . Memory (MB): peak = 4630.902 ; gain = 4006.066
+ÅSynthesis Optimization Complete : Time (s): cpu = 00:17:25 ; elapsed = 00:17:35 . Memory (MB): peak = 4578.891 ; gain = 3954.051
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
@@ -108785,8 +108691,8 @@ L
 ¡
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-14832default:default2
-1892default:default2
+14792default:default2
+1882default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -108797,10 +108703,10 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:17:162default:default2
-00:17:262default:default2
-4630.9022default:default2
-3831.7152default:defaultZ17-268
+00:17:362default:default2
+00:17:452default:default2
+4578.8912default:default2
+3779.6992default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
@@ -108808,15 +108714,15 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2&
 write_checkpoint: 2default:default2
-00:00:182default:default2
+00:00:172default:default2
 00:00:092default:default2
-4631.9022default:default2
+4579.8912default:default2
 1.0002default:defaultZ17-268
 Ç
-vreport_utilization: Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.68 . Memory (MB): peak = 4631.902 ; gain = 0.000
+vreport_utilization: Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.60 . Memory (MB): peak = 4579.891 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Mon Jun  9 14:03:51 20142default:defaultZ17-206
+Mon Jun  9 16:13:46 20142default:defaultZ17-206

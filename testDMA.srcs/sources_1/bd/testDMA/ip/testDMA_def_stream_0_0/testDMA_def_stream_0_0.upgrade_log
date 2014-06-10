@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Wed May 21 12:51:25 2014
+| Date         : Mon Jun  9 15:52:11 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : upgrade_ip
 | Device       : xc7z020clg484-1
@@ -12,5 +12,67 @@ Upgrade Log for IP 'testDMA_def_stream_0_0'
 1. Summary
 ----------
 
-SUCCESS in the upgrade of testDMA_def_stream_0_0 (xilinx.com:user:def_stream:1.0) from (Rev. 77) to (Rev. 78)
+CAUTION (success, with warnings) in the upgrade of testDMA_def_stream_0_0 (xilinx.com:user:def_stream:1.0) from (Rev. 78) to (Rev. 79)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. Note that parameter names and IDs are case sensitive.
+
+
+3. Connection Warnings
+----------------------
+
+WARNING: Detected external port differences while upgrading IP 'testDMA_def_stream_0_0'. These changes may impact your design.
+
+-upgrade has removed port 's00_axi_awaddr'
+-upgrade has removed port 's00_axi_awprot'
+-upgrade has removed port 's00_axi_awvalid'
+-upgrade has removed port 's00_axi_awready'
+-upgrade has removed port 's00_axi_wdata'
+-upgrade has removed port 's00_axi_wstrb'
+-upgrade has removed port 's00_axi_wvalid'
+-upgrade has removed port 's00_axi_wready'
+-upgrade has removed port 's00_axi_bresp'
+-upgrade has removed port 's00_axi_bvalid'
+-upgrade has removed port 's00_axi_bready'
+-upgrade has removed port 's00_axi_araddr'
+-upgrade has removed port 's00_axi_arprot'
+-upgrade has removed port 's00_axi_arvalid'
+-upgrade has removed port 's00_axi_arready'
+-upgrade has removed port 's00_axi_rdata'
+-upgrade has removed port 's00_axi_rresp'
+-upgrade has removed port 's00_axi_rvalid'
+-upgrade has removed port 's00_axi_rready'
+-upgrade has removed port 's00_axi_aclk'
+-upgrade has removed port 's00_axi_aresetn'
+
+4. Customization warnings
+-------------------------
+
+WARNING: Failed to set user parameter 'C_S00_AXI_DATA_WIDTH' value '32' for IP 'testDMA_def_stream_0_0'.
+
+WARNING: Failed to set user parameter 'C_S00_AXI_ADDR_WIDTH' value '8' for IP 'testDMA_def_stream_0_0'.
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:def_stream:1.0 -user_name testDMA_def_stream_0_0
+set_property -dict "\
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 8 \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_M00_AXIS_START_COUNT 32 \
+  CONFIG.C_S00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.Component_Name testDMA_def_stream_0_0 " [get_ips testDMA_def_stream_0_0]
+
 

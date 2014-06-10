@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:def_stream:1.0
-// IP Revision: 78
+// IP Revision: 79
 
 `timescale 1ns/1ps
 
@@ -58,27 +58,6 @@ module testDMA_def_stream_0_0 (
   m00_gen_tdata,
   m00_len_ref,
   m00_tx_en,
-  s00_axi_awaddr,
-  s00_axi_awprot,
-  s00_axi_awvalid,
-  s00_axi_awready,
-  s00_axi_wdata,
-  s00_axi_wstrb,
-  s00_axi_wvalid,
-  s00_axi_wready,
-  s00_axi_bresp,
-  s00_axi_bvalid,
-  s00_axi_bready,
-  s00_axi_araddr,
-  s00_axi_arprot,
-  s00_axi_arvalid,
-  s00_axi_arready,
-  s00_axi_rdata,
-  s00_axi_rresp,
-  s00_axi_rvalid,
-  s00_axi_rready,
-  s00_axi_aclk,
-  s00_axi_aresetn,
   m00_axis_tdata,
   m00_axis_tstrb,
   m00_axis_tlast,
@@ -92,48 +71,6 @@ input m00_axi_datav;
 input [31 : 0] m00_gen_tdata;
 input [31 : 0] m00_len_ref;
 output m00_tx_en;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR" *)
-input [7 : 0] s00_axi_awaddr;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT" *)
-input [2 : 0] s00_axi_awprot;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWVALID" *)
-input s00_axi_awvalid;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI AWREADY" *)
-output s00_axi_awready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WDATA" *)
-input [31 : 0] s00_axi_wdata;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WSTRB" *)
-input [3 : 0] s00_axi_wstrb;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WVALID" *)
-input s00_axi_wvalid;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI WREADY" *)
-output s00_axi_wready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI BRESP" *)
-output [1 : 0] s00_axi_bresp;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI BVALID" *)
-output s00_axi_bvalid;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI BREADY" *)
-input s00_axi_bready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI ARADDR" *)
-input [7 : 0] s00_axi_araddr;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI ARPROT" *)
-input [2 : 0] s00_axi_arprot;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI ARVALID" *)
-input s00_axi_arvalid;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI ARREADY" *)
-output s00_axi_arready;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RDATA" *)
-output [31 : 0] s00_axi_rdata;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RRESP" *)
-output [1 : 0] s00_axi_rresp;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RVALID" *)
-output s00_axi_rvalid;
-(* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S00_AXI RREADY" *)
-input s00_axi_rready;
-(* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *)
-input s00_axi_aclk;
-(* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S00_AXI_RST RST" *)
-input s00_axi_aresetn;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 M00_AXIS TDATA" *)
 output [31 : 0] m00_axis_tdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 M00_AXIS TSTRB" *)
@@ -150,8 +87,6 @@ input m00_axis_aclk;
 input m00_axis_aresetn;
 
   def_stream_v1_0 #(
-    .C_S00_AXI_DATA_WIDTH(32),
-    .C_S00_AXI_ADDR_WIDTH(8),
     .C_M00_AXIS_TDATA_WIDTH(32),
     .C_M00_AXIS_START_COUNT(32),
     .C_S00_AXIS_TDATA_WIDTH(32)
@@ -160,27 +95,6 @@ input m00_axis_aresetn;
     .m00_gen_tdata(m00_gen_tdata),
     .m00_len_ref(m00_len_ref),
     .m00_tx_en(m00_tx_en),
-    .s00_axi_awaddr(s00_axi_awaddr),
-    .s00_axi_awprot(s00_axi_awprot),
-    .s00_axi_awvalid(s00_axi_awvalid),
-    .s00_axi_awready(s00_axi_awready),
-    .s00_axi_wdata(s00_axi_wdata),
-    .s00_axi_wstrb(s00_axi_wstrb),
-    .s00_axi_wvalid(s00_axi_wvalid),
-    .s00_axi_wready(s00_axi_wready),
-    .s00_axi_bresp(s00_axi_bresp),
-    .s00_axi_bvalid(s00_axi_bvalid),
-    .s00_axi_bready(s00_axi_bready),
-    .s00_axi_araddr(s00_axi_araddr),
-    .s00_axi_arprot(s00_axi_arprot),
-    .s00_axi_arvalid(s00_axi_arvalid),
-    .s00_axi_arready(s00_axi_arready),
-    .s00_axi_rdata(s00_axi_rdata),
-    .s00_axi_rresp(s00_axi_rresp),
-    .s00_axi_rvalid(s00_axi_rvalid),
-    .s00_axi_rready(s00_axi_rready),
-    .s00_axi_aclk(s00_axi_aclk),
-    .s00_axi_aresetn(s00_axi_aresetn),
     .m00_axis_tdata(m00_axis_tdata),
     .m00_axis_tstrb(m00_axis_tstrb),
     .m00_axis_tlast(m00_axis_tlast),

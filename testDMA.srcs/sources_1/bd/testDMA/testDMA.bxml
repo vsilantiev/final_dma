@@ -7,21 +7,21 @@
     <Generation Name="SIMULATION" State="GENERATED"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306360" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314733" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_def_stream_0_0/testDMA_def_stream_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306360" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314733" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306361" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314734" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -35,14 +35,14 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_proc_sys_reset_0/testDMA_proc_sys_reset_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306361" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314734" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_xbar_1/testDMA_xbar_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306362" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314735" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -56,21 +56,21 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_xbar_3/testDMA_xbar_3.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306363" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314736" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306363" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314736" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_ADC_emul_0_9/testDMA_ADC_emul_0_9.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306363" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314736" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -168,7 +168,7 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip/testDMA_init_dma_1_0/testDMA_init_dma_1_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1402306363" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1402314736" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
@@ -181,84 +181,84 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_ds_1403/testDMA_auto_ds_1403.xci" Type="IP">
+      <File Name="ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1513/testDMA_auto_pc_1513.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1525/testDMA_auto_pc_1525.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_ds_1404/testDMA_auto_ds_1404.xci" Type="IP">
+      <File Name="ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1514/testDMA_auto_pc_1514.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1526/testDMA_auto_pc_1526.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_ds_1405/testDMA_auto_ds_1405.xci" Type="IP">
+      <File Name="ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1515/testDMA_auto_pc_1515.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1527/testDMA_auto_pc_1527.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1516/testDMA_auto_pc_1516.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1528/testDMA_auto_pc_1528.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_us_1406/testDMA_auto_us_1406.xci" Type="IP">
+      <File Name="ip/testDMA_auto_us_1418/testDMA_auto_us_1418.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1517/testDMA_auto_pc_1517.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1529/testDMA_auto_pc_1529.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_us_1407/testDMA_auto_us_1407.xci" Type="IP">
+      <File Name="ip/testDMA_auto_us_1419/testDMA_auto_us_1419.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_pc_1518/testDMA_auto_pc_1518.xci" Type="IP">
+      <File Name="ip/testDMA_auto_pc_1530/testDMA_auto_pc_1530.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/testDMA_auto_us_1408/testDMA_auto_us_1408.xci" Type="IP">
+      <File Name="ip/testDMA_auto_us_1420/testDMA_auto_us_1420.xci" Type="IP">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>

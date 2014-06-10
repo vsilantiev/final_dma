@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: xilinx.com:user:def_stream:1.0
-// IP Revision: 78
+// IP Revision: 79
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections
@@ -59,27 +59,6 @@ testDMA_def_stream_0_0 your_instance_name (
   .m00_gen_tdata(m00_gen_tdata),        // input [31 : 0] m00_gen_tdata
   .m00_len_ref(m00_len_ref),            // input [31 : 0] m00_len_ref
   .m00_tx_en(m00_tx_en),                // output m00_tx_en
-  .s00_axi_awaddr(s00_axi_awaddr),      // input [7 : 0] s00_axi_awaddr
-  .s00_axi_awprot(s00_axi_awprot),      // input [2 : 0] s00_axi_awprot
-  .s00_axi_awvalid(s00_axi_awvalid),    // input s00_axi_awvalid
-  .s00_axi_awready(s00_axi_awready),    // output s00_axi_awready
-  .s00_axi_wdata(s00_axi_wdata),        // input [31 : 0] s00_axi_wdata
-  .s00_axi_wstrb(s00_axi_wstrb),        // input [3 : 0] s00_axi_wstrb
-  .s00_axi_wvalid(s00_axi_wvalid),      // input s00_axi_wvalid
-  .s00_axi_wready(s00_axi_wready),      // output s00_axi_wready
-  .s00_axi_bresp(s00_axi_bresp),        // output [1 : 0] s00_axi_bresp
-  .s00_axi_bvalid(s00_axi_bvalid),      // output s00_axi_bvalid
-  .s00_axi_bready(s00_axi_bready),      // input s00_axi_bready
-  .s00_axi_araddr(s00_axi_araddr),      // input [7 : 0] s00_axi_araddr
-  .s00_axi_arprot(s00_axi_arprot),      // input [2 : 0] s00_axi_arprot
-  .s00_axi_arvalid(s00_axi_arvalid),    // input s00_axi_arvalid
-  .s00_axi_arready(s00_axi_arready),    // output s00_axi_arready
-  .s00_axi_rdata(s00_axi_rdata),        // output [31 : 0] s00_axi_rdata
-  .s00_axi_rresp(s00_axi_rresp),        // output [1 : 0] s00_axi_rresp
-  .s00_axi_rvalid(s00_axi_rvalid),      // output s00_axi_rvalid
-  .s00_axi_rready(s00_axi_rready),      // input s00_axi_rready
-  .s00_axi_aclk(s00_axi_aclk),          // input s00_axi_aclk
-  .s00_axi_aresetn(s00_axi_aresetn),    // input s00_axi_aresetn
   .m00_axis_tdata(m00_axis_tdata),      // output [31 : 0] m00_axis_tdata
   .m00_axis_tstrb(m00_axis_tstrb),      // output [3 : 0] m00_axis_tstrb
   .m00_axis_tlast(m00_axis_tlast),      // output m00_axis_tlast
