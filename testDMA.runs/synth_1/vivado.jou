@@ -2,9 +2,9 @@
 # Vivado v2013.3 (64-bit)
 # SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
 # IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
-# Start of session at: Mon Jun  9 15:55:41 2014
-# Process ID: 18835
-# Log file: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/testDMA_wrapper.rds
-# Journal file: /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/vivado.jou
+# Start of session at: Thu Jul 24 12:50:24 2014
+# Process ID: 3810
+# Log file: /home/vladimir/stas/final_dma/testDMA.runs/synth_1/testDMA_wrapper.rds
+# Journal file: /home/vladimir/stas/final_dma/testDMA.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source testDMA_wrapper.tcl

@@ -150,6 +150,7 @@ testDMA_processing_system7_0_0 your_instance_name (
   .S_AXI_HP0_WSTRB(S_AXI_HP0_WSTRB),                    // input [7 : 0] S_AXI_HP0_WSTRB
   .IRQ_F2P(IRQ_F2P),                                    // input [0 : 0] IRQ_F2P
   .FCLK_CLK0(FCLK_CLK0),                                // output FCLK_CLK0
+  .FCLK_CLK1(FCLK_CLK1),                                // output FCLK_CLK1
   .FCLK_RESET0_N(FCLK_RESET0_N),                        // output FCLK_RESET0_N
   .MIO(MIO),                                            // inout [53 : 0] MIO
   .DDR_CAS_n(DDR_CAS_n),                                // inout DDR_CAS_n

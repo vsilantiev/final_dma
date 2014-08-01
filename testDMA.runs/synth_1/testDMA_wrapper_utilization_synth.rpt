@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.3 (lin64) Build 329390 Wed Oct 16 18:26:55 MDT 2013
-| Date         : Mon Jun  9 16:13:45 2014
+| Date         : Thu Jul 24 13:03:02 2014
 | Host         : ubuntu running 64-bit Ubuntu 12.04.4 LTS
 | Command      : report_utilization -file testDMA_wrapper_utilization_synth.rpt -pb testDMA_wrapper_utilization_synth.pb
 | Design       : testDMA_wrapper
@@ -29,13 +29,13 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Loced | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 32924 |     0 |     53200 | 61.88 |
-|   LUT as Logic             | 32384 |     0 |     53200 | 60.87 |
-|   LUT as Memory            |   540 |     0 |     17400 |  3.10 |
+| Slice LUTs*                | 33619 |     0 |     53200 | 63.19 |
+|   LUT as Logic             | 33020 |     0 |     53200 | 62.06 |
+|   LUT as Memory            |   599 |     0 |     17400 |  3.44 |
 |     LUT as Distributed RAM |   162 |     0 |           |       |
-|     LUT as Shift Register  |   378 |     0 |           |       |
-| Slice Registers            | 26630 |     0 |    106400 | 25.02 |
-|   Register as Flip Flop    | 26630 |     0 |    106400 | 25.02 |
+|     LUT as Shift Register  |   437 |     0 |           |       |
+| Slice Registers            | 27276 |     0 |    106400 | 25.63 |
+|   Register as Flip Flop    | 27276 |     0 |    106400 | 25.63 |
 |   Register as Latch        |     0 |     0 |    106400 |  0.00 |
 | F7 Muxes                   |  2706 |     0 |     26600 | 10.17 |
 | F8 Muxes                   |  1024 |     0 |     13300 |  7.69 |
@@ -49,10 +49,11 @@ Table of Contents
 +-------------------+------+-------+-----------+-------+
 |     Site Type     | Used | Loced | Available | Util% |
 +-------------------+------+-------+-----------+-------+
-| Block RAM Tile    |   34 |     0 |       140 | 24.28 |
+| Block RAM Tile    | 34.5 |     0 |       140 | 24.28 |
 |   RAMB36/FIFO*    |   34 |     0 |       140 | 24.28 |
 |     RAMB36E1 only |   34 |       |           |       |
-|   RAMB18          |    0 |     0 |       280 |  0.00 |
+|   RAMB18          |    1 |     0 |       280 |  0.35 |
+|     RAMB18E1 only |    1 |       |           |       |
 +-------------------+------+-------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
@@ -73,21 +74,23 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Loced | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |    7 |     0 |       200 |  3.50 |
+| Bonded IOB                  |   28 |     0 |       200 | 14.00 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
 | IBUFGDS                     |    0 |     0 |       192 |  0.00 |
-| IDELAYCTRL                  |    0 |     0 |         4 |  0.00 |
+| IDELAYCTRL                  |    1 |     0 |         4 | 25.00 |
 | IN_FIFO                     |    0 |     0 |        16 |  0.00 |
 | OUT_FIFO                    |    0 |     0 |        16 |  0.00 |
 | PHASER_REF                  |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         4 |  0.00 |
 | PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |        16 |  0.00 |
 | PHASER_IN/PHASER_IN_PHY     |    0 |     0 |        16 |  0.00 |
-| IDELAYE2/IDELAYE2_FINEDELAY |    0 |     0 |       200 |  0.00 |
+| IDELAYE2/IDELAYE2_FINEDELAY |    9 |     0 |       200 |  4.50 |
+|   IDELAYE2 only             |    9 |     0 |           |       |
 | ODELAYE2/ODELAYE2_FINEDELAY |    0 |     0 |         0 |  0.00 |
 | IBUFDS_GTE2                 |    0 |     0 |         0 |  0.00 |
-| ILOGIC                      |    0 |     0 |       200 |  0.00 |
+| ILOGIC                      |    9 |     0 |       200 |  4.50 |
+|   IDDR                      |    9 |       |           |       |
 | OLOGIC                      |    0 |     0 |       200 |  0.00 |
 +-----------------------------+------+-------+-----------+-------+
 
@@ -98,7 +101,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Loced | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    1 |     0 |        32 |  3.12 |
+| BUFGCTRL   |    3 |     0 |        32 |  9.37 |
 | BUFIO      |    0 |     0 |        16 |  0.00 |
 | MMCME2_ADV |    0 |     0 |         4 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |         4 |  0.00 |
@@ -128,40 +131,48 @@ Table of Contents
 7. Primitives
 -------------
 
-+----------+-------+
-| Ref Name |  Used |
-+----------+-------+
-| FDRE     | 25850 |
-| LUT6     | 20190 |
-| LUT4     |  7023 |
-| LUT3     |  3509 |
-| LUT5     |  2824 |
-| MUXF7    |  2706 |
-| MUXF8    |  1024 |
-| LUT2     |   979 |
-| LUT1     |   767 |
-| FDCE     |   407 |
-| CARRY4   |   307 |
-| SRLC32E  |   269 |
-| RAMD32   |   242 |
-| FDSE     |   225 |
-| FDPE     |   148 |
-| BIBUF    |   130 |
-| SRL16E   |   109 |
-| RAMS32   |    80 |
-| RAMB36E1 |    34 |
-| OBUF     |     7 |
-| PS7      |     1 |
-| BUFG     |     1 |
-+----------+-------+
++------------+-------+
+|  Ref Name  |  Used |
++------------+-------+
+| FDRE       | 26538 |
+| LUT6       | 20364 |
+| LUT4       |  7121 |
+| LUT3       |  3587 |
+| LUT5       |  3041 |
+| MUXF7      |  2706 |
+| MUXF8      |  1024 |
+| LUT2       |   968 |
+| LUT1       |   758 |
+| FDCE       |   359 |
+| SRLC32E    |   323 |
+| CARRY4     |   307 |
+| RAMD32     |   242 |
+| FDSE       |   232 |
+| FDPE       |   147 |
+| SRL16E     |   144 |
+| BIBUF      |   130 |
+| RAMS32     |    80 |
+| RAMB36E1   |    34 |
+| IBUFDS     |    10 |
+| IDELAYE2   |     9 |
+| IDDR       |     9 |
+| OBUF       |     8 |
+| BUFG       |     3 |
+| SRLC16E    |     2 |
+| RAMB18E1   |     1 |
+| PS7        |     1 |
+| IDELAYCTRL |     1 |
++------------+-------+
 
 
 8. Black Boxes
 --------------
 
-+----------+------+
-| Ref Name | Used |
-+----------+------+
++------------+------+
+|  Ref Name  | Used |
++------------+------+
+| dbg_hub_CV |    1 |
++------------+------+
 
 
 9. Instantiated Netlists

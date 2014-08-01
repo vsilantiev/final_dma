@@ -46,8 +46,8 @@
 // 
 // DO NOT MODIFY THIS FILE.
 
-// IP VLNV: omega.local:user:ADC_emul:1.0
-// IP Revision: 26
+// IP VLNV: omega.local:user:ADC:1.1
+// IP Revision: 42
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections
@@ -55,12 +55,18 @@
 
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 testDMA_ADC_emul_0_9 your_instance_name (
-  .clk(clk),        // input clk
-  .reset(reset),    // input reset
-  .valid(valid),    // input valid
-  .r(r),            // input [31 : 0] r
-  .link(link),      // output [15 : 0] link
-  .strobe(strobe)  // output [0 : 0] strobe
+  .reset(reset),                  // input reset
+  .valid(valid),                  // input valid
+  .r(r),                          // input [31 : 0] r
+  .clkp(clkp),                    // input clkp
+  .clkn(clkn),                    // input clkn
+  .delay_clk(delay_clk),          // input delay_clk
+  .datap(datap),                  // input [7 : 0] datap
+  .datan(datan),                  // input [7 : 0] datan
+  .adc_data_or_p(adc_data_or_p),  // input adc_data_or_p
+  .adc_data_or_n(adc_data_or_n),  // input adc_data_or_n
+  .link(link),                    // output [15 : 0] link
+  .strobe(strobe)                // output [0 : 0] strobe
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

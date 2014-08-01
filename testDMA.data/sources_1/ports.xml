@@ -134,6 +134,29 @@
 		<Bus Id="JA1">
 			<Port Id="0" Dir="OUT"/>
 		</Bus>
+		<Bus Id="JA4">
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="adcdn">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="adcdp">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
 		<Port Id="DDR_cas_n" Dir="INOUT"/>
 		<Port Id="DDR_ck_n" Dir="INOUT"/>
 		<Port Id="DDR_ck_p" Dir="INOUT"/>
@@ -154,6 +177,10 @@
 		<Port Id="LD4" Dir="OUT"/>
 		<Port Id="LD6" Dir="OUT"/>
 		<Port Id="LD7" Dir="OUT"/>
+		<Port Id="adcorn" Dir="IN"/>
+		<Port Id="adcorp" Dir="IN"/>
+		<Port Id="clkn" Dir="IN"/>
+		<Port Id="clkp" Dir="IN"/>
 	</Ifc>
 </Interface>
 

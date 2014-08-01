@@ -23,12 +23,19 @@ module testDMA_wrapper
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
     JA1,
+    JA4,
     LD0,
     LD1,
     LD2,
     LD4,
     LD6,
-    LD7);
+    LD7,
+    adcdn,
+    adcdp,
+    adcorn,
+    adcorp,
+    clkn,
+    clkp);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -51,12 +58,19 @@ module testDMA_wrapper
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
   output [0:0]JA1;
+  output [0:0]JA4;
   output LD0;
   output LD1;
   output LD2;
   output LD4;
   output LD6;
   output LD7;
+  input [7:0]adcdn;
+  input [7:0]adcdp;
+  input adcorn;
+  input adcorp;
+  input clkn;
+  input clkp;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -80,12 +94,19 @@ module testDMA_wrapper
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
   wire [0:0]JA1;
+  wire [0:0]JA4;
   wire LD0;
   wire LD1;
   wire LD2;
   wire LD4;
   wire LD6;
   wire LD7;
+  wire [7:0]adcdn;
+  wire [7:0]adcdp;
+  wire adcorn;
+  wire adcorp;
+  wire clkn;
+  wire clkp;
 
 testDMA testDMA_i
        (.DDR_addr(DDR_addr),
@@ -110,10 +131,17 @@ testDMA testDMA_i
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
         .JA1(JA1),
+        .JA4(JA4),
         .LD0(LD0),
         .LD1(LD1),
         .LD2(LD2),
         .LD4(LD4),
         .LD6(LD6),
-        .LD7(LD7));
+        .LD7(LD7),
+        .adcdn(adcdn),
+        .adcdp(adcdp),
+        .adcorn(adcorn),
+        .adcorp(adcorp),
+        .clkn(clkn),
+        .clkp(clkp));
 endmodule

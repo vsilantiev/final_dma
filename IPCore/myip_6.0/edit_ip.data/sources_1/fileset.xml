@@ -50,9 +50,14 @@
       <Option Name="TopModule" Val="myip_v6_0"/>
       <Option Name="TopRTLFile" Val="$PPRDIR/hdl/myip_v6_0.v"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../reg_status_1.0"/>
-      <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/final_dma/IPCore/myip_6.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/final_dma/IPCore/myip_6.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_5.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../IPCore"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../def_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="/home/vladimir/stas/final_dma/IPCore/myip_6.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../ILA_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../myip_1.0"/>
     </Config>
   </FileSet>
 </DARoots>

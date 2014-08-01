@@ -43,8 +43,9 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../testDMA/IPCore/def_stream_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../Final_DMA/IPCore/def_stream_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../chupa/Pravka2/Final_DMA/IPCore/def_stream_1.0"/>
-      <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/final_dma/IPCore/def_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/final_dma/IPCore/def_stream_1.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../myip_6.0"/>
+      <Option Name="IPRepoPath" Val="/home/vladimir/stas/final_dma/IPCore/def_stream_1.0"/>
     </Config>
   </FileSet>
 </DARoots>

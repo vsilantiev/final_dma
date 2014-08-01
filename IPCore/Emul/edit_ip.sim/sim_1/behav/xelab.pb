@@ -23,36 +23,66 @@ H
 +Analyzing Verilog file "%s" into library %s165*xsimverific2<
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
 work2default:defaultZ10-165
-Ã
-,redeclaration of ansi port %s is not allowed1315*xsimverific2
-clk2default:default2>
+Ä
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+clkp2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-172default:default8@Z10-1315
+272default:default8@Z10-1315
+Ä
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+clkn2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+282default:default8@Z10-1315
+Å
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+datap2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+292default:default8@Z10-1315
+Å
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+datan2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+302default:default8@Z10-1315
+É
+,redeclaration of ansi port %s is not allowed1315*xsimverific2
+	delay_clk2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+312default:default8@Z10-1315
+Í
+,redeclaration of ansi port %s is not allowed1315*xsimverific2!
+adc_data_or_p2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+322default:default8@Z10-1315
+Í
+,redeclaration of ansi port %s is not allowed1315*xsimverific2!
+adc_data_or_n2default:default2>
+(/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
+332default:default8@Z10-1315
 Å
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
 reset2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-182default:default8@Z10-1315
+372default:default8@Z10-1315
 Å
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
 valid2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-192default:default8@Z10-1315
+382default:default8@Z10-1315
 Á
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
 r2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-222default:default8@Z10-1315
+402default:default8@Z10-1315
 Ä
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
 link2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-272default:default8@Z10-1315
+432default:default8@Z10-1315
 Æ
 ,redeclaration of ansi port %s is not allowed1315*xsimverific2
 strobe2default:default2>
 (/home/chupa/final_dma/IPCore/Emul/Emul.v2default:default2
-282default:default8@Z10-1315
+442default:default8@Z10-1315
 Ä
 +Analyzing Verilog file "%s" into library %s165*xsimverific2_
 K/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2default:default2
@@ -64,52 +94,21 @@ K/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2de
 9
 Starting static elaboration
 342*	simulatorZ43-3458
-:
-Completed static elaboration
-280*	simulatorZ43-3396
-D
-'Starting simulation data flow analysis
-341*	simulatorZ43-3457
-ö
-a"%s" Line %s.  Module %s has a timescale but atleast one module in design doesn't have timescale
-470*	simulator2E
-1/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v2default:default2
-62default:default2
-glbl2default:defaultZ43-4100
-ö
-a"%s" Line %s.  Module %s has a timescale but atleast one module in design doesn't have timescale
-470*	simulator2E
-1/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v2default:default2
-62default:default2
-glbl2default:defaultZ43-4100
-E
-(Completed simulation data flow analysis
-279*	simulatorZ43-3395
-[
-%Time Resolution for simulation is %s
-344*	simulator2
-1ps2default:defaultZ43-3460
-T
-Compiling module %s405*	simulator2"
-work.ADC_emul
-2default:defaultZ43-3953
-U
-Compiling module %s405*	simulator2#
-work.testbench
-2default:defaultZ43-3953
-P
-Compiling module %s405*	simulator2
-
-work.glbl
-2default:defaultZ43-3953
-c
-/Waiting for %s sub-compilation(s) to finish...
-381*	simulator2
-22default:defaultZ43-3497
-_
-Built simulation snapshot %s
-278*	simulator2#
-testbench_behav2default:defaultZ43-3394
+Ú
+"cannot find port %s on this module426*xsimverific2
+clk2default:default2a
+K/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2default:default2
+262default:default8@Z10-426
+ô
+%s has no port called %s35*xsimverific2$
+ADC_emul_default2default:default2
+clk2default:default2a
+K/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v2default:default2
+272default:default8@Z10-35
+ƒ
+LStatic elaboration of top level Verilog design unit(s) in library %s failed
+206*	simulator2
+work2default:defaultZ43-3322
 
 
 End Record

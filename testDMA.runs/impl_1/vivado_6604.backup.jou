@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:26:55 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Mon Jun 23 15:38:23 2014
+# Process ID: 5685
+# Log file: /home/chupa/final_dma/testDMA.runs/impl_1/testDMA_wrapper.rdi
+# Journal file: /home/chupa/final_dma/testDMA.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source testDMA_wrapper.tcl -notrace

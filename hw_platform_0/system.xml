@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jun  9 16:50:30 2014" VIVADOVERSION="2013.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 24 11:40:56 2014" VIVADOVERSION="2013.3">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
@@ -25,6 +25,16 @@
     <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef"/>
     <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
     <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
+    <PORT DIR="O" NAME="JA1" SIGIS="undef" SIGNAME="processing_system7_0_FCLK_CLK0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="JA4" SIGIS="undef" SIGNAME="processing_system7_0_FCLK_CLK0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="O" NAME="LD0" SIGIS="undef" SIGNAME="def_stream_0_m00_tx_en">
       <CONNECTIONS>
         <CONNECTION INSTANCE="def_stream_0" PORT="m00_tx_en"/>
@@ -38,11 +48,6 @@
     <PORT DIR="O" NAME="LD1" SIGIS="undef" SIGNAME="axi_dma_0_s2mm_introut">
       <CONNECTIONS>
         <CONNECTION INSTANCE="axi_dma_0" PORT="s2mm_introut"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="JA1" SIGIS="undef" SIGNAME="ADC_emul_0_strobe">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ADC_emul_0" PORT="strobe"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="O" NAME="LD7" SIGIS="undef" SIGNAME="init_dma_1_m00_irq_end_buff_dma">
@@ -60,22 +65,46 @@
         <CONNECTION INSTANCE="init_dma_1" PORT="m00_axi_txn_done"/>
       </CONNECTIONS>
     </PORT>
+    <PORT DIR="I" NAME="clkp" SIGIS="undef" SIGNAME="External_Ports_clkp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="clkp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clkn" SIGIS="undef" SIGNAME="External_Ports_clkn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="clkn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="adcdp" SIGIS="undef" SIGNAME="External_Ports_adcdp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="datap"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="adcdn" SIGIS="undef" SIGNAME="External_Ports_adcdn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="datan"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="adcorp" SIGIS="undef" SIGNAME="External_Ports_adcorp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="adc_data_or_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="adcorn" SIGIS="undef" SIGNAME="External_Ports_adcorn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADC_emul_0" PORT="adc_data_or_n"/>
+      </CONNECTIONS>
+    </PORT>
   </EXTERNALPORTS>
 
   <MODULES>
-    <MODULE FULLNAME="/ADC_emul_0" HWVERSION="1.0" INSTANCE="ADC_emul_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="ADC_emul">
+    <MODULE FULLNAME="/ADC_emul_0" HWVERSION="1.1" INSTANCE="ADC_emul_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="ADC">
       <PARAMETERS>
-        <PARAMETER NAME="WIDTH" VALUE="32"/>
-        <PARAMETER NAME="accPP" VALUE="1"/>
+        <PARAMETER NAME="WIDTH" VALUE="16"/>
         <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_ADC_emul_0_9"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="processing_system7_0_FCLK_CLK0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="processing_system7_0_FCLK_RESET0_N">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
@@ -91,6 +120,41 @@
             <CONNECTION INSTANCE="init_dma_1" PORT="m00_per_imp"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" NAME="clkp" SIGIS="undef" SIGNAME="External_Ports_clkp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clkn" SIGIS="undef" SIGNAME="External_Ports_clkn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="delay_clk" SIGIS="undef" SIGNAME="processing_system7_0_FCLK_CLK1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="datap" SIGIS="undef" SIGNAME="External_Ports_adcdp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="adcdp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="datan" SIGIS="undef" SIGNAME="External_Ports_adcdn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="adcdn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="adc_data_or_p" SIGIS="undef" SIGNAME="External_Ports_adcorp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="adcorp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="adc_data_or_n" SIGIS="undef" SIGNAME="External_Ports_adcorn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="adcorn"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" NAME="link" SIGIS="undef" SIGNAME="ADC_emul_0_link">
           <CONNECTIONS>
             <CONNECTION INSTANCE="def_stream_0" PORT="m00_gen_tdata"/>
@@ -98,7 +162,6 @@
         </PORT>
         <PORT DIR="O" NAME="strobe" SIGIS="undef" SIGNAME="ADC_emul_0_strobe">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="JA1"/>
             <CONNECTION INSTANCE="init_dma_1" PORT="m00_start_capture"/>
           </CONNECTIONS>
         </PORT>
@@ -166,12 +229,12 @@
         <PARAMETER NAME="C_HIGHADDR" VALUE="0x41E0FFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="m_axi_s2mm_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="m_axi_s2mm_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -462,11 +525,11 @@
         <PARAMETER CHANGEDBY="undefined" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="undefined" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1530"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2160"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -893,11 +956,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1420"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_2050"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -2317,7 +2380,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -2798,7 +2861,7 @@
             <CONNECTION INSTANCE="proc_sys_reset" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axis_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axis_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -2929,7 +2992,7 @@
             <CONNECTION INSTANCE="axis_data_fifo_0" PORT="s_axis_tready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="m00_axis_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="m00_axis_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3097,7 +3160,7 @@
             <CONNECTION INSTANCE="processing_system7_0_axi_periph_m00_couplers_auto_pc" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s01_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s01_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3202,7 +3265,7 @@
             <CONNECTION INSTANCE="processing_system7_0_axi_periph_s01_couplers_auto_pc" PORT="s_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="m00_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="m00_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3317,7 +3380,7 @@
             <CONNECTION INSTANCE="processing_system7_0_axi_periph_m03_couplers_auto_pc" PORT="m_axi_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s00_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s00_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3423,7 +3486,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3497,11 +3560,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1415"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_2045"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -3913,11 +3976,11 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1525"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2155"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -4229,11 +4292,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1416"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_2046"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -4645,11 +4708,11 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1526"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2156"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -4949,11 +5012,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_1417"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_ds_2047"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -5365,11 +5428,11 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1527"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2157"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -5681,11 +5744,11 @@
         <PARAMETER CHANGEDBY="propagated" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="propagated" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1528"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2158"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -6112,11 +6175,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1418"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_2048"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -6520,11 +6583,11 @@
         <PARAMETER CHANGEDBY="constant" NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER CHANGEDBY="constant" NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_1529"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_pc_2159"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -6836,11 +6899,11 @@
         <PARAMETER CHANGEDBY="default" NAME="ACLK_ASYNC" VALUE="0"/>
         <PARAMETER CHANGEDBY="default" NAME="SYNCHRONIZATION_STAGES" VALUE="3"/>
         <PARAMETER CHANGEDBY="default" NAME="ACLK_RATIO" VALUE="1:2"/>
-        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_1419"/>
+        <PARAMETER CHANGEDBY="default" NAME="Component_Name" VALUE="testDMA_auto_us_2049"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>
@@ -8428,7 +8491,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
           </CONNECTIONS>

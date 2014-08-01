@@ -4,23 +4,21 @@ Running: /opt/Xilinx/Vivado/2013.3/bin/unwrapped/lnx64.o/xelab --debug typical -
 Multi-threading is on. Using 2 slave threads.
 Determining compilation order of HDL files.
 INFO: [VRFC 10-165] Analyzing Verilog file "/home/chupa/final_dma/IPCore/Emul/Emul.v" into library work
-WARNING: [VRFC 10-1315] redeclaration of ansi port clk is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:17]
-WARNING: [VRFC 10-1315] redeclaration of ansi port reset is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:18]
-WARNING: [VRFC 10-1315] redeclaration of ansi port valid is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:19]
-WARNING: [VRFC 10-1315] redeclaration of ansi port r is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:22]
-WARNING: [VRFC 10-1315] redeclaration of ansi port link is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:27]
-WARNING: [VRFC 10-1315] redeclaration of ansi port strobe is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clkp is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:27]
+WARNING: [VRFC 10-1315] redeclaration of ansi port clkn is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:28]
+WARNING: [VRFC 10-1315] redeclaration of ansi port datap is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port datan is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:30]
+WARNING: [VRFC 10-1315] redeclaration of ansi port delay_clk is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port adc_data_or_p is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:32]
+WARNING: [VRFC 10-1315] redeclaration of ansi port adc_data_or_n is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:33]
+WARNING: [VRFC 10-1315] redeclaration of ansi port reset is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:37]
+WARNING: [VRFC 10-1315] redeclaration of ansi port valid is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:38]
+WARNING: [VRFC 10-1315] redeclaration of ansi port r is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:40]
+WARNING: [VRFC 10-1315] redeclaration of ansi port link is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:43]
+WARNING: [VRFC 10-1315] redeclaration of ansi port strobe is not allowed [/home/chupa/final_dma/IPCore/Emul/Emul.v:44]
 INFO: [VRFC 10-165] Analyzing Verilog file "/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v" into library work
 INFO: [VRFC 10-165] Analyzing Verilog file "/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
 Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but atleast one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "/opt/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but atleast one module in design doesn't have timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module work.ADC_emul
-Compiling module work.testbench
-Compiling module work.glbl
-Waiting for 2 sub-compilation(s) to finish...
-Built simulation snapshot testbench_behav
+WARNING: [VRFC 10-426] cannot find port clk on this module [/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v:26]
+ERROR: [VRFC 10-35] ADC_emul_default has no port called clk [/home/chupa/final_dma/IPCore/Emul/edit_ip.srcs/sim_1/imports/Emul/Emul_tb.v:27]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

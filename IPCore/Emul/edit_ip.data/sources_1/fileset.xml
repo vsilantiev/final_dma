@@ -29,10 +29,20 @@
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../260214/IPCore/Emul"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_v4_4.0"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../def_stream_1.0"/>
-      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../vladimir/Z/zedboard/Final_DMA/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/Final_DMA/IPCore/Emul"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../Pravka2/Final_DMA/IPCore/Emul"/>
       <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../chupa/final_dma/IPCore/Emul"/>
-      <Option Name="IPRepoPath" Val="/home/vladimir/Z/zedboard/final_dma/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/final_dma/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../myip_6.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../chupa/final_dma/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="/home/vladimir/stas/final_dma/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_axi_dma_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/180414stream/newIPCore"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/180414stream/newIPCore/def_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../init_dma_2.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/Final_DMA/IPCore/def_stream_1.0"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../260214/IPCore/Emul"/>
+      <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Z/zedboard/final_dma/IPCore/def_stream_1.0"/>
     </Config>
   </FileSet>
 </DARoots>

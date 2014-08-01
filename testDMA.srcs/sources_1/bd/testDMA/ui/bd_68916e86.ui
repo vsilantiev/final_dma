@@ -1,51 +1,65 @@
 {
    guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -y 790 -defaultsOSRD
-preplace port LD0 -pg 1 -y 560 -defaultsOSRD
-preplace port LD1 -pg 1 -y 340 -defaultsOSRD
-preplace port LD2 -pg 1 -y 1010 -defaultsOSRD
-preplace port LD4 -pg 1 -y 360 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -y 810 -defaultsOSRD
-preplace port LD6 -pg 1 -y 990 -defaultsOSRD
-preplace port LD7 -pg 1 -y 970 -defaultsOSRD
-preplace portBus JA1 -pg 1 -y 20 -defaultsOSRD
-preplace inst axi_dma_0 -pg 1 -lvl 6 -y 310 -defaultsOSRD
-preplace inst ADC_emul_0 -pg 1 -lvl 1 -y 810 -defaultsOSRD
-preplace inst def_stream_0 -pg 1 -lvl 6 -y 550 -defaultsOSRD
-preplace inst init_dma_1 -pg 1 -lvl 3 -y 970 -defaultsOSRD
-preplace inst axi_mem_intercon -pg 1 -lvl 5 -y 260 -defaultsOSRD
-preplace inst axis_data_fifo_0 -pg 1 -lvl 5 -y 600 -defaultsOSRD
-preplace inst proc_sys_reset -pg 1 -lvl 3 -y 470 -defaultsOSRD
-preplace inst processing_system7_0_axi_periph -pg 1 -lvl 4 -y 460 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 6 -y 870 -defaultsOSRD
-preplace netloc processing_system7_0_ddr 1 6 1 N
-preplace netloc adc_emul_0_link 1 1 5 230 240 NJ 240 NJ 240 NJ 70 NJ
-preplace netloc proc_sys_reset_interconnect_aresetn 1 3 2 860 670 1510
-preplace netloc axi_dma_0_m_axi_s2mm 1 4 3 1520 60 NJ 60 2440
-preplace netloc init_dma_1_m00_axi_error 1 3 4 N 1010 NJ 1010 NJ 1050 NJ
-preplace netloc init_dma_1_m00_valid2stream 1 3 3 880 710 NJ 710 NJ
-preplace netloc proc_sys_reset_peripheral_aresetn 1 3 3 870 690 1500 110 1930
-preplace netloc init_dma_1_m00_axi 1 3 1 850
-preplace netloc processing_system7_0_axi_periph_m03_axi 1 2 3 380 810 NJ 960 1460
-preplace netloc axi_data_fifo_0_m_axi 1 5 1 1910
-preplace netloc adc_emul_0_strobe 1 1 6 N 820 340 830 NJ 980 NJ 980 NJ 1040 2450
-preplace netloc init_dma_1_m00_axi_txn_done 1 3 4 NJ 1030 NJ 1030 NJ 1060 2480
-preplace netloc processing_system7_0_axi_periph_m01_axi 1 4 2 1480 100 NJ
-preplace netloc init_dma_1_m00_len_ref 1 3 3 NJ 990 NJ 990 1940
-preplace netloc axi_dma_0_s2mm_introut 1 2 5 370 250 NJ 250 NJ 80 NJ 210 2480
-preplace netloc axis_data_fifo_0_m_axis 1 5 1 1890
-preplace netloc processing_system7_0_axi_periph_m02_axi 1 4 1 1490
-preplace netloc init_dma_1_m00_per_imp 1 0 4 50 1120 NJ 1120 NJ 1120 820
-preplace netloc init_dma_1_m00_irq_end_buff_dma 1 3 4 850 940 NJ 940 1950 1020 2460
-preplace netloc processing_system7_0_fclk_reset0_n 1 0 7 40 910 NJ 810 360 800 NJ 950 NJ 950 NJ 1030 2430
-preplace netloc processing_system7_0_fixed_io 1 6 1 N
-preplace netloc processing_system7_0_fclk_clk0 1 0 7 30 900 NJ 800 350 380 880 700 1520 410 1960 1010 2440
-preplace netloc processing_system7_0_axi_periph_m00_axi 1 2 3 390 820 NJ 970 1470
-preplace netloc def_stream_0_m00_axis2 1 4 3 1540 90 NJ 220 2430
-preplace netloc processing_system7_0_m_axi_gp0 1 3 4 890 740 NJ 740 NJ 740 2440
-preplace netloc def_stream_0_m00_tx_en 1 0 7 20 680 NJ 680 NJ 680 NJ 680 NJ 520 NJ 650 2430
-levelinfo -pg 1 0 140 320 650 1330 1722 2210 2500
+preplace port clkp -pg 1 -y 1030 -defaultsOSRD
+preplace port DDR -pg 1 -y 770 -defaultsOSRD
+preplace port LD0 -pg 1 -y 470 -defaultsOSRD
+preplace port LD1 -pg 1 -y 280 -defaultsOSRD
+preplace port LD2 -pg 1 -y 870 -defaultsOSRD
+preplace port LD4 -pg 1 -y 300 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 790 -defaultsOSRD
+preplace port LD6 -pg 1 -y 850 -defaultsOSRD
+preplace port adcorn -pg 1 -y 1150 -defaultsOSRD
+preplace port LD7 -pg 1 -y 890 -defaultsOSRD
+preplace port clkn -pg 1 -y 1050 -defaultsOSRD
+preplace port adcorp -pg 1 -y 1130 -defaultsOSRD
+preplace portBus adcdp -pg 1 -y 1090 -defaultsOSRD
+preplace portBus JA4 -pg 1 -y 830 -defaultsOSRD
+preplace portBus adcdn -pg 1 -y 1110 -defaultsOSRD
+preplace portBus JA1 -pg 1 -y 810 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -y 270 -defaultsOSRD
+preplace inst ADC_emul_0 -pg 1 -lvl 1 -y 1070 -defaultsOSRD
+preplace inst def_stream_0 -pg 1 -lvl 5 -y 470 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -y 800 -defaultsOSRD
+preplace inst init_dma_1 -pg 1 -lvl 2 -y 520 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 200 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 4 -y 460 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 2 -y 230 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 360 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 860 -defaultsOSRD
+preplace netloc processing_system7_0_ddr 1 5 2 2070 860 NJ
+preplace netloc adc_emul_0_link 1 1 4 410 710 NJ 710 NJ 710 NJ
+preplace netloc proc_sys_reset_interconnect_aresetn 1 2 2 870 110 NJ
+preplace netloc axi_dma_0_m_axi_s2mm 1 3 3 1220 10 NJ 10 2040
+preplace netloc adcdp_1 1 0 1 140
+preplace netloc init_dma_1_m00_axi_error 1 2 5 870 690 NJ 690 NJ 690 NJ 690 NJ
+preplace netloc init_dma_1_m00_valid2stream 1 2 3 820 90 NJ 40 NJ
+preplace netloc proc_sys_reset_peripheral_aresetn 1 2 3 860 120 1180 550 1560
+preplace netloc init_dma_1_m00_axi 1 2 1 850
+preplace netloc clkp_1 1 0 1 130
+preplace netloc processing_system7_0_axi_periph_m03_axi 1 1 3 450 380 NJ 150 1150
+preplace netloc axi_data_fifo_0_m_axi 1 4 1 1550
+preplace netloc adcorp_1 1 0 1 140
+preplace netloc adc_emul_0_strobe 1 1 6 400 920 NJ 920 NJ 920 NJ 1000 2060 740 2310
+preplace netloc clkn_1 1 0 1 130
+preplace netloc init_dma_1_m00_axi_txn_done 1 2 5 830 700 NJ 700 NJ 700 NJ 700 NJ
+preplace netloc processing_system7_0_axi_periph_m01_axi 1 3 2 1190 50 NJ
+preplace netloc init_dma_1_m00_len_ref 1 2 3 800 80 NJ 30 NJ
+preplace netloc axi_dma_0_s2mm_introut 1 1 6 430 340 NJ 130 NJ 370 NJ 370 2080 280 2330
+preplace netloc axis_data_fifo_0_m_axis 1 4 1 1540
+preplace netloc processing_system7_0_axi_periph_m02_axi 1 3 1 1210
+preplace netloc adcdn_1 1 0 1 150
+preplace netloc init_dma_1_m00_per_imp 1 0 3 140 730 NJ 730 800
+preplace netloc adcorn_1 1 0 1 150
+preplace netloc init_dma_1_m00_irq_end_buff_dma 1 2 5 860 910 NJ 910 1550 1040 NJ 890 NJ
+preplace netloc processing_system7_0_fclk_reset0_n 1 0 6 160 720 420 1030 NJ 1030 NJ 1030 NJ 1030 2040
+preplace netloc processing_system7_0_fixed_io 1 5 2 2050 870 NJ
+preplace netloc processing_system7_0_fclk_clk1 1 0 6 150 930 NJ 930 NJ 930 NJ 930 NJ 1020 2080
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 1 3 440 370 NJ 140 1160
+preplace netloc def_stream_0_m00_axis2 1 3 3 1230 380 NJ 380 2040
+preplace netloc processing_system7_0_m_axi_gp0 1 2 4 890 720 NJ 720 NJ 720 2040
+preplace netloc def_stream_0_m00_tx_en 1 0 7 130 470 NJ 140 NJ 70 NJ 20 NJ 180 2050 470 N
+levelinfo -pg 1 110 270 630 1030 1390 1840 2190 2350
 ",
 }
 {

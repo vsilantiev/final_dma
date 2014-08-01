@@ -44,7 +44,6 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-set_msg_config -id {HDL-1065} -limit 10000
 
 start_step init_design
 set rc [catch {
@@ -53,22 +52,23 @@ set rc [catch {
   create_project -in_memory -part xc7z020clg484-1
   set_property board em.avnet.com:zynq:zed:d [current_project]
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir /home/vladimir/Z/zedboard/final_dma/testDMA.data/wt [current_project]
-  set_property parent.project_dir /home/vladimir/Z/zedboard/final_dma [current_project]
-  add_files /home/vladimir/Z/zedboard/final_dma/testDMA.runs/synth_1/testDMA_wrapper.dcp
-  read_xdc -ref testDMA_processing_system7_0_0 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc
-  read_xdc -ref testDMA_axi_dma_0_0 -cells U0 /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0.xdc
-  read_xdc -prop_thru_buffers -ref testDMA_proc_sys_reset_0 -cells U0 /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/testDMA_proc_sys_reset_0_board.xdc
-  read_xdc -ref testDMA_proc_sys_reset_0 -cells U0 /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/testDMA_proc_sys_reset_0.xdc
-  read_xdc /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc
-  read_xdc -ref testDMA_axi_dma_0_0 -cells U0 /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0_clocks.xdc
-  read_xdc -ref testDMA_axis_data_fifo_0_1 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_1415 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1415/testDMA_auto_ds_1415_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_1416 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1416/testDMA_auto_ds_1416_clocks.xdc
-  read_xdc -ref testDMA_auto_ds_1417 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_1417/testDMA_auto_ds_1417_clocks.xdc
-  read_xdc -ref testDMA_auto_us_1418 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1418/testDMA_auto_us_1418_clocks.xdc
-  read_xdc -ref testDMA_auto_us_1419 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1419/testDMA_auto_us_1419_clocks.xdc
-  read_xdc -ref testDMA_auto_us_1420 -cells inst /home/vladimir/Z/zedboard/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_1420/testDMA_auto_us_1420_clocks.xdc
+  set_property webtalk.parent_dir /home/vladimir/stas/final_dma/testDMA.data/wt [current_project]
+  set_property parent.project_dir /home/vladimir/stas/final_dma [current_project]
+  add_files /home/vladimir/stas/final_dma/testDMA.runs/synth_1/testDMA_wrapper.dcp
+  read_xdc -ref testDMA_processing_system7_0_0 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_processing_system7_0_0/testDMA_processing_system7_0_0.xdc
+  read_xdc -ref testDMA_axi_dma_0_0 -cells U0 /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0.xdc
+  read_xdc -prop_thru_buffers -ref testDMA_proc_sys_reset_0 -cells U0 /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/testDMA_proc_sys_reset_0_board.xdc
+  read_xdc -ref testDMA_proc_sys_reset_0 -cells U0 /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_proc_sys_reset_0/testDMA_proc_sys_reset_0.xdc
+  read_xdc -ref testDMA_ila_0_0 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_ila_0_0/constraints/ila.xdc
+  read_xdc /home/vladimir/stas/final_dma/testDMA.srcs/constrs_1/new/testDMA_wrapper.xdc
+  read_xdc -ref testDMA_axi_dma_0_0 -cells U0 /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axi_dma_0_0/testDMA_axi_dma_0_0_clocks.xdc
+  read_xdc -ref testDMA_axis_data_fifo_0_1 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_axis_data_fifo_0_1/testDMA_axis_data_fifo_0_1_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_2075 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_2075/testDMA_auto_ds_2075_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_2076 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_2076/testDMA_auto_ds_2076_clocks.xdc
+  read_xdc -ref testDMA_auto_ds_2077 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_ds_2077/testDMA_auto_ds_2077_clocks.xdc
+  read_xdc -ref testDMA_auto_us_2078 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_2078/testDMA_auto_us_2078_clocks.xdc
+  read_xdc -ref testDMA_auto_us_2079 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_2079/testDMA_auto_us_2079_clocks.xdc
+  read_xdc -ref testDMA_auto_us_2080 -cells inst /home/vladimir/stas/final_dma/testDMA.srcs/sources_1/bd/testDMA/ip/testDMA_auto_us_2080/testDMA_auto_us_2080_clocks.xdc
   link_design -top testDMA_wrapper -part xc7z020clg484-1
   close_msg_db -file init_design.pb
 } RESULT]

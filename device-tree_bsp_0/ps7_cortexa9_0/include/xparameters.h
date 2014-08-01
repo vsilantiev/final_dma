@@ -17,8 +17,8 @@
 
 /* Definitions for peripheral AXI_DMA_0 */
 #define XPAR_AXI_DMA_0_DEVICE_ID 0
-#define XPAR_AXI_DMA_0_BASEADDR 0x40400000
-#define XPAR_AXI_DMA_0_HIGHADDR 0x4040FFFF
+#define XPAR_AXI_DMA_0_BASEADDR 0x41E00000
+#define XPAR_AXI_DMA_0_HIGHADDR 0x41E0FFFF
 #define XPAR_AXI_DMA_0_SG_INCLUDE_STSCNTRL_STRM 0
 #define XPAR_AXI_DMA_0_INCLUDE_MM2S_DRE 0
 #define XPAR_AXI_DMA_0_INCLUDE_S2MM_DRE 0
@@ -36,7 +36,7 @@
 
 /* Canonical definitions for peripheral AXI_DMA_0 */
 #define XPAR_AXIDMA_0_DEVICE_ID XPAR_AXI_DMA_0_DEVICE_ID
-#define XPAR_AXIDMA_0_BASEADDR 0x40400000
+#define XPAR_AXIDMA_0_BASEADDR 0x41E00000
 #define XPAR_AXIDMA_0_SG_INCLUDE_STSCNTRL_STRM 0
 #define XPAR_AXIDMA_0_INCLUDE_MM2S 0
 #define XPAR_AXIDMA_0_INCLUDE_MM2S_DRE 0
@@ -53,14 +53,11 @@
 /******************************************************************/
 
 
-/* Definitions for peripheral DEF_STREAM_0 */
-#define XPAR_DEF_STREAM_0_S00_AXI_BASEADDR 0x43C00000
-#define XPAR_DEF_STREAM_0_S00_AXI_HIGHADDR 0x43C00FFF
-
-
-/* Definitions for peripheral INIT_DMA_V4_0 */
-#define XPAR_INIT_DMA_V4_0_S00_AXI_BASEADDR 0x43C01000
-#define XPAR_INIT_DMA_V4_0_S00_AXI_HIGHADDR 0x43C01FFF
+/* Definitions for peripheral INIT_DMA_1 */
+#define XPAR_INIT_DMA_1_S00_AXI_BASEADDR 0x43C01000
+#define XPAR_INIT_DMA_1_S00_AXI_HIGHADDR 0x43C01FFF
+#define XPAR_INIT_DMA_1_S01_AXI_BASEADDR 0x43C00000
+#define XPAR_INIT_DMA_1_S01_AXI_HIGHADDR 0x43C00FFF
 
 
 /* Definitions for peripheral PS7_AFI_0 */
@@ -285,12 +282,11 @@
 /******************************************************************/
 
 /* Definitions for Fabric interrupts connected to ps7_scugic_0 */
-#define XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR 91
+#define XPAR_FABRIC_INIT_DMA_1_M00_IRQ_END_BUFF_DMA_INTR 91
 
 /******************************************************************/
 
 /* Canonical definitions for Fabric interrupts connected to ps7_scugic_0 */
-#define XPAR_FABRIC_AXIDMA_0_VEC_ID XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
 
 /******************************************************************/
 
